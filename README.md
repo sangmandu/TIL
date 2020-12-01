@@ -25,6 +25,7 @@ description: >-
   * Contents I learned
   * Code I write
   * Whatever I do when studying
+  * Review or Feelings at end of day
 
 * HOW
   * Simple
