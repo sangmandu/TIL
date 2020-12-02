@@ -16,7 +16,7 @@ description: Starting Git book & First TIL
 
 {% embed url="https://steemit.com/kr/@nand/markdown" %}
 
-## Git book Reivew
+## Review Git book
 
 스페이스랑 파일 및 폴더 만드는데도 생성과 삭제를 반복하고 기본 규칙을 작성하는 데에도 한참 걸렸다. 처음이라 그렇겠지 싶은데 굉장히 어렵다. 내가 느낀 장단점을 이렇다.
 
