@@ -4,7 +4,8 @@
 
 ## DEC. 2020 <a id="nov."></a>
 
-* [1 Dec](nov./1-dec.md)
+* [2 Wed](nov./2-wed.md)
+* [1 Tue](nov./1-dec.md)
 
 ## NOV. 2020 <a id="2020"></a>
 
