@@ -34,7 +34,7 @@ description: TIL
 
 ## \[정보보호이론\] CAN Network Analysis
 
-{% embed url="https://canvas.uw.edu/files/47669787/download?download\_frd=1" %}
+[https://canvas.uw.edu/files/47669787/download?download\_frd=1](https://canvas.uw.edu/files/47669787/download?download_frd=1)
 
 자동차 내부 네트워크 CAN 보안 기술 설계를 위해 참고한 자료.
 
