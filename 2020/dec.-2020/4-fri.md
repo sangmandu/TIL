@@ -6,7 +6,7 @@ description: TIL
 
 ## 프로그래머스 AI 스쿨 1기
 
-#### DAY 5
+#### 1주차 DAY 5
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
