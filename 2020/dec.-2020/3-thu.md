@@ -6,7 +6,7 @@ description: TIL
 
 ## 프로그래머스 AI 스쿨 1기
 
-#### DAY 2
+#### 1주차 DAY 2
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
@@ -14,7 +14,7 @@ description: TIL
 
 자료구조를 구현하게 되어서 재미있는 복습이었던 것 같다.
 
-#### DAY 4
+#### 1주차 DAY 4
 
 ![](../../.gitbook/assets/image%20%2810%29.png)
 
