@@ -12,13 +12,13 @@ description: TIL
 
 ![](../../.gitbook/assets/image%20%2836%29.png)
 
-### Numpy 실
+### Numpy 실습
 
 ![](../../.gitbook/assets/image%20%2837%29.png)
 
 ![](../../.gitbook/assets/image%20%2831%29.png)
 
-### 선형 시스템 대수적 표
+### 선형 시스템 대수적 표현 
 
 ![](../../.gitbook/assets/image%20%2839%29.png)
 
