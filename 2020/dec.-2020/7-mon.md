@@ -8,6 +8,8 @@ description: TIL
 
 #### 2주차 DAY 1
 
+![](../../.gitbook/assets/image%20%2845%29.png)
+
 ### 쥬피터 실습
 
 ![](../../.gitbook/assets/image%20%2836%29.png)
