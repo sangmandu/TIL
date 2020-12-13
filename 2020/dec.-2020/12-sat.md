@@ -6,9 +6,11 @@ description: TIL
 
 ## 오토마타와 컴파일러
 
+### River Crossing : 중간 코드
+
 {% embed url="http://lg-sl.net/product/scilab/sciencestorylist/ALMA/readSciencestoryList.mvc?sciencestoryListId=ALMA2020010003" %}
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 River Crossing 중간코드 리뷰
 
