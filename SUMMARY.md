@@ -11,7 +11,7 @@
   * [11 Fri](2020/dec.-2020/11-fri.md)
   * [10 Thu](2020/dec.-2020/10-thu.md)
   * [9 Wed](2020/dec.-2020/9-wed.md)
-  * [8 The](2020/dec.-2020/8-the.md)
+  * [8 Thu](2020/dec.-2020/8-the.md)
   * [7 Mon](2020/dec.-2020/7-mon.md)
   * [6 Sun](2020/dec.-2020/6-sun.md)
   * [5 Sat](2020/dec.-2020/5-sat.md)
