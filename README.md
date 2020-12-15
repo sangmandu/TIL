@@ -8,7 +8,9 @@ description: >-
 
 ## About TIL
 
-#### Version 1 
+#### Version 2
+
+#### Version 1 \(~2020.12.14\) 
 
 #### Start data : 2020. 11. 30
 
@@ -16,9 +18,10 @@ description: >-
 
 * WHY
 
-  * 🥇Satisfaction or Steady \( 40% \)
-  * 🥈 Record \( 20% \) \| Showing \( 20% \)
-  * 🥉 Review \( 10% \) I dunno \( 10% \)
+  * 🥇Satisfaction and Steady \( 40% \)
+  * 🥈 Record \( 30% \)
+  * 🥉 Showing \( 20% \)
+  *  dunno \( 10% \)
 
 * WHAT
 
