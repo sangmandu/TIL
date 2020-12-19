@@ -5,6 +5,10 @@
 ## 2020 TIL <a id="2020"></a>
 
 * [DEC.](2020/dec/README.md)
+  * [19 Sat](2020/dec/19.md)
+  * [18 Fri](2020/dec/18.md)
+  * [17 Thu](2020/dec/17.md)
+  * [16 Wed](2020/dec/16.md)
   * [15 Tue](2020/dec/15.md)
   * [14 Mon](2020/dec/14.md)
   * [13 Sun](2020/dec/13.md)
