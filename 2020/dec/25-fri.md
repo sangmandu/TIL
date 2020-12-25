@@ -8,11 +8,11 @@ description: TIL
 
 ### AWS를 활용한 인공지능 모델 배포 II
 
- 아마존 로그인
+####  아마존 로그인
 
  계정을 생성하고 카드를 등록하면 12개월 프리티어 사용 가능.
 
- EC2 생성
+####  EC2 생성
 
  AMI 선택 : 딥러닝 AMI가 설치된 EC2를 생성하여 필요 개발 환경 사전 세팅 
 
@@ -20,7 +20,7 @@ description: TIL
 
 ## \[프로그래머스 AI 스쿨 1기\] 4주차 DAY 3
 
-### django I
+### django I - What is
 
  Flask와는 또다른 웹 프레임워크 장고. Python 기반 웹 프레임워크이며 Pinterest나 Instagram은 장고로 만들어짐.
 
@@ -46,15 +46,15 @@ description: TIL
 
 `python manage.py runserver`
 
- `http://127.0.0.1:8000/` 로 이동 후 아래 화면이 뜨면 성공적으로 완
+ `http://127.0.0.1:8000/` 로 이동 후 아래 화면이 뜨면 성공적으로 완료 
 
-![](../../.gitbook/assets/image%20%2876%29.png)
+![](../../.gitbook/assets/image%20%2877%29.png)
 
 ####  django 구성요소
 
  manage.py : 장고를 실행하는 파일이며 실제로는 python - manage.py - runserver의 순서를 통해 실행된다.
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](../../.gitbook/assets/image%20%2878%29.png)
 
 \_\_init\_\_.py : python 모듈로써 인식되게 하는 파일
 
@@ -97,7 +97,7 @@ ex\) 스포츠 앱, 블로그 앱 등
 
 `django-admin startapp homepage`
 
-![](../../.gitbook/assets/image%20%2878%29.png)
+![](../../.gitbook/assets/image%20%2879%29.png)
 
 `__init__.py`  : python 모듈로써 인식되게 하는 파일
 
@@ -111,9 +111,173 @@ ex\) 스포츠 앱, 블로그 앱 등
 
 `views.py`  : 뷰 관
 
-django의 MVT Pattern
+#### django의 MVT Pattern
 
  디자인 패턴 : 코드의 모듈화를 이용해서 각 코드가 독립적으로 동작해서 유기적으로 원하는 목표를 달성할 수 있게 하는 구조
 
  장고는 MVT 패턴을 채택했다. Model View Template. MVC\(Controller\)를 바탕으로 장고만의 디자인 패턴 채택. 유저가 리퀘스트를 보내면 장고\(서버\)는 URL\(urls,py\)을 체크하여 어떤 경로로 요청이 왔는지 파악하고 View\(views.py\)에서 요청을 처리한다. 이 때 DB를 관리 및 소통을 Model에서 담당한다. 장고는 DB를 ORM 방식으로 관리한다. Object Relational Mapping. 쿼리를 통해 DB에 CRUD 접근 가능. 웹 페이지나 웹 문서를 보여주는 요청은 Template에서 관리하며 .html 파일 등으로 전달해줄 수 있다. 이 때 template 언어를 사용한다. 기본적으로 html은 로직이나 변수를 사용하는 행위는 할 수 없지만 template언어를 사용하면 html에 로직을 추가하는 행위를 할 수 있다. 
+
+### django II - View
+
+ View로 Request Handling 하기 
+
+ View는 model과 소통하기도 하고 template과 소통하기도 한다. View는 장고에서 중추적인 역할을 담당하는데, url이 전송되면 url의 요청을 실제로 처리하는 곳.
+
+`views.py`
+
+```python
+from django.shortcuts import render, HttpResponse
+
+# Create your views here.
+def index(request): # 장고에서 request가 인자로 주어지고 request에 대한 처리를 해줄 수 있다.
+    return HttpResponse("Hello World!")
+```
+
+
+
+`urls.py`
+
+```python
+from django.contrib import admin
+from django.urls import path
+from homepage.views import index
+
+urlpatterns = [
+    path('admin/', admin.site.urls), # 127.0.0.1/admin/
+    path('', index) # 127.0.0.1/
+]
+```
+
+
+
+`setting.py`
+
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'homepage',    #추가하지 않으면 homepage app을 찾을 수 없다.
+]
+```
+
+ 1. 사용자가 http://127.0.0.1:8000 에 요청을 보낸다. 
+
+ 2. urls.py에서 urlpatterns을 참조하여 해당 url에 대한 처리 로직이 있는지 확인한다.
+
+ 3. 이 후 views.py에서 index 함를 실행한다. 
+
+
+
+```python
+path('admin/', admin.site.urls), # 127.0.0.1/admin/
+```
+
+ 해당 주소로 접근하면 다음과 같은 페이지가 열린다. 
+
+![](../../.gitbook/assets/image%20%2876%29.png)
+
+`python manage.py createsuperuser`
+
+ 초기에는 오류가 난다. 데이터베이스에 대한 migration이 진행되어야 하기 때문.
+
+ `python manage.py migrate`
+
+ default로 만들어진 데이터베이스 정보가 반영된다. 장고 프로젝트에 디비 정보가 잘 연동된 것이며 이 때 관리자 계정을 만들 수 있다.
+
+ 이후 만든 관리자 계정으로 로그인 하면 다음과 같은 페이지가 열린다.
+
+![](../../.gitbook/assets/image%20%2880%29.png)
+
+ 이를 flask에서 진행하면 직접 관리자 페이지를 만들어야 되지만, django는 default template를 제공한다. 이미 authentication 기능을 제공하였음.
+
+
+
+###  django III - Template
+
+ view를 통해 html, css, javascript를 보여줄 수 있는데 이 때 template를 사용한다.
+
+```python
+def index(request):
+    return HttpResponse("<h3>Hello World!</h3>")
+```
+
+ 위 처럼 html 태그를 같이 입력해서 출력할 수 있다. 이 때 상당히 많은 량의 응답을 하기에는 어려운 부분이 있으므로 render를 사용한다.
+
+`views.py`
+
+```python
+def index(request):
+    #return HttpResponse("<h3>Hello World!</h3>")
+    render(request, 'index.html', {})
+```
+
+ 해당 request를 받아 index.html로 렌더링 하며 {}의 추가 기능을 한다는 뜻 
+
+ rendering은 어떤 내용을 보여준다는 의미보다는 어떠한 데이터를 바탕으로 해당 html을 완성한다는 의미이다.
+
+`index.html`
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python django example</title>
+</head>
+<body>
+    <h1>Title</h1>
+    <p>blahblahblah</p>
+</body>
+</html>
+```
+
+`setting.py`
+
+```python
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR,'homepage', 'template')],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+```
+
+
+
+`views.py`
+
+```text
+def index(request):
+    number = 10
+    return render(request, 'index.html', {"my_num" : number})
+```
+
+`index.html`
+
+```markup
+<body>
+    <h1>Title</h1>
+    <p>blahblahblah</p>
+    <p>{{ my_num }}</p>
+</body>
+```
+
+{{ }} 는 템플릿 언어 사용을 할 수 있게한다.
+
+
+
+
 
