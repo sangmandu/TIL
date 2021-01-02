@@ -2,11 +2,17 @@
 
 * [TIL](README.md)
 
+## 2021 TIL <a id="2021"></a>
+
+* [JAN.](2021/jan/README.md)
+  * [1 Fri](2021/jan/1.md)
+  * [2 Sat](2021/jan/2.md)
+
 ## 2020 TIL <a id="2020"></a>
 
 * [DEC.](2020/dec/README.md)
-  * [31 Thu](2020/dec/31-thu.md)
-  * [30 Wed](2020/dec/30-wed.md)
+  * [31 Thu](2020/dec/31.md)
+  * [30 Wed](2020/dec/30.md)
   * [29 Tue](2020/dec/29.md)
   * [28 Mon](2020/dec/28.md)
   * [27 Sun](2020/dec/27.md)
