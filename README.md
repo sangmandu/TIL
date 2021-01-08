@@ -30,15 +30,15 @@ description: >-
 
 * [ ] 프로그래머스 AI school  \[Week\] 
 
-  ■■■■■□□□□□□□□□□□□□ \(5 / 18\)
+  [■](https://sangmandu.gitbook.io/til/2020/dec/1)[■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2021/jan/4)□□□□□□□□□□□□□ \(5 / 18\)
 
 * [ ] 배프의 오지랖 파이썬 웹프로그래밍 \( / \) \[Chapter\]
 * [ ] 파이썬 헤드 투 퍼스트 \( / \) \[Chapter\]
 * [ ] 밑바닥부터 시작하는 딥러닝 \( / \) \[Chapter\]
-* [ ] Statistics 110 \[Lecture\] ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \(1 / 34\)
-* [ ] 인공지능을 위한 선형대수 \[Lecture\] ■□□□□□□□ \(1 / 8\)
+* [ ] Statistics 110 \[Lecture\] [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \(1 / 34\)
+* [ ] 인공지능을 위한 선형대수 \[Lecture\] [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□ \(1 / 8\)
 * [ ] Coursera ML \[Week\] ■■□□□□□□□□□ \(2 / 11\)
-* [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[lecture\] [■■■■■■■■■■■■■■■■■■■■■■■■■■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \(27 / 29\) □□□□□□□□□□□□□□□□□□□□□□□□□ \(0 / 25\) □□□□□□□\(0 / 7\) 
+* [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[lecture\] [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3)[■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4)[■■■■■■■■■■■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \(27 / 29\) □□□□□□□□□□□□□□□□□□□□□□□□□ \(0 / 25\) □□□□□□□\(0 / 7\) 
 
 > > Learned
 
