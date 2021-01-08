@@ -6,16 +6,17 @@ description: >-
 
 # TIL
 
-## About TIL
+## TIL
 
 #### Version 3 \(2020.01.08~\)
 
-* WIL 추가
+* WIL
+* WID
 
 #### Version 2 \(~2020.01.07\)
 
 * 디렉토리 구조 변경
-* Principle of write 수정
+* Principle
 
 #### Version 1 \(~2020.12.14\) 
 
@@ -23,21 +24,22 @@ description: >-
 
 ## WIL
 
-> What I Learning or Learned or will learn
+> What I am Learning or Learned or will learn
 
 > > Learning
 
-* [ ] 프로그래머스 AI school  \(5 / 16\) \[week\] 
+* [ ] 프로그래머스 AI school  \[Week\] 
 
-  ■■■■■□□□□□□□□□□□
+  ■■■■■□□□□□□□□□□□□□ \(5 / 18\)
 
-* [ ] 배프의 오지랖 파이썬 웹프로그래밍 \( / \) \[chapter\]
-* [ ] 파이썬 헤드 투 퍼스트 \( / \) \[chapter\]
-* [ ] 밑바닥부터 시작하는 딥러닝 \( / \) \[chapter\]
-* [ ] Statistics 110 \(1 / 34\) \[lecture\] ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
-* [ ] 인공지능을 위한 선형대수 \(1 / 8\) \[lecture\] ■□□□□□□□
-* [ ] Coursera ML  \(2 / 11\) \[week\] ■■□□□□□□□□□
-* [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \(25 / 29\) \(0 / 25\) \(0 / 7\) \[lecture\]
+* [ ] 배프의 오지랖 파이썬 웹프로그래밍 \( / \) \[Chapter\]
+* [ ] 파이썬 헤드 투 퍼스트 \( / \) \[Chapter\]
+* [ ] 밑바닥부터 시작하는 딥러닝 \( / \) \[Chapter\]
+* [ ] Statistics 110 \[Lecture\] ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \(1 / 34\)
+* [ ] 인공지능을 위한 선형대수 \[Lecture\] ■□□□□□□□ \(1 / 8\)
+* [ ] Coursera ML \[Week\] ■■□□□□□□□□□ \(2 / 11\)
+* [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[lecture\] ■■■■■■■■■■■■■■■■■■■■■■■■■■■□□ \(27 / 29\) □□□□□□□□□□□□□□□□□□□□□□□□□ \(0 / 25\) □□□□□□□\(0 / 7\)
+* [ ]   
 
 > > Learned
 
@@ -47,7 +49,21 @@ description: >-
 
 
 
-## Principle of WRITE
+## WID
+
+
+
+> What I am Doing or Did
+
+> > Doing
+
+
+
+> > Did
+
+
+
+## Principle
 
 * WHY
 
@@ -69,5 +85,5 @@ description: >-
   * Organized
   * In detail what I wanna point 
 
-
+## 
 
