@@ -6,27 +6,15 @@ description: >-
 
 # TIL
 
-## TIL
-
-#### Version 3 
-
-* WIL
-* WID
-
-#### Version 2 \(~2020.01.07\)
-
-* 디렉토리 구조 변경
-* Principle
-
-#### Version 1 \(~2020.12.14\) 
-
-#### Start data : 2020. 11. 30
-
 ## WIL
 
 > What I am Learning or Learned or will learn
 >
-> If click the progress bar, move to link where TIL is at
+> [■](https://sangmandu.gitbook.io/til/) : Done & Recorded 
+>
+> ■ : Done & Not recorded
+>
+> □ : Not finished
 
 
 
@@ -36,7 +24,10 @@ description: >-
 
   [■](https://sangmandu.gitbook.io/til/2020/dec/1)[■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2021/jan/4)□□□□□□□□□□□□□ \(5 / 18\)
 
-* [ ] 배프의 오지랖 파이썬 웹프로그래밍 \( / \) \[Chapter\]
+* [ ] 배프의 오지랖 파이썬 웹프로그래밍 \[Chapter\]
+
+  ~~~~[■■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□ \(2 / 8\)
+
 * [ ] 파이썬 헤드 투 퍼스트 \( / \) \[Chapter\]
 * [ ] 밑바닥부터 시작하는 딥러닝 \( / \) \[Chapter\]
 * [ ] Statistics 110 \[Lecture\] [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \(1 / 34\)
@@ -56,6 +47,8 @@ description: >-
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 중급 SQL
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 고급 SQL
 * [ ] 인프런 딥러닝 컴퓨터 비전 완벽 가이드
+
+
 
 ## WID
 
@@ -92,10 +85,33 @@ description: >-
   * Review or Feelings at end of day
 
 * HOW
+
   * Simple
   * Comfortable to read
   * Organized
   * In detail what I wanna point 
 
-## 
+## TIL
+
+> Version 3 
+>
+> > New WIL
+> >
+> > New WID
+
+
+
+> Version 2 \(~2020.01.07\)
+>
+> > Change Directory Structure
+> >
+> > New Principle
+
+#### 
+
+> Version 1 \(~2020.12.14\) 
+>
+> > New TIL
+> >
+> > From 2020. 11. 30.
 
