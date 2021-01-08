@@ -6,6 +6,32 @@ description: >-
 
 # TIL
 
+## TIL
+
+> Version 3 
+>
+> > New WIL
+> >
+> > New WID
+
+
+
+> Version 2 \(~2020.01.07\)
+>
+> > Change Directory Structure
+> >
+> > New Principle
+
+#### 
+
+> Version 1 \(~2020.12.14\) 
+>
+> > New TIL
+> >
+> > From 2020. 11. 30.
+
+
+
 ## WIL
 
 > What I am Learning or Learned or will learn
@@ -80,9 +106,9 @@ description: >-
 * WHAT
 
   * Contents I learned
-  * Code I write
-  * Whatever I do when studying
-  * Review or Feelings at end of day
+  * Code I type
+  * Whatever I do while studying
+  * Review,  Resolution, Feelings, and so on
 
 * HOW
 
@@ -91,27 +117,5 @@ description: >-
   * Organized
   * In detail what I wanna point 
 
-## TIL
-
-> Version 3 
->
-> > New WIL
-> >
-> > New WID
-
-
-
-> Version 2 \(~2020.01.07\)
->
-> > Change Directory Structure
-> >
-> > New Principle
-
-#### 
-
-> Version 1 \(~2020.12.14\) 
->
-> > New TIL
-> >
-> > From 2020. 11. 30.
+## 
 
