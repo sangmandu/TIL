@@ -36,7 +36,7 @@ description: >-
 
 > What I am Learning or Learned or will learn
 >
-> [■](https://sangmandu.gitbook.io/til/) : Done & Recorded 
+> [■](https://sangmandu.gitbook.io/til/) : Done & Recorded\(Linked\)
 >
 > ■ : Done & Not recorded
 >
