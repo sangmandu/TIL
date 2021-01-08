@@ -54,8 +54,14 @@ description: >-
 
   ~~~~[■■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□ \(2 / 8\)
 
-* [ ] 파이썬 헤드 투 퍼스트 \( / \) \[Chapter\]
-* [ ] 밑바닥부터 시작하는 딥러닝 \( / \) \[Chapter\]
+* [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
+
+  ■■■■□□□□□□□□ \(4 / 12\)
+
+* [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
+
+  ■■■□□□□□ \(3 / 8\) 
+
 * [ ] Statistics 110 \[Lecture\] [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \(1 / 34\)
 * [ ] 인공지능을 위한 선형대수 \[Lecture\] [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□ \(1 / 8\)
 * [ ] Coursera ML \[Week\] ■■□□□□□□□□□ \(2 / 11\)
