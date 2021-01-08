@@ -62,10 +62,21 @@ description: >-
 
   ■■■□□□□□ \(3 / 8\) 
 
-* [ ] Statistics 110 \[Lecture\] [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \(1 / 34\)
-* [ ] 인공지능을 위한 선형대수 \[Lecture\] [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□ \(1 / 8\)
-* [ ] Coursera ML \[Week\] ■■□□□□□□□□□ \(2 / 11\)
-* [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[lecture\] [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3)[■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4)[■■■■■■■■■■■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \(27 / 29\) □□□□□□□□□□□□□□□□□□□□□□□□□ \(0 / 25\) □□□□□□□\(0 / 7\) 
+* [ ] Statistics 110 \[Lecture\]  
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \(1 / 34\)
+
+* [ ] 인공지능을 위한 선형대수 \[Lecture\]  
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□ \(1 / 8\)
+
+* [ ] Coursera ML \[Week\]  
+  ■■□□□□□□□□□ \(2 / 11\)
+
+* [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[lecture\]  
+  [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3)[■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4)[■■■■■■■■■■■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \(27 / 29\)  
+  □□□□□□□□□□□□□□□□□□□□□□□□□ \(0 / 25\)  
+  □□□□□□□\(0 / 7\)
+
+  
 
 > > Learned
 
@@ -76,8 +87,11 @@ description: >-
 > > Will learn \(or Wanna\)
 
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 기초 SQL
+
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 중급 SQL
+
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 고급 SQL
+
 * [ ] 인프런 딥러닝 컴퓨터 비전 완벽 가이드
 
 
@@ -92,11 +106,25 @@ description: >-
 
 > > Doing
 
-* [ ] 프로그래머스 AI 스쿨 1기 \( 20. 11. 30. \| 21. 04. 04. \)
+* [ ] [프로그래머스 AI 스쿨 1기 \( 20. 11. 30. \| 21. 04. 04. \)](https://programmers.co.kr/learn/courses/10821)
+
+
 
 
 
 > > Did
+
+* [x] 아이트래킹 프로젝트 \(20. 02. 01. \| 20. 06. 30. \)
+
+  _OpenCV, dlib, landmarks 라이브러리를 이용하여 컴퓨팅 환경 제공_
+
+  \_\_
+
+* [x] Inpainting 프로젝트 \(20. 06. 24. \| 20. 12. 17. \)
+
+  _MaskRCNN, Generative Inpainting 모델을 이용하여 모바일 서비스 제공_
+
+
 
 
 
