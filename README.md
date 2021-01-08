@@ -25,6 +25,10 @@ description: >-
 ## WIL
 
 > What I am Learning or Learned or will learn
+>
+> If click the progress bar, move to link where TIL is at
+
+
 
 > > Learning
 
