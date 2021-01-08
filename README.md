@@ -56,11 +56,13 @@ description: >-
 
 > What I am Doing or Did
 >
-> EX : Project, Program
+> EX : Project, Program, Camp
 
 
 
 > > Doing
+
+* [ ] 프로그래머스 AI 스쿨 1기
 
 
 
