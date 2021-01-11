@@ -1,36 +1,8 @@
 ---
-description: >-
-  Today I Learned : Here is my space that I record my learning content day by
-  day
+description: 'Today I Learn : Version 3'
 ---
 
 # TIL
-
-## TIL
-
-> Version 3 
->
-> > New WIL
-> >
-> > New WID
-
-
-
-> Version 2 \(~2020.01.07\)
->
-> > Change Directory Structure
-> >
-> > New Principle
-
-#### 
-
-> Version 1 \(~2020.12.14\) 
->
-> > New TIL
-> >
-> > From 2020. 11. 30.
-
-
 
 ## WIL
 
@@ -150,6 +122,32 @@ description: >-
   * Comfortable to read
   * Organized
   * In detail what I wanna point 
+
+
+
+## TIL log
+
+> Version 3 
+>
+> > New WIL
+> >
+> > New WID
+
+
+
+> Version 2 \(~2020.01.07\)
+>
+> > Change Directory Structure
+> >
+> > New Principle
+
+#### 
+
+> Version 1 \(~2020.12.14\) 
+>
+> > New TIL
+> >
+> > From 2020. 11. 30.
 
 ## 
 
