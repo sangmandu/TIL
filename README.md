@@ -35,7 +35,7 @@ description: 'Today I Learn : Version 3'
   ■■■□□□□□ \(3 / 8\) 
 
 * [ ] Statistics 110 \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \(1 / 34\)
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[□](https://sangmandu.gitbook.io/til/2021/jan/12)[□](https://sangmandu.gitbook.io/til/2021/jan/13)□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \(1 / 34\)
 
 * [ ] 인공지능을 위한 선형대수 \[Lecture\]  
   [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□ \(1 / 8\)
