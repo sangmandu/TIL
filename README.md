@@ -44,7 +44,12 @@ description: 'Today I Learn : Version 3'
   □□□□□□□□□□□□□□□□□□□□□□□□□ \[0 / 25\]  
   □□□□□□□\[0 / 7\]
 
+* [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
+
+  ■■■■□□□□□□□□ \[4 / 12\]
+
   
+
 
 > > Learned
 
@@ -78,10 +83,7 @@ description: 'Today I Learn : Version 3'
 
 > > On the back burner
 
-* [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
-
-  ■■■■□□□□□□□□ \[4 / 12\]
-
+* [ ] 
 
 
 
@@ -104,15 +106,17 @@ description: 'Today I Learn : Version 3'
 
 > > Did
 
-* [x] 아이트래킹 프로젝트 \(20. 02. 01. \| 20. 06. 30. \)
+* [x] [Inpainting 프로젝트](https://github.com/sangmandu/4SHARP) \(20. 06. 24. \| 20. 12. 17. \)
+
+  _MaskRCNN, Generative Inpainting 모델을 이용하여 모바일 서비스 제공_
+
+  \_\_
+
+* [x] [아이트래킹 프로젝트](https://github.com/sangmandu/eyetracking) \(20. 02. 01. \| 20. 06. 30. \)
 
   _OpenCV, dlib, landmarks 라이브러리를 이용하여 컴퓨팅 환경 제공_
 
   \_\_
-
-* [x] Inpainting 프로젝트 \(20. 06. 24. \| 20. 12. 17. \)
-
-  _MaskRCNN, Generative Inpainting 모델을 이용하여 모바일 서비스 제공_
 
 
 

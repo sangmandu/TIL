@@ -1,6 +1,7 @@
 # Table of contents
 
 * [TIL](README.md)
+* [Plan](plan.md)
 
 ## 2021 TIL <a id="2021"></a>
 
@@ -55,8 +56,4 @@
   * [1 Tue](2020/dec/1.md)
 * [NOV.](2020/nov/README.md)
   * [30 Mon](2020/nov/30.md)
-
----
-
-* [Plan](plan.md)
 
