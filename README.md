@@ -1,5 +1,5 @@
 ---
-description: 'Today I Learn : Version 3'
+description: 'Today I Learn : Version 3 ■ □'
 ---
 
 # TIL
@@ -20,7 +20,7 @@ description: 'Today I Learn : Version 3'
 
 * [ ] 프로그래머스 AI school  \[Week\] 
 
-  [■](https://sangmandu.gitbook.io/til/2020/dec/1)[■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2021/jan/4)□□□□□□□□□□□□□ \[5 / 18\]
+  [■](https://sangmandu.gitbook.io/til/2020/dec/1)[■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2021/jan/4)■□□□□□□□□□□□□ \[6 / 18\]
 
 * [ ] 배프의 오지랖 파이썬 웹프로그래밍 \[Chapter\]
 
@@ -31,10 +31,10 @@ description: 'Today I Learn : Version 3'
   ■■■□□□□□ \[3 / 8\]
 
 * [ ] Statistics 110 \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \[3 / 34\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \[4 / 34\]
 
 * [ ] 인공지능을 위한 선형대수 \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□□ \[1 / 8\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)■□□□ \[2 / 5\]
 
 * [ ] Coursera ML \[Week\]  
   ■■□□□□□□□□□ \[2 / 11\]
