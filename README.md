@@ -24,7 +24,7 @@ description: 'Today I Learn : Version 3 ■ □'
 
 * [ ] 배프의 오지랖 파이썬 웹프로그래밍 \[Chapter\]
 
-  ~~~~[■■](https://sangmandu.gitbook.io/til/2021/jan/8)□□□□□□ \[2 / 8\]
+  ~~~~[■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/9)□□□□□ \[3 / 8\]
 
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
