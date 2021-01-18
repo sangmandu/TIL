@@ -57,7 +57,7 @@ description: 'Today I Learn : Version 3 ■ □'
 
 > > Learned
 
-* [x] 모두를 위한 딥러닝 강좌 시즌1 \(김성훈 교수님\) \[50/50\]
+* [x] 모두를 위한 딥러닝 강좌 시즌1 \(김성훈 교수님\) \[Chapter\] \[50/50\]
 
 
 
