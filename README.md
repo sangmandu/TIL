@@ -28,29 +28,29 @@ description: 'Today I Learn : Version 3 ■ □'
 
 * [ ] 배프의 오지랖 파이썬 웹프로그래밍 \[Chapter\]
 
-  ~~~~[■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/9)□□□□□ \[3 / 8\]
+  ~~~~[■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/9)□□ □□□ \[3 / 8\]
 
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
-  ■■■□□□□□ \[3 / 8\]
+  ■■■□□ □□□ \[3 / 8\]
 
 * [ ] Statistics 110 \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■■](https://sangmandu.gitbook.io/til/2021/jan/17)□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \[4 / 34\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■ ■](https://sangmandu.gitbook.io/til/2021/jan/17)□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[4 / 34\]
 
 * [ ] 인공지능을 위한 선형대수 \[Lecture\]  
-  [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16)□□□□□□□□□□□□□□□□□ \[10 / 27\]
+  [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) □□□□□ □□□□□ □□□□□ □□ \[10 / 27\]
 
 * [ ] Coursera ML \[Week\]  
-  ■■□□□□□□□□□ \[2 / 11\]
+  ■■□□□ □□□□□□ \[2 / 11\]
 
 * [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[lecture\]  
-  [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3)[■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4)[■■■■■■■■■■■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \[27 / 29\]  
-  □□□□□□□□□□□□□□□□□□□□□□□□□ \[0 / 25\]  
-  □□□□□□□\[0 / 7\]
+  [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \[27 / 29\]  
+  □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[0 / 25\]  
+  □□□□□ □□\[0 / 7\]
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
 
-  ■■■■□□□□□□□□ \[4 / 12\]
+  ■■■■□ □□□□□□□ \[4 / 12\]
 
 
 
