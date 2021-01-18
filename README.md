@@ -32,10 +32,10 @@ description: 'Today I Learn : Version 3 ■ □'
 
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
-  ■■■□□ □□□ \[3 / 8\]
+  ■■■■■ □□□ \[5 / 8\]
 
 * [ ] Statistics 110 \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■ ■](https://sangmandu.gitbook.io/til/2021/jan/17)□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[4 / 34\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■■■](https://sangmandu.gitbook.io/til/2021/jan/18)□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[8 / 34\]
 
 * [ ] 인공지능을 위한 선형대수 \[Lecture\]  
   [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) □□□□□ □□□□□ □□□□□ □□ \[10 / 27\]
