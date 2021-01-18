@@ -18,9 +18,13 @@ description: 'Today I Learn : Version 3 ■ □'
 
 > > Learning
 
-* [ ] 프로그래머스 AI school  \[Week\] 
+* [ ] 프로그래머스 AI school  \[Day\] 
 
-  [■](https://sangmandu.gitbook.io/til/2020/dec/1)[■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2021/jan/4)[■](https://sangmandu.gitbook.io/til/2021/jan/11)□□□□□□□□□□□□ \[6 / 18\]
+  □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□
+
+  □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□
+
+  □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[6 / 90\]
 
 * [ ] 배프의 오지랖 파이썬 웹프로그래밍 \[Chapter\]
 
