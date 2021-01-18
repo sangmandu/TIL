@@ -40,8 +40,8 @@ description: 'Today I Learn : Version 3 ■ □'
 * [ ] 인공지능을 위한 선형대수 \[Lecture\]  
   [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) □□□□□ □□□□□ □□□□□ □□ \[10 / 27\]
 
-* [ ] Coursera ML \[Week\]  
-  ■■□□□ □□□□□□ \[2 / 11\]
+* [ ] Coursera ML \[Lecture\]  
+  ■■■■■ □□□□□ □□□□□ □□□ \[5 / 18\]
 
 * [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[lecture\]  
   [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \[27 / 29\]  
