@@ -34,7 +34,7 @@ description: 'Today I Learn : Version 3 ■ □'
   [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■■](https://sangmandu.gitbook.io/til/2021/jan/17)□□□□□□□□□□□□□□□□□□□□□□□□□□□□ \[4 / 34\]
 
 * [ ] 인공지능을 위한 선형대수 \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/16)□□□ \[2 / 5\]
+  [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16)□□□□□□□□□□□□□□□□□ \[10 / 27\]
 
 * [ ] Coursera ML \[Week\]  
   ■■□□□□□□□□□ \[2 / 11\]
