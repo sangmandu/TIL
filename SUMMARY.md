@@ -8,7 +8,7 @@
 * [JAN.](2021/jan/README.md)
   * [23 Sat](2021/jan/23.md)
   * [Untitled](2021/jan/untitled-2.md)
-  * [Untitled](2021/jan/untitled-1.md)
+  * [21 Thu](2021/jan/21.md)
   * [20 Wed](2021/jan/20.md)
   * [19 Tue](2021/jan/19.md)
   * [18 Mon](2021/jan/18.md)
