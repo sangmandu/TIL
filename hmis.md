@@ -1,5 +1,5 @@
 ---
-description: How Many hours I Study
+description: How Much I Study
 ---
 
 # HMIS
