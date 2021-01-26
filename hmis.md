@@ -4,8 +4,6 @@ description: How Much I Study
 
 # HMIS
 
-
-
 > 2021. 02. 08 ~ 2021. 02. 14
 
 {% tabs %}
