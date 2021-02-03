@@ -2,7 +2,6 @@
 
 * [TIL](README.md)
 * [P](p.md)
-* [HMIS](hmis.md)
 
 ## 2021 TIL <a id="2021"></a>
 
