@@ -18,12 +18,11 @@ description: 'Plan : Week Table'
 * AI 9 : 5
 * ~~\[P02\] 5-6 \(28\)~~
 * \[P03\] 1-4.5 \(20\) 
-* 확률론 9강
-* 선형대수 3 : 1-3
 {% endtab %}
 
 {% tab title="10" %}
-1
+* 확률론 9강
+* 선형대수 3 : 1-3
 {% endtab %}
 
 {% tab title="11" %}
