@@ -14,8 +14,6 @@ description: 'Plan : Week Table'
 {% endtab %}
 
 {% tab title="9" %}
-* 딥러닝 6
-* AI 9 : 5
 * ~~\[P02\] 5-6 \(28\)~~
 * ~~\[P03\] 1-4.5 \(20\)~~ 
 {% endtab %}
@@ -23,6 +21,10 @@ description: 'Plan : Week Table'
 {% tab title="10" %}
 * 확률론 9강
 * 선형대수 3 : 1-3
+* AI 8 : 2
+* 딥러닝 6
+* AI 9 : 5
+* 토치 3 : 4.6- 4.8
 {% endtab %}
 
 {% tab title="11" %}
