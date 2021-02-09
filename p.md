@@ -8,6 +8,41 @@ description: 'Plan : Week Table'
 
 > 02.08 ~ 02.14
 
+{% tabs %}
+{% tab title="8" %}
+
+{% endtab %}
+
+{% tab title="9" %}
+* 딥러닝 6
+* AI 9 : 5
+* ~~\[P02\] 5-6 \(28\)~~
+* \[P03\] 1-4.5 \(20\) 
+* 확률론 9강
+* 선형대수 3 : 1-3
+{% endtab %}
+
+{% tab title="10" %}
+1
+{% endtab %}
+
+{% tab title="11" %}
+
+{% endtab %}
+
+{% tab title="12" %}
+
+{% endtab %}
+
+{% tab title="13" %}
+
+{% endtab %}
+
+{% tab title="14" %}
+
+{% endtab %}
+{% endtabs %}
+
 * [ ] 딥러닝
   * [ ] 5 분석
   * [ ] 6
