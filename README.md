@@ -50,7 +50,7 @@ description: 'Today I Learn : Version 3 ■ □'
 
 * [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
 
-  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □ \[4 / 31\]
+  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/7)□□ □□□□□ □□□□□ □□□□□ □ \[13 / 31\]
 
 
 
