@@ -7,6 +7,8 @@
 
 * [FEB.](2021/feb/README.md)
   * [13 Sat](2021/feb/13-sat.md)
+  * [11 Thu](2021/feb/11.md)
+  * [10 Wed](2021/feb/10.md)
   * [9 Tue](2021/feb/9.md)
   * [8 Mon](2021/feb/8.md)
   * [7 Sun](2021/feb/7.md)
