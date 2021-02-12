@@ -2,7 +2,7 @@
 
 ## \[밑바닥부터 시작하는 딥러닝\] 5장-오차역전파법
 
-다음 코드를 부분부분 뜯어가면서 지금까지 배운 개념을 복습하려고 한다.
+다음 코드를 부분부분 뜯어가면서 지금까지 배운 개념을 복습하려고 한다
 
 이 코드는 [\(여기\)](https://github.com/WegraLee/deep-learning-from-scratch/blob/master/ch05/train_neuralnet.py)서 다운 받을 수 있다.
 
