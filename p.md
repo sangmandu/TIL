@@ -10,24 +10,38 @@ description: 'Plan : Week Table'
 
 {% tabs %}
 {% tab title="15" %}
-* AI 8 : 2
-* AI 8 : 3
-* AI 10 : 1
-* 확 9
-* 토치 3 : 4.6-4.8
-* 선형 3 : 1-3
+* ~~AI 8 : 2~~
+* ~~AI 8 : 3 - 1~~
+* ~~AI 10 : 1~~
 {% endtab %}
 
 {% tab title="16" %}
+오전
 
+* AI 8 : 3 - 2
+* AI 8 : 4
+* AI 10 : 2
+
+오후
+
+* 확9, 10
+* 토치 3 : 4.6-4.8
+* 토치 4 : 1-2
+
+저녁
+
+* 선형 3 : 1-3
+* 선형3 : 4-7
 {% endtab %}
 
 {% tab title="17" %}
-
+* AI 8:5
+* AI 10:3
 {% endtab %}
 
 {% tab title="18" %}
-
+* AI 10:4
+* AI 10:5
 {% endtab %}
 
 {% tab title="19" %}
@@ -46,7 +60,7 @@ description: 'Plan : Week Table'
 * [ ] TIL
   * [x] 1/23 - 확7
   * [x] 1/24 - 확8
-  * [ ] 1/26 - AI 8 : 2
+  * [x] 1/26 - AI 8 : 2
   * [ ] 1/27 - AI 8 : 3
   * [ ] 1/28 - AI 8 : 4
   * [ ] 1/29 - AI 8 : 5
@@ -76,11 +90,11 @@ description: 'Plan : Week Table'
   * [ ] \[P04\] 5, \[P05\] 1 \(29\)
 * [ ] AI
   * [x] AI 9 : 5
-  * [ ] AI 8 : 2
+  * [x] AI 8 : 2
   * [ ] AI 8 : 3
   * [ ] AI 8 : 4
   * [ ] AI 8 : 5
-  * [ ] AI 10 : 1
+  * [x] AI 10 : 1
   * [ ] AI 10 : 2
   * [ ] AI 10 : 3
   * [ ] AI 10 : 4
