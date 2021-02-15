@@ -12,9 +12,10 @@ description: 'Plan : Week Table'
 {% tab title="15" %}
 * AI 8 : 2
 * AI 8 : 3
+* AI 10 : 1
 * 확 9
 * 토치 3 : 4.6-4.8
-* 선형대수 3 : 1-3
+* 선형 3 : 1-3
 {% endtab %}
 
 {% tab title="16" %}
