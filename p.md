@@ -9,16 +9,38 @@ description: 'Plan : Week Table'
 > 02.15 ~ 02.21
 
 {% tabs %}
-
-* AI 10 : 1
+{% tab title="15" %}
 * AI 8 : 2
 * AI 8 : 3
-* 확률 9
-* 토치 3 : 4.6 - 4.8
+* 확 9
+* 토치 3 : 4.6-4.8
 * 선형대수 3 : 1-3
-* ~~~~
-* 
+{% endtab %}
 
+{% tab title="16" %}
+
+{% endtab %}
+
+{% tab title="17" %}
+
+{% endtab %}
+
+{% tab title="18" %}
+
+{% endtab %}
+
+{% tab title="19" %}
+
+{% endtab %}
+
+{% tab title="20" %}
+
+{% endtab %}
+
+{% tab title="21" %}
+
+{% endtab %}
+{% endtabs %}
 
 * [ ] TIL
   * [x] 1/23 - 확7
@@ -51,12 +73,17 @@ description: 'Plan : Week Table'
   * [ ] \[P04\] 1-2 \(27\) 
   * [ ] \[P04\] 3-4 \(24\) 
   * [ ] \[P04\] 5, \[P05\] 1 \(29\)
-* [ ] AI 8, 9
-  * [ ] AI 9 : 5
+* [ ] AI
+  * [x] AI 9 : 5
   * [ ] AI 8 : 2
   * [ ] AI 8 : 3
   * [ ] AI 8 : 4
   * [ ] AI 8 : 5
+  * [ ] AI 10 : 1
+  * [ ] AI 10 : 2
+  * [ ] AI 10 : 3
+  * [ ] AI 10 : 4
+  * [ ] AI 10 : 5
 * [ ] 확률론
   * [ ] 9강
   * [ ] 10강
