@@ -5,7 +5,7 @@
 
 ## 2021 TIL <a id="2021"></a>
 
-* [FEB.](2021/feb/README.md)
+* [FEB](2021/feb/README.md)
   * [15 Mon](2021/feb/15.md)
   * [14 Sun](2021/feb/14.md)
   * [13 Sat](2021/feb/13.md)
@@ -21,7 +21,7 @@
   * [3 Wed](2021/feb/3.md)
   * [2 Tue](2021/feb/2.md)
   * [1 Mon](2021/feb/1.md)
-* [JAN.](2021/jan/README.md)
+* [JAN](2021/jan/README.md)
   * [31 Sun](2021/jan/31.md)
   * [30 Sat](2021/jan/30.md)
   * [29 Fri](2021/jan/29.md)
@@ -56,7 +56,7 @@
 
 ## 2020 TIL <a id="2020"></a>
 
-* [DEC.](2020/dec/README.md)
+* [DEC](2020/dec/README.md)
   * [31 Thu](2020/dec/31.md)
   * [30 Wed](2020/dec/30.md)
   * [29 Tue](2020/dec/29.md)
@@ -88,6 +88,6 @@
   * [3 Tue](2020/dec/3.md)
   * [2 Wed](2020/dec/2.md)
   * [1 Tue](2020/dec/1.md)
-* [NOV.](2020/nov/README.md)
+* [NOV](2020/nov/README.md)
   * [30 Mon](2020/nov/30.md)
 
