@@ -22,16 +22,16 @@ description: 'Today I Learn : Version 3 ■ □'
 
   [■](https://sangmandu.gitbook.io/til/2020/dec/1)[■■](https://sangmandu.gitbook.io/til/2020/dec/2)[■](https://sangmandu.gitbook.io/til/2020/dec/3)[■](https://sangmandu.gitbook.io/til/2020/dec/4) [■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/8)[■](https://sangmandu.gitbook.io/til/2020/dec/9)[■](https://sangmandu.gitbook.io/til/2020/dec/10)[■](https://sangmandu.gitbook.io/til/2020/dec/11) [■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/15)[■](https://sangmandu.gitbook.io/til/2020/dec/16)[■](https://sangmandu.gitbook.io/til/2020/dec/17)[■](https://sangmandu.gitbook.io/til/2020/dec/18) [■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2020/dec/26)[■](https://sangmandu.gitbook.io/til/2020/dec/25)[■](https://sangmandu.gitbook.io/til/2020/dec/29)■ [■](https://sangmandu.gitbook.io/til/2021/jan/4)[■■](https://sangmandu.gitbook.io/til/2021/jan/7)[■■](https://sangmandu.gitbook.io/til/2021/jan/8) [■](https://sangmandu.gitbook.io/til/2021/jan/11)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/15)
 
-  [■](https://sangmandu.gitbook.io/til/2021/jan/18)□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□
+  [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/19)[■](https://sangmandu.gitbook.io/til/2021/jan/20)[■](https://sangmandu.gitbook.io/til/2021/jan/21)[■](https://sangmandu.gitbook.io/til/2021/jan/22) [■](https://sangmandu.gitbook.io/til/2021/jan/25)[■](https://sangmandu.gitbook.io/til/2021/jan/26)□□□ [■](https://sangmandu.gitbook.io/til/2021/feb/1)[■](https://sangmandu.gitbook.io/til/2021/feb/2)[■](https://sangmandu.gitbook.io/til/2021/feb/3)□□ □□□□□ □□□□□ □□□□□
 
-  □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[6 / 90\]
+  □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[37 / 90\]
 
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
-  ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2021/jan/23) □□□ \[5 / 8\]
+  ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ □□□ \[5 / 8\]
 
 * [ ] Statistics 110 \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■■■](https://sangmandu.gitbook.io/til/2021/jan/18)□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[8 / 34\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[8 / 34\]
 
 * [ ] 인공지능을 위한 선형대수 \[Lecture\]  
   [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) □□□□□ □□□□□ □□□□□ □□ \[10 / 27\]
@@ -48,9 +48,15 @@ description: 'Today I Learn : Version 3 ■ □'
 
   ■■■■□ □□□□□□□ \[4 / 12\]
 
+* [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
+
+  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/7)□□ □□□□□ □□□□□ □□□□□ □ \[13 / 31\]
+
 
 
 🍚 양식 : https://sangmandu.gitbook.io/til/2021/jan/
+
+ 🍚  양식 : https://sangmandu.gitbook.io/til/2021/feb/
 
   
 
