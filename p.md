@@ -9,39 +9,16 @@ description: 'Plan : Week Table'
 > 02.15 ~ 02.21
 
 {% tabs %}
-{% tab title="15" %}
+
 * AI 10 : 1
 * AI 8 : 2
 * AI 8 : 3
 * 확률 9
 * 토치 3 : 4.6 - 4.8
 * 선형대수 3 : 1-3
-{% endtab %}
-
-{% tab title="16" %}
 * ~~~~
-{% endtab %}
-
-{% tab title="17" %}
 * 
-{% endtab %}
 
-{% tab title="18" %}
-
-{% endtab %}
-
-{% tab title="19" %}
-
-{% endtab %}
-
-{% tab title="20" %}
-
-{% endtab %}
-
-{% tab title="21" %}
-
-{% endtab %}
-{% endtabs %}
 
 * [ ] TIL
   * [x] 1/23 - 확7
@@ -95,19 +72,11 @@ description: 'Plan : Week Table'
   * [ ] 4 : 4-7
   * [ ] 5 : 1-3
 
-
-
 😱 Next Weeks
 
 > 02.22 ~ 02.28
 
 * [ ] 
-
-
 > 02.22 ~ 02.28
 
 * [ ] 
-
-
-
-
