@@ -4,9 +4,9 @@ description: 'Today I Learn : Version 3 ■ □'
 
 # TIL
 
-## WIL
+## LP
 
-> What I am Learning or Learned or will learn
+> **Learning Progression**
 >
 > [■](https://sangmandu.gitbook.io/til/) : Done & Recorded\(Linked\)
 >
@@ -16,7 +16,7 @@ description: 'Today I Learn : Version 3 ■ □'
 
 
 
-> > Learning
+> > **Learning**
 
 * [ ] 프로그래머스 AI school  \[Day\] 
 
@@ -61,7 +61,7 @@ description: 'Today I Learn : Version 3 ■ □'
   
 
 
-> > Learned
+> > **Learned**
 
 * [x] 모두를 위한 딥러닝 강좌 시즌1 \(김성훈 교수님\) \[Chapter\] 
 
@@ -71,7 +71,7 @@ description: 'Today I Learn : Version 3 ■ □'
 
 
 
-> > Will learn \(or Wanna\)
+> > **Will learn**
 
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 기초 SQL
 
@@ -102,13 +102,11 @@ description: 'Today I Learn : Version 3 ■ □'
 
 ## WID
 
-> What I am Doing or Did
->
-> EX : Project, Program, Camp
+> **What I Do**
 
 
 
-> > Doing
+> > **Doing**
 
 * [ ] [프로그래머스 AI 스쿨 1기 \( 20. 11. 30. \| 21. 04. 04. \)](https://programmers.co.kr/learn/courses/10821)
 
@@ -116,7 +114,7 @@ description: 'Today I Learn : Version 3 ■ □'
 
 
 
-> > Did
+> > **Did**
 
 * [x] [Inpainting 프로젝트](https://github.com/sangmandu/4SHARP) \(20. 06. 24. \| 20. 12. 17. \)
 
@@ -128,7 +126,14 @@ description: 'Today I Learn : Version 3 ■ □'
 
   _OpenCV, dlib, landmarks 라이브러리를 이용하여 컴퓨팅 환경 제공_
 
-  \_\_
+\_\_
+
+\_\_
+
+> > **Will do**
+
+* [ ] 
+\_\_
 
 
 
@@ -161,7 +166,19 @@ description: 'Today I Learn : Version 3 ■ □'
 
 ## TIL log
 
-> Version 3 
+
+
+> Version 4 
+>
+> > Modification from WIL to LP
+> >
+> > New Page WIL
+> >
+> > New Page P
+
+
+
+> Version 3 \(~2021.02.16\)
 >
 > > New WIL
 > >
