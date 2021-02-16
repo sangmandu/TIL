@@ -18,7 +18,7 @@ description: 'Plan : Week Table'
 {% tab title="16" %}
 오전
 
-* AI 8 : 3 - 2
+* ~~AI 8 : 3 - 2~~
 * AI 8 : 4
 * AI 10 : 2
 
@@ -61,7 +61,7 @@ description: 'Plan : Week Table'
   * [x] 1/23 - 확7
   * [x] 1/24 - 확8
   * [x] 1/26 - AI 8 : 2
-  * [ ] 1/27 - AI 8 : 3
+  * [x] 1/27 - AI 8 : 3
   * [ ] 1/28 - AI 8 : 4
   * [ ] 1/29 - AI 8 : 5
   * [x] 2/5 - AI 9 : 5
@@ -91,7 +91,7 @@ description: 'Plan : Week Table'
 * [ ] AI
   * [x] AI 9 : 5
   * [x] AI 8 : 2
-  * [ ] AI 8 : 3
+  * [x] AI 8 : 3
   * [ ] AI 8 : 4
   * [ ] AI 8 : 5
   * [x] AI 10 : 1
