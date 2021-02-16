@@ -20,7 +20,7 @@ description: 'Plan : Week Table'
 
 * ~~AI 8 : 3 - 2~~
 * AI 8 : 4
-* AI 10 : 2
+* ~~AI 10 : 2~~
 
 오후
 
