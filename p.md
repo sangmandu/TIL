@@ -25,10 +25,6 @@ description: 'Plan : Week Table'
 
 * ~~토치 3 : 4.6-4.8~~
 * ~~토치 4 : 1-2~~
-
-저녁
-
-* 확 9
 {% endtab %}
 
 {% tab title="17" %}
@@ -39,8 +35,8 @@ description: 'Plan : Week Table'
 
 오후
 
+* 확 9
 * 확 10
-* 확 11
 * 선형대수 3 : 1-3
 * 선형대수 3 : 4-7
 * 파이토치 4 : 3-4
