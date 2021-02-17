@@ -6,7 +6,7 @@ description: 'Today I Learn : Version 4 ■ □'
 
 ## Page
 
-#### [Learing Progress](lp.md) / [What I Learn](wil.md) / [What I Do](wid.md)
+#### [Learing Progress](lp.md) / ......................... / [What I Learn](wil.md) / ......................... / [What I Do](wid.md)
 
 ![](.gitbook/assets/image%20%28262%29.png)
 
@@ -41,21 +41,23 @@ description: 'Today I Learn : Version 4 ■ □'
 
 > Version 4 
 >
-> > Modification from WIL to LP
+> > Modification from \[Header\] WIL to \[New Page\] Learning Progress
 > >
-> > New Page WIL
+> > \[New Page\] What I Learn
 > >
-> > New Page P
+> > Modification from \[Header\] WID to \[New Page\] What I Do
 > >
-> > WID -New Page WID
+> > \[New Page\] Plan
+> >
+> > \[New Header\] Page
 
 
 
 > Version 3 \(~2021.02.16\)
 >
-> > New WIL
+> > \[New Header\] WIL
 > >
-> > New WID
+> > \[New Header\] WID
 
 
 
@@ -63,13 +65,13 @@ description: 'Today I Learn : Version 4 ■ □'
 >
 > > Change Directory Structure
 > >
-> > New Principle
+> > \[New Header\] Principle
 
 #### 
 
 > Version 1 \(~2020.12.14\) 
 >
-> > New TIL
+> > \[New Page\] TIL
 > >
 > > From 2020. 11. 30.
 
