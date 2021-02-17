@@ -138,12 +138,6 @@ Transformer와 BERT
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
-
-
 {% tabs %}
 {% tab title="😁" %}
 
@@ -170,14 +164,12 @@ Transformer와 BERT
 {% endtab %}
 {% endtabs %}
 
-
-
 {% tabs %}
 {% tab title="😜" %}
 
 {% endtab %}
 
-{% tab title="인공지능을 위한 선형대수" %}
+{% tab title="Coursera ML" %}
 
 {% endtab %}
 
@@ -185,7 +177,7 @@ Transformer와 BERT
 
 {% endtab %}
 
-{% tab title="파이썬 딥러닝 파이토치" %}
+{% tab title="파이썬 헤드 투 퍼스트" %}
 
 {% endtab %}
 
@@ -193,7 +185,7 @@ Transformer와 BERT
 
 {% endtab %}
 
-{% tab title="밑바닥부터 시작하는 딥러닝" %}
+{% tab title="Inflearn 데이터 분석과 시각화" %}
 
 {% endtab %}
 {% endtabs %}
