@@ -1,11 +1,5 @@
 # What I Do
 
-## WID
-
-> **What I Do**
-
-
-
 > > **Doing**
 
 * [ ] [프로그래머스 AI 스쿨 1기 \( 20. 11. 30. \| 21. 04. 04. \)](https://programmers.co.kr/learn/courses/10821)

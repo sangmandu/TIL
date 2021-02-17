@@ -6,7 +6,9 @@ description: 'Today I Learn : Version 4 ■ □'
 
 ## Page
 
-![](.gitbook/assets/image%20%28260%29.png)
+#### [Learing Progress](lp.md) / [What I Learn](wil.md) / [What I Do](wid.md)
+
+![](.gitbook/assets/image%20%28262%29.png)
 
 ## Principle
 

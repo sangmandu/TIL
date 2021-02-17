@@ -1,10 +1,6 @@
----
-description: WIL
----
-
 # What I Learn
 
-
+> Contents
 
 {% tabs %}
 {% tab title="😍" %}
