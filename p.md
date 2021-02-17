@@ -1,8 +1,8 @@
 ---
-description: 'Plan : Week Table'
+description: 'P : Week Table'
 ---
 
-# P
+# Plan
 
 😂 This Week
 
