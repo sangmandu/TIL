@@ -1,8 +1,8 @@
 # Table of contents
 
 * [TIL](README.md)
-* [Learing Progression](lp.md)
-* [What I Learned](wil.md)
+* [Learing Progress](lp.md)
+* [What I Learn](wil.md)
 * [What I Do](wid.md)
 * [Plan](p.md)
 
