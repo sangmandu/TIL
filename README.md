@@ -35,13 +35,11 @@ description: 'Today I Learn : Version 4 ■ □'
 
 
 
-## TIL log
-
-
+## Update Log
 
 > Version 4 
 >
-> > Modification from \[Header\] WIL to \[New Page\] Learning Progress
+> > Modification from \[Header\]  WIL to \[New Page\] Learning Progress
 > >
 > > \[New Page\] What I Learn
 > >
@@ -72,6 +70,8 @@ description: 'Today I Learn : Version 4 ■ □'
 > Version 1 \(~2020.12.14\) 
 >
 > > \[New Page\] TIL
+> >
+> > \[New Header\] Update Log
 > >
 > > From 2020. 11. 30.
 
