@@ -35,7 +35,7 @@ description: 'Plan : Week Table'
 오후
 
 * 확 9
-* AI 10:3
+* ~~AI 10:3~~
 * 선형대수 3 : 1-3
 * 선형대수 3 : 4-7
 * 파이토치 4 : 3-4
@@ -94,7 +94,7 @@ description: 'Plan : Week Table'
   * [x] 1/24 - 확8
   * [x] 1/26 - AI 8 : 2
   * [x] 1/27 - AI 8 : 3
-  * [ ] 1/28 - AI 8 : 4
+  * [x] 1/28 - AI 8 : 4
   * [ ] 1/29 - AI 8 : 5
   * [x] 2/5 - AI 9 : 5
   * [ ] 1/30 - 확9
@@ -127,11 +127,11 @@ description: 'Plan : Week Table'
   * [x] AI 9 : 5
   * [x] AI 8 : 2
   * [x] AI 8 : 3
-  * [ ] AI 8 : 4
+  * [x] AI 8 : 4
   * [ ] AI 8 : 5
   * [x] AI 10 : 1
   * [x] AI 10 : 2
-  * [ ] AI 10 : 3
+  * [x] AI 10 : 3
   * [ ] AI 10 : 4
   * [ ] AI 10 : 5
 * [ ] 확률론
