@@ -46,22 +46,8 @@ description: 'P : Week Table'
 {% tab title="18" %}
 오전
 
-* AI 8:5
-* WIL Statics 100 & 인공지능을 위한 선형대수
-
-오후
-
-* 확 9
-* 선형대수 4 : 1-3
-* 선형대수 4 : 4-7
-* 파이토치4 : 3-4
-* AI 10:4
-
-저녁
-
-* 파이토치 4 : 5 / 5 : 1
-* 파이토치 5 : 2
-* 파이토치 5 : 3
+* ~~AI 10 : 4~~
+* ~~WIL Statics 100 & 인공지능을 위한 선형대수~~
 {% endtab %}
 
 {% tab title="19" %}
@@ -72,9 +58,9 @@ description: 'P : Week Table'
 
 오후
 
+* 확 9
 * 확 10
-* 확 11
-* 
+* 파이토치 5 : 3
 {% endtab %}
 
 {% tab title="20" %}
@@ -86,8 +72,6 @@ description: 'P : Week Table'
 * 캐글 자전거
 {% endtab %}
 {% endtabs %}
-
-
 
 * [ ] TIL
   * [x] 1/23 - 확7
@@ -132,7 +116,7 @@ description: 'P : Week Table'
   * [x] AI 10 : 1
   * [x] AI 10 : 2
   * [x] AI 10 : 3
-  * [ ] AI 10 : 4
+  * [x] AI 10 : 4
   * [ ] AI 10 : 5
 * [ ] 확률론
   * [ ] 9강
