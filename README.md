@@ -1,138 +1,14 @@
 ---
-description: 'Today I Learn : Version 3 ■ □'
+description: 'Today I Learn : Version 4 ■ □'
 ---
 
 # TIL
 
-## WIL
+## Page
 
-> What I am Learning or Learned or will learn
->
-> [■](https://sangmandu.gitbook.io/til/) : Done & Recorded\(Linked\)
->
-> ■ : Done & Not recorded
->
-> □ : Not finished
+#### [Learing Progress](lp.md) /// [What I Learn](wil.md) /// [What I Do](wid.md)
 
-
-
-> > Learning
-
-* [ ] 프로그래머스 AI school  \[Day\] 
-
-  [■](https://sangmandu.gitbook.io/til/2020/dec/1)[■■](https://sangmandu.gitbook.io/til/2020/dec/2)[■](https://sangmandu.gitbook.io/til/2020/dec/3)[■](https://sangmandu.gitbook.io/til/2020/dec/4) [■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/8)[■](https://sangmandu.gitbook.io/til/2020/dec/9)[■](https://sangmandu.gitbook.io/til/2020/dec/10)[■](https://sangmandu.gitbook.io/til/2020/dec/11) [■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/15)[■](https://sangmandu.gitbook.io/til/2020/dec/16)[■](https://sangmandu.gitbook.io/til/2020/dec/17)[■](https://sangmandu.gitbook.io/til/2020/dec/18) [■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2020/dec/26)[■](https://sangmandu.gitbook.io/til/2020/dec/25)[■](https://sangmandu.gitbook.io/til/2020/dec/29)■ [■](https://sangmandu.gitbook.io/til/2021/jan/4)[■■](https://sangmandu.gitbook.io/til/2021/jan/7)[■■](https://sangmandu.gitbook.io/til/2021/jan/8) [■](https://sangmandu.gitbook.io/til/2021/jan/11)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/15)
-
-  [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/19)[■](https://sangmandu.gitbook.io/til/2021/jan/20)[■](https://sangmandu.gitbook.io/til/2021/jan/21)[■](https://sangmandu.gitbook.io/til/2021/jan/22) [■](https://sangmandu.gitbook.io/til/2021/jan/25)[■](https://sangmandu.gitbook.io/til/2021/jan/26)□□□ [■](https://sangmandu.gitbook.io/til/2021/feb/1)[■](https://sangmandu.gitbook.io/til/2021/feb/2)[■](https://sangmandu.gitbook.io/til/2021/feb/3)□□ □□□□□ □□□□□ □□□□□
-
-  □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[37 / 90\]
-
-* [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
-
-  ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ □□□ \[5 / 8\]
-
-* [ ] Statistics 110 \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[8 / 34\]
-
-* [ ] 인공지능을 위한 선형대수 \[Lecture\]  
-  [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) □□□□□ □□□□□ □□□□□ □□ \[10 / 27\]
-
-* [ ] Coursera ML \[Lecture\]  
-  ■■■■■ □□□□□ □□□□□ □□□ \[5 / 18\]
-
-* [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[lecture\]  
-  [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \[27 / 29\]  
-  □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[0 / 25\]  
-  □□□□□ □□\[0 / 7\]
-
-* [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
-
-  ■■■■□ □□□□□□□ \[4 / 12\]
-
-* [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
-
-  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/7)□□ □□□□□ □□□□□ □□□□□ □ \[13 / 31\]
-
-
-
-🍚 양식 : https://sangmandu.gitbook.io/til/2021/jan/
-
- 🍚  양식 : https://sangmandu.gitbook.io/til/2021/feb/
-
-  
-
-
-> > Learned
-
-* [x] 모두를 위한 딥러닝 강좌 시즌1 \(김성훈 교수님\) \[Chapter\] 
-
-  ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
-
-  ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[50/50\]
-
-
-
-> > Will learn \(or Wanna\)
-
-* [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 기초 SQL
-
-* [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 중급 SQL
-
-* [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 고급 SQL
-
-* [ ] 인프런 딥러닝 컴퓨터 비전 완벽 가이드
-
-* [ ] CS231N
-
-* [ ] 해석학
-
-* [ ] 최적화
-
-* [ ] 다변수함수
-
-* [ ] 딥러닝을 이용한 자연어 처리 입문
-
-
-
-
-
-> > On the back burner
-
-* [ ] 
-
-
-## WID
-
-> What I am Doing or Did
->
-> EX : Project, Program, Camp
-
-
-
-> > Doing
-
-* [ ] [프로그래머스 AI 스쿨 1기 \( 20. 11. 30. \| 21. 04. 04. \)](https://programmers.co.kr/learn/courses/10821)
-
-
-
-
-
-> > Did
-
-* [x] [Inpainting 프로젝트](https://github.com/sangmandu/4SHARP) \(20. 06. 24. \| 20. 12. 17. \)
-
-  _MaskRCNN, Generative Inpainting 모델을 이용하여 모바일 서비스 제공_
-
-  \_\_
-
-* [x] [아이트래킹 프로젝트](https://github.com/sangmandu/eyetracking) \(20. 02. 01. \| 20. 06. 30. \)
-
-  _OpenCV, dlib, landmarks 라이브러리를 이용하여 컴퓨팅 환경 제공_
-
-  \_\_
-
-
-
-
+![](.gitbook/assets/image%20%28262%29.png)
 
 ## Principle
 
@@ -159,13 +35,27 @@ description: 'Today I Learn : Version 3 ■ □'
 
 
 
-## TIL log
+## Update Log
 
-> Version 3 
+> Version 4 
 >
-> > New WIL
+> > Modification from \[Header\]  WIL to \[New Page\] Learning Progress
 > >
-> > New WID
+> > \[New Page\] What I Learn
+> >
+> > Modification from \[Header\] WID to \[New Page\] What I Do
+> >
+> > \[New Page\] Plan
+> >
+> > \[New Header\] Page
+
+
+
+> Version 3 \(~2021.02.16\)
+>
+> > \[New Header\] WIL
+> >
+> > \[New Header\] WID
 
 
 
@@ -173,13 +63,15 @@ description: 'Today I Learn : Version 3 ■ □'
 >
 > > Change Directory Structure
 > >
-> > New Principle
+> > \[New Header\] Principle
 
 #### 
 
 > Version 1 \(~2020.12.14\) 
 >
-> > New TIL
+> > \[New Page\] TIL
+> >
+> > \[New Header\] Update Log
 > >
 > > From 2020. 11. 30.
 
