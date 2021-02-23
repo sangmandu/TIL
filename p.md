@@ -10,16 +10,23 @@ description: 'P : Week Table'
 
 {% tabs %}
 {% tab title="Mon" %}
-* AI 11 : 1
-* 토치 4 : 3-4
-* 모자이크 모델 조사
-* AI 8 : 5
-* AI 10 : 5
-* 토치 4 :5, 5 : 1
+* ~~AI 11 : 1~~
+* ~~모자이크 모델 조사~~
 {% endtab %}
 
 {% tab title="Tue" %}
+오전
 
+* AI 11-1 실습
+* AI 11-2
+
+오후
+
+* 토치 4 : 3-4
+* 토치 4 : 5, 5 : 1
+* 토치 5 : 2
+
+저녁
 {% endtab %}
 
 {% tab title="Wed" %}
