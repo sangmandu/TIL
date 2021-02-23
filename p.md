@@ -17,8 +17,8 @@ description: 'P : Week Table'
 {% tab title="Tue" %}
 오전
 
-* AI 11-1 실습
-* AI 11-2
+* ~~AI 11-1 실습~~
+* ~~AI 11-2~~
 
 오후
 
