@@ -48,7 +48,7 @@ description: ■ □
 
 * [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
 
-  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)[■■](https://sangmandu.gitbook.io/til/2021/feb/9) □□□□□ □□□□□ □□□□□ □ \[13 / 31\]
+  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)[■■](https://sangmandu.gitbook.io/til/2021/feb/9) [■■](https://sangmandu.gitbook.io/til/2021/feb/10)[■](https://sangmandu.gitbook.io/til/2021/feb/11)[■](https://sangmandu.gitbook.io/til/2021/feb/21)□ □□□□□ □□□□□ □ \[19 / 31\]
 
 
 
