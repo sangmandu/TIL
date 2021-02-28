@@ -118,7 +118,17 @@
 
 [■](https://sangmandu.gitbook.io/til/2021/feb/18) 단어 임베딩
 
-Transformer와 BER[■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)
+Transformer와 BERT
+
+## \[11주차\] Visual Recognition
+
+Visual Recognition : 물체인식, 전이학습기반 커스텀 영상인식, 영상 기반, 이물질 검출
+
+Visual Recognition : Object Detection, Faster RCNN
+
+Visual Recognition : Object Segmentation, YOLO, SSD 기반의 Object Detection
+
+GAN\(Generative Adversarial Networks\), Style Transfer
 {% endtab %}
 
 {% tab title="Statistics 110" %}
@@ -197,6 +207,8 @@ Transformer와 BER[■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https:
 ------
 {% endtab %}
 {% endtabs %}
+
+
 
 {% tabs %}
 {% tab title="😁" %}
