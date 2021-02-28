@@ -11,20 +11,17 @@ description: 'P : Week Table'
 {% tabs %}
 {% tab title="Sun" %}
 * 11 : 3
-* 11 : 4
-* SQL W1 : 1
-* 딥러닝 모델 알아보기
 {% endtab %}
 
 {% tab title="Mon" %}
 오전
 
-* 11 : 5
-* 8 : 5
+* 11 : 4
+* SQL W1 : 1
 
 오후
 
-* 10 : 5
+* 11 : 5
 * 12 : 1
 
 저녁
@@ -60,7 +57,7 @@ description: 'P : Week Table'
 오후
 
 * 딥러닝 6
-* 확 12
+* AI 8 : 5
 * SQL W1 : 3
 
 저녁
@@ -72,11 +69,11 @@ description: 'P : Week Table'
 오전
 
 * AI 12 : 4
-* 확 13
+* 확 12
 
 오후
 
-* 확 14
+* AI 10 : 5
 * 딥러닝 7
 * SQL W1 : 4
 
@@ -89,13 +86,13 @@ description: 'P : Week Table'
 오전
 
 * AI 12 : 5
-* 확 15
+* 확 13
 
 오후
 
-* 확 16
+* 확 14
+* 확 15
 * 딥러닝 8
-* ML
 
 저녁
 
