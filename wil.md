@@ -1,4 +1,8 @@
-# What I Learn
+---
+description: What I learn
+---
+
+# WIL
 
 > Contents
 
@@ -206,7 +210,57 @@ GAN\(Generative Adversarial Networks\), Style Transfer
 {% tab title="Linear Algebra" %}
 ------
 {% endtab %}
+
+{% tab title="데이터 분석을 위한 SQL" %}
+## 기초
+
+[■](https://sangmandu.gitbook.io/til/2021/jan/29) 0. OT
+
+[■](https://sangmandu.gitbook.io/til/2021/jan/29) 1. 보고 싶은 데이터 꺼내오기
+
+[■](https://sangmandu.gitbook.io/til/2021/jan/29) 2. 조건에 맞는 데이터 검색하기
+
+3. 데이터 순서 정렬하기
+
+4. 마무리
+
+## 중급
+
+0. OT
+
+11. 보고싶은 데이터 요약하기
+
+2. 조건문
+
+3. 두 개 이상의 테이블 결합하기
+
+4. 위 아래로 데이터 이어붙이기
+
+5. 마무리
+
+## 고급
+
+0. OT
+
+11. DML\(Data Manipulation Language\)
+
+2. ERD\(Entity Relationship Diagram\)
+
+3. 서브쿼리
+
+4. 조인 조건이 특이한 문제 풀이
+
+5. 윈도우 함수
+
+6. 정규표현식
+
+7. \[심화\] 사용자정의함수
+
+8. 마무리
+{% endtab %}
 {% endtabs %}
+
+
 
 
 
