@@ -90,7 +90,7 @@ description: 'P : Week Table'
 오후
 
 * 확 14
-* 확 15
+* AI 11 : 5
 * 딥러닝 8
 
 저녁
