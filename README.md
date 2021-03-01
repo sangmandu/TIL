@@ -48,11 +48,11 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
 
-  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)[■■](https://sangmandu.gitbook.io/til/2021/feb/9) [■■](https://sangmandu.gitbook.io/til/2021/feb/10)[■](https://sangmandu.gitbook.io/til/2021/feb/11)[■](https://sangmandu.gitbook.io/til/2021/feb/21)□ □□□□□ □□□□□ □ \[19 / 31\]
+  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)[■■](https://sangmandu.gitbook.io/til/2021/feb/9) [■■](https://sangmandu.gitbook.io/til/2021/feb/10)[■](https://sangmandu.gitbook.io/til/2021/feb/11)[■](https://sangmandu.gitbook.io/til/2021/feb/21)[■](https://sangmandu.gitbook.io/til/2021/feb/24) [■](https://sangmandu.gitbook.io/til/2021/feb/25)□□□□ □□□□□ □ \[21 / 31\]
 
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 기초 SQL \[Lecture\]
 
-  ■■■■■ ■■■■■ ■□□□□ □□ \[11 / 17\]
+  [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)□□□□ □□ \[11 / 17\]
 
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 중급 SQL \[Lecture\]
 
@@ -152,6 +152,8 @@ description: 'Today I Learn : Version 5 ■ □'
 ## Update Log
 
 > Version 5 \(now\)
+>
+> > Modification from \[Page\] What I Learn to \[Page\] WIL
 >
 > > Modification from \[Page\] Learning Progress to \[New Header\] Progress
 > >

@@ -30,6 +30,8 @@ description: 'P : Week Table'
 {% tab title="Tue" %}
 파이썬 딥러닝 파이토치 목차 정리
 
+파이썬 헤드투 퍼스트 목차 정리
+
 AI 12 : 2
 
 확 9
