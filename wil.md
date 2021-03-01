@@ -274,10 +274,6 @@ description: What I learn
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
 {% tabs %}
 {% tab title="😁" %}
 깔끔하게 컨텐츠 구경하기
@@ -348,7 +344,7 @@ description: What I learn
 {% endtab %}
 
 {% tab title="파이썬 딥러닝 파이토치" %}
-------
+
 {% endtab %}
 
 {% tab title="밑바닥부터 시작하는 딥러닝" %}
