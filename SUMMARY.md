@@ -1,9 +1,7 @@
 # Table of contents
 
 * [TIL](README.md)
-* [Learing Progress](lp.md)
 * [What I Learn](wil.md)
-* [What I Do](wid.md)
 * [Plan](p.md)
 
 ## 2021 TIL <a id="2021"></a>

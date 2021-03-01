@@ -1,14 +1,8 @@
 ---
-description: 'Today I Learn : Version 4 ■ □'
+description: 'Today I Learn : Version 5 ■ □'
 ---
 
 # TIL
-
-## Page
-
-#### [Learing Progress](lp.md) /// [What I Learn](wil.md) /// [What I Do](wid.md)
-
-![](.gitbook/assets/image%20%28262%29.png)
 
 ## Progress
 
