@@ -14,9 +14,9 @@ description: 'P : Week Table'
 {% endtab %}
 
 {% tab title="Mon" %}
-1420 12 : 1
+~~1420 12 : 1~~
 
-1500 늦점
+~~1500 늦점~~
 
 1530 SQL W1 : 1
 
