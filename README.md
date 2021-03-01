@@ -38,7 +38,7 @@ description: 'Today I Learn : Version 5 ■ □'
   ■■■■■ □□□□□ □□□□□ □□□ \[5 / 18\]
 
 * [ ] 인프런 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[Lecture\]  
-  [강좌강좌강좌 ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \[27 / 29\]  
+  [ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \[27 / 29\]  
   추가 □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[0 / 25\]  
   부록 □□□□□ □□\[0 / 7\]
 
