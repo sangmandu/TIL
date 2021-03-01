@@ -98,7 +98,7 @@ description: What I learn
 
 [■](https://sangmandu.gitbook.io/til/2021/jan/28) Deep Learning 최적화
 
-□ RNN
+■ RNN
 
 ## **\[9주차\] Big Data**
 
@@ -122,17 +122,31 @@ description: What I learn
 
 [■](https://sangmandu.gitbook.io/til/2021/feb/18) 단어 임베딩
 
-Transformer와 BERT
+■ Transformer와 BERT
 
 ## \[11주차\] Visual Recognition
 
-Visual Recognition : 물체인식, 전이학습기반 커스텀 영상인식, 영상 기반, 이물질 검출
+[■](https://sangmandu.gitbook.io/til/2021/feb/22) Visual Recognition : 물체인식, 전이학습기반 커스텀 영상인식, 영상 기반, 이물질 검출
 
-Visual Recognition : Object Detection, Faster RCNN
+[■](https://sangmandu.gitbook.io/til/2021/feb/23) Visual Recognition : Object Detection, Faster RCNN
 
-Visual Recognition : Object Segmentation, YOLO, SSD 기반의 Object Detection
+■ Visual Recognition : Object Segmentation, YOLO, SSD 기반의 Object Detection
 
-GAN\(Generative Adversarial Networks\), Style Transfer
+■ MaskRCNN, GAN
+
+■ GAN\(Generative Adversarial Networks\), Style Transfer
+
+## \[12주차\] Recommendation System
+
+■ **Recommendation system이란?**
+
+■ **Basic Recommendation System 구현 I**
+
+■ **Basic Recommendation System 구현 II**
+
+■ **Deep Learning 기반의 Recommendation System 구현 I**
+
+■ **Deep Learning 기반의 Recommendation System 구현 II**
 {% endtab %}
 
 {% tab title="Statistics 110" %}
