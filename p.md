@@ -10,7 +10,7 @@ description: 'P : Week Table'
 
 {% tabs %}
 {% tab title="Sun" %}
-* 11 : 3
+* ~~11 : 3~~
 {% endtab %}
 
 {% tab title="Mon" %}
