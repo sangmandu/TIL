@@ -60,8 +60,6 @@ description: 'Today I Learn : Version 5 ■ □'
 
 
 
-
-
 🍚 양식 : https://sangmandu.gitbook.io/til/2021/jan/
 
  🍚  양식 : https://sangmandu.gitbook.io/til/2021/feb/
