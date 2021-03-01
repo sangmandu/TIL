@@ -37,7 +37,7 @@ description: ■ □
 * [ ] Coursera ML \[Lecture\]  
   ■■■■■ □□□□□ □□□□□ □□□ \[5 / 18\]
 
-* [ ] Inflearn 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[lecture\]  
+* [ ] 인프런 단 두 장의 문서로 데이터 분석과 시각화 뽀개기 \[Lecture\]  
   [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/5)□□ \[27 / 29\]  
   □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[0 / 25\]  
   □□□□□ □□\[0 / 7\]
@@ -50,15 +50,15 @@ description: ■ □
 
   [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)[■■](https://sangmandu.gitbook.io/til/2021/feb/9) [■■](https://sangmandu.gitbook.io/til/2021/feb/10)[■](https://sangmandu.gitbook.io/til/2021/feb/11)[■](https://sangmandu.gitbook.io/til/2021/feb/21)□ □□□□□ □□□□□ □ \[19 / 31\]
 
-* [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 기초 SQL
+* [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 기초 SQL \[Lecture\]
 
   ■■■■■ ■■■■■ ■□□□□ □□ \[11 / 17\]
 
-* [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 중급 SQL
+* [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 중급 SQL \[Lecture\]
 
   □□□□□ □□□□□ □□□□□ □□□□□ □□ \[0 / 22\]
 
-* [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 고급 SQL
+* [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 고급 SQL \[Lecture\]
 
   □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□ \[0 / 32\]
 
@@ -71,7 +71,7 @@ description: ■ □
 
 > > **Learned**
 
-* [x] 모두를 위한 딥러닝 강좌 시즌1 \(김성훈 교수님\) \[Chapter\] 
+* [x] 모두를 위한 딥러닝 강좌 시즌1 \(김성훈 교수님\) \[Lecture\] 
 
   ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
 
