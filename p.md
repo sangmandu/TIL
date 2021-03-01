@@ -24,11 +24,11 @@ description: 'P : Week Table'
 
 ~~1900 저녁~~
 
-2000 토치 5 : 3
+~~2000 토치 5 : 3~~
 {% endtab %}
 
 {% tab title="Tue" %}
-
+파이썬 딥러닝 파이토치 목차 정리
 
 AI 12 : 2
 
