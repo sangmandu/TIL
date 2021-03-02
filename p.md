@@ -34,8 +34,6 @@ description: 'P : Week Table'
 
 AI 12 : 2
 
-확 9
-
 
 
 선형대수 4 : 1-3
@@ -49,12 +47,14 @@ AI 12 : 2
 선형대수 5 : 1-3
 
 SQL W1 : 2
+
+확 9 
 {% endtab %}
 
 {% tab title="Wed" %}
 AI 12 : 3
 
-확 11
+확 10
 
 
 
@@ -72,7 +72,7 @@ SQL W1 : 3
 {% tab title="Thu" %}
 AI 12 : 4
 
-확 12
+확 11
 
 
 
@@ -90,7 +90,7 @@ SQL W1 : 4
 {% tab title="Fri" %}
 AI 12 : 5
 
-확 13
+확 12
 
 
 
