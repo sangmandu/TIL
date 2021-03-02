@@ -32,7 +32,7 @@ description: 'Today I Learn : Version 5 ■ □'
   [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[8 / 34\]
 
 * [ ] 인공지능을 위한 선형대수 \[Lecture\]  
-  [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) [■■■](https://sangmandu.gitbook.io/til/2021/feb/12)[■■ ■](https://sangmandu.gitbook.io/til/2021/feb/13)■□□□ □□□□□ □□ \[10 / 27\]
+  [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) [■■■](https://sangmandu.gitbook.io/til/2021/feb/12)[■■ ■](https://sangmandu.gitbook.io/til/2021/feb/13)■[■■■](https://sangmandu.gitbook.io/til/2021/feb/14) [■■](https://sangmandu.gitbook.io/til/2021/feb/20)■[■](https://sangmandu.gitbook.io/til/2021/feb/20)□ □□ \[24 / 27\]
 
 * [ ] Coursera ML \[Lecture\]  
   ■■■■■ □□□□□ □□□□□ □□□ \[5 / 18\]
