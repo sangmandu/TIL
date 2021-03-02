@@ -1,5 +1,5 @@
 ---
-description: What I learn
+description: What I learn ■ □
 ---
 
 # WIL
@@ -7,7 +7,7 @@ description: What I learn
 > Contents
 
 {% tabs %}
-{% tab title="😍" %}
+{% tab title="😍😍😍" %}
 깔끔하게 컨텐츠 구경하기
 {% endtab %}
 
@@ -138,15 +138,15 @@ description: What I learn
 
 ## \[12주차\] Recommendation System
 
-■ **Recommendation system이란?**
+■ Recommendation system이란
 
-■ **Basic Recommendation System 구현 I**
+[■](https://sangmandu.gitbook.io/til/2021/mar/2) Basic Recommendation System 구현 I
 
-■ **Basic Recommendation System 구현 II**
+■ Basic Recommendation System 구현 II
 
-■ **Deep Learning 기반의 Recommendation System 구현 I**
+■ Deep Learning 기반의 Recommendation System 구현 I
 
-■ **Deep Learning 기반의 Recommendation System 구현 II**
+■ Deep Learning 기반의 Recommendation System 구현 II
 {% endtab %}
 
 {% tab title="Statistics 110" %}
@@ -275,7 +275,7 @@ description: What I learn
 {% endtabs %}
 
 {% tabs %}
-{% tab title="😁" %}
+{% tab title="😁😁😁" %}
 깔끔하게 컨텐츠 구경하기
 {% endtab %}
 
@@ -344,16 +344,90 @@ description: What I learn
 {% endtab %}
 
 {% tab title="파이썬 딥러닝 파이토치" %}
+## 01 파이토치 기초
 
+[■](https://sangmandu.gitbook.io/til/2021/feb/4) 파이썬 또는 아나콘다 설치하기
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/4) CUDA, CuDNN 설치하기
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/4) 파이토치 설치하기
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/4) 반드시 알아야 하는 파이토치 스킬
+
+## 02 AI Background
+
+[■ ](https://sangmandu.gitbook.io/til/2021/feb/5)인공지능\(딥러닝\)의 정의와 사례
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/5) 파이토치
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/5) 머신러닝의 정의와 종류
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/5) 과적합
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/6) 인공 신경망
+
+■ 성능 지표
+
+## 03 Deep Learning
+
+[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)
+
+딥러닝의 정의
+
+딥러닝이 발전하게 된 계기
+
+딥러닝의 종류
+
+딥러닝의 발전을 이끈 알고리즘
+
+## 04 컴퓨터 비전
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/9) CNN
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/9) CNN과 MLP
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/10) Data Augmentation
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/10) CNN Architecture
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/11) Transfer Learning
+
+## 05 자연어 처리
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/21) Data & Task : 어떤 데이터가 있을까?
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/24) 문자를 숫자로 표현하는 방법
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/25) Models
+
+Recap
+
+## 06 Other Topics
+
+GAN
+
+강화학습
+
+Domain Adaptation
+
+Continual Learning
+
+Object Detection
+
+Segmentation
+
+Meta Learning
+
+AutoML
 {% endtab %}
 
 {% tab title="밑바닥부터 시작하는 딥러닝" %}
-------
+-------
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
-{% tab title="😜" %}
+{% tab title="😜😜😜" %}
 깔끔하게 컨텐츠 구경하기
 {% endtab %}
 
@@ -362,7 +436,31 @@ description: What I learn
 {% endtab %}
 
 {% tab title="파이썬 헤드 투 퍼스트" %}
-------
+■ 1장 기초: 바로 시작하기 
+
+■ 2장 리스트 데이터: 순서가 있는 데이터로 작업하기 
+
+■ 3장 구조화된 데이터: 구조화된 데이터로 작업하기 
+
+■ 4장 코드 재사용: 함수와 모듈 
+
+5장 웹앱 만들기: 실생활로 다가가기 
+
+6장 데이터 저장과 취급: 데이터를 어디에 저장할 것인가 
+
+7장 데이터베이스 사용하기: 파이썬의 DB-API 사용하기
+
+8장 클래스 맛보기: 동작과 상태 추상화 
+
+9장 컨텍스트 관리 프로토콜: 파이썬의 with 문과 연결하기 
+
+10장 함수 장식자: 함수 장식하기 
+
+11장 예외 처리: 뭔가 잘못되면 어떻게 해야 할까? 
+
+11¾장 스레드 맛보기: 기다림에 대처하는 방법 
+
+12장 고급 반복: 미친 듯이 돌아요 
 {% endtab %}
 
 {% tab title="Inflearn 데이터 분석과 시각화" %}
