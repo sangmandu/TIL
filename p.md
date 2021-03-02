@@ -44,7 +44,7 @@ description: 'P : Week Table'
 
 
 
-SQL W1 : 2
+SQL 기초 : 3-4
 
 확 9 
 {% endtab %}
@@ -60,7 +60,7 @@ AI 12 : 3
 
 AI 8 : 5
 
-SQL W1 : 3
+SQL 중급 : 0-1
 
 
 
@@ -80,7 +80,7 @@ AI 10 : 5
 
 딥러닝 7
 
-SQL W1 : 4
+SQL 중급 : 2
 
 
 
