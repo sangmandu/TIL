@@ -52,7 +52,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 기초 SQL \[Lecture\]
 
-  기초 [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)□□□□ □□ \[11 / 17\]
+  기초 [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/31) \[17 / 17\]
 
   중급 □□□□□ □□□□□ □□□□□ □□□□□ □□ \[0 / 22\]
 
