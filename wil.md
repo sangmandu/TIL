@@ -140,9 +140,9 @@ description: What I learn ■ □
 
 ■ Recommendation system이란
 
-[■](https://sangmandu.gitbook.io/til/2021/mar/2) Basic Recommendation System 구현 I
+[■](https://sangmandu.gitbook.io/til/2021/mar/2) Basic Recommendation System 구현 
 
-■ Basic Recommendation System 구현 II
+[■](https://sangmandu.gitbook.io/til/2021/mar/3) Basic Recommendation System 구현 II
 
 ■ Deep Learning 기반의 Recommendation System 구현 I
 
