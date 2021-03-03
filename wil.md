@@ -234,9 +234,9 @@ description: What I learn ■ □
 
 [■](https://sangmandu.gitbook.io/til/2021/jan/29) 2. 조건에 맞는 데이터 검색하기
 
-3. 데이터 순서 정렬하기
+[■](https://sangmandu.gitbook.io/til/2021/jan/31) 3. 데이터 순서 정렬하기
 
-4. 마무리
+■ 4. 마무리
 
 ## 중급
 
