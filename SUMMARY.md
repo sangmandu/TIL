@@ -7,6 +7,7 @@
 ## 2021 TIL <a id="2021"></a>
 
 * [MAR](2021/mar/README.md)
+  * [3 Wed](2021/mar/3.md)
   * [2 Tue](2021/mar/2.md)
   * [1 Mon](2021/mar/1.md)
 * [FEB](2021/feb/README.md)
