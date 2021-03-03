@@ -463,7 +463,7 @@ AutoML
 ■ 12장 고급 반복: 미친 듯이 돌아요 
 {% endtab %}
 
-{% tab title="Inflearn 데이터 분석과 시각화" %}
+{% tab title="데이터 분석과 시각화" %}
 ------
 {% endtab %}
 {% endtabs %}
