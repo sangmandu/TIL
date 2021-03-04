@@ -52,13 +52,9 @@ description: 'P : Week Table'
 {% endtab %}
 
 {% tab title="Thu" %}
-12시 기상 예정
+AI 12 : 4
 
-1200 점심
-
-1300 AI 12 : 4
-
-1500 SQL 중급 0, 1
+SQL 중급 0, 1
 
 1600 프로젝트 준비
 
