@@ -52,19 +52,13 @@ description: 'P : Week Table'
 {% tab title="Thu" %}
 ~~AI 12 : 4~~
 
-SQL 중급 0, 1
+SQL 중급 0, 1, 2
 
 ~~1600 프로젝트 준비~~
 
 ~~1800 회의, 저녁~~
 
-1900 SQL 중급 2
-
-2100 확 9
-
-2200 PYTHON 1, 2
-
-2300 끝
+PYTHON 1, 2
 {% endtab %}
 
 {% tab title="Fri" %}
