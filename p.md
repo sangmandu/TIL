@@ -4,9 +4,7 @@ description: 'P : Week Table'
 
 # Plan
 
-😂 This Week
-
-> 02.28 ~ 03.06
+😂 Weekly
 
 {% tabs %}
 {% tab title="Sun" %}
@@ -108,13 +106,60 @@ AI
 
 * \[5\] 1-3
 
+파이썬
+
+* 1
+* 2
+* 3
+
 
 
 😱 Next Weeks
 
 > Next
 
-* [ ] 
+* 확률론
+  * 13 14 15 16 17
+* AI
+  * Week 13
+* SQL
+  * 중급 고급
+* Python
+  * 4, 5, 6
+* 
 > NNext
 
-* [ ] 
+
+
+
+
+😍Monthly
+
+> 3월
+>
+> > Python
+> >
+> > SQL
+> >
+> > Data Handling
+> >
+> > AI School
+> >
+> > Statics
+> >
+> > 선형대수 \(edwith\)
+>
+> 4월
+>
+> > 딥러닝 1-4단계 \(edwith\)
+> >
+> > 파이토치로 시작하는 딥러닝 기초 \[강의\]
+> >
+> > 파이토치로 시작하는 딥러닝 입문 \[도서\]
+> >
+> > 딥러닝을 이용한 자연어 처리 \[강의\]
+> >
+> > 딥러닝을 이용한 자연어 처리 \[도서\]
+> >
+> > GAN In Action \[도서\]
+
