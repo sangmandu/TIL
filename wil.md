@@ -144,7 +144,7 @@ description: What I learn ■ □
 
 [■](https://sangmandu.gitbook.io/til/2021/mar/3) Basic Recommendation System 구현 II
 
-■ Deep Learning 기반의 Recommendation System 구현 I
+[■](https://sangmandu.gitbook.io/til/2021/mar/4) Deep Learning 기반의 Recommendation System 구현 I
 
 ■ Deep Learning 기반의 Recommendation System 구현 II
 {% endtab %}
