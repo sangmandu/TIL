@@ -1,9 +1,13 @@
-# What I Learn
+---
+description: What I learn ■ □
+---
+
+# WIL
 
 > Contents
 
 {% tabs %}
-{% tab title="😍" %}
+{% tab title="😍😍😍" %}
 깔끔하게 컨텐츠 구경하기
 {% endtab %}
 
@@ -94,7 +98,7 @@
 
 [■](https://sangmandu.gitbook.io/til/2021/jan/28) Deep Learning 최적화
 
-□ RNN
+■ RNN
 
 ## **\[9주차\] Big Data**
 
@@ -118,17 +122,31 @@
 
 [■](https://sangmandu.gitbook.io/til/2021/feb/18) 단어 임베딩
 
-Transformer와 BERT
+■ Transformer와 BERT
 
 ## \[11주차\] Visual Recognition
 
-Visual Recognition : 물체인식, 전이학습기반 커스텀 영상인식, 영상 기반, 이물질 검출
+[■](https://sangmandu.gitbook.io/til/2021/feb/22) Visual Recognition : 물체인식, 전이학습기반 커스텀 영상인식, 영상 기반, 이물질 검출
 
-Visual Recognition : Object Detection, Faster RCNN
+[■](https://sangmandu.gitbook.io/til/2021/feb/23) Visual Recognition : Object Detection, Faster RCNN
 
-Visual Recognition : Object Segmentation, YOLO, SSD 기반의 Object Detection
+■ Visual Recognition : Object Segmentation, YOLO, SSD 기반의 Object Detection
 
-GAN\(Generative Adversarial Networks\), Style Transfer
+■ MaskRCNN, GAN
+
+■ GAN\(Generative Adversarial Networks\), Style Transfer
+
+## \[12주차\] Recommendation System
+
+■ Recommendation system이란
+
+[■](https://sangmandu.gitbook.io/til/2021/mar/2) Basic Recommendation System 구현 
+
+[■](https://sangmandu.gitbook.io/til/2021/mar/3) Basic Recommendation System 구현 II
+
+[■](https://sangmandu.gitbook.io/til/2021/mar/4) Deep Learning 기반의 Recommendation System 구현 I
+
+■ Deep Learning 기반의 Recommendation System 구현 II
 {% endtab %}
 
 {% tab title="Statistics 110" %}
@@ -206,12 +224,58 @@ GAN\(Generative Adversarial Networks\), Style Transfer
 {% tab title="Linear Algebra" %}
 ------
 {% endtab %}
+
+{% tab title="데이터 분석을 위한 SQL" %}
+## 기초
+
+[■](https://sangmandu.gitbook.io/til/2021/jan/29) 0. OT
+
+[■](https://sangmandu.gitbook.io/til/2021/jan/29) 1. 보고 싶은 데이터 꺼내오기
+
+[■](https://sangmandu.gitbook.io/til/2021/jan/29) 2. 조건에 맞는 데이터 검색하기
+
+[■](https://sangmandu.gitbook.io/til/2021/jan/31) 3. 데이터 순서 정렬하기
+
+■ 4. 마무리
+
+## 중급
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/19) 0. OT
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/19) 1. 보고싶은 데이터 요약하기
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/19) 2. 조건문
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/26) 3. 두 개 이상의 테이블 결합하기
+
+4. 위 아래로 데이터 이어붙이기
+
+5. 마무리
+
+## 고급
+
+0. OT
+
+1. DML\(Data Manipulation Language\)
+
+2. ERD\(Entity Relationship Diagram\)
+
+3. 서브쿼리
+
+4. 조인 조건이 특이한 문제 풀이
+
+5. 윈도우 함수
+
+6. 정규표현식
+
+7. \[심화\] 사용자정의함수
+
+8. 마무리
+{% endtab %}
 {% endtabs %}
 
-
-
 {% tabs %}
-{% tab title="😁" %}
+{% tab title="😁😁😁" %}
 깔끔하게 컨텐츠 구경하기
 {% endtab %}
 
@@ -256,19 +320,19 @@ GAN\(Generative Adversarial Networks\), Style Transfer
 
 ## CHAPTER 4. 고유값 분해
 
-■ 고유벡터와 고유값
+[■](https://sangmandu.gitbook.io/til/2021/feb/14) 고유벡터와 고유값
 
-■ 영공간과 직교여공간
+[■](https://sangmandu.gitbook.io/til/2021/feb/14) 영공간과 직교여공간
 
-■ 특성방정식
+[■](https://sangmandu.gitbook.io/til/2021/feb/14) 특성방정식
 
-■ 대각화
+[■](https://sangmandu.gitbook.io/til/2021/feb/20) 대각화
 
-■ 고유값 분해와 선형변환
+[■](https://sangmandu.gitbook.io/til/2021/feb/20) 고유값 분해와 선형변환
 
 ■ 실습 Ⅲ
 
-■ Further Study
+[■](https://sangmandu.gitbook.io/til/2021/feb/20) Further Study
 
 ## CHAPTER 5 특이값 분해
 
@@ -280,16 +344,90 @@ GAN\(Generative Adversarial Networks\), Style Transfer
 {% endtab %}
 
 {% tab title="파이썬 딥러닝 파이토치" %}
-------
+## 01 파이토치 기초
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/4) 파이썬 또는 아나콘다 설치하기
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/4) CUDA, CuDNN 설치하기
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/4) 파이토치 설치하기
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/4) 반드시 알아야 하는 파이토치 스킬
+
+## 02 AI Background
+
+[■ ](https://sangmandu.gitbook.io/til/2021/feb/5)인공지능\(딥러닝\)의 정의와 사례
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/5) 파이토치
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/5) 머신러닝의 정의와 종류
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/5) 과적합
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/6) 인공 신경망
+
+■ 성능 지표
+
+## 03 Deep Learning
+
+[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)
+
+딥러닝의 정의
+
+딥러닝이 발전하게 된 계기
+
+딥러닝의 종류
+
+딥러닝의 발전을 이끈 알고리즘
+
+## 04 컴퓨터 비전
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/9) CNN
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/9) CNN과 MLP
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/10) Data Augmentation
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/10) CNN Architecture
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/11) Transfer Learning
+
+## 05 자연어 처리
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/21) Data & Task : 어떤 데이터가 있을까?
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/24) 문자를 숫자로 표현하는 방법
+
+[■](https://sangmandu.gitbook.io/til/2021/feb/25) Models
+
+Recap
+
+## 06 Other Topics
+
+GAN
+
+강화학습
+
+Domain Adaptation
+
+Continual Learning
+
+Object Detection
+
+Segmentation
+
+Meta Learning
+
+AutoML
 {% endtab %}
 
 {% tab title="밑바닥부터 시작하는 딥러닝" %}
-------
+-------
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
-{% tab title="😜" %}
+{% tab title="😜😜😜" %}
 깔끔하게 컨텐츠 구경하기
 {% endtab %}
 
@@ -298,10 +436,34 @@ GAN\(Generative Adversarial Networks\), Style Transfer
 {% endtab %}
 
 {% tab title="파이썬 헤드 투 퍼스트" %}
-------
+■ 1장 기초: 바로 시작하기 
+
+■ 2장 리스트 데이터: 순서가 있는 데이터로 작업하기 
+
+■ 3장 구조화된 데이터: 구조화된 데이터로 작업하기 
+
+■ 4장 코드 재사용: 함수와 모듈 
+
+■ 5장 웹앱 만들기: 실생활로 다가가기 
+
+■ 6장 데이터 저장과 취급: 데이터를 어디에 저장할 것인가 
+
+■ 7장 데이터베이스 사용하기: 파이썬의 DB-API 사용하기
+
+■ 8장 클래스 맛보기: 동작과 상태 추상화 
+
+■ 9장 컨텍스트 관리 프로토콜: 파이썬의 with 문과 연결하기 
+
+■ 10장 함수 장식자: 함수 장식하기 
+
+■ 11장 예외 처리: 뭔가 잘못되면 어떻게 해야 할까? 
+
+■ 11¾장 스레드 맛보기: 기다림에 대처하는 방법 
+
+■ 12장 고급 반복: 미친 듯이 돌아요 
 {% endtab %}
 
-{% tab title="Inflearn 데이터 분석과 시각화" %}
+{% tab title="데이터 분석과 시각화" %}
 ------
 {% endtab %}
 {% endtabs %}
