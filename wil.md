@@ -14,15 +14,15 @@ description: What I learn ■ □
 {% tab title="프로그래머스 AI School" %}
 ## **\[1주차\] 파이썬 기초**
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/1) ****어서와! 자료구조와 알고리즘은 처음이지? - 1
+[ 어서와! 자료구조와 알고리즘은 처음이지? - 1 ](https://sangmandu.gitbook.io/til/2020/dec/1)
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/2) 어서와! 자료구조와 알고리즘은 처음이지? - 2
+[어서와! 자료구조와 알고리즘은 처음이지? - 2](https://sangmandu.gitbook.io/til/2020/dec/2)
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/2) 파이썬을 무기로, 코딩테스트 광탈을 면하자! - 1
+[파이썬을 무기로, 코딩테스트 광탈을 면하자! - 1](https://sangmandu.gitbook.io/til/2020/dec/2)
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/3) 파이썬을 무기로, 코딩테스트 광탈을 면하자! - 2
+[파이썬을 무기로, 코딩테스트 광탈을 면하자! - 2](https://sangmandu.gitbook.io/til/2020/dec/3)
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/4) 코딩테스트 더 풀어보기
+[코딩테스트 더 풀어보기](https://sangmandu.gitbook.io/til/2020/dec/4)
 
 ## **\[2주차\] 인공지능 수학**
 
@@ -228,27 +228,27 @@ description: What I learn ■ □
 {% tab title="데이터 분석을 위한 SQL" %}
 ## 기초
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/29) 0. OT
+[0. OT](https://sangmandu.gitbook.io/til/2021/jan/29)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/29) 1. 보고 싶은 데이터 꺼내오기
+[1. 보고 싶은 데이터 꺼내오기](https://sangmandu.gitbook.io/til/2021/jan/29)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/29) 2. 조건에 맞는 데이터 검색하기
+[2. 조건에 맞는 데이터 검색하기](https://sangmandu.gitbook.io/til/2021/jan/29)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/31) 3. 데이터 순서 정렬하기
+[3. 데이터 순서 정렬하기](https://sangmandu.gitbook.io/til/2021/jan/31)
 
-■ 4. 마무리
+4. 마무리
 
 ## 중급
 
-[■](https://sangmandu.gitbook.io/til/2021/feb/19) 0. OT
+0. OT
 
-[■](https://sangmandu.gitbook.io/til/2021/feb/19) 1. 보고싶은 데이터 요약하기
+[1. 보고싶은 데이터 요약하기](https://sangmandu.gitbook.io/til/2021/feb/26)
 
-[■](https://sangmandu.gitbook.io/til/2021/feb/19) 2. 조건문
+[2. 조건문](https://sangmandu.gitbook.io/til/2021/feb/26)
 
-[■](https://sangmandu.gitbook.io/til/2021/feb/26) 3. 두 개 이상의 테이블 결합하기
+[3. 두 개 이상의 테이블 결합하기](https://sangmandu.gitbook.io/til/2021/feb/26)
 
-4. 위 아래로 데이터 이어붙이기
+[4. 위 아래로 데이터 이어붙이기](https://sangmandu.gitbook.io/til/2021/feb/)
 
 5. 마무리
 

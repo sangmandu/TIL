@@ -52,7 +52,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
   기초 [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/31) \[17 / 17\]
 
-  중급 [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/19)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/26)□□ □□ \[18 / 22\]
+  중급 [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/19)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/26)[■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/27) \[18 / 22\]
 
   고급 □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□ \[0 / 32\]
 
