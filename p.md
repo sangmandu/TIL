@@ -19,6 +19,12 @@ sql 4, 5
 
 {% tab title="화" %}
 python 4
+
+확률 9, 10
+
+sql p1
+
+프로젝트 준비
 {% endtab %}
 
 {% tab title="수" %}
@@ -94,6 +100,8 @@ python 4
 > > AI School 
 > >
 > > Statics
+> >
+> > 선형대수
 >
 > 4월
 >
