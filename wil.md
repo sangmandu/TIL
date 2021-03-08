@@ -240,13 +240,13 @@ description: What I learn ■ □
 
 ## 중급
 
-0. OT
+[■](https://sangmandu.gitbook.io/til/2021/feb/19) 0. OT
 
-11. 보고싶은 데이터 요약하기
+[■](https://sangmandu.gitbook.io/til/2021/feb/19) 1. 보고싶은 데이터 요약하기
 
-2. 조건문
+[■](https://sangmandu.gitbook.io/til/2021/feb/19) 2. 조건문
 
-3. 두 개 이상의 테이블 결합하기
+[■](https://sangmandu.gitbook.io/til/2021/feb/26) 3. 두 개 이상의 테이블 결합하기
 
 4. 위 아래로 데이터 이어붙이기
 
@@ -256,7 +256,7 @@ description: What I learn ■ □
 
 0. OT
 
-11. DML\(Data Manipulation Language\)
+1. DML\(Data Manipulation Language\)
 
 2. ERD\(Entity Relationship Diagram\)
 
