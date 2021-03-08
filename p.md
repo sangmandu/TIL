@@ -12,9 +12,9 @@ description: 'P : Week Table'
 {% endtab %}
 
 {% tab title="월" %}
-sql 4, 5
+~~sql 4, 5~~
 
-프로젝트
+~~프로젝트~~
 {% endtab %}
 
 {% tab title="화" %}
@@ -52,6 +52,8 @@ sql p1
 
 * 확률론
   * 9 10 11 12 13
+* 선형대수
+  * 
 * SQL
   * 중급 고급
 * Python
