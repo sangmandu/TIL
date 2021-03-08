@@ -24,7 +24,11 @@ python 4
 
 sql p1
 
+선형대수
+
 프로젝트 준비
+
+취업 계획
 {% endtab %}
 
 {% tab title="수" %}
