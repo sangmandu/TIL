@@ -50,9 +50,9 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 기초 SQL \[Lecture\]
 
-  기초 [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/31) \[17 / 17\]
+  기초 [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/31) \[17\]
 
-  중급 [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/19)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/26)[■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/27) \[18 / 22\]
+  중급 [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/19)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/26)[■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/27) \[22\]
 
   고급 □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□ \[0 / 32\]
 
