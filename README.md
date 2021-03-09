@@ -42,7 +42,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
 
-  ■■■■□ □□□□□□□ \[4 / 12\]
+  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)□ □□□□□□□ \[4 / 12\]
 
 * [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
 
