@@ -18,6 +18,8 @@ description: 'P : Week Table'
 {% endtab %}
 
 {% tab title="화" %}
+프로젝트 준비 - 두 가지 라이브러리 환경설정
+
 python 4
 
 확률 9, 10
@@ -25,8 +27,6 @@ python 4
 sql p1
 
 선형대수 계획 및 공부
-
-프로젝트 준비
 
 취업 계획
 {% endtab %}
