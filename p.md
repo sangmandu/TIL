@@ -7,17 +7,17 @@ description: 'P : Week Table'
 😂 Weekly
 
 {% tabs %}
-{% tab title="일" %}
+{% tab title="SUN" %}
 
 {% endtab %}
 
-{% tab title="월" %}
+{% tab title="MON" %}
 ~~sql 4, 5~~
 
 ~~프로젝트~~
 {% endtab %}
 
-{% tab title="화" %}
+{% tab title="TUE" %}
 프로젝트 준비 - 두 가지 라이브러리 환경설정
 
 ~~python 4~~
@@ -31,19 +31,23 @@ sql p1
 취업 계획
 {% endtab %}
 
-{% tab title="수" %}
+{% tab title="WED" %}
+확률 11
+
+PYTHON 5
+{% endtab %}
+
+{% tab title="THU" %}
+확률 12, 13
+
+PYTHON 6
+{% endtab %}
+
+{% tab title="FRI" %}
 
 {% endtab %}
 
-{% tab title="목" %}
-
-{% endtab %}
-
-{% tab title="금" %}
-
-{% endtab %}
-
-{% tab title="토" %}
+{% tab title="SAT" %}
 
 {% endtab %}
 {% endtabs %}
@@ -72,8 +76,8 @@ sql p1
 * [ ] 3/6 - py 6
 * [ ] 3/7 - 확 11
 * [ ] 3/8 - 확 12 
-* [ ] 3/9 - 
-
+* [ ] 3/9 - 확 13
+* [ ] 
 
 
 😱 Next Weeks
