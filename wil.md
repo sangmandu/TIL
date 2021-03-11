@@ -254,11 +254,11 @@ description: What I learn ■ □
 
 ## 고급
 
-0. OT
+[0. OT](https://sangmandu.gitbook.io/til/2021/mar/11)
 
-1. DML\(Data Manipulation Language\)
+[1. DML\(Data Manipulation Language\)](https://sangmandu.gitbook.io/til/2021/mar/11)
 
-2. ERD\(Entity Relationship Diagram\)
+[2. ERD\(Entity Relationship Diagram\)](https://sangmandu.gitbook.io/til/2021/mar/11)
 
 3. 서브쿼리
 
