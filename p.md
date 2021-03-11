@@ -12,7 +12,7 @@ description: 'P : Week Table'
 | 선형대수 |  |  |  |  |  |  |  |
 | SQL |  |  |  | 고급0,1,2 | 고급3, 4 | 고급 5 |  |
 | Python |  |  |  | 5 | 6 |  |  |
-| 프로젝트 |  |  |  | 옆모습잡기 |  |  |  |
+| 프로젝트 |  |  |  | face tracking | " | " | " |
 | 기타 |  |  |  |  |  |  |  |
 
 > empty TIL
