@@ -63,8 +63,8 @@ description: 'P : Week Table'
     <tr>
       <td style="text-align:center">Python</td>
       <td style="text-align:center"></td>
-      <td style="text-align:center">6</td>
-      <td style="text-align:center">7, 8</td>
+      <td style="text-align:center">7</td>
+      <td style="text-align:center">6, 8</td>
       <td style="text-align:center">9</td>
       <td style="text-align:center">10</td>
       <td style="text-align:center"></td>

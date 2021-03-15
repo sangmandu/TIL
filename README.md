@@ -67,20 +67,20 @@ description: 'Today I Learn : Version 5 ■ □'
 
 > > **Learned**
 
-* [x] [모두를 위한 딥러닝 강좌 시즌1](https://youtu.be/BS6O0zOGX4E) \[Lecture\] 
+* [x] [모두를 위한 딥러닝 강좌 시즌1](https://youtu.be/BS6O0zOGX4E) \[Lecture\] \[50\]
 
   ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
 
-  ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[50\]
+  ■■■■■ ■■■■■ ■■■■■ ■■■■■
 
-* [x] [인공지능을 위한 선형대수](www.edwith.org/linearalgebra4ai) \[Lecture\]  
-  [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) [■■■](https://sangmandu.gitbook.io/til/2021/feb/12)[■■ ■](https://sangmandu.gitbook.io/til/2021/feb/13)■[■■■](https://sangmandu.gitbook.io/til/2021/feb/14) [■■](https://sangmandu.gitbook.io/til/2021/feb/20)■[■](https://sangmandu.gitbook.io/til/2021/feb/20)■ ■■ \[27\]
+* [x] [인공지능을 위한 선형대수](www.edwith.org/linearalgebra4ai) \[Lecture\] \[27\]  
+  [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) [■■■](https://sangmandu.gitbook.io/til/2021/feb/12)[■■ ■](https://sangmandu.gitbook.io/til/2021/feb/13)■[■■■](https://sangmandu.gitbook.io/til/2021/feb/14) [■■](https://sangmandu.gitbook.io/til/2021/feb/20)■[■](https://sangmandu.gitbook.io/til/2021/feb/20)■ ■■
 
-* [x] [프로그래머스 AI school](https://programmers.co.kr/learn/courses/10821)  \[Lecture\] 
+* [x] [프로그래머스 AI school](https://programmers.co.kr/learn/courses/10821)  \[Lecture\] \[60\]
 
   [■](https://sangmandu.gitbook.io/til/2020/dec/1)[■■](https://sangmandu.gitbook.io/til/2020/dec/2)[■](https://sangmandu.gitbook.io/til/2020/dec/3)[■](https://sangmandu.gitbook.io/til/2020/dec/4) [■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/8)[■](https://sangmandu.gitbook.io/til/2020/dec/9)[■](https://sangmandu.gitbook.io/til/2020/dec/10)[■](https://sangmandu.gitbook.io/til/2020/dec/11) [■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/15)[■](https://sangmandu.gitbook.io/til/2020/dec/16)[■](https://sangmandu.gitbook.io/til/2020/dec/17)[■](https://sangmandu.gitbook.io/til/2020/dec/18) [■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2020/dec/26)[■](https://sangmandu.gitbook.io/til/2020/dec/25)[■](https://sangmandu.gitbook.io/til/2020/dec/29)■ [■](https://sangmandu.gitbook.io/til/2021/jan/4)[■■](https://sangmandu.gitbook.io/til/2021/jan/7)[■■](https://sangmandu.gitbook.io/til/2021/jan/8) [■](https://sangmandu.gitbook.io/til/2021/jan/11)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/15)
 
-  [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/19)[■](https://sangmandu.gitbook.io/til/2021/jan/20)[■](https://sangmandu.gitbook.io/til/2021/jan/21)[■](https://sangmandu.gitbook.io/til/2021/jan/22) [■](https://sangmandu.gitbook.io/til/2021/jan/25)[■](https://sangmandu.gitbook.io/til/2021/jan/26)[■](https://sangmandu.gitbook.io/til/2021/jan/27)[■](https://sangmandu.gitbook.io/til/2021/jan/28)■ [■](https://sangmandu.gitbook.io/til/2021/feb/1)[■](https://sangmandu.gitbook.io/til/2021/feb/2)[■](https://sangmandu.gitbook.io/til/2021/feb/3)[■](https://sangmandu.gitbook.io/til/2021/feb/4)[■](https://sangmandu.gitbook.io/til/2021/feb/5) [■](https://sangmandu.gitbook.io/til/2021/feb/15)[■](https://sangmandu.gitbook.io/til/2021/feb/16)[■](https://sangmandu.gitbook.io/til/2021/feb/17)[■](https://sangmandu.gitbook.io/til/2021/feb/18)■ [■](https://sangmandu.gitbook.io/til/2021/feb/22)[■](https://sangmandu.gitbook.io/til/2021/feb/23)■■■ ■[■](https://sangmandu.gitbook.io/til/2021/mar/2)[■](https://sangmandu.gitbook.io/til/2021/mar/3)[■](https://sangmandu.gitbook.io/til/2021/mar/4)■ \[60\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/19)[■](https://sangmandu.gitbook.io/til/2021/jan/20)[■](https://sangmandu.gitbook.io/til/2021/jan/21)[■](https://sangmandu.gitbook.io/til/2021/jan/22) [■](https://sangmandu.gitbook.io/til/2021/jan/25)[■](https://sangmandu.gitbook.io/til/2021/jan/26)[■](https://sangmandu.gitbook.io/til/2021/jan/27)[■](https://sangmandu.gitbook.io/til/2021/jan/28)■ [■](https://sangmandu.gitbook.io/til/2021/feb/1)[■](https://sangmandu.gitbook.io/til/2021/feb/2)[■](https://sangmandu.gitbook.io/til/2021/feb/3)[■](https://sangmandu.gitbook.io/til/2021/feb/4)[■](https://sangmandu.gitbook.io/til/2021/feb/5) [■](https://sangmandu.gitbook.io/til/2021/feb/15)[■](https://sangmandu.gitbook.io/til/2021/feb/16)[■](https://sangmandu.gitbook.io/til/2021/feb/17)[■](https://sangmandu.gitbook.io/til/2021/feb/18)■ [■](https://sangmandu.gitbook.io/til/2021/feb/22)[■](https://sangmandu.gitbook.io/til/2021/feb/23)■■■ ■[■](https://sangmandu.gitbook.io/til/2021/mar/2)[■](https://sangmandu.gitbook.io/til/2021/mar/3)[■](https://sangmandu.gitbook.io/til/2021/mar/4)■
 
 
 
