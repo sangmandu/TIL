@@ -14,15 +14,15 @@ description: What I learn ■ □
 {% tab title="프로그래머스 AI School" %}
 ## **\[1주차\] 파이썬 기초**
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/1) ****어서와! 자료구조와 알고리즘은 처음이지? - 1
+[ 어서와! 자료구조와 알고리즘은 처음이지? - 1 ](https://sangmandu.gitbook.io/til/2020/dec/1)
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/2) 어서와! 자료구조와 알고리즘은 처음이지? - 2
+[어서와! 자료구조와 알고리즘은 처음이지? - 2](https://sangmandu.gitbook.io/til/2020/dec/2)
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/2) 파이썬을 무기로, 코딩테스트 광탈을 면하자! - 1
+[파이썬을 무기로, 코딩테스트 광탈을 면하자! - 1](https://sangmandu.gitbook.io/til/2020/dec/2)
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/3) 파이썬을 무기로, 코딩테스트 광탈을 면하자! - 2
+[파이썬을 무기로, 코딩테스트 광탈을 면하자! - 2](https://sangmandu.gitbook.io/til/2020/dec/3)
 
-[■](https://sangmandu.gitbook.io/til/2020/dec/4) 코딩테스트 더 풀어보기
+[코딩테스트 더 풀어보기](https://sangmandu.gitbook.io/til/2020/dec/4)
 
 ## **\[2주차\] 인공지능 수학**
 
@@ -228,37 +228,37 @@ description: What I learn ■ □
 {% tab title="데이터 분석을 위한 SQL" %}
 ## 기초
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/29) 0. OT
+[0. OT](https://sangmandu.gitbook.io/til/2021/jan/29)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/29) 1. 보고 싶은 데이터 꺼내오기
+[1. 보고 싶은 데이터 꺼내오기](https://sangmandu.gitbook.io/til/2021/jan/29)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/29) 2. 조건에 맞는 데이터 검색하기
+[2. 조건에 맞는 데이터 검색하기](https://sangmandu.gitbook.io/til/2021/jan/29)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/31) 3. 데이터 순서 정렬하기
+[3. 데이터 순서 정렬하기](https://sangmandu.gitbook.io/til/2021/jan/31)
 
-■ 4. 마무리
+4. 마무리
 
 ## 중급
 
-[■](https://sangmandu.gitbook.io/til/2021/feb/19) 0. OT
+0. OT
 
-[■](https://sangmandu.gitbook.io/til/2021/feb/19) 1. 보고싶은 데이터 요약하기
+[1. 보고싶은 데이터 요약하기](https://sangmandu.gitbook.io/til/2021/feb/26)
 
-[■](https://sangmandu.gitbook.io/til/2021/feb/19) 2. 조건문
+[2. 조건문](https://sangmandu.gitbook.io/til/2021/feb/26)
 
-[■](https://sangmandu.gitbook.io/til/2021/feb/26) 3. 두 개 이상의 테이블 결합하기
+[3. 두 개 이상의 테이블 결합하기](https://sangmandu.gitbook.io/til/2021/feb/26)
 
-4. 위 아래로 데이터 이어붙이기
+[4. 위 아래로 데이터 이어붙이기](https://sangmandu.gitbook.io/til/2021/feb/)
 
 5. 마무리
 
 ## 고급
 
-0. OT
+[0. OT](https://sangmandu.gitbook.io/til/2021/mar/11)
 
-1. DML\(Data Manipulation Language\)
+[1. DML\(Data Manipulation Language\)](https://sangmandu.gitbook.io/til/2021/mar/11)
 
-2. ERD\(Entity Relationship Diagram\)
+[2. ERD\(Entity Relationship Diagram\)](https://sangmandu.gitbook.io/til/2021/mar/11)
 
 3. 서브쿼리
 
@@ -436,31 +436,31 @@ AutoML
 {% endtab %}
 
 {% tab title="파이썬 헤드 투 퍼스트" %}
-■ 1장 기초: 바로 시작하기 
+1장 기초: 바로 시작하기 
 
-■ 2장 리스트 데이터: 순서가 있는 데이터로 작업하기 
+2장 리스트 데이터: 순서가 있는 데이터로 작업하기 
 
-■ 3장 구조화된 데이터: 구조화된 데이터로 작업하기 
+3장 구조화된 데이터: 구조화된 데이터로 작업하기 
 
-■ 4장 코드 재사용: 함수와 모듈 
+[4장 코드 재사용: 함수와 모듈 ](https://sangmandu.gitbook.io/til/2021/mar/1)
 
-■ 5장 웹앱 만들기: 실생활로 다가가기 
+5장 웹앱 만들기: 실생활로 다가가기 
 
-■ 6장 데이터 저장과 취급: 데이터를 어디에 저장할 것인가 
+6장 데이터 저장과 취급: 데이터를 어디에 저장할 것인가 
 
-■ 7장 데이터베이스 사용하기: 파이썬의 DB-API 사용하기
+7장 데이터베이스 사용하기: 파이썬의 DB-API 사용하기
 
-■ 8장 클래스 맛보기: 동작과 상태 추상화 
+8장 클래스 맛보기: 동작과 상태 추상화 
 
-■ 9장 컨텍스트 관리 프로토콜: 파이썬의 with 문과 연결하기 
+9장 컨텍스트 관리 프로토콜: 파이썬의 with 문과 연결하기 
 
-■ 10장 함수 장식자: 함수 장식하기 
+10장 함수 장식자: 함수 장식하기 
 
-■ 11장 예외 처리: 뭔가 잘못되면 어떻게 해야 할까? 
+11장 예외 처리: 뭔가 잘못되면 어떻게 해야 할까? 
 
-■ 11¾장 스레드 맛보기: 기다림에 대처하는 방법 
+11¾장 스레드 맛보기: 기다림에 대처하는 방법 
 
-■ 12장 고급 반복: 미친 듯이 돌아요 
+12장 고급 반복: 미친 듯이 돌아요 
 {% endtab %}
 
 {% tab title="데이터 분석과 시각화" %}

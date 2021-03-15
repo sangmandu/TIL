@@ -42,7 +42,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
 
-  ■■■■□ □□□□□□□ \[4 / 12\]
+  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)□ □□□□□□□ \[4 / 12\]
 
 * [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
 
@@ -50,11 +50,11 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 인프런 \[백문이불여일타\] 데이터 분석을 위한 기초 SQL \[Lecture\]
 
-  기초 [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/31) \[17 / 17\]
+  기초 [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/31) \[17\]
 
-  중급 [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/19)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/26)□□ □□ \[18 / 22\]
+  중급 [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/19)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/26)[■■ ■■](https://sangmandu.gitbook.io/til/2021/feb/27) \[22\]
 
-  고급 □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□ \[0 / 32\]
+  고급 [■■■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/mar/11) □□□□□ □□□□□ □□□□□ □□□□□ □□ \[0 / 32\]
 
 
 
@@ -99,19 +99,23 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] [프로그래머스 AI 스쿨 1기 \( 20. 11. 30. \| 21. 04. 04. \)](https://programmers.co.kr/learn/courses/10821)
 
+* [ ] 가리고 프로젝트 \(21. 02. 01 \| 21. 04. 04\)
+
+  _OpenCV, dlib 등의 라이브러리와 Face-recognition, Face detection of Mediapipe 모델을 이용하여 image, static video에서 일반인을 모자이크 하는 웹 서비스 제작_
+
 
 
 > > **Did**
 
 * [x] [Inpainting 프로젝트](https://github.com/sangmandu/4SHARP) \(20. 06. 24. \| 20. 12. 17. \)
 
-  _MaskRCNN, Generative Inpainting 모델을 이용하여 모바일 서비스 제공_
+  _OpenCV 등의 라이브러리와 MaskRCNN, Generative Inpainting 모델을 이용하여 이미지에서 특정 사람을 인식하여 마스크를 제공하고 선택된 인물을 제거 후 배경을 예측하여 자연스러운 결과의 이미지를 제공하는모바일 서비스 제작_
 
   \_\_
 
 * [x] [아이트래킹 프로젝트](https://github.com/sangmandu/eyetracking) \(20. 02. 01. \| 20. 06. 30. \)
 
-  _OpenCV, dlib, landmarks 라이브러리를 이용하여 컴퓨팅 환경 제공_
+  _OpenCV, dlib 등의 라이브러리와 Blink 모델을 이용하여 손을 쓰지 않고 동공의 움직임, 깜빡임과 얼굴의 방향 전환으로 컴퓨터를 조작하는컴퓨팅 환경 프로그램 제작_
 
 \_\_
 
