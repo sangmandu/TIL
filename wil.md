@@ -221,7 +221,7 @@ description: What I learn ■ □
 ■ 34강- A Look Ahead
 {% endtab %}
 
-{% tab title="Linear Algebra" %}
+{% tab title="\[칸아카데미\] 모두를 위한 선형대수학" %}
 ## 벡터
 
 선형대수학을 위한 벡터란?
@@ -317,54 +317,6 @@ R3에 있는 열공간을 평면으로 시각화하기
 기저 열과 축열과의 관계
 
 후보 기저의 A의 열공간 생성
-{% endtab %}
-
-{% tab title="데이터 분석을 위한 SQL" %}
-## 기초
-
-[0. OT](https://sangmandu.gitbook.io/til/2021/jan/29)
-
-[1. 보고 싶은 데이터 꺼내오기](https://sangmandu.gitbook.io/til/2021/jan/29)
-
-[2. 조건에 맞는 데이터 검색하기](https://sangmandu.gitbook.io/til/2021/jan/29)
-
-[3. 데이터 순서 정렬하기](https://sangmandu.gitbook.io/til/2021/jan/31)
-
-4. 마무리
-
-## 중급
-
-0. OT
-
-[1. 보고싶은 데이터 요약하기](https://sangmandu.gitbook.io/til/2021/feb/26)
-
-[2. 조건문](https://sangmandu.gitbook.io/til/2021/feb/26)
-
-[3. 두 개 이상의 테이블 결합하기](https://sangmandu.gitbook.io/til/2021/feb/26)
-
-[4. 위 아래로 데이터 이어붙이기](https://sangmandu.gitbook.io/til/2021/feb/)
-
-5. 마무리
-
-## 고급
-
-[0. OT](https://sangmandu.gitbook.io/til/2021/mar/11)
-
-[1. DML\(Data Manipulation Language\)](https://sangmandu.gitbook.io/til/2021/mar/11)
-
-[2. ERD\(Entity Relationship Diagram\)](https://sangmandu.gitbook.io/til/2021/mar/11)
-
-3. 서브쿼리
-
-4. 조인 조건이 특이한 문제 풀이
-
-5. 윈도우 함수
-
-6. 정규표현식
-
-7. \[심화\] 사용자정의함수
-
-8. 마무리
 {% endtab %}
 {% endtabs %}
 
@@ -557,8 +509,70 @@ AutoML
 12장 고급 반복: 미친 듯이 돌아요 
 {% endtab %}
 
-{% tab title="데이터 분석과 시각화" %}
+{% tab title="ㄴㄴ" %}
 ------
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="😎😎😎" %}
+ 
+{% endtab %}
+
+{% tab title="데이터 분석을 위한 SQL" %}
+## 기초
+
+[0. OT](https://sangmandu.gitbook.io/til/2021/jan/29)
+
+[1. 보고 싶은 데이터 꺼내오기](https://sangmandu.gitbook.io/til/2021/jan/29)
+
+[2. 조건에 맞는 데이터 검색하기](https://sangmandu.gitbook.io/til/2021/jan/29)
+
+[3. 데이터 순서 정렬하기](https://sangmandu.gitbook.io/til/2021/jan/31)
+
+4. 마무리
+
+## 중급
+
+0. OT
+
+[1. 보고싶은 데이터 요약하기](https://sangmandu.gitbook.io/til/2021/feb/26)
+
+[2. 조건문](https://sangmandu.gitbook.io/til/2021/feb/26)
+
+[3. 두 개 이상의 테이블 결합하기](https://sangmandu.gitbook.io/til/2021/feb/26)
+
+[4. 위 아래로 데이터 이어붙이기](https://sangmandu.gitbook.io/til/2021/feb/)
+
+5. 마무리
+
+## 고급
+
+[0. OT](https://sangmandu.gitbook.io/til/2021/mar/11)
+
+[1. DML\(Data Manipulation Language\)](https://sangmandu.gitbook.io/til/2021/mar/11)
+
+[2. ERD\(Entity Relationship Diagram\)](https://sangmandu.gitbook.io/til/2021/mar/11)
+
+[3. 서브쿼리](https://sangmandu.gitbook.io/til/2021/mar/12)
+
+[4. 조인 조건이 특이한 문제 풀이](https://sangmandu.gitbook.io/til/2021/mar/12)
+
+[5. 윈도우 함수](https://sangmandu.gitbook.io/til/2021/mar/13)
+
+6. 정규표현식
+
+7. \[심화\] 사용자정의함수
+
+8. 마무리
+{% endtab %}
+
+{% tab title="데이터 분석과 시각화" %}
+
+{% endtab %}
+
+{% tab title="" %}
+
 {% endtab %}
 {% endtabs %}
 
