@@ -23,7 +23,7 @@ description: 'Today I Learn : Version 5 ■ □'
 * [ ] [Statistics 110](https://www.edwith.org/harvardprobability/lecture/29349/) \[Lecture\]  
   [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[8 / 34\]
 
-* [ ] Coursera ML \[Lecture\]  
+* [ ] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\]  
   ■■■■■ □□□□□ □□□□□ □□□ \[5 / 18\]
 
 * [ ] [단 두 장의 문서로 데이터 분석과 시각화 뽀개기](https://inf.run/PLwe) \[Lecture\]
@@ -53,6 +53,18 @@ description: 'Today I Learn : Version 5 ■ □'
   □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□□
 
   □□□□□ □□□□□ □□□□□ \[0 / 45\]
+
+* [ ] 딥러닝 \(신경망과 딥러닝 / 심층 신경망 / ML 프로젝트 / CNN\)
+
+  [Step 1](www.edwith.org/deeplearningai1) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
+
+  ■■■■■ ■■■■■ ■■■■ \[0 / 44\]
+
+  [Step 2](www.edwith.org/deeplearningai2)
+
+  [Step 3](www.edwith.org/deeplearningai3)
+
+  [Step 4](www.edwith.org/deeplearningai4)
 
 
 
@@ -92,7 +104,14 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 딥러닝을 이용한 자연어 처리 입문
 
-* [ ] 
+* [ ] [해석학](http://www.kocw.net/home/cview.do?mty=p&kemId=1223663&ar=relateCourse)
+
+* [ ] [영상 이해를 위한 최적화](https://www.edwith.org/optimization2017/lecture/40600)
+
+* [ ] [다변수함수](https://www.khanacademy.org/math/multivariable-calculus)
+
+* [ ] [CS231N](https://github.com/visionNoob/CS231N_17_KOR_SUB) / [Note](http://holehouse.org/mlclass/)
+
 
 
 ## WID
