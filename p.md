@@ -23,37 +23,38 @@ description: 'P : Week Table'
     <tr>
       <td style="text-align:center">&#xD655;&#xB960;</td>
       <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
       <td style="text-align:center">9, 10</td>
-      <td style="text-align:center">11, 12</td>
+      <td style="text-align:center">11,12</td>
       <td style="text-align:center">13, 14</td>
       <td style="text-align:center">15, 16</td>
       <td style="text-align:center">17, 18</td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:center">&#xC120;&#xD615;&#xB300;&#xC218;</td>
+      <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center">[1] 1-5</td>
       <td style="text-align:center">[1] 6-11</td>
       <td style="text-align:center">[2-4]</td>
       <td style="text-align:center">[5] 1-6</td>
       <td style="text-align:center">[5] 1-7</td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:center">AI</td>
       <td style="text-align:center"></td>
-      <td style="text-align:center">[1] 1-2</td>
-      <td style="text-align:center">[1] 3</td>
-      <td style="text-align:center">[1] 4</td>
-      <td style="text-align:center">[1] 5</td>
-      <td style="text-align:center">[2] 1-2</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:center">SQL/Pandas</td>
       <td style="text-align:center"></td>
-      <td style="text-align:center">P2</td>
+      <td style="text-align:center"><del>P2</del>
+      </td>
       <td style="text-align:center">6-8</td>
       <td style="text-align:center">0-5</td>
       <td style="text-align:center">6-10</td>
@@ -73,8 +74,8 @@ description: 'P : Week Table'
     <tr>
       <td style="text-align:center">&#xD504;&#xB85C;&#xC81D;&#xD2B8;</td>
       <td style="text-align:center"></td>
-      <td style="text-align:center">tracking</td>
-      <td style="text-align:center">&quot;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
@@ -83,14 +84,14 @@ description: 'P : Week Table'
     <tr>
       <td style="text-align:center">&#xAE30;&#xD0C0;</td>
       <td style="text-align:center"></td>
-      <td style="text-align:center">&#xD30C;&#xC774;&#xD1A0;&#xCE58;</td>
+      <td style="text-align:center"></td>
       <td style="text-align:center">
         <p>&#xB358;&#xB358; &#xC9C8;&#xBB38;,</p>
         <p>P2 &#xBB38;&#xC81C;&#xD480;&#xC774;</p>
       </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">&#xD30C;&#xC774;&#xD1A0;&#xCE58;</td>
       <td style="text-align:center"></td>
     </tr>
   </tbody>
