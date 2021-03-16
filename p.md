@@ -75,7 +75,7 @@ description: 'P : Week Table'
       <td style="text-align:center">&#xD504;&#xB85C;&#xC81D;&#xD2B8;</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">Reco &#xACB0;&#xD569;</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
