@@ -6,96 +6,15 @@ description: 'P : Week Table'
 
 😂 Weekly
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:center"></th>
-      <th style="text-align:center">SUN</th>
-      <th style="text-align:center">MON</th>
-      <th style="text-align:center">TUE</th>
-      <th style="text-align:center">WED</th>
-      <th style="text-align:center">THU</th>
-      <th style="text-align:center">FRI</th>
-      <th style="text-align:center">SAT</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center">&#xD655;&#xB960;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">9, 10</td>
-      <td style="text-align:center">11,12</td>
-      <td style="text-align:center">13, 14</td>
-      <td style="text-align:center">15, 16</td>
-      <td style="text-align:center">17, 18</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">&#xC120;&#xD615;&#xB300;&#xC218;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">[1] 1-5</td>
-      <td style="text-align:center">[1] 6-11</td>
-      <td style="text-align:center">[2-4]</td>
-      <td style="text-align:center">[5] 1-6</td>
-      <td style="text-align:center">[5] 1-7</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">AI</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">SQL/Pandas</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><del>P2</del>
-      </td>
-      <td style="text-align:center">6-8</td>
-      <td style="text-align:center">0-5</td>
-      <td style="text-align:center">6-10</td>
-      <td style="text-align:center">11-12</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Python</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">7</td>
-      <td style="text-align:center">6, 8</td>
-      <td style="text-align:center">9</td>
-      <td style="text-align:center">10</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">&#xD504;&#xB85C;&#xC81D;&#xD2B8;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Reco &#xACB0;&#xD569;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">&#xAE30;&#xD0C0;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">
-        <p>&#xB358;&#xB358; &#xC9C8;&#xBB38;,</p>
-        <p>P2 &#xBB38;&#xC81C;&#xD480;&#xC774;</p>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#xD30C;&#xC774;&#xD1A0;&#xCE58;</td>
-      <td style="text-align:center"></td>
-    </tr>
-  </tbody>
-</table>
+|  | SUN | MON | TUE | WED | THU | FRI | SAT |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 확률 |  |  | 9, 10 | 11,12 | 13, 14 | 15, 16 | 17, 18 |
+| 선형대수 |  |  | \[1\] 1-5 | \[1\] 6-11 | \[2-4\] | \[5\] 1-6 | \[5\] 1-7 |
+| AI |  |  |  |  |  |  |  |
+| SQL/Pandas |  | ~~~~ | 6-8 | 0-5 | 6-10 | 11-12 |  |
+| Python |  | 7 | 6, 8 | 9 | 10 |  |  |
+| 프로젝트 |  |  | Reco 결합 |  |  |  |  |
+| 기타 |  |  | P2 문제풀이 |  |  | 파이토치 |  |
 
 > empty TIL
 
