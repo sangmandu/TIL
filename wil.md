@@ -490,7 +490,7 @@ AutoML
 
 [4장 코드 재사용: 함수와 모듈 ](https://sangmandu.gitbook.io/til/2021/mar/1)
 
-5장 웹앱 만들기: 실생활로 다가가기 
+[5장 웹앱 만들기: 실생활로 다가가기](https://sangmandu.gitbook.io/til/2021/mar/5) 
 
 6장 데이터 저장과 취급: 데이터를 어디에 저장할 것인가 
 
