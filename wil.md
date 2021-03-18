@@ -494,7 +494,7 @@ AutoML
 
 [6장 데이터 저장과 취급: 데이터를 어디에 저장할 것인가 ](https://sangmandu.gitbook.io/til/2021/mar/)
 
-[7장 데이터베이스 사용하기: 파이썬의 DB-API 사용하기](https://sangmandu.gitbook.io/til/2021/mar/7)
+[7장 데이터베이스 사용하기: 파이썬의 DB-API 사용하기](https://sangmandu.gitbook.io/til/2021/mar/17)
 
 8장 클래스 맛보기: 동작과 상태 추상화 
 
