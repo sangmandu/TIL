@@ -221,56 +221,102 @@ description: What I learn ■ □
 ■ 34강- A Look Ahead
 {% endtab %}
 
-{% tab title="Linear Algebra" %}
-------
-{% endtab %}
+{% tab title="\[칸아카데미\] 모두를 위한 선형대수학" %}
+## 벡터
 
-{% tab title="데이터 분석을 위한 SQL" %}
-## 기초
+선형대수학을 위한 벡터란?
 
-[0. OT](https://sangmandu.gitbook.io/til/2021/jan/29)
+실좌표공간
 
-[1. 보고 싶은 데이터 꺼내오기](https://sangmandu.gitbook.io/til/2021/jan/29)
+대수와 그래프를 이용한 벡터의 덧셈
 
-[2. 조건에 맞는 데이터 검색하기](https://sangmandu.gitbook.io/til/2021/jan/29)
+벡터와 스칼라의 곱셈
 
-[3. 데이터 순서 정렬하기](https://sangmandu.gitbook.io/til/2021/jan/31)
+벡터 예제
 
-4. 마무리
+단위벡터란?
 
-## 중급
+직선의 매개변수 표현
 
-0. OT
+## 선형결합과 생성
 
-[1. 보고싶은 데이터 요약하기](https://sangmandu.gitbook.io/til/2021/feb/26)
+선형결합과 생성
 
-[2. 조건문](https://sangmandu.gitbook.io/til/2021/feb/26)
+## 선형종속과 독립
 
-[3. 두 개 이상의 테이블 결합하기](https://sangmandu.gitbook.io/til/2021/feb/26)
+선형독립이란?
 
-[4. 위 아래로 데이터 이어붙이기](https://sangmandu.gitbook.io/til/2021/feb/)
+선형독립 더 알아보기
 
-5. 마무리
+선형생성과 선형독립 예제
 
-## 고급
+## 부분공간과 부분공간의 기저
 
-[0. OT](https://sangmandu.gitbook.io/til/2021/mar/11)
+선형 부분공간
 
-[1. DML\(Data Manipulation Language\)](https://sangmandu.gitbook.io/til/2021/mar/11)
+부분공간의 기저
 
-[2. ERD\(Entity Relationship Diagram\)](https://sangmandu.gitbook.io/til/2021/mar/11)
+## 벡터의 내적과 외적
 
-3. 서브쿼리
+벡터의 내적과 벡터의 길이
 
-4. 조인 조건이 특이한 문제 풀이
+벡터 내적의 성질 증명
 
-5. 윈도우 함수
+코시-슈바르츠 부등식의 증명
 
-6. 정규표현식
+벡터의 삼각부등식
 
-7. \[심화\] 사용자정의함수
+벡터 사이의 각 정의하기
 
-8. 마무리
+점과 법선벡터를 이용하여 R3에서 평면 정의하기
+
+벡터의 외적이란?
+
+증명 : 외적과 각의 사인값과의 관계
+
+내적과 외적의 비교/직관
+
+벡터의 삼중적의 확장
+
+평면방정식의 법선 벡터
+
+점과 평면 사이의 거리
+
+평면 사이의 거리
+
+## 가감법으로 연립방정식을 풀기 위한 행렬
+
+행 사다리꼴 행렬을 이용하여 3차연립방정식과 4개의 변수 풀기
+
+행렬을 이용하여 선형계 풀기
+
+행 사다리꼴을 이용하여 선형계는 해가 없다는 것을 알아보기
+
+## 영공간과 열공간
+
+행렬 벡터의 곱
+
+행렬의 영공간이란?
+
+영공간 2 : 행렬의 영공간 계산하기
+
+영공간 3 : 선형 독립과의 관계
+
+행렬의 열공간
+
+영공간과 열공간의 기저
+
+R3에 있는 열공간을 평면으로 시각화하기
+
+증명 : 어떠한 부분간의 기저도 원소의 수가 같습니다.
+
+영공간의 차원
+
+열공간의 차원
+
+기저 열과 축열과의 관계
+
+후보 기저의 A의 열공간 생성
 {% endtab %}
 {% endtabs %}
 
@@ -444,11 +490,11 @@ AutoML
 
 [4장 코드 재사용: 함수와 모듈 ](https://sangmandu.gitbook.io/til/2021/mar/1)
 
-5장 웹앱 만들기: 실생활로 다가가기 
+[5장 웹앱 만들기: 실생활로 다가가기](https://sangmandu.gitbook.io/til/2021/mar/5) 
 
-6장 데이터 저장과 취급: 데이터를 어디에 저장할 것인가 
+[6장 데이터 저장과 취급: 데이터를 어디에 저장할 것인가 ](https://sangmandu.gitbook.io/til/2021/mar/)
 
-7장 데이터베이스 사용하기: 파이썬의 DB-API 사용하기
+[7장 데이터베이스 사용하기: 파이썬의 DB-API 사용하기](https://sangmandu.gitbook.io/til/2021/mar/17)
 
 8장 클래스 맛보기: 동작과 상태 추상화 
 
@@ -463,8 +509,145 @@ AutoML
 12장 고급 반복: 미친 듯이 돌아요 
 {% endtab %}
 
-{% tab title="데이터 분석과 시각화" %}
+{% tab title="ㄴㄴ" %}
 ------
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="😎😎😎" %}
+ 
+{% endtab %}
+
+{% tab title="데이터 분석을 위한 SQL" %}
+## 기초
+
+[0. OT](https://sangmandu.gitbook.io/til/2021/jan/29)
+
+[1. 보고 싶은 데이터 꺼내오기](https://sangmandu.gitbook.io/til/2021/jan/29)
+
+[2. 조건에 맞는 데이터 검색하기](https://sangmandu.gitbook.io/til/2021/jan/29)
+
+[3. 데이터 순서 정렬하기](https://sangmandu.gitbook.io/til/2021/jan/31)
+
+4. 마무리
+
+## 중급
+
+0. OT
+
+[1. 보고싶은 데이터 요약하기](https://sangmandu.gitbook.io/til/2021/feb/26)
+
+[2. 조건문](https://sangmandu.gitbook.io/til/2021/feb/26)
+
+[3. 두 개 이상의 테이블 결합하기](https://sangmandu.gitbook.io/til/2021/feb/26)
+
+[4. 위 아래로 데이터 이어붙이기](https://sangmandu.gitbook.io/til/2021/feb/)
+
+5. 마무리
+
+## 고급
+
+[0. OT](https://sangmandu.gitbook.io/til/2021/mar/11)
+
+[1. DML\(Data Manipulation Language\)](https://sangmandu.gitbook.io/til/2021/mar/11)
+
+[2. ERD\(Entity Relationship Diagram\)](https://sangmandu.gitbook.io/til/2021/mar/11)
+
+[3. 서브쿼리](https://sangmandu.gitbook.io/til/2021/mar/12)
+
+[4. 조인 조건이 특이한 문제 풀이](https://sangmandu.gitbook.io/til/2021/mar/12)
+
+[5. 윈도우 함수](https://sangmandu.gitbook.io/til/2021/mar/13)
+
+[6. 정규표현식](https://sangmandu.gitbook.io/til/2021/mar/16)
+
+[7. \[심화\] 사용자정의함수](https://sangmandu.gitbook.io/til/2021/mar/16)
+
+8. 마무리
+{% endtab %}
+
+{% tab title="데이터 분석과 시각화" %}
+## 본문
+
+0\) 판다스 강좌 소개
+
+1\) 판다스 데이터프레임\(DataFrame\)과 시리즈\(Series\) 이해하기
+
+2\) 판다스 데이터프레임 생성하고 데이터 가져오기  
+3\) 판다스 데이터프레임 비교연산자로 색인하기, drop\_duplicates\(\)  
+4\) Logic in Python \(and pandas\) - and, or, not, xor, any, all 연산 이해하기  
+5\) head, tail로 데이터 미리보기 df.sample\(frac=0.5\), df.sample\(n=10\), df.nlargest, df.nsmallest  
+6\) 일부 컬럼을 기준으로 데이터 가져오기 Subset Variables \(Columns\)  
+7\) 기본 통계 하기 value\_counts, nunique, sum, count, mean, median  
+8\) 판다스로 apply 활용하기 lambda 익명함수 사용하기  
+9\) fillna, dropna로 결측치 다루기  
+10\) assign 으로 새로운 컬럼 만들기, qcut으로 binning, bucketing 하기  
+11\) df.sort\_values, rename, sort\_index, reset\_index로 데이터 프레임 Reshaping 하기  
+12\) melt, pivot 으로 Tidy Data 만들기  
+13\) pd.concat\(\[df1,df2\]\) 시리즈, 데이터프레임 합치기  
+14\) merge로 데이터프레임 합치기 left, right, inner, outer 옵션 사용하기  
+15\) groupby 활용하여 다양한 데이터 집계를 활용하기  
+시계열 데이터 분석 Windows  
+16\) 시계열 데이터\(Time Series Data\) 분석을 위한 판다스 Expanding and Rolling 이해하기  
+17\) 파이썬 판다스로 Series 와 DataFrame 데이터 시각화 하기 소개  
+18\) 파이썬 데이터 시각화 판다스로 bar plot 막대그래프 그리기  
+19\) 파이썬 데이터 시각화 히스토그램과 도수분포표 이해하기, 막대그래프 vs 히스토그램 차이점 이해하기  
+20\) 파이썬 판다스로 차분 diff 값을 구하고 히스토그램으로 표현하기  
+21\) 파이썬 시각화 상자 수염 그림\(box plot\) 그리기  
+22\) 파이썬 데이터 시각화 Area plot, Grid 옵션으로 그래프 격자 만들기  
+23\) 파이썬 데이터 시각화 scatter plot, 산점도 그리기  
+24\) 파이썬 데이터 시각화 히스토그램과 산점도를 보완한 Hexbin plot 그리기  
+25\) Pandas pie plot, 원 그래프, 왜 seaborn 에는 파이차트가 없을까?  
+26\) Scatter Matrix Plot 산점도와 커널밀도함수를 함께 표현해 보도록 합니다.  
+27\) 파이썬 시각화 분포도 그리기, Kernel Density Estimate plot 커널밀도함수, 밀도함수
+
+실습안내와 함께보면 좋을 자료들  
+28\) 소스코드 위치 안내와 다운로드 방법, 추가로 참고하면 좋을 자료들  
+29\) colab\(google colaboratory\) 에서 github 에 있는 파이썬 판다스 실습코드를 실행해 보는 방법
+
+## 판다스로 서울 코로나19 발생동향 분석하기
+
+\[0/25\] 소스코드와 파일 다운로드 위치  
+\[1/25\] 판다스 단 한 줄로 서울시 코로나19 발생동향 수집하기\(사이트 변경으로 부록을 참고해 주세요!\)  
+\[2/25\] 판다스로 분석해볼 내용 소개  
+\[3/25\] 판다스로 수집해 온 CSV 파일 로드하기  
+\[4/25\] 시각화를 위한 한글 폰트 설정  
+\[5/25\] 시계열 데이터 전처리  
+\[6/25\] 확진일자별 빈도 선그래프 그리기 - Pandas plot에 스타일 적용하기  
+\[7/25\] 엑셀에서는 쉽게 되는 그래프에 값 표시하기 pandas plot 에서는 어떻게 해야될까?  
+\[8/25\] 일부 데이터만 잘라서 시각화 하고 싶을때 슬라이싱 기능 사용하기  
+\[9/25\] 월단위로 확진자 추이는 어떻게 될까?  
+\[10/25\] 여러 변수의 빈도수를 구하려면?  
+\[11/25\] 확진자가 없는 날은 데이터프레임에 어떻게 만들까?  
+\[12/25\] 그래프에서 누적확진자수가 너무 커서 일별 확진자 수를 알아보기 어렵다면?  
+\[13/25\] 월별, 요일별 확진자수는 어떻게 달라졌을까?  
+\[14/25\] 거주지\(구\)별 확진자는 어떻게 될까?  
+\[15/25\] 빈도수가 가장 많은 감염경로는?  
+\[16/25\] 감염경로를 모르는 확진수는 월과 주별로 어느정도 차이가 있을까?  
+\[17/25\] 텍스트 안에 있는 접촉번호는 어떻게 추출해야 될까?  
+\[18/25\] 조치사항에서 퇴원여부의 빈도수 구하기  
+\[19/25\] 어느 병원에서 확진자를 가장 많이 치료했을까요?  
+\[20/25\] 해외유입은 어느 지역이 많을까요? 구별로 해외 유입 국가에 대한 차이가 있을까요?  
+\[21/25\] 일자별 해외유입 누적확진자수 구하기  
+\[22/25\] 전체 확진자중 해외 유입 비율은 구마다 얼마나 차이가 있을까요?  
+\[23/25\] 월별 해외 확진자 수 추이는?  
+\[24/25\] groupby vs crosstab vs pivot vs pivot\_table 의 차이는?  
+\[25/25\] 국가별, 구별 해외 유입은 얼마나 차이가 있을까요?
+
+## \(부록\) 서울시 코로나19 발생현황 데이터 수집
+
+\[1/7\] 서울시 코로나 발생현황 데이터 수집 준비하기  
+\[2/7\] 데이터 수집 전 로봇배제표준, 저작권, 무리한 네트워크 요청 확인하기  
+\[3/7\] 브라우저의 네트워크탭과 JSON 파일형식 이해하기  
+\[4/7\] 기존의 read\_html 로 데이터를 읽어올 수 없는 이유와 기존의 수집방법  
+\[5/7\] 네트워크 탭을 보는 방법과 수집할 URL 찾고 요청하기  
+\[6/7\] 전체 데이터를 수집하는 함수를 만들고 반복문으로 전체 데이터 수집하기  
+\[7/7\] 데이터 전처리와 저장하고 확인하기
+{% endtab %}
+
+{% tab title="" %}
+
 {% endtab %}
 {% endtabs %}
 
