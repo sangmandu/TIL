@@ -29,7 +29,7 @@ description: 'Today I Learn : Version 5 ■ □'
 * [ ] [단 두 장의 문서로 데이터 분석과 시각화 뽀개기](https://inf.run/PLwe) \[Lecture\]
 
   기본 [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/5)■■ \[29 / 29\]  
-  추가 □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[0 / 25\]  
+  코로나 동향 분석 □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[0 / 25\]  
   부록 □□□□□ □□\[0 / 7\]
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
