@@ -34,7 +34,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
 
-  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)□□□□□ \[4 / 12\]
+  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)□□□□ \[4 / 12\]
 
 * [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
 
@@ -46,25 +46,13 @@ description: 'Today I Learn : Version 5 ■ □'
 
   □□□□□ □□□□□ □□□□□ \[0 / 45\]
 
-* [ ] 딥러닝 \(신경망과 딥러닝 / 심층 신경망 / ML 프로젝트 / CNN\)
-
-  [Step 1](www.edwith.org/deeplearningai1) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
-
-  ■■■■■ ■■■■■ ■■■■ \[0 / 44\]
-
-  [Step 2](www.edwith.org/deeplearningai2)
-
-  [Step 3](www.edwith.org/deeplearningai3)
-
-  [Step 4](www.edwith.org/deeplearningai4)
-
 
 
 🍚 양식 : https://sangmandu.gitbook.io/til/2021/jan/
 
  🍚  양식 : https://sangmandu.gitbook.io/til/2021/feb/
 
-  양식 : https://sangmandu.gitbook.io/til/2021/mar/
+🍽 양식 : https://sangmandu.gitbook.io/til/2021/mar/
 
   
 
