@@ -570,61 +570,61 @@ AutoML
 {% tab title="데이터 분석과 시각화" %}
 ## **본문**
 
-0\) 판다스 강좌 소개
+[0\) 판다스 강좌 소개](https://sangmandu.gitbook.io/til/2021/jan/1)
 
-1\) 판다스 데이터프레임\(DataFrame\)과 시리즈\(Series\) 이해하기
+[1\) 판다스 데이터프레임\(DataFrame\)과 시리즈\(Series\) 이해하기](https://sangmandu.gitbook.io/til/2021/jan/1)
 
-2\) 판다스 데이터프레임 생성하고 데이터 가져오기
+[2\) 판다스 데이터프레임 생성하고 데이터 가져오기](https://sangmandu.gitbook.io/til/2021/jan/1)
 
-3\) 판다스 데이터프레임 비교연산자로 색인하기, drop\_duplicates\(\)
+[3\) 판다스 데이터프레임 비교연산자로 색인하기, drop\_duplicates\(\)](https://sangmandu.gitbook.io/til/2021/jan/1)
 
-4\) Logic in Python \(and pandas\) - and, or, not, xor, any, all 연산 이해하기
+[4\) Logic in Python \(and pandas\) - and, or, not, xor, any, all 연산 이해하기](https://sangmandu.gitbook.io/til/2021/jan/1)
 
-5\) head, tail로 데이터 미리보기 df.sample\(frac=0.5\), df.sample\(n=10\), df.nlargest, df.nsmallest
+[5\) head, tail로 데이터 미리보기 df.sample\(frac=0.5\), df.sample\(n=10\), df.nlargest, df.nsmallest](https://sangmandu.gitbook.io/til/2021/jan/1)
 
-6\) 일부 컬럼을 기준으로 데이터 가져오기 Subset Variables \(Columns\)
+[6\) 일부 컬럼을 기준으로 데이터 가져오기 Subset Variables \(Columns\)](https://sangmandu.gitbook.io/til/2021/jan/2)
 
-7\) 기본 통계 하기 value\_counts, nunique, sum, count, mean, median
+[7\) 기본 통계 하기 value\_counts, nunique, sum, count, mean, median](https://sangmandu.gitbook.io/til/2021/jan/3)
 
-8\) 판다스로 apply 활용하기 lambda 익명함수 사용하기
+[8\) 판다스로 apply 활용하기 lambda 익명함수 사용하기](https://sangmandu.gitbook.io/til/2021/jan/3)
 
-9\) fillna, dropna로 결측치 다루기
+[9\) fillna, dropna로 결측치 다루기](https://sangmandu.gitbook.io/til/2021/jan/3)
 
-10\) assign 으로 새로운 컬럼 만들기, qcut으로 binning, bucketing 하기
+[10\) assign 으로 새로운 컬럼 만들기, qcut으로 binning, bucketing 하기](https://sangmandu.gitbook.io/til/2021/jan/3)
 
-11\) df.sort\_values, rename, sort\_index, reset\_index로 데이터 프레임 Reshaping 하기
+[11\) df.sort\_values, rename, sort\_index, reset\_index로 데이터 프레임 Reshaping 하기](https://sangmandu.gitbook.io/til/2021/jan/4)
 
-12\) melt, pivot 으로 Tidy Data 만들기
+[12\) melt, pivot 으로 Tidy Data 만들기](https://sangmandu.gitbook.io/til/2021/jan/4)
 
-13\) pd.concat\(\[df1,df2\]\) 시리즈, 데이터프레임 합치기
+[13\) pd.concat\(\[df1,df2\]\) 시리즈, 데이터프레임 합치기](https://sangmandu.gitbook.io/til/2021/jan/4)
 
-14\) merge로 데이터프레임 합치기 left, right, inner, outer 옵션 사용하기
+[14\) merge로 데이터프레임 합치기 left, right, inner, outer 옵션 사용하기](https://sangmandu.gitbook.io/til/2021/jan/4)
 
-15\) groupby 활용하여 다양한 데이터 집계를 활용하기 시계열 데이터 분석 Windows
+[15\) groupby 활용하여 다양한 데이터 집계를 활용하기 시계열 데이터 분석 Windows](https://sangmandu.gitbook.io/til/2021/jan/4)
 
-16\) 시계열 데이터\(Time Series Data\) 분석을 위한 판다스 Expanding and Rolling 이해하기
+[16\) 시계열 데이터\(Time Series Data\) 분석을 위한 판다스 Expanding and Rolling 이해하기](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-17\) 파이썬 판다스로 Series 와 DataFrame 데이터 시각화 하기 소개
+[17\) 파이썬 판다스로 Series 와 DataFrame 데이터 시각화 하기 소개](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-18\) 파이썬 데이터 시각화 판다스로 bar plot 막대그래프 그리기
+[18\) 파이썬 데이터 시각화 판다스로 bar plot 막대그래프 그리기](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-19\) 파이썬 데이터 시각화 히스토그램과 도수분포표 이해하기, 막대그래프 vs 히스토그램 차이점 이해하기
+[19\) 파이썬 데이터 시각화 히스토그램과 도수분포표 이해하기, 막대그래프 vs 히스토그램 차이점 이해하기](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-20\) 파이썬 판다스로 차분 diff 값을 구하고 히스토그램으로 표현하기
+[20\) 파이썬 판다스로 차분 diff 값을 구하고 히스토그램으로 표현하기](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-21\) 파이썬 시각화 상자 수염 그림\(box plot\) 그리기
+[21\) 파이썬 시각화 상자 수염 그림\(box plot\) 그리기](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-22\) 파이썬 데이터 시각화 Area plot, Grid 옵션으로 그래프 격자 만들기
+[22\) 파이썬 데이터 시각화 Area plot, Grid 옵션으로 그래프 격자 만들기](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-23\) 파이썬 데이터 시각화 scatter plot, 산점도 그리기
+[23\) 파이썬 데이터 시각화 scatter plot, 산점도 그리기](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-24\) 파이썬 데이터 시각화 히스토그램과 산점도를 보완한 Hexbin plot 그리기
+[24\) 파이썬 데이터 시각화 히스토그램과 산점도를 보완한 Hexbin plot 그리기](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-25\) Pandas pie plot, 원 그래프, 왜 seaborn 에는 파이차트가 없을까?
+[25\) Pandas pie plot, 원 그래프, 왜 seaborn 에는 파이차트가 없을까?](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-26\) Scatter Matrix Plot 산점도와 커널밀도함수를 함께 표현해 보도록 합니다.
+[26\) Scatter Matrix Plot 산점도와 커널밀도함수를 함께 표현해 보도록 합니다.](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-27\) 파이썬 시각화 분포도 그리기, Kernel Density Estimate plot 커널밀도함수, 밀도함수
+[27\) 파이썬 시각화 분포도 그리기, Kernel Density Estimate plot 커널밀도함수, 밀도함수](https://sangmandu.gitbook.io/til/2021/jan/5)
 
 실습안내와 함께보면 좋을 자료들
 
@@ -636,7 +636,7 @@ AutoML
 
 \[0/25\] 소스코드와 파일 다운로드 위치
 
-\[1/25\] 판다스 단 한 줄로 서울시 코로나19 발생동향 수집하기\(사이트 변경으로 부록을 참고해 주세요!\)
+\[1/25\] 판다스 단 한 줄로 서울시 코로나19 발생동향 수집하기
 
 \[2/25\] 판다스로 분석해볼 내용 소개
 
