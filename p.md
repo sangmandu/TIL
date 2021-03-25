@@ -13,6 +13,8 @@ description: 'P : Week Table'
 - py 9
 - py 10
 - 프젝 : phase 제거, reco 개선
+- 3/20, 21, 22, 23, 24 til wil 추가
+
 
 금요일 26
 - 
