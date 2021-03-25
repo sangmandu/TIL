@@ -8,10 +8,10 @@ description: 'P : Week Table'
 
 ```text
 목요일 25
-- py 7
-- py 8
+@ py 7 
 - py 9
 - py 10
+- py 11
 - 프젝 : phase 제거, reco 개선
 - 3/20, 21, 22, 23, 24 til wil 추가
 
