@@ -152,29 +152,29 @@ description: What I learn ■ □
 {% tab title="Statistics 110" %}
 ## Probability 110
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/8) 1강- 확률과 셈 원리 \(Probability and Counting\)
+[1강- 확률과 셈 원리 \(Probability and Counting\)](https://sangmandu.gitbook.io/til/2021/jan/8)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/12) 2강- 해석을 통한 문제풀이 및 확률의 공리 \(Story Proofs, Axioms of Probability\)
+[2강- 해석을 통한 문제풀이 및 확률의 공리 \(Story Proofs, Axioms of Probability\)](https://sangmandu.gitbook.io/til/2021/jan/12)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/13) 3강- Birthday Problem과 확률의 특성 \(Birthday Problem, Properties of Probability\)
+[3강- Birthday Problem과 확률의 특성 \(Birthday Problem, Properties of Probability\)](https://sangmandu.gitbook.io/til/2021/jan/13)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/14) 4강- 조건부 확률 \(Conditional Probability\)
+[4강- 조건부 확률 \(Conditional Probability\)](https://sangmandu.gitbook.io/til/2021/jan/14)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/17) 5강- 조건부 확률과 전확률정리 \(Conditioning Continued, Law of Total Probability\)
+[5강- 조건부 확률과 전확률정리 \(Conditioning Continued, Law of Total Probability\)](https://sangmandu.gitbook.io/til/2021/jan/17)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/18) 6강- Monty Hall 문제와 심슨의 역설 \(Monty Hall, Simpson's Paradox\)
+[6강- Monty Hall 문제와 심슨의 역설 \(Monty Hall, Simpson's Paradox\)](https://sangmandu.gitbook.io/til/2021/jan/18)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/23) 7강- 도박꾼의 파산 문제와 확률변수 \(Gambler's Ruin and Random Variables\)
+[7강- 도박꾼의 파산 문제와 확률변수 \(Gambler's Ruin and Random Variables\)](https://sangmandu.gitbook.io/til/2021/jan/23)
 
-[■](https://sangmandu.gitbook.io/til/2021/jan/24) 8강- 확률변수와 확률분포 \(Random Variables and Their Distributions\)
+[8강- 확률변수와 확률분포 \(Random Variables and Their Distributions\)](https://sangmandu.gitbook.io/til/2021/jan/24)
 
-■ 9강- 기댓값, 지시확률변수와 선형성 \(Expectation, Indicator Random Variables, Linearity\)
+[9강- 기댓값, 지시확률변수와 선형성 \(Expectation, Indicator Random Variables, Linearity\)](https://sangmandu.gitbook.io/til/2021/jan/30)
 
-■10강- 기댓값 \(Expectation Continued\)
+[10강- 기댓값 \(Expectation Continued\)](https://sangmandu.gitbook.io/til/2021/feb/28)
 
-■ 11강- 포아송분포 \(The Poisson distribution\)
+11강- 포아송분포 \(The Poisson distribution\)
 
-■ 12강- 이산, 연속, 균등분포 \(Discrete vs. Continuous, the Uniform\)
+12강- 이산, 연속, 균등분포 \(Discrete vs. Continuous, the Uniform\)
 
 ■ 13강- 정규분포 \(Normal Distribution\)
 
@@ -688,19 +688,19 @@ AutoML
 
 ## **\(부록\) 서울시 코로나19 발생현황 데이터 수집**
 
-\[1/7\] 서울시 코로나 발생현황 데이터 수집 준비하기
+[\[1/7\] 서울시 코로나 발생현황 데이터 수집 준비하기](https://sangmandu.gitbook.io/til/2021/mar/24)
 
-\[2/7\] 데이터 수집 전 로봇배제표준, 저작권, 무리한 네트워크 요청 확인하기
+[\[2/7\] 데이터 수집 전 로봇배제표준, 저작권, 무리한 네트워크 요청 확인하기](https://sangmandu.gitbook.io/til/2021/mar/24)
 
-\[3/7\] 브라우저의 네트워크탭과 JSON 파일형식 이해하기
+[\[3/7\] 브라우저의 네트워크탭과 JSON 파일형식 이해하기](https://sangmandu.gitbook.io/til/2021/mar/24)
 
-\[4/7\] 기존의 read\_html 로 데이터를 읽어올 수 없는 이유와 기존의 수집방법
+[\[4/7\] 기존의 read\_html 로 데이터를 읽어올 수 없는 이유와 기존의 수집방법](https://sangmandu.gitbook.io/til/2021/mar/24)
 
-\[5/7\] 네트워크 탭을 보는 방법과 수집할 URL 찾고 요청하기
+[\[5/7\] 네트워크 탭을 보는 방법과 수집할 URL 찾고 요청하기](https://sangmandu.gitbook.io/til/2021/mar/24)
 
-\[6/7\] 전체 데이터를 수집하는 함수를 만들고 반복문으로 전체 데이터 수집하기
+[\[6/7\] 전체 데이터를 수집하는 함수를 만들고 반복문으로 전체 데이터 수집하기](https://sangmandu.gitbook.io/til/2021/mar/24)
 
-\[7/7\] 데이터 전처리와 저장하고 확인하기
+[\[7/7\] 데이터 전처리와 저장하고 확인하기](https://sangmandu.gitbook.io/til/2021/mar/24)
 {% endtab %}
 
 {% tab title="............" %}

@@ -21,7 +21,7 @@ description: 'Today I Learn : Version 5 ■ □'
   ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ □□□ \[5 / 8\]
 
 * [ ] [Statistics 110](https://www.edwith.org/harvardprobability/lecture/29349/) \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)□□ □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[8 / 34\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)[■](https://sangmandu.gitbook.io/til/2021/jan/30)[■](https://sangmandu.gitbook.io/til/2021/feb/28) □□□□□ □□□□□ □□□□□ □□□□□ □□□□ \[8 / 34\]
 
 * [ ] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\]  
   ■■■■■ □□□□□ □□□□□ □□□ \[5 / 18\]
@@ -30,15 +30,11 @@ description: 'Today I Learn : Version 5 ■ □'
 
   기본 [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/5)■■ \[29 / 29\]  
   코로나 동향 분석 □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[0 / 25\]  
-  부록 □□□□□ □□\[0 / 7\]
+  부록 [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/24) \[7\]
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
 
   ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)□□□□ \[4 / 12\]
-
-* [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
-
-  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)[■■](https://sangmandu.gitbook.io/til/2021/feb/9) [■■](https://sangmandu.gitbook.io/til/2021/feb/10)[■](https://sangmandu.gitbook.io/til/2021/feb/11)[■](https://sangmandu.gitbook.io/til/2021/feb/21)[■](https://sangmandu.gitbook.io/til/2021/feb/24) [■](https://sangmandu.gitbook.io/til/2021/feb/25)□□□□ □□□□□ □ \[21 / 31\]
 
 * [ ] [\[칸아카데미\] 모두를 위한 선형대수학](https://www.edwith.org/linear-algebra/home) \[Lecture\]
 
@@ -48,11 +44,9 @@ description: 'Today I Learn : Version 5 ■ □'
 
 
 
-🍚 양식 : https://sangmandu.gitbook.io/til/2021/jan/
+🍚 양식 : https://sangmandu.gitbook.io/til/2021/mar/
 
- 🍚  양식 : https://sangmandu.gitbook.io/til/2021/feb/
-
-🍽 양식 : https://sangmandu.gitbook.io/til/2021/mar/
+ 🍚  양식 : https://sangmandu.gitbook.io/til/2021/apr/
 
   
 
@@ -74,7 +68,9 @@ description: 'Today I Learn : Version 5 ■ □'
 
   [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/19)[■](https://sangmandu.gitbook.io/til/2021/jan/20)[■](https://sangmandu.gitbook.io/til/2021/jan/21)[■](https://sangmandu.gitbook.io/til/2021/jan/22) [■](https://sangmandu.gitbook.io/til/2021/jan/25)[■](https://sangmandu.gitbook.io/til/2021/jan/26)[■](https://sangmandu.gitbook.io/til/2021/jan/27)[■](https://sangmandu.gitbook.io/til/2021/jan/28)■ [■](https://sangmandu.gitbook.io/til/2021/feb/1)[■](https://sangmandu.gitbook.io/til/2021/feb/2)[■](https://sangmandu.gitbook.io/til/2021/feb/3)[■](https://sangmandu.gitbook.io/til/2021/feb/4)[■](https://sangmandu.gitbook.io/til/2021/feb/5) [■](https://sangmandu.gitbook.io/til/2021/feb/15)[■](https://sangmandu.gitbook.io/til/2021/feb/16)[■](https://sangmandu.gitbook.io/til/2021/feb/17)[■](https://sangmandu.gitbook.io/til/2021/feb/18)■ [■](https://sangmandu.gitbook.io/til/2021/feb/22)[■](https://sangmandu.gitbook.io/til/2021/feb/23)■■■ ■[■](https://sangmandu.gitbook.io/til/2021/mar/2)[■](https://sangmandu.gitbook.io/til/2021/mar/3)[■](https://sangmandu.gitbook.io/til/2021/mar/4)■
 
-* [x] 데이터 분석을 위한 SQL \[Lecture\]
+  프로젝트 
+
+* [x] 데이터 분석을 위한 SQL \[Lecture\] \[71\]
 
   [기초](https://inf.run/dZWm) [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/31) \[17\]
 
@@ -82,7 +78,9 @@ description: 'Today I Learn : Version 5 ■ □'
 
   [고급](https://inf.run/3s1i) [■■■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/mar/11) [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/12)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/mar/13)[■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/16) \[32\]
 
+* [x] 파이썬 딥러닝 파이토치 \[Chapter\] \[31\]
 
+  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)[■■](https://sangmandu.gitbook.io/til/2021/feb/9) [■■](https://sangmandu.gitbook.io/til/2021/feb/10)[■](https://sangmandu.gitbook.io/til/2021/feb/11)[■](https://sangmandu.gitbook.io/til/2021/feb/21)[■](https://sangmandu.gitbook.io/til/2021/feb/24) [■](https://sangmandu.gitbook.io/til/2021/feb/25)■■■■ ■■■■■ ■
 
 
 
@@ -106,25 +104,29 @@ description: 'Today I Learn : Version 5 ■ □'
 
 > > **Doing**
 
-* [ ] [프로그래머스 AI 스쿨 1기 \( 20. 11. 30. \| 21. 04. 04. \)](https://programmers.co.kr/learn/courses/10821)
 
-* [ ] 가리고 프로젝트 \(21. 02. 01 \| 21. 04. 04\)
-
-  _OpenCV, dlib 등의 라이브러리와 Face-recognition, Face detection of Mediapipe 모델을 이용하여 image, static video에서 일반인을 모자이크 하는 웹 서비스 제작_
 
 
 
 > > **Did**
 
-* [x] [Inpainting 프로젝트](https://github.com/sangmandu/4SHARP) \(20. 06. 24. \| 20. 12. 17. \)
+* [x] [Inpainting Project](https://github.com/sangmandu/4SHARP) \(20. 06. 24. \| 20. 12. 17. \)
 
   _OpenCV 등의 라이브러리와 MaskRCNN, Generative Inpainting 모델을 이용하여 이미지에서 특정 사람을 인식하여 마스크를 제공하고 선택된 인물을 제거 후 배경을 예측하여 자연스러운 결과의 이미지를 제공하는모바일 서비스 제작_
 
   \_\_
 
-* [x] [아이트래킹 프로젝트](https://github.com/sangmandu/eyetracking) \(20. 02. 01. \| 20. 06. 30. \)
+* [x] [Eyetracking Project](https://github.com/sangmandu/eyetracking) \(20. 02. 01. \| 20. 06. 30. \)
 
   _OpenCV, dlib 등의 라이브러리와 Blink 모델을 이용하여 손을 쓰지 않고 동공의 움직임, 깜빡임과 얼굴의 방향 전환으로 컴퓨터를 조작하는컴퓨팅 환경 프로그램 제작_
+
+  \_\_
+
+* [x] [Programmers AI School 1st](https://programmers.co.kr/learn/courses/10821) \( 20. 11. 30. \| 21. 04. 04. \)
+
+* [x] [Face Mosaic Project](https://github.com/sangmandu/GARIGO/) \(21. 02. 01. \| 21. 04. 04. \)
+
+  _OpenCV, dlib 등의 라이브러리와 Face-recognition, Face detection of Mediapipe 모델을 이용하여 image, static video에서 일반인의 얼굴을 모자이크 하고, 학습된 인물은 모자이크 하지 않는 웹 서비스 제작_
 
 \_\_
 
@@ -134,6 +136,8 @@ description: 'Today I Learn : Version 5 ■ □'
 \_\_
 
 ## Principle
+
+> how to write til on what steps
 
 * WHY
 
