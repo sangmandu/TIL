@@ -30,15 +30,11 @@ description: 'Today I Learn : Version 5 ■ □'
 
   기본 [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/5)■■ \[29 / 29\]  
   코로나 동향 분석 □□□□□ □□□□□ □□□□□ □□□□□ □□□□□ \[0 / 25\]  
-  부록 □□□□□ □□\[0 / 7\]
+  부록 [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/24) \[7\]
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
 
   ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)□□□□ \[4 / 12\]
-
-* [ ] 파이썬 딥러닝 파이토치 \[Chapter\]
-
-  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)[■■](https://sangmandu.gitbook.io/til/2021/feb/9) [■■](https://sangmandu.gitbook.io/til/2021/feb/10)[■](https://sangmandu.gitbook.io/til/2021/feb/11)[■](https://sangmandu.gitbook.io/til/2021/feb/21)[■](https://sangmandu.gitbook.io/til/2021/feb/24) [■](https://sangmandu.gitbook.io/til/2021/feb/25)□□□□ □□□□□ □ \[21 / 31\]
 
 * [ ] [\[칸아카데미\] 모두를 위한 선형대수학](https://www.edwith.org/linear-algebra/home) \[Lecture\]
 
@@ -74,7 +70,9 @@ description: 'Today I Learn : Version 5 ■ □'
 
   [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/19)[■](https://sangmandu.gitbook.io/til/2021/jan/20)[■](https://sangmandu.gitbook.io/til/2021/jan/21)[■](https://sangmandu.gitbook.io/til/2021/jan/22) [■](https://sangmandu.gitbook.io/til/2021/jan/25)[■](https://sangmandu.gitbook.io/til/2021/jan/26)[■](https://sangmandu.gitbook.io/til/2021/jan/27)[■](https://sangmandu.gitbook.io/til/2021/jan/28)■ [■](https://sangmandu.gitbook.io/til/2021/feb/1)[■](https://sangmandu.gitbook.io/til/2021/feb/2)[■](https://sangmandu.gitbook.io/til/2021/feb/3)[■](https://sangmandu.gitbook.io/til/2021/feb/4)[■](https://sangmandu.gitbook.io/til/2021/feb/5) [■](https://sangmandu.gitbook.io/til/2021/feb/15)[■](https://sangmandu.gitbook.io/til/2021/feb/16)[■](https://sangmandu.gitbook.io/til/2021/feb/17)[■](https://sangmandu.gitbook.io/til/2021/feb/18)■ [■](https://sangmandu.gitbook.io/til/2021/feb/22)[■](https://sangmandu.gitbook.io/til/2021/feb/23)■■■ ■[■](https://sangmandu.gitbook.io/til/2021/mar/2)[■](https://sangmandu.gitbook.io/til/2021/mar/3)[■](https://sangmandu.gitbook.io/til/2021/mar/4)■
 
-* [x] 데이터 분석을 위한 SQL \[Lecture\]
+  프로젝트 
+
+* [x] 데이터 분석을 위한 SQL \[Lecture\] \[71\]
 
   [기초](https://inf.run/dZWm) [■■■■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jan/29)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jan/31) \[17\]
 
@@ -82,7 +80,9 @@ description: 'Today I Learn : Version 5 ■ □'
 
   [고급](https://inf.run/3s1i) [■■■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/mar/11) [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/12)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/mar/13)[■■ ■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/16) \[32\]
 
+* [x] 파이썬 딥러닝 파이토치 \[Chapter\] \[31\]
 
+  [■■■■](https://sangmandu.gitbook.io/til/2021/feb/4)[■ ■■■](https://sangmandu.gitbook.io/til/2021/feb/5)[■](https://sangmandu.gitbook.io/til/2021/feb/6)[■ ■■](https://sangmandu.gitbook.io/til/2021/feb/7)[■](https://sangmandu.gitbook.io/til/2021/feb/8)[■■](https://sangmandu.gitbook.io/til/2021/feb/9) [■■](https://sangmandu.gitbook.io/til/2021/feb/10)[■](https://sangmandu.gitbook.io/til/2021/feb/11)[■](https://sangmandu.gitbook.io/til/2021/feb/21)[■](https://sangmandu.gitbook.io/til/2021/feb/24) [■](https://sangmandu.gitbook.io/til/2021/feb/25)■■■■ ■■■■■ ■
 
 
 
