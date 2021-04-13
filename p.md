@@ -10,8 +10,6 @@ description: 'P : Week Table'
 
 ```text
 4/13
-- 선형대수 OT
-- 깃(커밋) 정리
 - 프젝 주제, DETECT, RECOGNITION
 - 확률 BLOG 1-10
 
