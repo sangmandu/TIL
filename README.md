@@ -68,7 +68,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
   [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/19)[■](https://sangmandu.gitbook.io/til/2021/jan/20)[■](https://sangmandu.gitbook.io/til/2021/jan/21)[■](https://sangmandu.gitbook.io/til/2021/jan/22) [■](https://sangmandu.gitbook.io/til/2021/jan/25)[■](https://sangmandu.gitbook.io/til/2021/jan/26)[■](https://sangmandu.gitbook.io/til/2021/jan/27)[■](https://sangmandu.gitbook.io/til/2021/jan/28)■ [■](https://sangmandu.gitbook.io/til/2021/feb/1)[■](https://sangmandu.gitbook.io/til/2021/feb/2)[■](https://sangmandu.gitbook.io/til/2021/feb/3)[■](https://sangmandu.gitbook.io/til/2021/feb/4)[■](https://sangmandu.gitbook.io/til/2021/feb/5) [■](https://sangmandu.gitbook.io/til/2021/feb/15)[■](https://sangmandu.gitbook.io/til/2021/feb/16)[■](https://sangmandu.gitbook.io/til/2021/feb/17)[■](https://sangmandu.gitbook.io/til/2021/feb/18)■ [■](https://sangmandu.gitbook.io/til/2021/feb/22)[■](https://sangmandu.gitbook.io/til/2021/feb/23)■■■ ■[■](https://sangmandu.gitbook.io/til/2021/mar/2)[■](https://sangmandu.gitbook.io/til/2021/mar/3)[■](https://sangmandu.gitbook.io/til/2021/mar/4)■
 
-  프로젝트 
+  프로젝트 ■■■■■ ■■■■■ ■ \[11\]
 
 * [x] 데이터 분석을 위한 SQL \[Lecture\] \[71\]
 
