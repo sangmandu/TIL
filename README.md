@@ -21,9 +21,7 @@ description: 'Today I Learn : Version 5 ■ □'
   ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ \[5 / 8\]
 
 * [ ] [Statistics 110](https://www.edwith.org/harvardprobability/lecture/29349/) \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)[■](https://sangmandu.gitbook.io/til/2021/jan/30)[■](https://sangmandu.gitbook.io/til/2021/feb/28) 
-
-   \[8 / 34\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)[■](https://sangmandu.gitbook.io/til/2021/jan/30)[■](https://sangmandu.gitbook.io/til/2021/feb/28) [■](https://sangmandu.gitbook.io/til/2021/mar/7) \[11 / 34\]
 
   [복습](https://blog.naver.com/mykepzzang/220790435335) ■■■■■ ■■■■■ ■■■■■ \[15 / 100\]
 
@@ -34,7 +32,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
   기본 [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/5)
 
-  [■■](https://sangmandu.gitbook.io/til/2021/jan/5)■■ \[29 / 29\]  
+  [■■](https://sangmandu.gitbook.io/til/2021/jan/5)■■ \[29\]  
   실습  \[0 / 25\]  
   부록 [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/24) \[7\]
 
@@ -42,23 +40,17 @@ description: 'Today I Learn : Version 5 ■ □'
 
   ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19) \[8 / 12\]
 
-* [ ] Linear Algebra on Khan Academy \[Lecture\]
+* [ ] [Linear Algebra on Khan Academy](https://ko.khanacademy.org/math/linear-algebra) \[Lecture\]
 
   Vectors and Spaces 
 
-
-
-  \[0 / 41\]
+  [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/apr/8) \[7 / 41\]
 
   Matrix transformations
-
-
 
   \[0 / 56\]
 
   Alternate coordinate systems
-
-
 
   \[0 / 39\]
 
