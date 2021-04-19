@@ -172,7 +172,7 @@ description: What I learn ■ □
 
 [10강- 기댓값 \(Expectation Continued\)](https://sangmandu.gitbook.io/til/2021/feb/28)
 
-11강- 포아송분포 \(The Poisson distribution\)
+[11강- 포아송분포 \(The Poisson distribution\)](https://sangmandu.gitbook.io/til/2021/mar/7)
 
 12강- 이산, 연속, 균등분포 \(Discrete vs. Continuous, the Uniform\)
 
