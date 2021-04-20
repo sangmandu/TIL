@@ -174,11 +174,11 @@ description: What I learn ■ □
 
 [11강- 포아송분포 \(The Poisson distribution\)](https://sangmandu.gitbook.io/til/2021/mar/7)
 
-12강- 이산, 연속, 균등분포 \(Discrete vs. Continuous, the Uniform\)
+[12강- 이산, 연속, 균등분포 \(Discrete vs. Continuous, the Uniform\)](https://sangmandu.gitbook.io/til/2021/mar/8)
 
-■ 13강- 정규분포 \(Normal Distribution\)
+13강- 정규분포 \(Normal Distribution\)
 
-■ 14강- 위치, 척도 및 무의식적인 통계학자의 법칙\(Location, Scale, and LOTUS\)
+14강- 위치, 척도 및 무의식적인 통계학자의 법칙\(Location, Scale, and LOTUS\)
 
 ■ 15강- Midterm Review
 
