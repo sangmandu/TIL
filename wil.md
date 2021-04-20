@@ -766,7 +766,7 @@ AutoML
 {% endtab %}
 
 {% tab title="코인" %}
-## 코인 투자 공식
+## 가상화폐 투자 공식
 
 ### [PART1. 계량 투자](https://sangmandu.gitbook.io/til/2021/apr/28)
 
@@ -782,7 +782,7 @@ AutoML
 
 ### [PART5. 하락장이 와도 끄떡없는 위대한 트레이더들의 조언](https://sangmandu.gitbook.io/til/2021/may/4)
 
-## 자동 매매 프로그램
+## 가상화폐 자동 매매 프로그램
 {% endtab %}
 
 {% tab title="자동 포스팅" %}
