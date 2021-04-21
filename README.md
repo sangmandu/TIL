@@ -26,7 +26,7 @@ description: 'Today I Learn : Version 6 ■ □'
   [복습](https://blog.naver.com/mykepzzang/220790435335) ■■■■■ ■■■■■ ■■■■■ \[15 / 100\]
 
 * [ ] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\]  
-  ■■■■■ \[5 / 18\]
+  ■■■■■ ■ \[5 / 18\]
 
 * [ ] [단 두 장의 문서로 데이터 분석과 시각화 뽀개기](https://inf.run/PLwe) \[Lecture\]
 
