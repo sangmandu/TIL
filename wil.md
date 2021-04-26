@@ -176,17 +176,17 @@ description: What I learn ■ □
 
 [12강- 이산, 연속, 균등분포 \(Discrete vs. Continuous, the Uniform\)](https://sangmandu.gitbook.io/til/2021/mar/8)
 
-13강- 정규분포 \(Normal Distribution\)
+[13강- 정규분포 \(Normal Distribution\)](https://sangmandu.gitbook.io/til/2021/mar/9)
 
-14강- 위치, 척도 및 무의식적인 통계학자의 법칙\(Location, Scale, and LOTUS\)
+[14강- 위치, 척도 및 무의식적인 통계학자의 법칙\(Location, Scale, and LOTUS\)](https://sangmandu.gitbook.io/til/2021/mar/10)
 
-■ 15강- Midterm Review
+15강- Midterm Review
 
-■16강- 지수분포\(Exponential Distribution\)
+16강- 지수분포\(Exponential Distribution\)
 
-■ 17강- 적률생성함수\(Moment Generating Functions\)
+17강- 적률생성함수\(Moment Generating Functions\)
 
-■ 18강- 적률생성함수\_2 \(MGFs Continued\)
+18강- 적률생성함수\_2 \(MGFs Continued\)
 
 ■ 19강- 결합, 조건부, 주변 확률질량함수\(Joint, Conditional, and Marginal Distributions\)
 
