@@ -1,5 +1,5 @@
 ---
-description: 'Today I Learn : Version 6 ■ □'
+description: 'Today I Learn : Version 5 ■ □'
 ---
 
 # TIL
@@ -185,11 +185,7 @@ https://sangmandu.gitbook.io/til/2021/may/
 
 ## Update Log
 
-> Version 6 \(now\)
->
-> > \[New Page\] Time
->
-> Version 5 \(~2021.04.18\)
+> Version 5 \(~now\)
 >
 > > Modification from \[Page\] What I Learn to \[Page\] WIL
 > >
