@@ -30,6 +30,8 @@ description: 'Today I Learn : Version 5 ■ □'
 * [ ] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\]  
   ■■■■■ ■■■■ \[9 / 18\]
 
+  [복습](https://wikidocs.net/4329) ■■■■■ ■■■■ \[9 / 18\]
+
 * [ ] [Linear Algebra on Khan Academy](https://ko.khanacademy.org/math/linear-algebra) \[Lecture\]
 
   Vectors and Spaces 
