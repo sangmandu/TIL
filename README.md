@@ -21,9 +21,11 @@ description: 'Today I Learn : Version 6 ■ □'
   ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ \[5 / 8\]
 
 * [ ] [Statistics 110](https://www.edwith.org/harvardprobability/lecture/29349/) \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)[■](https://sangmandu.gitbook.io/til/2021/jan/30)[■](https://sangmandu.gitbook.io/til/2021/feb/28) [■](https://sangmandu.gitbook.io/til/2021/mar/7)[■](https://sangmandu.gitbook.io/til/2021/mar/8) \[12 / 34\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)[■](https://sangmandu.gitbook.io/til/2021/jan/30)[■](https://sangmandu.gitbook.io/til/2021/feb/28) [■](https://sangmandu.gitbook.io/til/2021/mar/7)[■](https://sangmandu.gitbook.io/til/2021/mar/8)[■](https://sangmandu.gitbook.io/til/2021/mar/9)[■](https://sangmandu.gitbook.io/til/2021/mar/10) \[14 / 34\]
 
-  [복습](https://blog.naver.com/mykepzzang/220790435335) ■■■■■ ■■■■■ ■■■■■ \[15 / 100\]
+  [복습](https://blog.naver.com/mykepzzang/220790435335) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
+
+  ■■■■■ ■■■■■ ■■■■■ \[40 / 100\]
 
 * [ ] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\]  
   ■■■■■ ■ \[5 / 18\]
