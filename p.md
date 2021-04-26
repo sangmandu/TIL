@@ -8,25 +8,9 @@ description: 'P : Week Table'
 
 > 미루지 말자. 매주 계획이 똑같지 않고, 매달 목표가 같지 않기를.
 
+{% embed url="https://docs.google.com/spreadsheets/d/16m9m121z9Vw-EZQYLgb8yfHZD9wtm3AcW-xB6huO70E/edit?usp=sharing" %}
+
 ```text
-4/26
-- 확률 BLOG 26-30 / 31-35 / 36-40 / 41-45 
-- 선형대수 선형, 독립, 부분공간, 벡터의 내적과 외적
-- 확률 13, 14
-- ML 3-2 / 4-1 / 5-1
-
-4/27
-- 확률 15, 16
-
-4/28
-- 확률 17, 18
-
-4/29
-- 확률 19
-
-4/30
-- 확률 20
-
 남는 시간
 - 밑바닥 6, 7, 8
 - 자동매매 4-5 /6-7
