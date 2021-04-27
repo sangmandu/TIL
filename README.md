@@ -58,7 +58,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
 
-  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)[■](https://sangmandu.gitbook.io/til/2021/mar/20)■ \[10 / 12\]
+  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)[■](https://sangmandu.gitbook.io/til/2021/mar/20)[■](https://sangmandu.gitbook.io/til/2021/mar/10) \[10 / 12\]
 
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
@@ -96,7 +96,7 @@ https://sangmandu.gitbook.io/til/2021/may/
 
   [■](https://sangmandu.gitbook.io/til/2021/feb/22)[■](https://sangmandu.gitbook.io/til/2021/feb/23)■■■ ■[■](https://sangmandu.gitbook.io/til/2021/mar/2)[■](https://sangmandu.gitbook.io/til/2021/mar/3)[■](https://sangmandu.gitbook.io/til/2021/mar/4)■
 
-  프로젝트 ■■■■■ ■■■■■ ■ \[11\]
+  프로젝트 [■](https://sangmandu.gitbook.io/til/2021/mar/23)[■](https://sangmandu.gitbook.io/til/2021/mar/25)[■](https://sangmandu.gitbook.io/til/2021/mar/26)[■](https://sangmandu.gitbook.io/til/2021/mar/28)■ ■■■■■ ■ \[11\]
 
 * [x] 데이터 분석을 위한 SQL \[Lecture\] \[71\]
 
