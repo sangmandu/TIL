@@ -180,9 +180,9 @@ description: What I learn ■ □
 
 [14강- 위치, 척도 및 무의식적인 통계학자의 법칙\(Location, Scale, and LOTUS\)](https://sangmandu.gitbook.io/til/2021/mar/10)
 
-15강- Midterm Review
+[15강- Midterm Review](https://sangmandu.gitbook.io/til/2021/mar/14)
 
-16강- 지수분포\(Exponential Distribution\)
+[16강- 지수분포\(Exponential Distribution\)](https://sangmandu.gitbook.io/til/2021/apr/4)
 
 17강- 적률생성함수\(Moment Generating Functions\)
 
