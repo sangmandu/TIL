@@ -552,7 +552,7 @@ AutoML
 
 [9장 컨텍스트 관리 프로토콜: 파이썬의 with 문과 연결하기 ](https://sangmandu.gitbook.io/til/2021/mar/20)
 
-10장 함수 장식자: 함수 장식하기 
+[10장 함수 장식자: 함수 장식하기 ](https://sangmandu.gitbook.io/til/2021/mar/21)
 
 11장 예외 처리: 뭔가 잘못되면 어떻게 해야 할까? 
 
