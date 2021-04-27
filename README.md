@@ -96,7 +96,7 @@ https://sangmandu.gitbook.io/til/2021/may/
 
   [■](https://sangmandu.gitbook.io/til/2021/feb/22)[■](https://sangmandu.gitbook.io/til/2021/feb/23)■■■ ■[■](https://sangmandu.gitbook.io/til/2021/mar/2)[■](https://sangmandu.gitbook.io/til/2021/mar/3)[■](https://sangmandu.gitbook.io/til/2021/mar/4)■
 
-  프로젝트 [■](https://sangmandu.gitbook.io/til/2021/mar/23)[■](https://sangmandu.gitbook.io/til/2021/mar/25)[■](https://sangmandu.gitbook.io/til/2021/mar/26)[■](https://sangmandu.gitbook.io/til/2021/mar/28)■ ■■■■■ ■ \[11\]
+  프로젝트 [■](https://sangmandu.gitbook.io/til/2021/mar/23)[■](https://sangmandu.gitbook.io/til/2021/mar/25)[■](https://sangmandu.gitbook.io/til/2021/mar/26)[■](https://sangmandu.gitbook.io/til/2021/mar/28)[■](https://sangmandu.gitbook.io/til/2021/mar/29) [■](https://sangmandu.gitbook.io/til/2021/mar/30)[■](https://sangmandu.gitbook.io/til/2021/mar/31)[■](https://sangmandu.gitbook.io/til/2021/apr/1)[■](https://sangmandu.gitbook.io/til/2021/apr/2)[■](https://sangmandu.gitbook.io/til/2021/apr/3)  \[10\]
 
 * [x] 데이터 분석을 위한 SQL \[Lecture\] \[71\]
 
