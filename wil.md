@@ -519,7 +519,7 @@ Meta Learning
 AutoML
 {% endtab %}
 
-{% tab title="밑바닥부터 시작하는 딥러닝" %}
+{% tab title="---" %}
 -------
 {% endtab %}
 {% endtabs %}
@@ -529,7 +529,7 @@ AutoML
 깔끔하게 컨텐츠 구경하기
 {% endtab %}
 
-{% tab title="Coursera ML" %}
+{% tab title="---" %}
 ------
 {% endtab %}
 
