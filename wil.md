@@ -184,7 +184,7 @@ description: What I learn ■ □
 
 [16강- 지수분포\(Exponential Distribution\)](https://sangmandu.gitbook.io/til/2021/apr/4)
 
-17강- 적률생성함수\(Moment Generating Functions\)
+[17강- 적률생성함수\(Moment Generating Functions\)](https://sangmandu.gitbook.io/til/2021/apr/5)
 
 18강- 적률생성함수\_2 \(MGFs Continued\)
 
