@@ -3,7 +3,6 @@
 * [TIL](README.md)
 * [WIL](wil.md)
 * [Plan](plan.md)
-* [Trading](trading.md)
 
 ## 2021 TIL <a id="2021"></a>
 
