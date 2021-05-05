@@ -18,7 +18,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] [PyTorch로 시작되는 딥러닝 입문](https://wikidocs.net/52415) \[Chapter\]
 
-  ■■■ \[3 / 14\]
+  ■■■■■ ■■■■■ ■■ \[12 / 14\]
 
 * [ ] [Statistics 110](https://www.edwith.org/harvardprobability/lecture/29349/) \[Lecture\]  
   [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)[■](https://sangmandu.gitbook.io/til/2021/jan/30)[■](https://sangmandu.gitbook.io/til/2021/feb/28) [■](https://sangmandu.gitbook.io/til/2021/mar/7)[■](https://sangmandu.gitbook.io/til/2021/mar/8)[■](https://sangmandu.gitbook.io/til/2021/mar/9)[■](https://sangmandu.gitbook.io/til/2021/mar/10)[■](https://sangmandu.gitbook.io/til/2021/mar/14) [■](https://sangmandu.gitbook.io/til/2021/apr/4)[■](https://sangmandu.gitbook.io/til/2021/apr/5) \[17 / 34\]
