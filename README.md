@@ -58,7 +58,7 @@ description: 'Today I Learn : Version 5 ■ □'
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
 
-  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)[■](https://sangmandu.gitbook.io/til/2021/mar/20)[■](https://sangmandu.gitbook.io/til/2021/mar/10) \[10 / 12\]
+  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)[■](https://sangmandu.gitbook.io/til/2021/mar/20)[■](https://sangmandu.gitbook.io/til/2021/mar/21) \[10 / 13\]
 
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
