@@ -15,7 +15,6 @@ description: 'P : Week Table'
 - 밑바닥 6, 7, 8
 - 링크드인 가입 및 이력서
 - 원티드 가입 및 이력서
-- 깃북 자동 포스팅
 ```
 
 
@@ -63,6 +62,7 @@ description: 'P : Week Table'
 * [ ] 5/21 hfp 11
 * [ ] 5/22 hfp 11 - 3/4
 * [ ] 5/23 hfp 12
+* [ ] 5/24 
 
 
 
