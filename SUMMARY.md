@@ -9,6 +9,7 @@
 
 * [MAY](2021/may/README.md)
   * [8 Sat](2021/may/8.md)
+  * [6 Thu](2021/may/6.md)
   * [5 Wed](2021/may/5.md)
   * [4 Tue](2021/may/4.md)
   * [3 Mon](2021/may/3.md)
