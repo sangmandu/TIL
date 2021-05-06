@@ -28,15 +28,15 @@ description: 'Today I Learn : Version 6 ■ □'
   ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[45 / 100\]
 
 * [ ] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\]  
-  ■■■■■ ■■■■■ ■■■■■ \[10 / 18\]
+  ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[15 / 18\]
 
-  [복습1](https://wikidocs.net/book/587) [복습2](https://junstar92.tistory.com/68) [복습3](http://soopsaram.com/ml/) ■■■■■ ■■■■■ ■■■■■ \[10 / 18\]
+  [복습1](https://wikidocs.net/book/587) [복습2](https://junstar92.tistory.com/68) [복습3](http://soopsaram.com/ml/) ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[15 / 18\]
 
 * [ ] [Linear Algebra on Khan Academy](https://ko.khanacademy.org/math/linear-algebra) \[Lecture\]
 
   Vectors and Spaces 
 
-  [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/apr/8) \[7 / 41\]
+  [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/apr/8)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/9)[■■ ■■■■](https://sangmandu.gitbook.io/til/2021/apr/10)  \[19 / 41\]
 
   Matrix transformations
 
@@ -46,7 +46,7 @@ description: 'Today I Learn : Version 6 ■ □'
 
   \[0 / 39\]
 
-  복습 \[0 / 26\]
+  [복습](https://blog.naver.com/mykepzzang/220980135803) \[0 / 26\]
 
 * [ ] [단 두 장의 문서로 데이터 분석과 시각화 뽀개기](https://inf.run/PLwe) \[Lecture\]
 
@@ -66,11 +66,9 @@ description: 'Today I Learn : Version 6 ■ □'
 
 
 
-🍚 양식 : https://sangmandu.gitbook.io/til/2021/mar/
+🍚 양식 : https://sangmandu.gitbook.io/til/2021/may/
 
  🍚  양식 : https://sangmandu.gitbook.io/til/2021/apr/
-
-https://sangmandu.gitbook.io/til/2021/may/
 
   
 
