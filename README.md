@@ -1,5 +1,5 @@
 ---
-description: 'Today I Learn : Version 5 ■ □'
+description: 'Today I Learn : Version 6 ■ □'
 ---
 
 # TIL
@@ -28,9 +28,9 @@ description: 'Today I Learn : Version 5 ■ □'
   ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[45 / 100\]
 
 * [ ] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\]  
-  ■■■■■ ■■■■ \[10 / 18\]
+  ■■■■■ ■■■■■ ■■■■■ \[10 / 18\]
 
-  [복습](https://wikidocs.net/4329) [복습](http://soopsaram.com/ml/) ■■■■■ ■■■■ \[10 / 18\]
+  [복습1](https://wikidocs.net/book/587) [복습2](https://junstar92.tistory.com/68) [복습3](http://soopsaram.com/ml/) ■■■■■ ■■■■■ ■■■■■ \[10 / 18\]
 
 * [ ] [Linear Algebra on Khan Academy](https://ko.khanacademy.org/math/linear-algebra) \[Lecture\]
 
@@ -116,13 +116,7 @@ https://sangmandu.gitbook.io/til/2021/may/
 
 
 
-
-
 > > **Will learn**
-
-
-
-## 
 
 
 
@@ -157,7 +151,15 @@ https://sangmandu.gitbook.io/til/2021/may/
 
 ## Update Log
 
-> Version 5 \(~now\)
+> Version 6 \(~now\)
+>
+> > \[New Page\] Portfolio
+> >
+> > Modification \[Header\] Did from \[Page\] TIL to \[Page\] Portfolio
+> >
+> > \[New Header\] Who, Road I have walked, Certification on \[Page\]
+>
+> Version 5 \(~2021. 05. 05\)
 >
 > > Modification from \[Page\] What I Learn to \[Page\] WIL
 > >
