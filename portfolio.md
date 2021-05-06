@@ -58,7 +58,7 @@
 
 🃏 워드프로세스 1급
 
-![](.gitbook/assets/image%20%28434%29.png)
+![](.gitbook/assets/image%20%28436%29.png)
 
 
 
