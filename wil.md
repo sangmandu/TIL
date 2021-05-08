@@ -242,35 +242,35 @@ description: What I learn ■ □
 
 ### 선형결합과 생성
 
-선형결합과 생성
+[선형결합과 생성](https://sangmandu.gitbook.io/til/2021/apr/9)
 
 ### 선형종속과 독립
 
-선형독립이란?
+[선형독립이란?](https://sangmandu.gitbook.io/til/2021/apr/9)
 
-선형독립 더 알아보기
+[선형독립 더 알아보기](https://sangmandu.gitbook.io/til/2021/apr/9)
 
-선형생성과 선형독립 예제
+[선형생성과 선형독립 예제](https://sangmandu.gitbook.io/til/2021/apr/9)
 
 ### 부분공간과 부분공간의 기저
 
-선형 부분공간
+[선형 부분공간](https://sangmandu.gitbook.io/til/2021/apr/9)
 
-부분공간의 기저
+[부분공간의 기저](https://sangmandu.gitbook.io/til/2021/apr/9)
 
 ### 벡터의 내적과 외적
 
-벡터의 내적과 벡터의 길이
+[벡터의 내적과 벡터의 길이](https://sangmandu.gitbook.io/til/2021/apr/10)
 
-벡터 내적의 성질 증명
+[벡터 내적의 성질 증명](https://sangmandu.gitbook.io/til/2021/apr/10)
 
-코시-슈바르츠 부등식의 증명
+[코시-슈바르츠 부등식의 증명](https://sangmandu.gitbook.io/til/2021/apr/10)
 
-벡터의 삼각부등식
+[벡터의 삼각부등식](https://sangmandu.gitbook.io/til/2021/apr/10)
 
-벡터 사이의 각 정의하기
+[벡터 사이의 각 정의하기](https://sangmandu.gitbook.io/til/2021/apr/10)
 
-점과 법선벡터를 이용하여 R3에서 평면 정의하기
+[점과 법선벡터를 이용하여 R3에서 평면 정의하기](https://sangmandu.gitbook.io/til/2021/apr/10)
 
 벡터의 외적이란?
 
