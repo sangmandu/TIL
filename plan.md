@@ -71,39 +71,33 @@ description: 'P : Week Table'
 > 5월
 
 ```text
-첫째 주 2-8
-* 선대 내적외적 1-6 / 내적외적 7-13 /
-    가감법 1-3, 영공간 1-2 / 영공간 3-7
-* 확률 BLOG 51-55 / 56-60 / 61-65 / 66-70 / 71-75
 * ML 8-2 / 9-1 / 9-2 / 10-1 / 11-1
 * Pytorch Book 13-14
-* Pytorch Basic ML / DNN / CNN
 
 둘째 주 9-15
-* 선대 영공간 8-12 / 함수 1-6 / 함수 7-12 /
+* 확률 19, 20 / 21, 22 / 23, 24
+* 선대 내적외적 7-13, 가감법 1-3, 영공간 1-2 /
+     영공간 3-7, 영공간 8-12 / 함수 1-6 / 함수 7-12 /
     예제 1-6 / 변환 1-5
-* Pytorch Basie RNN
-* NLP-Book 1-2 / 3-5 / 6-7 / 8 / 9
-* NLP 1-2 / 3 / 4 / 5 / 6
+* 확률 BLOG 51-55 / 56-60 / 61-65 / 66-70 / 71-75
+* Pytorch Basie ML / DNN / CNN / RNN
+* Pytorch Book 
+
 
 
 셋째 주 16-22
 * 선대 역함수 1-6 / 역함수 7-9, 역수 1-3 / 
     역수 4-7, 심화 1-2 / 심화 3-7 /
     심화 8-9, 전치행렬 1-3
-* NLP-Book 10 / 11 / 12 / 13 / 14-16
-* Recommendation
-https://www.udemy.com/course/recommender-systems/
+
 
 넷째 주 23-29
-* 확률 18 / 19 / 20
+
 * 선대 전치행렬 6-9 / 직교보 1-5 /
     직교뵤 6-7, 정사영 1-3 / 선대 정사영 4-9 /
     기저변환 1-5 /
     기저변환 6-7, 정규직교 1-4 /
     정규직교 5-9, 고유값 1 / 고유값 2-7
-* NLP-Book 17-18 / 19-20
-https://www.udemy.com/course/spark-and-python-for-big-data-with-pyspark/
 ```
 
 
@@ -112,7 +106,7 @@ https://www.udemy.com/course/spark-and-python-for-big-data-with-pyspark/
 
 ```text
 첫째 주 30-5
-* 확률 21 / 22 / 23 / 24 / 25
+
 
 둘째 주 6-12
 ```
