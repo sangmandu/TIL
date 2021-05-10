@@ -60,6 +60,16 @@ description: 'Today I Learn : Version 6 ■ □'
 
   ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ \[5 / 8\]
 
+* [ ] 파이토치로 시작하는 딥러닝 기초
+
+  BASIC \[0 / 11\]
+
+  DNN \[0 / 8\]
+
+  CNN \[0 / 12\]
+
+  RNN \[0 / 9\]
+
 
 
 🍚 양식 : https://sangmandu.gitbook.io/til/2021/may/
