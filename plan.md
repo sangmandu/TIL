@@ -79,7 +79,8 @@ description: 'P : Week Table'
 * 확률 BLOG 51-55 / 56-60 / 61-65 / 66-70 / 71-75
 * Pytorch Basie ML / DNN / CNN / RNN
 * ML 9-2 / 10-1 / 11-1
-
+* 밑시직 6 / 7/ 8
+* HFP 10 / 11 / 11.75 / 12
 
 
 셋째 주 16-22
