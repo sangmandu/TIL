@@ -24,9 +24,13 @@ description: 'Today I Learn : Version 6 ■ □'
   ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[45 / 100\]
 
 * [ ] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\]  
-  ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[15 / 18\]
+  ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■ \[17 / 18\]
 
-  [복습1](https://wikidocs.net/book/587) [복습2](https://junstar92.tistory.com/68) [복습3](http://soopsaram.com/ml/) ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[15 / 18\]
+  [복습1](https://wikidocs.net/book/587) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■ \[17 / 18\]
+
+  [복습2](https://junstar92.tistory.com/68) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■ \[17 / 18\]
+
+  [복습3](http://soopsaram.com/ml/) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■ \[17 / 18\]
 
 * [ ] [Linear Algebra on Khan Academy](https://ko.khanacademy.org/math/linear-algebra) \[Lecture\]
 
@@ -60,11 +64,11 @@ description: 'Today I Learn : Version 6 ■ □'
 
   ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ \[5 / 8\]
 
-* [ ] 파이토치로 시작하는 딥러닝 기초
+* [ ] [파이토치로 시작하는 딥러닝 기초](https://www.boostcourse.org/ai214/home)\(모두를 위한 딥러닝 강좌 시즌2\)
 
-  BASIC \[0 / 11\]
+  BASIC ■■■■■ ■■■■■ ■\[11 / 11\]
 
-  DNN \[0 / 8\]
+  DNN ■■■■■ ■■■\[8 / 8\]
 
   CNN \[0 / 12\]
 
