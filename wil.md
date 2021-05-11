@@ -186,9 +186,9 @@ description: What I learn ■ □
 
 [17강- 적률생성함수\(Moment Generating Functions\)](https://sangmandu.gitbook.io/til/2021/apr/5)
 
-18강- 적률생성함수\_2 \(MGFs Continued\)
+[18강- 적률생성함수\_2 \(MGFs Continued\)](https://sangmandu.gitbook.io/til/2021/apr/17)
 
-■ 19강- 결합, 조건부, 주변 확률질량함수\(Joint, Conditional, and Marginal Distributions\)
+[19강- 결합, 조건부, 주변 확률질량함수\(Joint, Conditional, and Marginal Distributions\)](https://sangmandu.gitbook.io/til/2021/apr/18)
 
 ■ 20강- 다항분포 및 코시분포\(Multinomial and Cauchy\)
 
