@@ -50,73 +50,73 @@ Monthly Porject
 
 ### \[5~6주차\] 머신러닝 기초\(Machine Learning basics\)
 
-[Probability](https://sangmandu.gitbook.io/til/2020/jan/4)
+[Probability](https://sangmandu.gitbook.io/til/2021/jan/4)
 
-[Decision Theory &Linear Regression / E2E](https://sangmandu.gitbook.io/til/2020/jan/7)
+[Decision Theory &Linear Regression / E2E](https://sangmandu.gitbook.io/til/2021/jan/7)
 
-[Linear Algebra](https://sangmandu.gitbook.io/til/2020/jan/8)
+[Linear Algebra](https://sangmandu.gitbook.io/til/2021/jan/8)
 
-[Probability Distributions](https://sangmandu.gitbook.io/til/2020/jan/11)
+[Probability Distributions](https://sangmandu.gitbook.io/til/2021/jan/11)
 
-[Linear Models for Regression](https://sangmandu.gitbook.io/til/2020/jan/12)
+[Linear Models for Regression](https://sangmandu.gitbook.io/til/2021/jan/12)
 
-[Linear Models for Classification - 1](https://sangmandu.gitbook.io/til/2020/jan/13)
+[Linear Models for Classification - 1](https://sangmandu.gitbook.io/til/2021/jan/13)
 
-[Linear Models for Classification - 2](https://sangmandu.gitbook.io/til/2020/jan/14)
+[Linear Models for Classification - 2](https://sangmandu.gitbook.io/til/2021/jan/14)
 
-[Linear Models for Classification - 3](https://sangmandu.gitbook.io/til/2020/jan/15)
+[Linear Models for Classification - 3](https://sangmandu.gitbook.io/til/2021/jan/15)
 
 ### \[7~8주차\] 딥러닝 \(Deep Learning\)
 
-[인공지능과 기계학습 소개](https://sangmandu.gitbook.io/til/2020/jan/18)
+[인공지능과 기계학습 소개](https://sangmandu.gitbook.io/til/2021/jan/18)
 
-[기계학습과 수학 리뷰](https://sangmandu.gitbook.io/til/2020/jan/19)
+[기계학습과 수학 리뷰](https://sangmandu.gitbook.io/til/2021/jan/19)
 
-[신경망 기초](https://sangmandu.gitbook.io/til/2020/jan/20)
+[신경망 기초](https://sangmandu.gitbook.io/til/2021/jan/20)
 
-[Multi Layer Perceptron](https://sangmandu.gitbook.io/til/2020/jan/21)
+[Multi Layer Perceptron](https://sangmandu.gitbook.io/til/2021/jan/21)
 
-[Deep Learning 기초 - 1](https://sangmandu.gitbook.io/til/2020/jan/22)
+[Deep Learning 기초 - 1](https://sangmandu.gitbook.io/til/2021/jan/22)
 
-[Deep Learning 기초 - 2](https://sangmandu.gitbook.io/til/2020/jan/25)
+[Deep Learning 기초 - 2](https://sangmandu.gitbook.io/til/2021/jan/25)
 
-[Deep Learning 기초 - 3](https://sangmandu.gitbook.io/til/2020/jan/26)
+[Deep Learning 기초 - 3](https://sangmandu.gitbook.io/til/2021/jan/26)
 
-[CNN Models](https://sangmandu.gitbook.io/til/2020/jan/27)
+[CNN Models](https://sangmandu.gitbook.io/til/2021/jan/27)
 
-[Deep Learning 최적화](https://sangmandu.gitbook.io/til/2020/jan/28)
+[Deep Learning 최적화](https://sangmandu.gitbook.io/til/2021/jan/28)
 
 RNN
 
 ### \[9주차\] Big Data
 
-[개요](https://sangmandu.gitbook.io/til/2020/feb/1)
+[개요](https://sangmandu.gitbook.io/til/2021/feb/1)
 
-[Spark I](https://sangmandu.gitbook.io/til/2020/feb/2)
+[Spark I](https://sangmandu.gitbook.io/til/2021/feb/2)
 
-[Spark II](https://sangmandu.gitbook.io/til/2020/feb/3)
+[Spark II](https://sangmandu.gitbook.io/til/2021/feb/3)
 
-[Spark III](https://sangmandu.gitbook.io/til/2020/feb/4)
+[Spark III](https://sangmandu.gitbook.io/til/2021/feb/4)
 
-[Spark IV](https://sangmandu.gitbook.io/til/2020/feb/5)
+[Spark IV](https://sangmandu.gitbook.io/til/2021/feb/5)
 
 ### \[10주차\] NLP
 
-[텍스트 전처리](https://sangmandu.gitbook.io/til/2020/feb/15)
+[텍스트 전처리](https://sangmandu.gitbook.io/til/2021/feb/15)
 
-[언어모델](https://sangmandu.gitbook.io/til/2020/feb/16)
+[언어모델](https://sangmandu.gitbook.io/til/2021/feb/16)
 
-[문서분류](https://sangmandu.gitbook.io/til/2020/feb/17)
+[문서분류](https://sangmandu.gitbook.io/til/2021/feb/17)
 
-[단어 임베딩](https://sangmandu.gitbook.io/til/2020/feb/18)
+[단어 임베딩](https://sangmandu.gitbook.io/til/2021/feb/18)
 
 Transformer와 BERT
 
 ### \[11주차\] Visual Recognition
 
-[Visual Recognition : 물체인식, 전이학습기반 커스텀 영상인식, 영상 기반, 이물질 검출](https://sangmandu.gitbook.io/til/2020/feb/22)
+[Visual Recognition : 물체인식, 전이학습기반 커스텀 영상인식, 영상 기반, 이물질 검출](https://sangmandu.gitbook.io/til/2021/feb/22)
 
-[Visual Recognition : Object Detection, Faster RCNN](https://sangmandu.gitbook.io/til/2020/feb/23)
+[Visual Recognition : Object Detection, Faster RCNN](https://sangmandu.gitbook.io/til/2021/feb/23)
 
 Visual Recognition : Object Segmentation, YOLO, SSD 기반의 Object Detection
 
@@ -128,11 +128,11 @@ GAN\(Generative Adversarial Networks\), Style Transfer
 
 Recommendation system이란
 
-[Basic Recommendation System 구현](https://sangmandu.gitbook.io/til/2020/mar/2)
+[Basic Recommendation System 구현](https://sangmandu.gitbook.io/til/2021/mar/2)
 
-[Basic Recommendation System 구현 II](https://sangmandu.gitbook.io/til/2020/mar/3)
+[Basic Recommendation System 구현 II](https://sangmandu.gitbook.io/til/2021/mar/3)
 
-[Deep Learning 기반의 Recommendation System 구현 I](https://sangmandu.gitbook.io/til/2020/mar/4)
+[Deep Learning 기반의 Recommendation System 구현 I](https://sangmandu.gitbook.io/til/2021/mar/4)
 
 Deep Learning 기반의 Recommendation System 구현 II
 
