@@ -3,6 +3,7 @@
 * [TIL](README.md)
 * [WIL](wil/README.md)
   * [AI School 1st](wil/aishcool.md)
+  * [Linear Algebra](wil/linearalgebra.md)
   * [Statistics110](wil/statistics110.md)
 * [Plan](plan.md)
 * [Portfolio](portfolio.md)
