@@ -1,7 +1,8 @@
 # Table of contents
 
 * [TIL](README.md)
-* [WIL](wil.md)
+* [WIL](wil/README.md)
+  * [Statistics110](wil/statistics110.md)
 * [Plan](plan.md)
 * [Portfolio](portfolio.md)
 
