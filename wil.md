@@ -190,7 +190,7 @@ description: What I learn ■ □
 
 [19강- 결합, 조건부, 주변 확률질량함수\(Joint, Conditional, and Marginal Distributions\)](https://sangmandu.gitbook.io/til/2021/apr/18)
 
-■ 20강- 다항분포 및 코시분포\(Multinomial and Cauchy\)
+[20강- 다항분포 및 코시분포\(Multinomial and Cauchy\)](https://sangmandu.gitbook.io/til/2021/apr/19)
 
 ■ 21강- 공분산과 상관계수\(Covariance and Correlation\)
 
