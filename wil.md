@@ -176,17 +176,17 @@ description: What I learn ■ □
 
 [12강- 이산, 연속, 균등분포 \(Discrete vs. Continuous, the Uniform\)](https://sangmandu.gitbook.io/til/2021/mar/8)
 
-13강- 정규분포 \(Normal Distribution\)
+[13강- 정규분포 \(Normal Distribution\)](https://sangmandu.gitbook.io/til/2021/mar/9)
 
-14강- 위치, 척도 및 무의식적인 통계학자의 법칙\(Location, Scale, and LOTUS\)
+[14강- 위치, 척도 및 무의식적인 통계학자의 법칙\(Location, Scale, and LOTUS\)](https://sangmandu.gitbook.io/til/2021/mar/10)
 
-■ 15강- Midterm Review
+[15강- Midterm Review](https://sangmandu.gitbook.io/til/2021/mar/14)
 
-■16강- 지수분포\(Exponential Distribution\)
+[16강- 지수분포\(Exponential Distribution\)](https://sangmandu.gitbook.io/til/2021/apr/4)
 
-■ 17강- 적률생성함수\(Moment Generating Functions\)
+[17강- 적률생성함수\(Moment Generating Functions\)](https://sangmandu.gitbook.io/til/2021/apr/5)
 
-■ 18강- 적률생성함수\_2 \(MGFs Continued\)
+18강- 적률생성함수\_2 \(MGFs Continued\)
 
 ■ 19강- 결합, 조건부, 주변 확률질량함수\(Joint, Conditional, and Marginal Distributions\)
 
@@ -519,7 +519,7 @@ Meta Learning
 AutoML
 {% endtab %}
 
-{% tab title="밑바닥부터 시작하는 딥러닝" %}
+{% tab title="---" %}
 -------
 {% endtab %}
 {% endtabs %}
@@ -529,7 +529,7 @@ AutoML
 깔끔하게 컨텐츠 구경하기
 {% endtab %}
 
-{% tab title="Coursera ML" %}
+{% tab title="---" %}
 ------
 {% endtab %}
 
@@ -552,7 +552,7 @@ AutoML
 
 [9장 컨텍스트 관리 프로토콜: 파이썬의 with 문과 연결하기 ](https://sangmandu.gitbook.io/til/2021/mar/20)
 
-10장 함수 장식자: 함수 장식하기 
+[10장 함수 장식자: 함수 장식하기 ](https://sangmandu.gitbook.io/til/2021/mar/21)
 
 11장 예외 처리: 뭔가 잘못되면 어떻게 해야 할까? 
 
@@ -562,7 +562,25 @@ AutoML
 {% endtab %}
 
 {% tab title="가리고 프로젝트" %}
-------
+[주제 결정](https://sangmandu.gitbook.io/til/2021/mar/23)
+
+[구상 계획](https://sangmandu.gitbook.io/til/2021/mar/25)
+
+[Detect & Recognition 모델](https://sangmandu.gitbook.io/til/2021/mar/26)
+
+[기본 작동 방식](https://sangmandu.gitbook.io/til/2021/mar/28)
+
+[모델 인자 설정](https://sangmandu.gitbook.io/til/2021/mar/29)
+
+[영상 속 얼굴 vs 구글 사진 얼굴](https://sangmandu.gitbook.io/til/2021/mar/30)
+
+[다중 사진 학습 vs 단일 사진 학습](https://sangmandu.gitbook.io/til/2021/mar/31)
+
+[유사도 Part1.](https://sangmandu.gitbook.io/til/2021/apr/1)
+
+[유사도 Part2.](https://sangmandu.gitbook.io/til/2021/apr/2)
+
+[SVM & KNN](https://sangmandu.gitbook.io/til/2021/apr/3)
 {% endtab %}
 {% endtabs %}
 
