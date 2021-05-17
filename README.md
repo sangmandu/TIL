@@ -27,7 +27,9 @@ description: 'Today I Learn : Version 6 ■ □'
 
   Vectors and Spaces 
 
-  [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/apr/8)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/9)[■■ ■■■■](https://sangmandu.gitbook.io/til/2021/apr/10)  \[19 / 41\]
+  [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/apr/8)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/9)[■■ ■■■■](https://sangmandu.gitbook.io/til/2021/apr/10)■ ■■■■■
+
+  ■■■■[■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/apr/11)  \[36 / 41\]
 
   Matrix transformations
 
@@ -44,7 +46,7 @@ description: 'Today I Learn : Version 6 ■ □'
   기본 [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/5)
 
   [■■](https://sangmandu.gitbook.io/til/2021/jan/5)■■ \[29\]  
-  실습  \[0 / 25\]  
+  실습 ■■■■■ \[5 / 25\]  
   부록 [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/24) \[7\]
 
 * [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
