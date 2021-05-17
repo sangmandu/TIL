@@ -5,6 +5,7 @@
   * [AI School 1st](wil/aishcool.md)
   * [Linear Algebra](wil/linearalgebra.md)
   * [Statistics110](wil/statistics110.md)
+  * [CoinTrading](wil/cointrading.md)
 * [Plan](plan.md)
 * [Portfolio](portfolio.md)
 
