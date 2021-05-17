@@ -74,19 +74,19 @@
 
 ### 영공간과 열공간
 
-행렬 벡터의 곱
+[행렬 벡터의 곱](https://sangmandu.gitbook.io/til/2021/apr/11)
 
-행렬의 영공간이란?
+[행렬의 영공간이란?](https://sangmandu.gitbook.io/til/2021/apr/11)
 
-영공간 2 : 행렬의 영공간 계산하기
+[영공간 2 : 행렬의 영공간 계산하기](https://sangmandu.gitbook.io/til/2021/apr/11)
 
-영공간 3 : 선형 독립과의 관계
+[영공간 3 : 선형 독립과의 관계](https://sangmandu.gitbook.io/til/2021/apr/11)
 
-행렬의 열공간
+[행렬의 열공간](https://sangmandu.gitbook.io/til/2021/apr/11)
 
-영공간과 열공간의 기저
+[영공간과 열공간의 기저](https://sangmandu.gitbook.io/til/2021/apr/11)
 
-R3에 있는 열공간을 평면으로 시각화하기
+[R3에 있는 열공간을 평면으로 시각화하기](https://sangmandu.gitbook.io/til/2021/apr/11)
 
 증명 : 어떠한 부분간의 기저도 원소의 수가 같습니다.
 
