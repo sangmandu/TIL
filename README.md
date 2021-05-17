@@ -57,7 +57,7 @@ description: 'Today I Learn : Version 6 ■ □'
 
   ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ \[5 / 8\]
 
-* [ ] [파이토치로 시작하는 딥러닝 기초](https://www.boostcourse.org/ai214/home)\(모두를 위한 딥러닝 강좌 시즌2\)
+* [ ] [파이토치로 시작하는 딥러닝 기초](https://www.boostcourse.org/ai214/home)\(모두를 위한 딥러닝 강좌 시즌2\) \[Lecture\]
 
   BASIC ■■■■■ ■■■■■ ■\[11 / 11\]
 
@@ -66,6 +66,10 @@ description: 'Today I Learn : Version 6 ■ □'
   CNN \[0 / 12\]
 
   RNN \[0 / 9\]
+
+* [ ] [How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/learn/competitive-data-science) \[Lecture\]
+
+  \[0 / 13\]
 
 
 
