@@ -2,7 +2,11 @@
 
 ### 1Weeks
 
+Introduction & Recap
 
+Feature Preprocessing and Generation with Respect to Models
+
+Final Project Description
 
 ### 2Weeks
 
