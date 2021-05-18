@@ -67,7 +67,9 @@ description: 'Today I Learn : Version 6 ■ □'
 
   RNN \[0 / 9\]
 
-* [ ] \[Lecture\]
+* [ ] 현업 실무자에게 배우는 Kaggle 머신러닝 입문 \[Lecture\]
+
+  \[0 / 58\]
 
 * [ ] 딥러닝 CNN 완벽 가이드 - Fundamental 편 \[Lecture\]
 
