@@ -5,7 +5,6 @@
   * [AI School 1st](wil/ai-shcool-1st.md)
   * [Linear Algebra](wil/linear-algebra.md)
   * [Statistics110](wil/statistics110.md)
-  * [How to Win a Data Science Competition: Learn from Top Kagglers](wil/how-to-win-a-data-science-competition-learn-from-top-kagglers.md)
   * [CoinTrading](wil/cointrading.md)
 * [Plan](plan.md)
 * [Portfolio](portfolio.md)
