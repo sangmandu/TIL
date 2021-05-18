@@ -5,6 +5,7 @@
   * [AI School 1st](wil/ai-shcool-1st.md)
   * [Linear Algebra](wil/linear-algebra.md)
   * [Statistics110](wil/statistics110.md)
+  * [현업 실무자에게 배우는 Kaggle 머신러닝 입문](wil/kaggle.md)
   * [CoinTrading](wil/cointrading.md)
 * [Plan](plan.md)
 * [Portfolio](portfolio.md)
