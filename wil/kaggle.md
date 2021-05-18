@@ -6,35 +6,35 @@ description: 'https://inf.run/MKQB'
 
 ### 섹션 0. 강의 소개
 
-강의 소개
+[강의 소개](https://sangmandu.gitbook.io/til/2021/jun/2)
 
 ### 섹션 1. 머신러닝이란? - 머신러닝의 개념을 단단히 잡아보자
 
-머신러닝\(Machine Learning\)의 개념
+[머신러닝\(Machine Learning\)의 개념](https://sangmandu.gitbook.io/til/2021/jun/2)
 
-분류\(Classification\) 문제 vs 회귀\(Regression\) 문제
+[분류\(Classification\) 문제 vs 회귀\(Regression\) 문제](https://sangmandu.gitbook.io/til/2021/jun/2)
 
-지도학습\(Supervised Learning\), 비지도학습\(Unsupervised Learning\), 강화학습\(Reinforcement Learning\)
+[지도학습\(Supervised Learning\), 비지도학습\(Unsupervised Learning\), 강화학습\(Reinforcement Learning\)](https://sangmandu.gitbook.io/til/2021/jun/2)
 
-트레이닝 데이터\(Training Data\), 테스트 데이터\(Test Data\)
+[트레이닝 데이터\(Training Data\), 테스트 데이터\(Test Data\)](https://sangmandu.gitbook.io/til/2021/jun/2)
 
-검증용 데이터\(Validation Data\), 오버피팅\(Overfitting\)
+[검증용 데이터\(Validation Data\), 오버피팅\(Overfitting\)](https://sangmandu.gitbook.io/til/2021/jun/2)
 
 ### 섹션 2. 복잡한 설치가 필요없는 간편한 실습환경 - Google Colab 소개
 
-Google Colab 소개
+[Google Colab 소개](https://sangmandu.gitbook.io/til/2021/jun/2)
 
 ### 섹션 3. 머신러닝과 데이터 분석을 위한 도구 - numpy, pandas, matplotlib, seaborn
 
-머신러닝과 데이터 분석을 위한 도구 소개
+[머신러닝과 데이터 분석을 위한 도구 소개](https://sangmandu.gitbook.io/til/2021/jun/3)
 
-numpy, 배열과 행렬을 다루는 도구
+[numpy, 배열과 행렬을 다루는 도구](https://sangmandu.gitbook.io/til/2021/jun/3)
 
-numpy 실습
+[numpy 실습](https://sangmandu.gitbook.io/til/2021/jun/3)
 
-pandas, 행과 열을 가진 테이블을 다루는 데이터 분석 도구
+[pandas, 행과 열을 가진 테이블을 다루는 데이터 분석 도구](https://sangmandu.gitbook.io/til/2021/jun/3)
 
-pandas 실습
+[pandas 실습](https://sangmandu.gitbook.io/til/2021/jun/3)
 
 고급 pandas 함수들 - concat, groupby, query
 
