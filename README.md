@@ -67,9 +67,11 @@ description: 'Today I Learn : Version 6 ■ □'
 
   RNN \[0 / 9\]
 
-* [ ] [How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/learn/competitive-data-science) \[Lecture\]
+* [ ] \[Lecture\]
 
-  \[0 / 13\]
+* [ ] 딥러닝 CNN 완벽 가이드 - Fundamental 편 \[Lecture\]
+
+  ■■■■■ ■■■ \[8 / 130\]
 
 
 
