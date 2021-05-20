@@ -64,19 +64,19 @@ description: 'https://inf.run/Qf6B'
 
 ### Keras Framework
 
-Tensorflow 2.X 와 tf.keras 소개
+[Tensorflow 2.X 와 tf.keras 소개](https://sangmandu.gitbook.io/til/2021/apr/24)
 
-이미지 배열의 이해
+[이미지 배열의 이해](https://sangmandu.gitbook.io/til/2021/apr/24)
 
-Dense Layer로 Fashion MNIST 예측 모델 구현하기 - 이미지 데이터 확인 및 사전 데이터 처리
+[Dense Layer로 Fashion MNIST 예측 모델 구현하기 - 이미지 데이터 확인 및 사전 데이터 처리](https://sangmandu.gitbook.io/til/2021/apr/24)
 
-Dense Layer로 Fashion MNIST 예측 모델 구현하기 - 모델 설계 및 학습 수행
+[Dense Layer로 Fashion MNIST 예측 모델 구현하기 - 모델 설계 및 학습 수행](https://sangmandu.gitbook.io/til/2021/apr/24)
 
-Keras Layer API 개요
+[Keras Layer API 개요](https://sangmandu.gitbook.io/til/2021/apr/24)
 
-Dense Layer로 Fashion MNIST 예측 모델 구현하기 - 예측 및 성능 평가
+[Dense Layer로 Fashion MNIST 예측 모델 구현하기 - 예측 및 성능 평가](https://sangmandu.gitbook.io/til/2021/apr/24)
 
-Dense Layer로 Fashion MNIST 예측 모델 구현하기 - 검증 데이터를 활용하여 학습 수행
+[Dense Layer로 Fashion MNIST 예측 모델 구현하기 - 검증 데이터를 활용하여 학습 수행](https://sangmandu.gitbook.io/til/2021/apr/24)
 
 Functional API 이용하여 모델 만들기
 
