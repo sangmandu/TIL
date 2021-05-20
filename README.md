@@ -67,6 +67,8 @@ description: 'Today I Learn : Version 6 ■ □'
 
   RNN \[0 / 9\]
 
+  TEST \[0 / 3\]
+
 * [ ] [현업 실무자에게 배우는 Kaggle 머신러닝 입문](https://inf.run/j18y) \[Lecture\]
 
   [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/2)[■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/3) \[12 / 58\]
@@ -96,7 +98,7 @@ description: 'Today I Learn : Version 6 ■ □'
 
   ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
 
-* [x] [인공지능을 위한 선형대수](www.edwith.org/linearalgebra4ai) \[Lecture\] \[27\]  
+* [x] [인공지능을 위한 선형대수](https://www.boostcourse.org/ai251) \[Lecture\] \[27\]  
   [■■](https://sangmandu.gitbook.io/til/2021/jan/8)[■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/16) [■■■](https://sangmandu.gitbook.io/til/2021/feb/12)[■■ ■](https://sangmandu.gitbook.io/til/2021/feb/13)■[■■■](https://sangmandu.gitbook.io/til/2021/feb/14) [■■](https://sangmandu.gitbook.io/til/2021/feb/20)■[■](https://sangmandu.gitbook.io/til/2021/feb/20)■
 
   ■■
