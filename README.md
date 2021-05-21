@@ -69,9 +69,13 @@ description: 'Today I Learn : Version 6 ■ □'
 
   TEST \[0 / 3\]
 
-* [ ] [현업 실무자에게 배우는 Kaggle 머신러닝 입문](https://inf.run/j18y) \[Lecture\]
+* [x] [현업 실무자에게 배우는 Kaggle 머신러닝 입문](https://inf.run/j18y) \[Lecture\]
 
-  [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/2)[■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/3) \[12 / 58\]
+  [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/2)[■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/3)[■■■ ■](https://sangmandu.gitbook.io/til/2021/jun/4)[■■■■ ■](https://sangmandu.gitbook.io/til/2021/jun/5)[■■■■](https://sangmandu.gitbook.io/til/2021/jun/6)
+
+  [■](https://sangmandu.gitbook.io/til/2021/jun/6)[■■■■ ■■■■](https://sangmandu.gitbook.io/til/2021/jun/7)[■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jun/8)[■■■](https://sangmandu.gitbook.io/til/2021/jun/9)[■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jun/10)
+
+  [■■](https://sangmandu.gitbook.io/til/2021/jun/10)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/jun/11) \[58\]
 
 * [ ] [딥러닝 CNN 완벽 가이드 - Fundamental 편](https://inf.run/Qf6B) \[Lecture\]
 
