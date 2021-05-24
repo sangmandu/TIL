@@ -88,15 +88,15 @@
 >
 > [R3에 있는 열공간을 평면으로 시각화하기](https://sangmandu.gitbook.io/til/2021/apr/11)
 
-> 증명 : 어떠한 부분간의 기저도 원소의 수가 같습니다.
+> [증명 : 어떠한 부분간의 기저도 원소의 수가 같습니다.](https://sangmandu.gitbook.io/til/2021/apr/12)
 >
-> 영공간의 차원
+> [영공간의 차원](https://sangmandu.gitbook.io/til/2021/apr/12)
 >
-> 열공간의 차원
+> [열공간의 차원](https://sangmandu.gitbook.io/til/2021/apr/12)
 >
-> 기저 열과 축열과의 관계
+> [기저 열과 축열과의 관계](https://sangmandu.gitbook.io/til/2021/apr/12)
 >
-> 후보 기저의 A의 열공간 생성
+> [후보 기저의 A의 열공간 생성](https://sangmandu.gitbook.io/til/2021/apr/12)
 
 ## 행렬변환
 
