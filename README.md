@@ -133,18 +133,18 @@ description: 'Today I Learn : Version 6 ■ □'
 
   ■■■■■ ■
 
-* [x] [PyTorch로 시작되는 딥러닝 입문](https://wikidocs.net/book/2788) \[Chapter\]
+* [x] [PyTorch로 시작되는 딥러닝 입문](https://wikidocs.net/book/2788) \[Chapter\] \[12\]
 
-  ■■■■■ ■■■■■ ■■ \[12 / 12\]
+  ■■■■■ ■■■■■ ■■
 
-* [x] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\]  
-  ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■ \[18 / 18\]
+* [x] [Coursera ML](https://www.coursera.org/learn/machine-learning/home) \[Lecture\] \[18\] \[52\]  
+  ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■ \[18\]
 
-  [복습1](https://wikidocs.net/book/587) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■ \[17 / 17\]
+  [복습1](https://wikidocs.net/book/587) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■ \[17\]
 
-  [복습2](https://junstar92.tistory.com/68) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■ \[17 / 17\]
+  [복습2](https://junstar92.tistory.com/68) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■ \[17\]
 
-  [복습3](http://soopsaram.com/ml/) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■ \[18 / 18\]
+  [복습3](http://soopsaram.com/ml/) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■\[18\]
 
 
 
