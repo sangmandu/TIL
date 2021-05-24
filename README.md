@@ -67,7 +67,7 @@ description: 'Today I Learn : Version 6 ■ □'
 
   RNN \[0 / 9\]
 
-  TEST \[0 / 3\]
+  TEST \[1 / 3\] ■
 
 * [x] [현업 실무자에게 배우는 Kaggle 머신러닝 입문](https://inf.run/j18y) \[Lecture\]
 
