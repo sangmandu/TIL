@@ -78,89 +78,89 @@ description: 'https://inf.run/Qf6B'
 >
 > [Dense Layer로 Fashion MNIST 예측 모델 구현하기 - 검증 데이터를 활용하여 학습 수행](https://sangmandu.gitbook.io/til/2021/apr/24)
 
-Functional API 이용하여 모델 만들기
-
-Functional API 구조 이해하기 - 01
-
-Functional API 구조 이해하기 - 02
-
-Dense Layer로 Fashion MNIST 예측 모델 Live Coding 으로 구현 정리 - 01
-
-Dense Layer로 Fashion MNIST 예측 모델 Live Coding 으로 구현 정리 - 02
-
-Keras Callback 개요
-
-Keras Callback 실습 - ModelCheckpoint, ReduceLROnPlateau, EarlyStopping
-
-Numpy array와 Tensor 차이, 그리고 fit\(\) 메소드 상세 설명
+> [Functional API 이용하여 모델 만들기](https://sangmandu.gitbook.io/til/2021/may/7)
+>
+> [Functional API 구조 이해하기 - 01](https://sangmandu.gitbook.io/til/2021/may/7)
+>
+> [Functional API 구조 이해하기 - 02](https://sangmandu.gitbook.io/til/2021/may/7)
+>
+> [Dense Layer로 Fashion MNIST 예측 모델 Live Coding 으로 구현 정리 - 01](https://sangmandu.gitbook.io/til/2021/may/7)
+>
+> [Dense Layer로 Fashion MNIST 예측 모델 Live Coding 으로 구현 정리 - 02](https://sangmandu.gitbook.io/til/2021/may/7)
+>
+> [Keras Callback 개요](https://sangmandu.gitbook.io/til/2021/may/7)
+>
+> [Keras Callback 실습 - ModelCheckpoint, ReduceLROnPlateau, EarlyStopping](https://sangmandu.gitbook.io/til/2021/may/7)
+>
+> [Numpy array와 Tensor 차이, 그리고 fit\(\) 메소드 상세 설명](https://sangmandu.gitbook.io/til/2021/may/7)
 
 ### CNN의 이해
 
-Dense Layer기반 Image 분류의 문제점
+> [Dense Layer기반 Image 분류의 문제점](https://sangmandu.gitbook.io/til/2021/may/8)
+>
+> [Feature Extractor와 CNN 개요](https://sangmandu.gitbook.io/til/2021/may/8)
+>
+> [컨볼루션\(Convolution\) 연산 이해](https://sangmandu.gitbook.io/til/2021/may/8)
+>
+> [커널\(Kernel\)과 피처맵\(Feature Map\)](https://sangmandu.gitbook.io/til/2021/may/8)
+>
+> [스트라이드\(Stride\)와 패딩\(Padding\)](https://sangmandu.gitbook.io/til/2021/may/8)
+>
+> [풀링\(Pooling\)](https://sangmandu.gitbook.io/til/2021/may/8)
 
-Feature Extractor와 CNN 개요
-
-컨볼루션\(Convolution\) 연산 이해
-
-커널\(Kernel\)과 피처맵\(Feature Map\)
-
-스트라이드\(Stride\)와 패딩\(Padding\)
-
-풀링\(Pooling\)
-
-Keras를 이용한 Conv2D와 Pooling 적용 실습 01
-
-Keras를 이용한 Conv2D와 Pooling 적용 실습 02
-
-CNN을 이용하여 Fashion MNIST 예측 모델 구현하기
-
-다채널 입력 데이터의 Convolution 적용 이해 - 01
-
-다채널 입력 데이터의 Convolution 적용 이해 - 02
-
-컨볼루션\(Convolution\) 적용 시 출력 피처맵의 크기 계산 공식 이해
+> [Keras를 이용한 Conv2D와 Pooling 적용 실습 01](https://sangmandu.gitbook.io/til/2021/may/9)
+>
+> [Keras를 이용한 Conv2D와 Pooling 적용 실습 02](https://sangmandu.gitbook.io/til/2021/may/9)
+>
+> [CNN을 이용하여 Fashion MNIST 예측 모델 구현하기](https://sangmandu.gitbook.io/til/2021/may/9)
+>
+> [다채널 입력 데이터의 Convolution 적용 이해 - 01](https://sangmandu.gitbook.io/til/2021/may/9)
+>
+> [다채널 입력 데이터의 Convolution 적용 이해 - 02](https://sangmandu.gitbook.io/til/2021/may/9)
+>
+> [컨볼루션\(Convolution\) 적용 시 출력 피처맵의 크기 계산 공식 이해](https://sangmandu.gitbook.io/til/2021/may/9)
 
 ### CNN 모델 구현 및 성능 향상 기본 기법 적용하기
 
-CIFAR10 데이터세트를 이용하여 CNN 모델 구현 실습 - 01
+> [CIFAR10 데이터세트를 이용하여 CNN 모델 구현 실습 - 01](https://sangmandu.gitbook.io/til/2021/may/10)
+>
+> [CIFAR10 데이터세트를 이용하여 CNN 모델 구현 실습 - 02](https://sangmandu.gitbook.io/til/2021/may/10)
+>
+> [CIFAR10 데이터세트를 이용하여 CNN 모델 구현 실습 - 03](https://sangmandu.gitbook.io/til/2021/may/10)
+>
+> [가중치 초기화\(Weight Initialization\)의 이해와 적용 - 01](https://sangmandu.gitbook.io/til/2021/may/10)
+>
+> [가중치 초기화\(Weight Initialization\)의 이해와 적용 - 02](https://sangmandu.gitbook.io/til/2021/may/10)
+>
+> [배치 정규화\(Batch Normalization\) 이해와 적용 - 01](https://sangmandu.gitbook.io/til/2021/may/10)
+>
+> [배치 정규화\(Batch Normalization\) 이해와 적용 - 02](https://sangmandu.gitbook.io/til/2021/may/10)
 
-CIFAR10 데이터세트를 이용하여 CNN 모델 구현 실습 - 02
-
-CIFAR10 데이터세트를 이용하여 CNN 모델 구현 실습 - 03
-
-가중치 초기화\(Weight Initialization\)의 이해와 적용 - 01
-
-가중치 초기화\(Weight Initialization\)의 이해와 적용 - 02
-
-배치 정규화\(Batch Normalization\) 이해와 적용 - 01
-
-배치 정규화\(Batch Normalization\) 이해와 적용 - 02
-
-학습 데이터 Shuffle 적용 유무에 따른 모델 성능 비교
-
-배치크기 변경에 따른 모델 성능 비교
-
-학습율\(Learning Rate\) 동적 변경에 따른 모델 성능 비교
-
-필터수와 층\(Layer\) 깊이 변경에 따른 모델 성능 비교
-
-Global Average Pooling의 이해와 적용
-
-가중치 규제\(Weight Regularization\)의 이해와 적용
+> [학습 데이터 Shuffle 적용 유무에 따른 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/may/25)
+>
+> [배치크기 변경에 따른 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/may/25)
+>
+> [학습율\(Learning Rate\) 동적 변경에 따른 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/may/25)
+>
+> [필터수와 층\(Layer\) 깊이 변경에 따른 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/may/25)
+>
+> [Global Average Pooling의 이해와 적용](https://sangmandu.gitbook.io/til/2021/may/25)
+>
+> [가중치 규제\(Weight Regularization\)의 이해와 적용](https://sangmandu.gitbook.io/til/2021/may/25)
 
 ### 데이터 증강의 이해 - Keras ImageDataGenerator 활용
 
-데이터 증강\(Data Augmentation\)의 이해
-
-Keras의 ImageDataGenerator 특징
-
-ImageDataGenerator로 Augmentation 적용 - 01
-
-ImageDataGenerator로 Augmentation 적용 - 02
-
-CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 01
-
-CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 02
+> [데이터 증강\(Data Augmentation\)의 이해](https://sangmandu.gitbook.io/til/2021/may/26)
+>
+> [Keras의 ImageDataGenerator 특징](https://sangmandu.gitbook.io/til/2021/may/26)
+>
+> [ImageDataGenerator로 Augmentation 적용 - 01](https://sangmandu.gitbook.io/til/2021/may/26)
+>
+> [ImageDataGenerator로 Augmentation 적용 - 02](https://sangmandu.gitbook.io/til/2021/may/26)
+>
+> [CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 01](https://sangmandu.gitbook.io/til/2021/may/26)
+>
+> [CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 02](https://sangmandu.gitbook.io/til/2021/may/26)
 
 ### 사전 훈련 CNN 모델의 활용과 Keras Generator 메커니즘 이해
 
