@@ -69,14 +69,6 @@ description: 'Today I Learn : Version 6 ■ □'
 
   TEST \[1 / 3\] ■
 
-* [x] [현업 실무자에게 배우는 Kaggle 머신러닝 입문](https://inf.run/j18y) \[Lecture\]
-
-  [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/2)[■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/3)[■■■ ■](https://sangmandu.gitbook.io/til/2021/jun/4)[■■■■ ■](https://sangmandu.gitbook.io/til/2021/jun/5)[■■■■](https://sangmandu.gitbook.io/til/2021/jun/6)
-
-  [■](https://sangmandu.gitbook.io/til/2021/jun/6)[■■■■ ■■■■](https://sangmandu.gitbook.io/til/2021/jun/7)[■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jun/8)[■■■](https://sangmandu.gitbook.io/til/2021/jun/9)[■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jun/10)
-
-  [■■](https://sangmandu.gitbook.io/til/2021/jun/10)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/jun/11) \[58\]
-
 * [ ] [딥러닝 CNN 완벽 가이드 - Fundamental 편](https://inf.run/Qf6B) \[Lecture\]
 
   [■■■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/16)[■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/apr/21) [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/apr/22)[■■■](https://sangmandu.gitbook.io/til/2021/apr/23)
@@ -146,11 +138,33 @@ description: 'Today I Learn : Version 6 ■ □'
 
   [복습3](http://soopsaram.com/ml/) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■\[18\]
 
+* [x] [현업 실무자에게 배우는 Kaggle 머신러닝 입문](https://inf.run/j18y) \[Lecture\]
+
+  [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/2)[■■■ ■■](https://sangmandu.gitbook.io/til/2021/jun/3)[■■■ ■](https://sangmandu.gitbook.io/til/2021/jun/4)[■■■■ ■](https://sangmandu.gitbook.io/til/2021/jun/5)[■■■■](https://sangmandu.gitbook.io/til/2021/jun/6)
+
+  [■](https://sangmandu.gitbook.io/til/2021/jun/6)[■■■■ ■■■■](https://sangmandu.gitbook.io/til/2021/jun/7)[■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/jun/8)[■■■](https://sangmandu.gitbook.io/til/2021/jun/9)[■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jun/10)
+
+  [■■](https://sangmandu.gitbook.io/til/2021/jun/10)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/jun/11) \[58\]
+
 
 
 
 
 > > **Will learn**
+
+* [ ] [CS231N\_KOR](https://youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5)
+
+* [ ] [Pytorch Tutorial](https://tutorials.pytorch.kr/)
+
+* [ ] [PR12](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)
+
+* [ ] [PR12 Season2](https://www.youtube.com/playlist?list=PLWKf9beHi3TgstcIn8K6dI_85_ppAxzB8)
+
+* [ ] [\[동빈나\] 딥러닝 논문 리뷰](https://www.youtube.com/playlist?list=PLRx0vPvlEmdADpce8aoBhNnDaaHQN1Typ)
+
+* [ ] [\[따배쿠\] 쿠버네티스](https://www.youtube.com/playlist?list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c)
+
+* [ ] [\[따배쿠\] 도커](https://www.youtube.com/playlist?list=PLApuRlvrZKogb78kKq1wRvrjg1VMwYrvi)
 
 
 
@@ -236,6 +250,4 @@ description: 'Today I Learn : Version 6 ■ □'
 > > \[New Header\] Update Log
 > >
 > > From 2020. 11. 30.
-
-## 
 
