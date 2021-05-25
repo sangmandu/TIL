@@ -102,43 +102,43 @@
 
 ### 함수와 선형변환
 
-> 함수 더 이해하기
+> [함수 더 이해하기](https://sangmandu.gitbook.io/til/2021/apr/13)
 >
-> 벡터의 변환
+> [벡터의 변환](https://sangmandu.gitbook.io/til/2021/apr/13)
 >
-> 선형변환
+> [선형변환](https://sangmandu.gitbook.io/til/2021/apr/13)
 >
-> 시각적으로 나타낸 변환에서의 행렬
+> [시각적으로 나타낸 변환에서의 행렬](https://sangmandu.gitbook.io/til/2021/apr/13)
 >
-> 선형 변환의 행렬 벡터적
+> [선형 변환의 행렬 벡터적](https://sangmandu.gitbook.io/til/2021/apr/13)
 >
-> 행렬 벡터적의 선형변환
+> [행렬 벡터적의 선형변환](https://sangmandu.gitbook.io/til/2021/apr/13)
 
-> 변환에서의 부분집합의 상
+> [변환에서의 부분집합의 상](https://sangmandu.gitbook.io/til/2021/apr/14)
 >
-> Im\(T\): 변환의 상
+> [Im\(T\): 변환의 상](https://sangmandu.gitbook.io/til/2021/apr/14)
 >
-> 집합의 원상
+> [집합의 원상](https://sangmandu.gitbook.io/til/2021/apr/14)
 >
-> 원상과 핵 예제
+> [원상과 핵 예제](https://sangmandu.gitbook.io/til/2021/apr/14)
 >
-> 선형변환의 합과 스칼라 곱
+> [선형변환의 합과 스칼라 곱](https://sangmandu.gitbook.io/til/2021/apr/14)
 >
-> 행렬의 합과 스칼라 곱 심화
+> [행렬의 합과 스칼라 곱 심화](https://sangmandu.gitbook.io/til/2021/apr/14)
 
 ### 선형변환 예제
 
-> 선형변환 예제: 스케일 변환과 반사
+> [선형변환 예제: 스케일 변환과 반사](https://sangmandu.gitbook.io/til/2021/apr/15)
 >
-> 선형변환 예제: R2에서의 회전
+> [선형변환 예제: R2에서의 회전](https://sangmandu.gitbook.io/til/2021/apr/15)
 >
-> R3에서 x축을 중심으로 한 회전
+> [R3에서 x축을 중심으로 한 회전](https://sangmandu.gitbook.io/til/2021/apr/15)
 >
-> 단위벡터
+> [단위벡터](https://sangmandu.gitbook.io/til/2021/apr/15)
 >
-> 정사영이란?
+> [정사영이란?](https://sangmandu.gitbook.io/til/2021/apr/15)
 >
-> 행렬 벡터적으로 직선에 정사영 나타내기
+> [행렬 벡터적으로 직선에 정사영 나타내기](https://sangmandu.gitbook.io/til/2021/apr/15)
 
 ### 변환과 행렬의 곱
 
