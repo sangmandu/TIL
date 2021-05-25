@@ -73,7 +73,9 @@ description: 'Today I Learn : Version 6 ■ □'
 
   [■■■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/16)[■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/apr/21) [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/apr/22)[■■■](https://sangmandu.gitbook.io/til/2021/apr/23)
 
-  [■](https://sangmandu.gitbook.io/til/2021/apr/23)[■■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/24) \[33 / 130\]
+  [■](https://sangmandu.gitbook.io/til/2021/apr/23)[■■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/24)[■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/7)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/may/8)[■■■](https://sangmandu.gitbook.io/til/2021/may/9)
+
+  [■■■](https://sangmandu.gitbook.io/til/2021/may/9)[■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/may/10) [■■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/25)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/may/26) \[72 / 130\]
 
 
 
