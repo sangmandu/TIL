@@ -142,35 +142,35 @@
 
 ### 변환과 행렬의 곱
 
-선형변환의 합성 1
+[선형변환의 합성 1](https://sangmandu.gitbook.io/til/2021/may/13)
 
-선형변환의 합성 2
+[선형변환의 합성 2](https://sangmandu.gitbook.io/til/2021/may/13)
 
-행렬곱 예제
+[행렬곱 예제](https://sangmandu.gitbook.io/til/2021/may/13)
 
-행렬곱의 결합법칙
+[행렬곱의 결합법칙](https://sangmandu.gitbook.io/til/2021/may/13)
 
-행렬곱의 분배법칙
+[행렬곱의 분배법칙](https://sangmandu.gitbook.io/til/2021/may/13)
 
 ### 역함수와 역변환
 
-함수의 역이란?
+[함수의 역이란?](https://sangmandu.gitbook.io/til/2021/may/14)
 
-증명: 가역성은 f\(x\)=y 의 해가 유일함을 의미합니다.
+[증명: 가역성은 f\(x\)=y 의 해가 유일함을 의미합니다.](https://sangmandu.gitbook.io/til/2021/may/14)
 
-전사함수와 단사함수
+[전사함수와 단사함수](https://sangmandu.gitbook.io/til/2021/may/14)
 
-가역성과 전사함수, 단사함수의 관계
+[가역성과 전사함수, 단사함수의 관계](https://sangmandu.gitbook.io/til/2021/may/14)
 
-변환이 전사함수인지 판별하기
+[변환이 전사함수인지 판별하기](https://sangmandu.gitbook.io/til/2021/may/14)
 
-Ax = b 의 해집합 구하기
+[Ax = b 의 해집합 구하기](https://sangmandu.gitbook.io/til/2021/may/14)
 
-단사변환에 대한 행렬의 조건
+[단사변환에 대한 행렬의 조건](https://sangmandu.gitbook.io/til/2021/may/14)
 
-가역성의 조건을 간단히하기
+[가역성의 조건을 간단히하기](https://sangmandu.gitbook.io/til/2021/may/14)
 
-역변환이 선형임을 확인하기
+[역변환이 선형임을 확인하기](https://sangmandu.gitbook.io/til/2021/may/14)
 
 ### 역수와 행렬식 구하기
 
