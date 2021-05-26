@@ -44,7 +44,7 @@
 
 > [22강- 변수변환과 합성곱\(Transformations and Convolutions\)](https://sangmandu.gitbook.io/til/2021/apr/25)
 
-> 23강- 베타분포\(Beta disctribution\)
+> [23강- 베타분포\(Beta disctribution\)](https://sangmandu.gitbook.io/til/2021/apr/26)
 
 > 24강- 감마분포와 포아송 과정\(Gamma distribution and Poisson process\)
 
