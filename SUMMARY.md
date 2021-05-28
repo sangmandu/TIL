@@ -3,7 +3,6 @@
 * [TIL](README.md)
 * [WIL](wil.md)
 * [Plan](p.md)
-* [Time](time.md)
 
 ## 2021 TIL <a id="2021"></a>
 
@@ -18,6 +17,13 @@
   * [30 Fri](2021/apr/30.md)
   * [29 Thu](2021/apr/29.md)
   * [28 Wed](2021/apr/28.md)
+  * [27 Tue](2021/apr/27.md)
+  * [26 Mon](2021/apr/26.md)
+  * [25 Sun](2021/apr/25.md)
+  * [24 Sat](2021/apr/24.md)
+  * [23 Fri](2021/apr/23.md)
+  * [22 Thu](2021/apr/22.md)
+  * [21 Wed](2021/apr/21.md)
   * [20 Tue](2021/apr/20.md)
   * [19 Mon](2021/apr/19.md)
   * [18 Sun](2021/apr/18.md)
