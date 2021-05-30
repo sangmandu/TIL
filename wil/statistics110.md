@@ -40,11 +40,11 @@
 
 > [20강- 다항분포 및 코시분포\(Multinomial and Cauchy\)](https://sangmandu.gitbook.io/til/2021/apr/19)
 
-> 21강- 공분산과 상관계수\(Covariance and Correlation\)
+> [21강- 공분산과 상관계수\(Covariance and Correlation\)](https://sangmandu.gitbook.io/til/2021/apr/20)
 
-> 22강- 변수변환과 합성곱\(Transformations and Convolutions\)
+> [22강- 변수변환과 합성곱\(Transformations and Convolutions\)](https://sangmandu.gitbook.io/til/2021/apr/25)
 
-> 23강- 베타분포\(Beta disctribution\)
+> [23강- 베타분포\(Beta disctribution\)](https://sangmandu.gitbook.io/til/2021/apr/26)
 
 > 24강- 감마분포와 포아송 과정\(Gamma distribution and Poisson process\)
 

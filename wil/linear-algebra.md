@@ -88,31 +88,145 @@
 >
 > [R3에 있는 열공간을 평면으로 시각화하기](https://sangmandu.gitbook.io/til/2021/apr/11)
 
-> 증명 : 어떠한 부분간의 기저도 원소의 수가 같습니다.
+> [증명 : 어떠한 부분간의 기저도 원소의 수가 같습니다.](https://sangmandu.gitbook.io/til/2021/apr/12)
 >
-> 영공간의 차원
+> [영공간의 차원](https://sangmandu.gitbook.io/til/2021/apr/12)
 >
-> 열공간의 차원
+> [열공간의 차원](https://sangmandu.gitbook.io/til/2021/apr/12)
 >
-> 기저 열과 축열과의 관계
+> [기저 열과 축열과의 관계](https://sangmandu.gitbook.io/til/2021/apr/12)
 >
-> 후보 기저의 A의 열공간 생성
+> [후보 기저의 A의 열공간 생성](https://sangmandu.gitbook.io/til/2021/apr/12)
 
 ## 행렬변환
 
 ### 함수와 선형변환
 
+> [함수 더 이해하기](https://sangmandu.gitbook.io/til/2021/apr/13)
+>
+> [벡터의 변환](https://sangmandu.gitbook.io/til/2021/apr/13)
+>
+> [선형변환](https://sangmandu.gitbook.io/til/2021/apr/13)
+>
+> [시각적으로 나타낸 변환에서의 행렬](https://sangmandu.gitbook.io/til/2021/apr/13)
+>
+> [선형 변환의 행렬 벡터적](https://sangmandu.gitbook.io/til/2021/apr/13)
+>
+> [행렬 벡터적의 선형변환](https://sangmandu.gitbook.io/til/2021/apr/13)
+
+> [변환에서의 부분집합의 상](https://sangmandu.gitbook.io/til/2021/apr/14)
+>
+> [Im\(T\): 변환의 상](https://sangmandu.gitbook.io/til/2021/apr/14)
+>
+> [집합의 원상](https://sangmandu.gitbook.io/til/2021/apr/14)
+>
+> [원상과 핵 예제](https://sangmandu.gitbook.io/til/2021/apr/14)
+>
+> [선형변환의 합과 스칼라 곱](https://sangmandu.gitbook.io/til/2021/apr/14)
+>
+> [행렬의 합과 스칼라 곱 심화](https://sangmandu.gitbook.io/til/2021/apr/14)
+
 ### 선형변환 예제
+
+> [선형변환 예제: 스케일 변환과 반사](https://sangmandu.gitbook.io/til/2021/apr/15)
+>
+> [선형변환 예제: R2에서의 회전](https://sangmandu.gitbook.io/til/2021/apr/15)
+>
+> [R3에서 x축을 중심으로 한 회전](https://sangmandu.gitbook.io/til/2021/apr/15)
+>
+> [단위벡터](https://sangmandu.gitbook.io/til/2021/apr/15)
+>
+> [정사영이란?](https://sangmandu.gitbook.io/til/2021/apr/15)
+>
+> [행렬 벡터적으로 직선에 정사영 나타내기](https://sangmandu.gitbook.io/til/2021/apr/15)
 
 ### 변환과 행렬의 곱
 
+[선형변환의 합성 1](https://sangmandu.gitbook.io/til/2021/may/13)
+
+[선형변환의 합성 2](https://sangmandu.gitbook.io/til/2021/may/13)
+
+[행렬곱 예제](https://sangmandu.gitbook.io/til/2021/may/13)
+
+[행렬곱의 결합법칙](https://sangmandu.gitbook.io/til/2021/may/13)
+
+[행렬곱의 분배법칙](https://sangmandu.gitbook.io/til/2021/may/13)
+
 ### 역함수와 역변환
+
+[함수의 역이란?](https://sangmandu.gitbook.io/til/2021/may/14)
+
+[증명: 가역성은 f\(x\)=y 의 해가 유일함을 의미합니다.](https://sangmandu.gitbook.io/til/2021/may/14)
+
+[전사함수와 단사함수](https://sangmandu.gitbook.io/til/2021/may/14)
+
+[가역성과 전사함수, 단사함수의 관계](https://sangmandu.gitbook.io/til/2021/may/14)
+
+[변환이 전사함수인지 판별하기](https://sangmandu.gitbook.io/til/2021/may/14)
+
+[Ax = b 의 해집합 구하기](https://sangmandu.gitbook.io/til/2021/may/14)
+
+[단사변환에 대한 행렬의 조건](https://sangmandu.gitbook.io/til/2021/may/14)
+
+[가역성의 조건을 간단히하기](https://sangmandu.gitbook.io/til/2021/may/14)
+
+[역변환이 선형임을 확인하기](https://sangmandu.gitbook.io/til/2021/may/14)
 
 ### 역수와 행렬식 구하기
 
+역변환 판별하는 방법 추론하기
+
+역행렬 구하기 예제
+
+2x2 역행렬의 식
+
+3 x 3 행렬식
+
+n x n 행렬식
+
+다른 행/열을 이용하여 행렬식 구하기
+
+사루스 법칙의 행렬식
+
 ### 행렬식 심화
 
+행을 스칼라로 곱했을 때의 행렬식
+
+행의 스칼라 곱
+
+행이 더해졌을 때의 행렬식
+
+복제된 행의 행렬식
+
+행연산 후의 행렬식
+
+상삼각행렬식
+
+간단한 4x4 행렬식
+
+행렬식과 평행사변형의 영역
+
+스케일 변환인자로써의 행렬식
+
 ### 전치 행렬
+
+전치행렬
+
+전치행렬의 행렬식
+
+행렬곱의 전치행렬
+
+전치행렬의 합과 역
+
+전치벡터
+
+행공간과 좌영공간
+
+좌영공간과 행공간의 시각화
+
+rank\(A\) = rank\(A의 전치행렬\)
+
+A의 전치행렬 x A 의 가역성 확인하기
 
 ## 상호 좌표계\(기저\)
 
