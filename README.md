@@ -63,15 +63,15 @@ description: 'Today I Learn : Version 6 ■ □'
 
 * [ ] [파이토치로 시작하는 딥러닝 기초](https://www.boostcourse.org/ai214/home)\(모두를 위한 딥러닝 강좌 시즌2\) \[Lecture\]
 
-  BASIC ■■■■■ ■■■■■ ■\[11 / 11\]
+  BASIC ■■■■■ ■■■■■ ■ \[11\]
 
-  DNN ■■■■■ ■■■\[8 / 8\]
+  DNN ■■■■■ ■■■ \[8\]
 
-  CNN \[0 / 12\]
+  CNN ■■■■■ ■■■■■ ■■ \[12\]
 
   RNN \[0 / 9\]
 
-  TEST \[1 / 3\] ■
+  TEST \[2 / 3\] ■■
 
 * [ ] [딥러닝 CNN 완벽 가이드 - Fundamental 편](https://inf.run/Qf6B) \[Lecture\]
 
