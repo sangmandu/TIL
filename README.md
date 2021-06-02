@@ -17,7 +17,9 @@ description: 'Today I Learn : Version 6 ■ □'
 > > **Learning**
 
 * [ ] [Statistics 110](https://www.edwith.org/harvardprobability/lecture/29349/) \[Lecture\]  
-  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)[■](https://sangmandu.gitbook.io/til/2021/jan/30)[■](https://sangmandu.gitbook.io/til/2021/feb/28) [■](https://sangmandu.gitbook.io/til/2021/mar/7)[■](https://sangmandu.gitbook.io/til/2021/mar/8)[■](https://sangmandu.gitbook.io/til/2021/mar/9)[■](https://sangmandu.gitbook.io/til/2021/mar/10)[■](https://sangmandu.gitbook.io/til/2021/mar/14) [■](https://sangmandu.gitbook.io/til/2021/apr/4)[■](https://sangmandu.gitbook.io/til/2021/apr/5)[■](https://sangmandu.gitbook.io/til/2021/apr/17)[■](https://sangmandu.gitbook.io/til/2021/apr/18)[■](https://sangmandu.gitbook.io/til/2021/apr/19) [■](https://sangmandu.gitbook.io/til/2021/apr/20)[■](https://sangmandu.gitbook.io/til/2021/apr/25)[■](https://sangmandu.gitbook.io/til/2021/apr/26) \[23 / 34\]
+  [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)[■](https://sangmandu.gitbook.io/til/2021/jan/30)[■](https://sangmandu.gitbook.io/til/2021/feb/28) [■](https://sangmandu.gitbook.io/til/2021/mar/7)[■](https://sangmandu.gitbook.io/til/2021/mar/8)[■](https://sangmandu.gitbook.io/til/2021/mar/9)[■](https://sangmandu.gitbook.io/til/2021/mar/10)[■](https://sangmandu.gitbook.io/til/2021/mar/14) [■](https://sangmandu.gitbook.io/til/2021/apr/4)[■](https://sangmandu.gitbook.io/til/2021/apr/5)[■](https://sangmandu.gitbook.io/til/2021/apr/17)[■](https://sangmandu.gitbook.io/til/2021/apr/18)[■](https://sangmandu.gitbook.io/til/2021/apr/19) [■](https://sangmandu.gitbook.io/til/2021/apr/20)[■](https://sangmandu.gitbook.io/til/2021/apr/25)[■](https://sangmandu.gitbook.io/til/2021/apr/26)[■](https://sangmandu.gitbook.io/til/2021/apr/27)[■](https://sangmandu.gitbook.io/til/2021/may/17)
+
+  [■](https://sangmandu.gitbook.io/til/2021/may/18)[■](https://sangmandu.gitbook.io/til/2021/may/21) \[27 / 34\]
 
   [복습](https://blog.naver.com/mykepzzang/220790435335) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
 
@@ -61,15 +63,15 @@ description: 'Today I Learn : Version 6 ■ □'
 
 * [ ] [파이토치로 시작하는 딥러닝 기초](https://www.boostcourse.org/ai214/home)\(모두를 위한 딥러닝 강좌 시즌2\) \[Lecture\]
 
-  BASIC ■■■■■ ■■■■■ ■\[11 / 11\]
+  BASIC ■■■■■ ■■■■■ ■ \[11\]
 
-  DNN ■■■■■ ■■■\[8 / 8\]
+  DNN ■■■■■ ■■■ \[8\]
 
-  CNN \[0 / 12\]
+  CNN ■■■■■ ■■■■■ ■■ \[12\]
 
   RNN \[0 / 9\]
 
-  TEST \[1 / 3\] ■
+  TEST \[2 / 3\] ■■
 
 * [ ] [딥러닝 CNN 완벽 가이드 - Fundamental 편](https://inf.run/Qf6B) \[Lecture\]
 

@@ -46,13 +46,13 @@
 
 > [23강- 베타분포\(Beta disctribution\)](https://sangmandu.gitbook.io/til/2021/apr/26)
 
-> 24강- 감마분포와 포아송 과정\(Gamma distribution and Poisson process\)
+> [24강- 감마분포와 포아송 과정\(Gamma distribution and Poisson process\)](https://sangmandu.gitbook.io/til/2021/apr/27)
 
-> 25강- 순서통계량과 조건부 기댓값\(Order Statistics and Conditional Expectations\)
+> [25강- 순서통계량과 조건부 기댓값\(Order Statistics and Conditional Expectations\)](https://sangmandu.gitbook.io/til/2021/may/17)
 
-> 26강- 조건부 기댓값\_2\(Conditional Expectation Continuted\)
+> [26강- 조건부 기댓값\_2\(Conditional Expectation Continuted\)](https://sangmandu.gitbook.io/til/2021/may/18)
 
-> 27강- 조건부 기댓값\_3\(Conditional Expectation given an R.V.\)
+> [27강- 조건부 기댓값\_3\(Conditional Expectation given an R.V.\)](https://sangmandu.gitbook.io/til/2021/may/21)
 
 > 28강- 부등식\(Inequalities\)
 
