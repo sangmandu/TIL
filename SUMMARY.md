@@ -43,7 +43,7 @@
   * [24 Mon](2021/may/24.md)
   * [23 Sun](2021/may/23.md)
   * [22 Sat](2021/may/22.md)
-  * [21 Fri](2021/may/21-fri.md)
+  * [21 Fri](2021/may/21.md)
   * [20 Thu](2021/may/20.md)
   * [19 Wed](2021/may/19.md)
   * [18 Tue](2021/may/18.md)
