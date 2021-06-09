@@ -81,7 +81,7 @@ description: 'Today I Learn : Version 6 ■ □'
 
   [■■■](https://sangmandu.gitbook.io/til/2021/may/9)[■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/may/10) [■■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/25)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/may/26) \[72 / 130\]
 
-* [ ] 동빈나 논문 분석 \[Lecture\]
+
 
 
 
