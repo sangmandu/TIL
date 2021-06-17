@@ -21,7 +21,7 @@ description: 'P : Week Table'
 ```text
 셋째 주 13-19
 - 계획 세우기
-- P
+- 알고리즘
 - 앨리스 코딩
 - 선형대수
 
@@ -35,6 +35,7 @@ description: 'P : Week Table'
 - 통계학 끝내기
 - 선형대수 
 - RNN 끝내기
+- CNN
 
 다섯째 주 27-3
 - 선형대수
