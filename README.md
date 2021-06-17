@@ -19,7 +19,7 @@ description: 'Today I Learn : Version 6 ■ □'
 * [ ] [Statistics 110](https://www.edwith.org/harvardprobability/lecture/29349/) \[Lecture\]  
   [■](https://sangmandu.gitbook.io/til/2021/jan/8)[■](https://sangmandu.gitbook.io/til/2021/jan/12)[■](https://sangmandu.gitbook.io/til/2021/jan/13)[■](https://sangmandu.gitbook.io/til/2021/jan/14)[■](https://sangmandu.gitbook.io/til/2021/jan/17) [■](https://sangmandu.gitbook.io/til/2021/jan/18)[■](https://sangmandu.gitbook.io/til/2021/jan/23)[■](https://sangmandu.gitbook.io/til/2021/jan/24)[■](https://sangmandu.gitbook.io/til/2021/jan/30)[■](https://sangmandu.gitbook.io/til/2021/feb/28) [■](https://sangmandu.gitbook.io/til/2021/mar/7)[■](https://sangmandu.gitbook.io/til/2021/mar/8)[■](https://sangmandu.gitbook.io/til/2021/mar/9)[■](https://sangmandu.gitbook.io/til/2021/mar/10)[■](https://sangmandu.gitbook.io/til/2021/mar/14) [■](https://sangmandu.gitbook.io/til/2021/apr/4)[■](https://sangmandu.gitbook.io/til/2021/apr/5)[■](https://sangmandu.gitbook.io/til/2021/apr/17)[■](https://sangmandu.gitbook.io/til/2021/apr/18)[■](https://sangmandu.gitbook.io/til/2021/apr/19) [■](https://sangmandu.gitbook.io/til/2021/apr/20)[■](https://sangmandu.gitbook.io/til/2021/apr/25)[■](https://sangmandu.gitbook.io/til/2021/apr/26)[■](https://sangmandu.gitbook.io/til/2021/apr/27)[■](https://sangmandu.gitbook.io/til/2021/may/17)
 
-  [■](https://sangmandu.gitbook.io/til/2021/may/18)[■](https://sangmandu.gitbook.io/til/2021/may/21) \[27 / 34\]
+  [■](https://sangmandu.gitbook.io/til/2021/may/18)[■](https://sangmandu.gitbook.io/til/2021/may/21)[■](https://sangmandu.gitbook.io/til/2021/may/27)[■](https://sangmandu.gitbook.io/til/2021/may/28) \[29 / 34\]
 
   [복습](https://blog.naver.com/mykepzzang/220790435335) ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
 
@@ -80,6 +80,8 @@ description: 'Today I Learn : Version 6 ■ □'
   [■](https://sangmandu.gitbook.io/til/2021/apr/23)[■■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/24)[■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/7)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/may/8)[■■■](https://sangmandu.gitbook.io/til/2021/may/9)
 
   [■■■](https://sangmandu.gitbook.io/til/2021/may/9)[■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/may/10) [■■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/25)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/may/26) \[72 / 130\]
+
+
 
 
 
