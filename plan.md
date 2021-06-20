@@ -19,12 +19,6 @@ description: 'P : Week Table'
 > 6월
 
 ```text
-셋째 주 13-19
-- 계획 세우기
-- 알고리즘
-- 앨리스 코딩
-- 선형대수
-
 넷째 주 20-26
 - hfp 10, 11, 12
 - 밑시딥 6, 7, 8
@@ -52,7 +46,6 @@ description: 'P : Week Table'
 ```text
 첫째 주 4-10
 - 수리통계학
-- CNN
 - CS231N_KOR
 - 알고리즘
 - 차트의 기술
