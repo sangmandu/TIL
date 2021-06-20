@@ -58,13 +58,13 @@
 
 > [29강- 큰 수의 법칙과 중심극한정리\(Law of Large Numbers and Central Limit Theorem\)](https://sangmandu.gitbook.io/til/2021/may/28)
 
-> 30강- 카이제곱분포, t분포, 다변량정규분포\(Chi-Square, Student-t, Multivariate Normal\)
+> [30강- 카이제곱분포, t분포, 다변량정규분포\(Chi-Square, Student-t, Multivariate Normal\)](https://sangmandu.gitbook.io/til/2021/jun/17)
 
-> 31강- 마코프 체인\(Markov Chains\)
+> [31강- 마코프 체인\(Markov Chains\)](https://sangmandu.gitbook.io/til/2021/jun/18)
 
-> 32강- 마코프 체인\_2\(Markov Chains Continued\)
+> [32강- 마코프 체인\_2\(Markov Chains Continued\)](https://sangmandu.gitbook.io/til/2021/jun/19)
 
-> 33강- 마코프 체인\_3\(Markov Chains Continued Further\)
-
-> 34강- A Look Ahead
+> [33강- 마코프 체인\_3\(Markov Chains Continued Further](https://sangmandu.gitbook.io/til/2021/jun/20)
+>
+> [34강- A Look Ahead](https://sangmandu.gitbook.io/til/2021/jun/20)
 

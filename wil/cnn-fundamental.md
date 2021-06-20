@@ -164,43 +164,43 @@ description: 'https://inf.run/Qf6B'
 
 ### 사전 훈련 CNN 모델의 활용과 Keras Generator 메커니즘 이해
 
-사전 훈련 모델\(Pretrained Model\)의 이해와 전이학습\(Transfer Learning\) 개요
+[사전 훈련 모델\(Pretrained Model\)의 이해와 전이학습\(Transfer Learning\) 개요](https://sangmandu.gitbook.io/til/2021/jun/12)
 
-사전 훈련 모델 VGG16을 이용하여 CIFAR10 학습 모델 구현 후 모델 성능 비교
+[사전 훈련 모델 VGG16을 이용하여 CIFAR10 학습 모델 구현 후 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/jun/12)
 
-사전 훈련 모델 Xception을 이용하여 CIFAR10 학습 모델 구현 후 모델 성능 비교
+[사전 훈련 모델 Xception을 이용하여 CIFAR10 학습 모델 구현 후 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/jun/12)
 
-개와 고양이\(Cat and Dog\) 이미지 분류 개요 및 파이썬 기반 주요 이미지 라이브러리 소개
+[개와 고양이\(Cat and Dog\) 이미지 분류 개요 및 파이썬 기반 주요 이미지 라이브러리 소개](https://sangmandu.gitbook.io/til/2021/jun/12)
 
-개와 고양이 데이터 세트 구성 확인 및 메타 정보 생성하기
+[개와 고양이 데이터 세트 구성 확인 및 메타 정보 생성하기](https://sangmandu.gitbook.io/til/2021/jun/12)
 
-Keras Generator 기반의 Preprocessing과 Data Loading 메커니즘 이해하기 - 01
+[Keras Generator 기반의 Preprocessing과 Data Loading 메커니즘 이해하기 - 01](https://sangmandu.gitbook.io/til/2021/jun/12)
 
-Keras Generator 기반의 Preprocessing과 Data Loading 메커니즘 이해하기 - 02
+[Keras Generator 기반의 Preprocessing과 Data Loading 메커니즘 이해하기 - 02](https://sangmandu.gitbook.io/til/2021/jun/12)
 
-flow\_from\_directory\(\) 이용하여 개와 고양이 판별 모델 학습 및 평가 수행
+[flow\_from\_directory\(\) 이용하여 개와 고양이 판별 모델 학습 및 평가 수행](https://sangmandu.gitbook.io/til/2021/jun/12)
 
-flow\_from\_dataframe\(\) 이용하여 개와 고양이 판별 모델 학습 및 평가 수행
+[flow\_from\_dataframe\(\) 이용하여 개와 고양이 판별 모델 학습 및 평가 수행](https://sangmandu.gitbook.io/til/2021/jun/12)
 
-이미지 픽셀값의 Scaling 방법, tf 스타일? torch 스타일?
+[이미지 픽셀값의 Scaling 방법, tf 스타일? torch 스타일?](https://sangmandu.gitbook.io/til/2021/jun/12)
 
 ### Albumentation을 이용한 Augmentation기법과 Keras Sequence 활용하기
 
-데이터 증강\(Augmentation\) 전용 패키지인 Albumentations 소개
+[데이터 증강\(Augmentation\) 전용 패키지인 Albumentations 소개](https://sangmandu.gitbook.io/til/2021/jun/13)
 
-Albumentations 사용 해보기\(Flip, Shift, Scale, Rotation 등\)
+[Albumentations 사용 해보기\(Flip, Shift, Scale, Rotation 등\)](https://sangmandu.gitbook.io/til/2021/jun/13)
 
-Albumentations 사용 해보기\(Crop, Bright, Contrast, HSV 등\)
+[Albumentations 사용 해보기\(Crop, Bright, Contrast, HSV 등\)](https://sangmandu.gitbook.io/til/2021/jun/13)
 
-Albumentations 사용 해보기\(Noise, Cutout, CLAHE, Blur, Oneof 등\)
+[Albumentations 사용 해보기\(Noise, Cutout, CLAHE, Blur, Oneof 등\)](https://sangmandu.gitbook.io/til/2021/jun/13)
 
-Keras의 Sequence 클래스 이해와 활용 개요
+[Keras의 Sequence 클래스 이해와 활용 개요](https://sangmandu.gitbook.io/til/2021/jun/13)
 
-Keras Sequence기반의 Dataset 직접 구현하기
+[Keras Sequence기반의 Dataset 직접 구현하기](https://sangmandu.gitbook.io/til/2021/jun/13)
 
-Keras Sequence기반의 Dataset 활용하여 Albumentations 적용하고 Xception, MobileNet으로 이미지 분류 수행 - 01
+[Keras Sequence기반의 Dataset 활용하여 Albumentations 적용하고 Xception, MobileNet으로 이미지 분류 수행 - 01](https://sangmandu.gitbook.io/til/2021/jun/13)
 
-Keras Sequence기반의 Dataset 활용하여 Albumentations 적용하고 Xception, MobileNet으로 이미지 분류 수행 - 02
+[Keras Sequence기반의 Dataset 활용하여 Albumentations 적용하고 Xception, MobileNet으로 이미지 분류 수행 - 02](https://sangmandu.gitbook.io/til/2021/jun/13)
 
 ### Advanced CNN 모델 파헤치기 - AlexNet, VGGNet, GoogLeNet
 
