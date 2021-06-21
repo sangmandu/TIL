@@ -1,26 +1,10 @@
 ---
-description: 'Today I Learned? : ■ □ ▧'
+description: 'Today I Learned? : ■ □'
 ---
 
 # : TIL?
 
-🎆▪✔
-
 > 2021. 07
 
-🌞🌙🔥🌊🌳🥇🏜
-
-🎆🎆🎆🎆▪▪▪
-
-▪▪▪▪▪▪▪
-
-▪▪▪▪▪▪▪
-
-▪▪▪▪▪▪▪
-
-▪▪▪▪▪▪▪
-
-
-
-
+■
 
