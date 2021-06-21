@@ -2,7 +2,7 @@
 description: 'P : Week Table'
 ---
 
-# Plan
+# : Plan
 
 😂 Weekly
 

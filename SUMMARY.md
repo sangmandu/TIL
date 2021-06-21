@@ -1,25 +1,29 @@
 # Table of contents
 
-* [TIL](README.md)
-* [WIL](wil/README.md)
-  * [AI School 1st](wil/ai-shcool-1st.md)
-  * [Linear Algebra\(Khan Academy\)](wil/linear-algebra.md)
-  * [Statistics110](wil/statistics110.md)
-  * [Head First Python](wil/head-first-python.md)
-  * [파이썬 딥러닝 파이토치](wil/undefined.md)
-  * [데이터 분석을 위한 SQL](wil/sql.md)
-  * [단 두 장의 문서로 데이터 분석과 시각화 뽀개기](wil/undefined-3.md)
-  * [인공지능을 위한 선형대수](wil/undefined-1.md)
-  * [딥러닝 CNN 완벽 가이드 - Fundamental 편](wil/cnn-fundamental.md)
-  * [현업 실무자에게 배우는 Kaggle 머신러닝 입문](wil/kaggle.md)
-  * [CoinTrading](wil/cointrading.md)
-  * [Project. GARIGO](wil/project.-garigo.md)
-* [Plan](plan.md)
-* [Portfolio](portfolio.md)
+* [MAIN PAGE](README.md)
+* [: TIL](til.md)
+* [: WIL](wil.md)
+* [: Portfolio](portfolio.md)
+* [: Plan](plan.md)
+
+## TIL <a id="til-1"></a>
+
+* [AI School 1st](til-1/ai-shcool-1st.md)
+* [딥러닝 CNN 완벽 가이드 - Fundamental 편](til-1/cnn-fundamental.md)
+* [현업 실무자에게 배우는 Kaggle 머신러닝 입문](til-1/kaggle.md)
+* [파이썬 딥러닝 파이토치](til-1/undefined.md)
+* [Project. GARIGO](til-1/project.-garigo.md)
+* [Head First Python](til-1/head-first-python.md)
+* [데이터 분석을 위한 SQL](til-1/sql.md)
+* [단 두 장의 문서로 데이터 분석과 시각화 뽀개기](til-1/undefined-3.md)
+* [Linear Algebra\(Khan Academy\)](til-1/linear-algebra.md)
+* [인공지능을 위한 선형대수](til-1/undefined-1.md)
+* [Statistics110](til-1/statistics110.md)
+* [CoinTrading](til-1/cointrading.md)
 
 ## 2021 TIL <a id="2021"></a>
 
-* [Changed](2021/changed.md)
+* [CHANGED](2021/changed.md)
 * [JUN](2021/jun/README.md)
   * [21 Mon](2021/jun/21.md)
   * [20 Sun](2021/jun/20.md)
