@@ -1,4 +1,4 @@
-# Linear Algebra
+# Linear Algebra\(Khan Academy\)
 
 ## 벡터와 공간
 

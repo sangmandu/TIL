@@ -3,7 +3,7 @@
 * [TIL](README.md)
 * [WIL](wil/README.md)
   * [AI School 1st](wil/ai-shcool-1st.md)
-  * [Linear Algebra](wil/linear-algebra.md)
+  * [Linear Algebra\(Khan Academy\)](wil/linear-algebra.md)
   * [Statistics110](wil/statistics110.md)
   * [Head First Python](wil/head-first-python.md)
   * [파이썬 딥러닝 파이토치](wil/undefined.md)
