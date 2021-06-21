@@ -39,7 +39,7 @@ description: 'Today I Learn : Version 7'
 > >
 > > TIL, WIL, Portfoli, Plan 페이지 앞에 ':' 가 붙었습니다.
 > >
-> > MAIN PAGE가 개설되었습니다. \(기존에는 TIL이었고 이것을 MAIN PAGE로 변경. 그리고 TIL을 새로 개설\)
+> > MAIN 페이지가 개설되었습니다. \(기존에는 TIL이었고 이것을 MAIN 으로 변경. 그리고 TIL을 새로 개설\)
 > >
 > > TIL의 Progress  헤더를 WIL로 옮깁니다.
 > >
