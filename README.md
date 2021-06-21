@@ -2,17 +2,7 @@
 description: 'Today I Learn : Version 7'
 ---
 
-# MAIN PAGE
-
-## Page Introduction
-
-
-
-
-
-
-
-\_\_
+# MAIN
 
 ## Principle
 

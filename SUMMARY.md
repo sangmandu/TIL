@@ -1,6 +1,6 @@
 # Table of contents
 
-* [MAIN PAGE](README.md)
+* [MAIN](README.md)
 * [: TIL?](til.md)
 * [: WIL](wil.md)
 * [: Portfolio](portfolio.md)
