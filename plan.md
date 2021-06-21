@@ -26,8 +26,6 @@ description: 'P : Week Table'
 - 차트의 기술
 - 시각화 1-25
 - 알고리즘
-- 통계학 끝내기
-- 선형대수 
 - RNN 끝내기
 - CNN
 
