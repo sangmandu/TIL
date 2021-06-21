@@ -1,5 +1,5 @@
 ---
-description: 'Today I Learn : Version 7 ■ □'
+description: 'Today I Learn : Version 7'
 ---
 
 # MAIN PAGE
