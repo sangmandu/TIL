@@ -34,8 +34,6 @@ description: 'What I Learn : ■ □'
 
   \[0 / 103\]
 
-
-
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
   ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ ■■■ \[8\]
