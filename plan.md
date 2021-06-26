@@ -4,17 +4,15 @@ description: 'P : Week Table'
 
 # : Plan
 
-😂 Weekly
+## 😂 Weekly
 
 > 미루지 말자. 매주 계획이 똑같지 않고, 매달 목표가 같지 않기를!!!
-
-{% embed url="https://docs.google.com/spreadsheets/d/1PFmyp0fBBvrjhO69rMeGPbcpsn\_568enrN22-wmQoAM/edit?usp=sharing" %}
 
 {% embed url="https://docs.google.com/spreadsheets/d/16m9m121z9Vw-EZQYLgb8yfHZD9wtm3AcW-xB6huO70E/edit?usp=sharing" %}
 
 
 
-😍Monthly
+## 😍 Monthly  
 
 > 6월
 
@@ -97,6 +95,12 @@ description: 'P : Week Table'
 * [ ] 6/19 
 * [ ] 6/20 
 * [ ] 6/21 
+* [ ] 6/22
+* [ ] 6/23
+* [ ] 6/24
+* [ ] 6/25
+* [ ] 6/26
+* [ ] 6/27
 
 
 
@@ -123,4 +127,8 @@ description: 'P : Week Table'
 백테스팅 : 둘 다 제외 + 변동률 3, 5, 10, 25, 50, 100%
 
 백테스팅 : 노이즈 제외 + 변동률 3, 5, 10, 25, 50, 100%
+
+
+
+### asdf
 

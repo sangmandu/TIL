@@ -4,6 +4,26 @@ description: 'Today I Learn : Version 7'
 
 # MAIN
 
+## Page 
+
+### TIL
+
+>
+
+### WIL
+
+>
+
+### Portfolio
+
+>
+
+### Plan
+
+>
+
+
+
 ## Principle
 
 > how to write til on what steps
@@ -44,6 +64,10 @@ description: 'Today I Learn : Version 7'
 > > TIL의 Progress  헤더를 WIL로 옮깁니다.
 > >
 > > TIL의 전체 내용을 MAIN PAGE로 옮깁니다.
+> >
+> > MAIN 페이지에서는 전체 페이지에 대한 설명과 작성 원칙, 업데이트 로그가 작성됩니다.
+> >
+> > Plan 페이지 내에 CHECK 헤더가 추가됩니다.
 > >
 > > 이제부터 TIL에는 공부한 내용이 일별로 작성됩니다. \(이는 7월 1일부터 적용\)
 
