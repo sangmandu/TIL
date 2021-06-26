@@ -17,17 +17,17 @@ description: 'P : Week Table'
 > 6월
 
 ```text
-넷째 주 20-26
-- hfp 10, 11, 12
+다섯째 주 27-3
+- hfp 10, 11, 11-3/4, 12
 - 밑시딥 6, 7, 8
-- 백테스팅 끝내기
+- 백테스팅
 - 차트의 기술
 - 시각화 1-25
 - 알고리즘
-- RNN 끝내기
+- RNN
 - CNN
 
-다섯째 주 27-3
+
 - 선형대수
 - CNN
 - Kaggle
@@ -130,5 +130,13 @@ description: 'P : Week Table'
 
 
 
-### asdf
+## Check
+
+> 6월
+
+```text
+
+```
+
+
 
