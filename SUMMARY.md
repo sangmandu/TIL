@@ -8,6 +8,8 @@
 
 ## TIL
 
+* [Algorithm](til/algorithm/README.md)
+  * [Programmers](til/algorithm/programmers.md)
 * [AI School 1st](til/ai-shcool-1st.md)
 * [딥러닝 CNN 완벽 가이드 - Fundamental 편](til/cnn-fundamental.md)
 * [현업 실무자에게 배우는 Kaggle 머신러닝 입문](til/kaggle.md)
