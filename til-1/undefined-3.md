@@ -70,57 +70,57 @@ description: 'https://inf.run/aoz2'
 
 ### 판다스로 서울 코로나19 발생동향 분석하기
 
-\[0/25\] 소스코드와 파일 다운로드 위치
+[\[0/25\] 소스코드와 파일 다운로드 위치](https://sangmandu.gitbook.io/til/2021/may/22)
 
-\[1/25\] 판다스 단 한 줄로 서울시 코로나19 발생동향 수집하기
+[\[1/25\] 판다스 단 한 줄로 서울시 코로나19 발생동향 수집하기](https://sangmandu.gitbook.io/til/2021/may/22)
 
-\[2/25\] 판다스로 분석해볼 내용 소개
+[\[2/25\] 판다스로 분석해볼 내용 소개](https://sangmandu.gitbook.io/til/2021/may/22)
 
-\[3/25\] 판다스로 수집해 온 CSV 파일 로드하기
+[\[3/25\] 판다스로 수집해 온 CSV 파일 로드하기](https://sangmandu.gitbook.io/til/2021/may/22)
 
-\[4/25\] 시각화를 위한 한글 폰트 설정
+[\[4/25\] 시각화를 위한 한글 폰트 설정](https://sangmandu.gitbook.io/til/2021/may/22)
 
-\[5/25\] 시계열 데이터 전처리
+[\[5/25\] 시계열 데이터 전처리](https://sangmandu.gitbook.io/til/2021/may/22)
 
-\[6/25\] 확진일자별 빈도 선그래프 그리기 - Pandas plot에 스타일 적용하기
+[\[6/25\] 확진일자별 빈도 선그래프 그리기 - Pandas plot에 스타일 적용하기](https://sangmandu.gitbook.io/til/2021/may/24)
 
-\[7/25\] 엑셀에서는 쉽게 되는 그래프에 값 표시하기 pandas plot 에서는 어떻게 해야될까?
+[\[7/25\] 엑셀에서는 쉽게 되는 그래프에 값 표시하기 pandas plot 에서는 어떻게 해야될까?](https://sangmandu.gitbook.io/til/2021/may/24)
 
-\[8/25\] 일부 데이터만 잘라서 시각화 하고 싶을때 슬라이싱 기능 사용하기
+[\[8/25\] 일부 데이터만 잘라서 시각화 하고 싶을때 슬라이싱 기능 사용하기](https://sangmandu.gitbook.io/til/2021/may/24)
 
-\[9/25\] 월단위로 확진자 추이는 어떻게 될까?
+[\[9/25\] 월단위로 확진자 추이는 어떻게 될까?](https://sangmandu.gitbook.io/til/2021/may/24)
 
-\[10/25\] 여러 변수의 빈도수를 구하려면?
+[\[10/25\] 여러 변수의 빈도수를 구하려면?](https://sangmandu.gitbook.io/til/2021/may/24)
 
-\[11/25\] 확진자가 없는 날은 데이터프레임에 어떻게 만들까?
+[\[11/25\] 확진자가 없는 날은 데이터프레임에 어떻게 만들까?](https://sangmandu.gitbook.io/til/2021/may/29)
 
-\[12/25\] 그래프에서 누적확진자수가 너무 커서 일별 확진자 수를 알아보기 어렵다면?
+[\[12/25\] 그래프에서 누적확진자수가 너무 커서 일별 확진자 수를 알아보기 어렵다면?](https://sangmandu.gitbook.io/til/2021/may/29)
 
-\[13/25\] 월별, 요일별 확진자수는 어떻게 달라졌을까?
+[\[13/25\] 월별, 요일별 확진자수는 어떻게 달라졌을까?](https://sangmandu.gitbook.io/til/2021/may/29)
 
-\[14/25\] 거주지\(구\)별 확진자는 어떻게 될까?
+[\[14/25\] 거주지\(구\)별 확진자는 어떻게 될까?](https://sangmandu.gitbook.io/til/2021/may/29)
 
-\[15/25\] 빈도수가 가장 많은 감염경로는?
+[\[15/25\] 빈도수가 가장 많은 감염경로는?](https://sangmandu.gitbook.io/til/2021/may/29)
 
-\[16/25\] 감염경로를 모르는 확진수는 월과 주별로 어느정도 차이가 있을까?
+[\[16/25\] 감염경로를 모르는 확진수는 월과 주별로 어느정도 차이가 있을까?](https://sangmandu.gitbook.io/til/2021/may/30)
 
-\[17/25\] 텍스트 안에 있는 접촉번호는 어떻게 추출해야 될까?
+[\[17/25\] 텍스트 안에 있는 접촉번호는 어떻게 추출해야 될까?](https://sangmandu.gitbook.io/til/2021/may/30)
 
-\[18/25\] 조치사항에서 퇴원여부의 빈도수 구하기
+[\[18/25\] 조치사항에서 퇴원여부의 빈도수 구하기](https://sangmandu.gitbook.io/til/2021/may/30)
 
-\[19/25\] 어느 병원에서 확진자를 가장 많이 치료했을까요?
+[\[19/25\] 어느 병원에서 확진자를 가장 많이 치료했을까요?](https://sangmandu.gitbook.io/til/2021/may/30)
 
-\[20/25\] 해외유입은 어느 지역이 많을까요? 구별로 해외 유입 국가에 대한 차이가 있을까요?
+[\[20/25\] 해외유입은 어느 지역이 많을까요? 구별로 해외 유입 국가에 대한 차이가 있을까요?](https://sangmandu.gitbook.io/til/2021/may/30)
 
-\[21/25\] 일자별 해외유입 누적확진자수 구하기
+[\[21/25\] 일자별 해외유입 누적확진자수 구하기](https://sangmandu.gitbook.io/til/2021/may/31)
 
-\[22/25\] 전체 확진자중 해외 유입 비율은 구마다 얼마나 차이가 있을까요?
+[\[22/25\] 전체 확진자중 해외 유입 비율은 구마다 얼마나 차이가 있을까요?](https://sangmandu.gitbook.io/til/2021/may/31)
 
-\[23/25\] 월별 해외 확진자 수 추이는?
+[\[23/25\] 월별 해외 확진자 수 추이는?](https://sangmandu.gitbook.io/til/2021/may/31)
 
-\[24/25\] groupby vs crosstab vs pivot vs pivot\_table 의 차이는?
+[\[24/25\] groupby vs crosstab vs pivot vs pivot\_table 의 차이는?](https://sangmandu.gitbook.io/til/2021/may/31)
 
-\[25/25\] 국가별, 구별 해외 유입은 얼마나 차이가 있을까요?
+[\[25/25\] 국가별, 구별 해외 유입은 얼마나 차이가 있을까요?](https://sangmandu.gitbook.io/til/2021/may/31)
 
 ### \(부록\) 서울시 코로나19 발생현황 데이터 수집
 

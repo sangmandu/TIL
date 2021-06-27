@@ -1,4 +1,4 @@
-# Linear Algebra
+# Linear Algebra\(Khan Academy\)
 
 ## 벡터와 공간
 
@@ -142,35 +142,35 @@
 
 ### 변환과 행렬의 곱
 
-[선형변환의 합성 1](https://sangmandu.gitbook.io/til/2021/may/13)
-
-[선형변환의 합성 2](https://sangmandu.gitbook.io/til/2021/may/13)
-
-[행렬곱 예제](https://sangmandu.gitbook.io/til/2021/may/13)
-
-[행렬곱의 결합법칙](https://sangmandu.gitbook.io/til/2021/may/13)
-
-[행렬곱의 분배법칙](https://sangmandu.gitbook.io/til/2021/may/13)
+> [선형변환의 합성 1](https://sangmandu.gitbook.io/til/2021/may/13)
+>
+> [선형변환의 합성 2](https://sangmandu.gitbook.io/til/2021/may/13)
+>
+> [행렬곱 예제](https://sangmandu.gitbook.io/til/2021/may/13)
+>
+> [행렬곱의 결합법칙](https://sangmandu.gitbook.io/til/2021/may/13)
+>
+> [행렬곱의 분배법칙](https://sangmandu.gitbook.io/til/2021/may/13)
 
 ### 역함수와 역변환
 
-[함수의 역이란?](https://sangmandu.gitbook.io/til/2021/may/14)
-
-[증명: 가역성은 f\(x\)=y 의 해가 유일함을 의미합니다.](https://sangmandu.gitbook.io/til/2021/may/14)
-
-[전사함수와 단사함수](https://sangmandu.gitbook.io/til/2021/may/14)
-
-[가역성과 전사함수, 단사함수의 관계](https://sangmandu.gitbook.io/til/2021/may/14)
-
-[변환이 전사함수인지 판별하기](https://sangmandu.gitbook.io/til/2021/may/14)
-
-[Ax = b 의 해집합 구하기](https://sangmandu.gitbook.io/til/2021/may/14)
-
-[단사변환에 대한 행렬의 조건](https://sangmandu.gitbook.io/til/2021/may/14)
-
-[가역성의 조건을 간단히하기](https://sangmandu.gitbook.io/til/2021/may/14)
-
-[역변환이 선형임을 확인하기](https://sangmandu.gitbook.io/til/2021/may/14)
+> [함수의 역이란?](https://sangmandu.gitbook.io/til/2021/may/14)
+>
+> [증명: 가역성은 f\(x\)=y 의 해가 유일함을 의미합니다.](https://sangmandu.gitbook.io/til/2021/may/14)
+>
+> [전사함수와 단사함수](https://sangmandu.gitbook.io/til/2021/may/14)
+>
+> [가역성과 전사함수, 단사함수의 관계](https://sangmandu.gitbook.io/til/2021/may/14)
+>
+> [변환이 전사함수인지 판별하기](https://sangmandu.gitbook.io/til/2021/may/14)
+>
+> [Ax = b 의 해집합 구하기](https://sangmandu.gitbook.io/til/2021/may/14)
+>
+> [단사변환에 대한 행렬의 조건](https://sangmandu.gitbook.io/til/2021/may/14)
+>
+> [가역성의 조건을 간단히하기](https://sangmandu.gitbook.io/til/2021/may/14)
+>
+> [역변환이 선형임을 확인하기](https://sangmandu.gitbook.io/til/2021/may/14)
 
 ### 역수와 행렬식 구하기
 
@@ -232,11 +232,89 @@ A의 전치행렬 x A 의 가역성 확인하기
 
 ### 직교보 공간
 
+직교보공간
+
+dim\(v\) + dim\(v의 직교보공간\) = n
+
+부분공간의 원소를 이용하여 Rn의 벡터를 나타내기
+
+직교보공간의 직교보공간
+
+영공간의 직교보공간
+
+Ax = b 의 유일한 행공간의 해
+
+Ax=b의 행공간 해 예제
+
 ### 정사영
+
+부분공간에 대한 정사영
+
+평면에 대한 정사영 시각화
+
+부분공간에 대한 정사영이 선형변환이라는 것 확인하기
+
+부분공간 정사영 행렬의 예제
+
+정사영 행렬의 다른 예제
+
+정사영은 부분공간에서 제일 가까운 벡터라는 것을 확인하기
+
+최소제곱 근삿값
+
+최소제곱 예제
+
+다른 최소제곱의 예제
 
 ### 기저변환
 
+기저에 대한 좌표
+
+기저변환행렬
+
+가역성이 있는 기저변환행렬
+
+기저에 대한 변환행렬
+
+번갈아 생기는 기저의 변환행렬 예제
+
+번갈아 생기는 기저의 변환행렬 예제  2
+
+좌표계 변환을 이용한 변환행렬 구하기
+
 ### 정규직교지저와 그람-슈미트 과정
 
+정규직교기저란?
+
+정규직교기저에 대한 좌표
+
+정규직교기저를 이용한 부분공간에 대한 정사영
+
+정규직교기저를 이용하여 부분공간에 대한 정사영을 찾는 방법의 예제
+
+ 변환행렬을 찾기 위한 직교기저변환행렬을 이용하는 방법의 예제
+
+각도와 길이를 보존하는 직교행렬
+
+그람-슈미트 과
+
+ 그람-슈미트 과정 예제
+
+3개의 기저벡터를 이용한 그람-슈미트 과정 예제
+
 ### 고유값, 고유벡터, 고유공간
+
+고유값과 고유벡터란?
+
+고유값을 결정하는 식 증명
+
+2x2 행렬의 고유값을 구하는 예제
+
+고유벡터와 고유공간을 구하는 예제
+
+3x3 행렬의 고유값
+
+3x3 행렬의 고유벡터와 고유공간
+
+고유기저와 좌표계
 

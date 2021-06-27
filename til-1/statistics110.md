@@ -54,9 +54,9 @@
 
 > [27강- 조건부 기댓값\_3\(Conditional Expectation given an R.V.\)](https://sangmandu.gitbook.io/til/2021/may/21)
 
-> 28강- 부등식\(Inequalities\)
+> [28강- 부등식\(Inequalities\)](https://sangmandu.gitbook.io/til/2021/may/27)
 
-> 29강- 큰 수의 법칙과 중심극한정리\(Law of Large Numbers and Central Limit Theorem\)
+> [29강- 큰 수의 법칙과 중심극한정리\(Law of Large Numbers and Central Limit Theorem\)](https://sangmandu.gitbook.io/til/2021/may/28)
 
 > 30강- 카이제곱분포, t분포, 다변량정규분포\(Chi-Square, Student-t, Multivariate Normal\)
 
@@ -64,7 +64,7 @@
 
 > 32강- 마코프 체인\_2\(Markov Chains Continued\)
 
-> 33강- 마코프 체인\_3\(Markov Chains Continued Further\)
+> 33강- 마코프 체인\_3\(Markov Chains Continued Further
 
 > 34강- A Look Ahead
 

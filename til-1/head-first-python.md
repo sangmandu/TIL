@@ -24,9 +24,9 @@ description: 'http://python.itcarlow.ie/'
 
 > [10장 함수 장식자: 함수 장식하기](https://sangmandu.gitbook.io/til/2021/mar/21)
 
-> 11장 예외 처리: 뭔가 잘못되면 어떻게 해야 할까?
+> [11장 예외 처리: 뭔가 잘못되면 어떻게 해야 할까?](https://sangmandu.gitbook.io/til/2021/mar/22)
 
-> 11¾장 스레드 맛보기: 기다림에 대처하는 방법
+> [11¾장 스레드 맛보기: 기다림에 대처하는 방법](https://sangmandu.gitbook.io/til/2021/apr/6)
 
-> 12장 고급 반복: 미친 듯이 돌아요
+> [12장 고급 반복: 미친 듯이 돌아요](https://sangmandu.gitbook.io/til/2021/apr/7)
 
