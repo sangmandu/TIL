@@ -16,7 +16,7 @@ description: 'Today I Learn : Version 7'
 
 ### Portfolio
 
-> TIL 작성자에 대한 정보를 담았습니다.
+> TIL 작성자가 누굴까? 에 대한 정보를 담았습니다.
 
 ### Plan
 
