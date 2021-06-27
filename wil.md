@@ -30,9 +30,15 @@ description: 'What I Learn : ■ □'
 
   ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)[■](https://sangmandu.gitbook.io/til/2021/mar/20)[■](https://sangmandu.gitbook.io/til/2021/mar/21) [■](https://sangmandu.gitbook.io/til/2021/mar/21)[■](https://sangmandu.gitbook.io/til/2021/mar/22)[■](https://sangmandu.gitbook.io/til/2021/apr/6)[■](https://sangmandu.gitbook.io/til/2021/apr/7) \[14\]
 
-* [ ] [쑤튜브 : 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
+* [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
   \[0 / 103\]
+
+* [ ] [\[따배쿠\] 쿠버네티스](https://www.youtube.com/playlist?list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c) \[Lecture\]
+
+* [ ] [\[따배쿠\] 도커](https://www.youtube.com/playlist?list=PLApuRlvrZKogb78kKq1wRvrjg1VMwYrvi) \[Lecture\]
+
+* [ ] [CS231N\_KOR](https://youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5) \[Lecture\]
 
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
@@ -163,8 +169,6 @@ description: 'What I Learn : ■ □'
 
 > > **Will learn**
 
-* [ ] [CS231N\_KOR](https://youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5)
-
 * [ ] [Pytorch Tutorial](https://tutorials.pytorch.kr/)
 
 * [ ] [PR12](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)
@@ -173,9 +177,7 @@ description: 'What I Learn : ■ □'
 
 * [ ] [\[동빈나\] 딥러닝 논문 리뷰](https://www.youtube.com/playlist?list=PLRx0vPvlEmdADpce8aoBhNnDaaHQN1Typ)
 
-* [ ] [\[따배쿠\] 쿠버네티스](https://www.youtube.com/playlist?list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c)
 
-* [ ] [\[따배쿠\] 도커](https://www.youtube.com/playlist?list=PLApuRlvrZKogb78kKq1wRvrjg1VMwYrvi)
 
 
 
