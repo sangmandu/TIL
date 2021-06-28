@@ -73,7 +73,7 @@ description: 'P : Week Table'
 > empty TIL
 
 * [x] 3/21 - hfp 10
-* [ ] 3/22 - hfp 11
+* [x] 3/22 - hfp 11
 * [ ] 4/6 - hfp 11 3/4
 * [ ] 4/7 - hfp 12
 * [ ] 5/9 CNN 4 : 7-12
