@@ -24,7 +24,7 @@ description: 'Today I Learn : Version 2.7'
 
 👟 `다음 행선지를 향해 달리는 중(~now)` 
 
-👟 `SSAFY 6st` 
+👟 [`SSAFY 6st`](https://www.ssafy.com/) 
 
 👟 [`Programmers AI School 1st`](https://programmers.co.kr/learn/courses/10821)`(20.11.30~21.04.04)`
 
