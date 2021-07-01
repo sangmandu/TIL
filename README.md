@@ -10,13 +10,15 @@ description: 'Today I Learn : Version 2.7'
 
 ![](.gitbook/assets/image%20%28612%29.png)
 
-😁 전 상민, Jeon Sangmin
+😁 전 상민, Jeon Sangmin, AI Engineer
 
 📧 toxj17@naver.com
 
-📚 [https://github.com/sangmandu](https://github.com/sangmandu/GARIGO)
+🖥 [https://github.com/sangmandu](https://github.com/sangmandu/GARIGO)
 
-📚 [https://sangmandu.gitbook.io/til/](https://sangmandu.gitbook.io/til/)
+🖥 [https://sangmandu.gitbook.io/til/](https://sangmandu.gitbook.io/til/)
+
+📚 `Python` `Django` `Tensorflow` `Keras` `Pytorch` `CV` 
 
 
 
