@@ -1,5 +1,5 @@
 ---
-description: 'Today I Learn : Version 7'
+description: 'Today I Learn : Version 2.7'
 ---
 
 # MAIN
@@ -129,11 +129,19 @@ description: 'Today I Learn : Version 7'
 
 ## Update Log
 
-> Version 7 \(~now\)
+> Version 2.7 \(~now\)
+>
+> > Portfolio 페이지가 삭제되고 내용이 MAIN 페이지로 옮겨졌습니다.
+> >
+> > 회고를 적는 Retrospective 페이지가 추가되었습니다.
+> >
+> > TIL Version 형식이 기존 '순서' 에서 '햇수.순서' 로 변경되었습니다.
+>
+> Version 2.6 \(~2021. 07. 02\)
 >
 > > 업데이트 로그를 이해하기 쉽게 작성하기 시작합니다.
 > >
-> > TIL, WIL, Portfoli, Plan 페이지 앞에 ':' 가 붙었습니다.
+> > TIL, WIL, Portfolio, Plan 페이지 앞에 ':' 가 붙었습니다.
 > >
 > > MAIN 페이지가 개설되었습니다. \(기존에는 TIL이었고 이것을 MAIN 으로 변경. 그리고 TIL을 새로 개설\)
 > >
@@ -147,7 +155,7 @@ description: 'Today I Learn : Version 7'
 > >
 > > 이제부터 TIL에는 공부한 내용이 일별로 작성됩니다. \(이는 7월 1일부터 적용\)
 
-> Version 6 \(~2021. 06. 21\)
+> Version 2.5 \(~2021. 06. 21\)
 >
 > > \[New Page\] Portfolio
 > >
@@ -155,7 +163,7 @@ description: 'Today I Learn : Version 7'
 > >
 > > \[New Header\] Who, Road I have walked, Certification on \[Page\]
 >
-> Version 5 \(~2021. 05. 05\)
+> Version 2.4 \(~2021. 05. 05\)
 >
 > > Modification from \[Page\] What I Learn to \[Page\] WIL
 > >
@@ -167,7 +175,7 @@ description: 'Today I Learn : Version 7'
 > >
 > > Unification by one line with all logs
 >
-> Version 4 \(~2021. 03. 01\)
+> Version 2.3 \(~2021. 03. 01\)
 >
 > > Modification from \[Header\]  WIL to \[New Page\] Learning Progress
 > >
@@ -179,19 +187,19 @@ description: 'Today I Learn : Version 7'
 > >
 > > \[New Header\] Page
 >
-> Version 3 \(~2021.02.16\)
+> Version 2.1 \(~2021.02.16\)
 >
 > > \[New Header\] WIL
 > >
 > > \[New Header\] WID
 >
-> Version 2 \(~2020.01.07\)
+> Version 2.0 \(~2020.01.07\)
 >
 > > Change Directory Structure
 > >
 > > \[New Header\] Principle
 >
-> Version 1 \(~2020.12.14\) 
+> Version 1.0 \(~2020.12.14\) 
 >
 > > \[New Page\] TIL
 > >
