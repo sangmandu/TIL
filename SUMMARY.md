@@ -3,7 +3,7 @@
 * [MAIN](README.md)
 * [: TIL?](_til.md)
 * [: WIL](wil.md)
-* [: Portfolio](portfolio.md)
+* [: Retrospective](retrospective.md)
 * [: Plan](plan.md)
 
 ## TIL
