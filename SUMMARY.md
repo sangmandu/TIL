@@ -3,7 +3,9 @@
 * [MAIN](README.md)
 * [: TIL?](_til.md)
 * [: WIL](wil.md)
-* [: Retrospective](retrospective.md)
+* [: Retrospective](retrospective/README.md)
+  * [21\_1H](retrospective/21_1h.md)
+  * [21\_6M](retrospective/21_06m.md)
 * [: Plan](plan.md)
 
 ## TIL
