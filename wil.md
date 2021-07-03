@@ -30,9 +30,15 @@ description: 'What I Learn : ■ □'
 
   ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)[■](https://sangmandu.gitbook.io/til/2021/mar/20)[■](https://sangmandu.gitbook.io/til/2021/mar/21) [■](https://sangmandu.gitbook.io/til/2021/mar/21)[■](https://sangmandu.gitbook.io/til/2021/mar/22)[■](https://sangmandu.gitbook.io/til/2021/apr/6)[■](https://sangmandu.gitbook.io/til/2021/apr/7) \[14\]
 
-* [ ] [쑤튜브 : 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
+* [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
   \[0 / 103\]
+
+* [ ] [\[따배쿠\] 쿠버네티스](https://www.youtube.com/playlist?list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c) \[Lecture\]
+
+* [ ] [\[따배쿠\] 도커](https://www.youtube.com/playlist?list=PLApuRlvrZKogb78kKq1wRvrjg1VMwYrvi) \[Lecture\]
+
+* [ ] [CS231N\_KOR](https://youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5) \[Lecture\]
 
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
@@ -75,7 +81,7 @@ description: 'What I Learn : ■ □'
 
   ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■
 
-> 한국에서 ML을 시작하려면 모딥으로 추천한다. ML 기초 강의들을 몇 개 들어본 사람으로서 이야기 하자면 필요한 기초 지식과 알찬 내용들을 잘 담은 것 같다. 초심자가 알아야 할 내용은 대부분 다 있는 것 같다. 여기서 더 깊게 파기 위해 추천할 것이 무엇인지는 모르겠다.
+> 한국에서 ML을 시작하려면 모딥으로 추천한다. ML 기초 강의들을 몇 개 들어봤지만 이해하기 제일 쉽고 필요한 기초 지식과 알찬 내용들을 잘 담은 것 같다. 초심자가 알아야 할 내용은 대부분 다 있는 것 같다. 바로 모딥 시즌2로 넘어갈 것을 권장.
 
 
 
@@ -155,15 +161,13 @@ description: 'What I Learn : ■ □'
 
   [■■](https://sangmandu.gitbook.io/til/2021/jun/10)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/jun/11) \[58\]
 
-> 기초 내용이지만 넓거나 깊은 내용은 아니라서, 간단한 정리 느낌으로 들었다. 유료강의인데 할인해서 수강했고, 할인된 가격으로도 누구한테 추천하고 싶지는 않다.
+> 기초 내용이지만 넓거나 깊은 내용은 아니라서, 간단한 정리 느낌으로 들었다. 유료강의인데 할인해서 수강했고, 할인된 가격으로도 누구한테 추천하고 싶지는 않지만 강의는 좋다.
 
 
 
 
 
 > > **Will learn**
-
-* [ ] [CS231N\_KOR](https://youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5)
 
 * [ ] [Pytorch Tutorial](https://tutorials.pytorch.kr/)
 
@@ -173,9 +177,7 @@ description: 'What I Learn : ■ □'
 
 * [ ] [\[동빈나\] 딥러닝 논문 리뷰](https://www.youtube.com/playlist?list=PLRx0vPvlEmdADpce8aoBhNnDaaHQN1Typ)
 
-* [ ] [\[따배쿠\] 쿠버네티스](https://www.youtube.com/playlist?list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c)
 
-* [ ] [\[따배쿠\] 도커](https://www.youtube.com/playlist?list=PLApuRlvrZKogb78kKq1wRvrjg1VMwYrvi)
 
 
 
@@ -210,7 +212,7 @@ description: 'What I Learn : ■ □'
 
   ■■■■■ ■■■■■ ■■■■■ ■■■■■ ■■■■■ \[50\]
 
-> 거의 다 들었지만 통계 기초를 이해하기에는 설명이 어려웠다. 20장 부터는 수학과에 재학중인 친구와 같이 들으면서 모르는 것을 물어보면서 이해해야 할 정도. 수학에 관심이 어느 정도 있었거나 통계에 전반적인 지식이 있지 않는한 듣는것을 비추천 한다. 반대로 그러한 지식이 있다면 다양한 예시와 전문적인 교수님의 강의라서 추천하는 바이다.
+> 거의 다 들었지만 통계 기초를 이해하기에는 설명이 어려웠다. 20장 부터는 수학과에 재학중인 친구와 같이 들으면서 모르는 것을 물어보면서 이해해야 할 정도. 수학에 관심이 어느 정도 있었거나 통계에 전반적인 지식이 있지 않는한 듣는것을 비추천 한다. 반대로 그러한 지식이 있다면 다양한 예시와 전문적인 교수님의 강의라서 추천하는 바이다. 한 강의에 내용이 그렇게 많지는 않다. 복습을 하고 싶다면 정리된 부분만 읽어도 될 것 같다.
 
 
 
