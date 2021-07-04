@@ -4,8 +4,10 @@
 * [: TIL?](_til.md)
 * [: WIL](wil.md)
 * [: Retrospective](retrospective/README.md)
-  * [21\_1H](retrospective/21_1h.md)
-  * [21\_6M](retrospective/21_06m.md)
+  * [21](retrospective/21/README.md)
+    * [7W1](retrospective/21/7w1.md)
+    * [1H](retrospective/21/1h.md)
+    * [6M](retrospective/21/6m.md)
 * [: Plan](plan.md)
 
 ## TIL
