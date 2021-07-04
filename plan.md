@@ -139,13 +139,3 @@ description: 'P : Week Table'
 
 
 
-## History
-
-> 6월
-
-```text
-
-```
-
-
-
