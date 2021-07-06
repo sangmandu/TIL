@@ -32,7 +32,7 @@ description: 'What I Learn : ■ □'
 
 * [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
-  \[0 / 103\]
+  ■■■■■ ■■■■■ ■■ \[12 / 103\]
 
 * [ ] [\[따배쿠\] 쿠버네티스](https://www.youtube.com/playlist?list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c) \[Lecture\]
 
