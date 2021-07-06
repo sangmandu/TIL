@@ -20,7 +20,9 @@ description: 'Today I Learn : Version 2.5'
 
 📚 `Python` `Django` `Tensorflow` `Keras` `Pytorch` `CV` 
 
+  
 
+  
 
 > > **Road I have walked**
 
@@ -36,9 +38,9 @@ description: 'Today I Learn : Version 2.5'
 
 👟 `충북 청원고등학교` `(12.03.02~15.02.02)`
 
+  
 
-
-
+  
 
 > > **Did**
 >
@@ -48,7 +50,7 @@ description: 'Today I Learn : Version 2.5'
 
   _OpenCV, dlib 등의 라이브러리와 Face-recognition, Face detection of Mediapipe 모델을 이용하여 image, static video에서 일반인의 얼굴을 모자이크 하고, 학습된 인물은 모자이크 하지 않는 웹 서비스를 제작한 프로젝트이다._
 
-
+  
 
 > **`2020`**
 
@@ -68,7 +70,7 @@ description: 'Today I Learn : Version 2.5'
 
   _OpenCV, dlib 등의 라이브러리와 Blink 모델을 이용하여 손을 쓰지 않고 동공의 움직임, 깜빡임과 얼굴의 방향 전환으로 컴퓨터를 조작하는컴퓨팅 환경 프로그램 제작한 프로젝트이다._
 
-\_\_
+  __
 
 > > **Certification**
 
@@ -80,7 +82,7 @@ description: 'Today I Learn : Version 2.5'
 
 * 805점 \| 2018. 06. 30
 
-
+  
 
 ## Page 
 
@@ -100,7 +102,7 @@ description: 'Today I Learn : Version 2.5'
 
 > 계획적으로 세운 배움의 과정들을 볼 수 있습니다.
 
-
+  
 
 ## Principle
 
@@ -127,7 +129,7 @@ description: 'Today I Learn : Version 2.5'
   * Organized
   * In detail what I wanna point 
 
-
+  
 
 ## Update Log
 
