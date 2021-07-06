@@ -4,6 +4,8 @@ description: 'Today I Learn : Version 2.5'
 
 # MAIN
 
+{% file src=".gitbook/assets/google91bcd3cf7a964be4.html" %}
+
 ## About
 
 > > **Who**
@@ -20,7 +22,7 @@ description: 'Today I Learn : Version 2.5'
 
 📚 `Python` `Django` `Tensorflow` `Keras` `Pytorch` `CV` 
 
-{% file src=".gitbook/assets/google91bcd3cf7a964be4.html" %}
+
 
 > > **Road I have walked**
 
