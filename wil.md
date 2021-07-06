@@ -40,6 +40,8 @@ description: 'What I Learn : ■ □'
 
 * [ ] [CS231N\_KOR](https://youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5) \[Lecture\]
 
+* [ ] [Do It! 장고 + 부트스트랩](https://inf.run/spsi) \[Lecture\]
+
 * [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
 
   ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ ■■■ \[8\]
@@ -70,7 +72,23 @@ description: 'What I Learn : ■ □'
 
 🍚 양식 : https://sangmandu.gitbook.io/til/2021/may/
 
-    
+  
+
+
+
+> > **Will learn**
+
+* [ ] [생활코딩 Javascript](https://opentutorials.org/course/3085) \[Lecture\]
+
+* [ ] [생활코딩 React](https://youtube.com/playlist?list=PLuHgQVnccGMCRv6f8H9K5Xwsdyg4sFSdi) \[Lecture\]
+
+* [ ] [코지 코더 React](https://youtube.com/playlist?list=PLB7CpjPWqHOuf62H44TMkMIsqfkIzcEcX) \[Lecture\]
+
+* [ ] [React 기반 Gatsby로 기술 블로그 개발](https://inf.run/Zsy2) \[Chapter\]
+
+
+
+  
   
 
 > > **Learned**
@@ -162,20 +180,6 @@ description: 'What I Learn : ■ □'
   [■■](https://sangmandu.gitbook.io/til/2021/jun/10)[■■■ ■■■](https://sangmandu.gitbook.io/til/2021/jun/11) \[58\]
 
 > 기초 내용이지만 넓거나 깊은 내용은 아니라서, 간단한 정리 느낌으로 들었다. 유료강의인데 할인해서 수강했고, 할인된 가격으로도 누구한테 추천하고 싶지는 않지만 강의는 좋다.
-
-
-
-
-
-> > **Will learn**
-
-* [ ] [Pytorch Tutorial](https://tutorials.pytorch.kr/)
-
-* [ ] [PR12](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)
-
-* [ ] [PR12 Season2](https://www.youtube.com/playlist?list=PLWKf9beHi3TgstcIn8K6dI_85_ppAxzB8)
-
-* [ ] [\[동빈나\] 딥러닝 논문 리뷰](https://www.youtube.com/playlist?list=PLRx0vPvlEmdADpce8aoBhNnDaaHQN1Typ)
 
 
 
