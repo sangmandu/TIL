@@ -18,7 +18,7 @@ description: 'Today I Learn : Version 2.5'
 
 🖥 [https://sangmandu.gitbook.io/til/](https://sangmandu.gitbook.io/til/)
 
-📚 `Python` `Django` `Tensorflow` `Keras` `Pytorch` `CV` 
+📚 `Python` `Django` `Tensorflow` `Keras` `Pytorch` `ComputerVision` 
 
   
 
