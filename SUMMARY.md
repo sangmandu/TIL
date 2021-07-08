@@ -18,6 +18,7 @@
     * [Level1](til/algorithm/programmers/level1.md)
     * [Level2](til/algorithm/programmers/level2.md)
     * [Level3](til/algorithm/programmers/level3/README.md)
+      * [표 편집](til/algorithm/programmers/level3/81303.md)
       * [N-Queen](til/algorithm/programmers/level3/12952.md)
       * [징검다리 건너기](til/algorithm/programmers/level3/12938-1.md)
       * [최고의 집합](til/algorithm/programmers/level3/12938.md)
