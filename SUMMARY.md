@@ -21,6 +21,7 @@
     * [Level2](til/algorithm/programmers/level2/README.md)
       * [거리두기 확인하기](til/algorithm/programmers/level2/81302.md)
     * [Level3](til/algorithm/programmers/level3/README.md)
+      * [단속카메라](til/algorithm/programmers/level3/42884.md)
       * [표 편집](til/algorithm/programmers/level3/81303.md)
       * [N-Queen](til/algorithm/programmers/level3/12952.md)
       * [징검다리 건너기](til/algorithm/programmers/level3/12938-1.md)
