@@ -6,8 +6,6 @@ description: 'Today I Learned? : ■ □ ▩'
 
 * 당일 작성 포스트가 2개 이상일 경우, 임의로 선택합니다.
 
-https://sangmandu.gitbook.io/til/2021/jan/
-
 > 2021. 08.
 
 □□□□□ □□□□□ □□□□□
@@ -58,9 +56,9 @@ https://sangmandu.gitbook.io/til/2021/jan/
 
 > 2020. 12.
 
-■■■■■ ■■■■■ ■■■■■
+[■](https://sangmandu.gitbook.io/til/2020/dec/1)[■](https://sangmandu.gitbook.io/til/2020/dec/2)[■](https://sangmandu.gitbook.io/til/2020/dec/3)[■](https://sangmandu.gitbook.io/til/2020/dec/4)[■](https://sangmandu.gitbook.io/til/2020/dec/5) [■](https://sangmandu.gitbook.io/til/2020/dec/6)[■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/8)[■](https://sangmandu.gitbook.io/til/2020/dec/9)[■](https://sangmandu.gitbook.io/til/2020/dec/10) [■](https://sangmandu.gitbook.io/til/2020/dec/11)[■](https://sangmandu.gitbook.io/til/2020/dec/12)[■](https://sangmandu.gitbook.io/til/2020/dec/13)[■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/15)
 
-■■■■■ ■■■■■ ■■■■■ ■
+[■](https://sangmandu.gitbook.io/til/2020/dec/16)[■](https://sangmandu.gitbook.io/til/2020/dec/17)[■](https://sangmandu.gitbook.io/til/2020/dec/18)[■](https://sangmandu.gitbook.io/til/2020/dec/19)[■](https://sangmandu.gitbook.io/til/2020/dec/20) [■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2020/dec/22)[■](https://sangmandu.gitbook.io/til/2020/dec/23)[■](https://sangmandu.gitbook.io/til/2020/dec/24)[■](https://sangmandu.gitbook.io/til/2020/dec/25) [■](https://sangmandu.gitbook.io/til/2020/dec/26)[■](https://sangmandu.gitbook.io/til/2020/dec/27)[■](https://sangmandu.gitbook.io/til/2020/dec/28)[■](https://sangmandu.gitbook.io/til/2020/dec/29)[■](https://sangmandu.gitbook.io/til/2020/dec/30) [■](https://sangmandu.gitbook.io/til/2020/dec/31)
 
 > 2020. 11.
 
