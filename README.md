@@ -1,5 +1,5 @@
 ---
-description: 'Today I Learn : Version 2.5'
+description: 'Today I Learn : Version 2.6'
 ---
 
 # MAIN
@@ -133,7 +133,11 @@ description: 'Today I Learn : Version 2.5'
 
 ## Update Log
 
-> Version 2.5 \(~now\)
+> Version 2.6 \(~now\)
+>
+> > TIL Group이 ML, Python & Math, etc 그룹으로 분리되어 정리됩니다.
+>
+> Version 2.5 \(~2021. 07. 12\)
 >
 > > Portfolio 페이지가 삭제되고 내용이 MAIN 페이지로 옮겨졌습니다.
 > >
