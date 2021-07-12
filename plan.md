@@ -22,10 +22,10 @@ description: 'P : Week Table'
 - 밑시딥 7, 8
 - 1일 1A
 - LA 13-42
-- CNN 8-13
+- CNN 8-11
 - Django 0-7
 - 도커 0-8
-- RNN
+- RNN 4, 프로젝트
 - CS231N_KOR 2-6
 - 시각화 6-30
 ```
@@ -38,6 +38,7 @@ description: 'P : Week Table'
 셋째 주 18-24
 - LA 
 - CV
+- CNN 
 - CS213N_KOR 7-11 + 13
 - 알고리즘
 - 차트의 기술
