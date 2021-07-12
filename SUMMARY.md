@@ -12,14 +12,13 @@
 
 ## TIL : ML <a id="til_ml"></a>
 
-## TIL : etc <a id="til_etc"></a>
-
-* [Untitled](til_etc/untitled.md)
+* [딥러닝 CNN 완벽 가이드 - Fundamental 편](til_ml/cnn-fundamental.md)
+* [AI School 1st](til_ml/ai-shcool-1st.md)
+* [현업 실무자에게 배우는 Kaggle 머신러닝 입문](til_ml/kaggle.md)
+* [파이썬 딥러닝 파이토치](til_ml/undefined.md)
 
 ## TIL : Python & Math <a id="til_python_and_math"></a>
 
-* [Gatsby](til_python_and_math/gatsby/README.md)
-  * [01 깃북 포기 선언](til_python_and_math/gatsby/01.md)
 * [Algorithm](til_python_and_math/algorithm/README.md)
   * [Programmers](til_python_and_math/algorithm/programmers/README.md)
     * [Level1](til_python_and_math/algorithm/programmers/level1/README.md)
@@ -40,25 +39,28 @@
     * [Level4](til_python_and_math/algorithm/programmers/level4.md)
   * [LeetCode](til_python_and_math/algorithm/leetcode.md)
   * [Backjoon](til_python_and_math/algorithm/backjoon.md)
-* [Kubernetes](til_python_and_math/kubernetes.md)
-* [Docker](til_python_and_math/docker.md)
 * [Do It! 장고+부트스트랩: 파이썬 웹개발의 정석](til_python_and_math/do_it_django+bootstrap/README.md)
   * [부트스트랩](til_python_and_math/do_it_django+bootstrap/3.md)
   * [프론트엔드 기초다지기 \(HTML, CSS, JS\)](til_python_and_math/do_it_django+bootstrap/2.md)
   * [들어가기 + 환경설정](til_python_and_math/do_it_django+bootstrap/0-1.md)
-* [딥러닝 CNN 완벽 가이드 - Fundamental 편](til_python_and_math/cnn-fundamental.md)
-* [Untitled](til_python_and_math/untitled.md)
-* [AI School 1st](til_python_and_math/ai-shcool-1st.md)
-* [현업 실무자에게 배우는 Kaggle 머신러닝 입문](til_python_and_math/kaggle.md)
-* [파이썬 딥러닝 파이토치](til_python_and_math/undefined.md)
-* [Project. GARIGO](til_python_and_math/project.-garigo.md)
 * [Head First Python](til_python_and_math/head-first-python.md)
 * [데이터 분석을 위한 SQL](til_python_and_math/sql.md)
 * [단 두 장의 문서로 데이터 분석과 시각화 뽀개기](til_python_and_math/undefined-3.md)
 * [Linear Algebra\(Khan Academy\)](til_python_and_math/linear-algebra.md)
 * [인공지능을 위한 선형대수](til_python_and_math/undefined-1.md)
 * [Statistics110](til_python_and_math/statistics110.md)
-* [CoinTrading](til_python_and_math/cointrading.md)
+
+## TIL : etc <a id="til_etc"></a>
+
+* [Kubernetes](til_etc/kubernetes.md)
+* [Docker](til_etc/docker.md)
+* [CoinTrading](til_etc/cointrading.md)
+* [Gatsby](til_etc/gatsby/README.md)
+  * [01 깃북 포기 선언](til_etc/gatsby/01.md)
+
+## TIL : Project <a id="til_project"></a>
+
+* [Project. GARIGO](til_project/project.-garigo.md)
 
 ## 2021 TIL <a id="2021"></a>
 
