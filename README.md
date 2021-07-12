@@ -135,7 +135,7 @@ description: 'Today I Learn : Version 2.6'
 
 > Version 2.6 \(~now\)
 >
-> > TIL Group이 ML, Python & Math, etc 그룹으로 분리되어 정리됩니다.
+> > TIL Group이 ML, Python & Math, etc 그리고 프로젝트 그룹으로 분리되어 정리됩니다.
 >
 > Version 2.5 \(~2021. 07. 12\)
 >
