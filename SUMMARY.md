@@ -26,6 +26,7 @@
     * [Level2](til_python_and_math/algorithm/programmers/level2/README.md)
       * [거리두기 확인하기](til_python_and_math/algorithm/programmers/level2/81302.md)
     * [Level3](til_python_and_math/algorithm/programmers/level3/README.md)
+      * [\[1차\] 셔틀버스](til_python_and_math/algorithm/programmers/level3/17678.md)
       * [단속카메라](til_python_and_math/algorithm/programmers/level3/42884.md)
       * [표 편집](til_python_and_math/algorithm/programmers/level3/81303.md)
       * [N-Queen](til_python_and_math/algorithm/programmers/level3/12952.md)
