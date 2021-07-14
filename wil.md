@@ -16,20 +16,6 @@ description: 'What I Learn : ■ □'
 
 > > **Learning**
 
-* [ ] [단 두 장의 문서로 데이터 분석과 시각화 뽀개기](https://inf.run/PLwe) \[Lecture\]
-
-  기본 [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/5)
-
-  [■■](https://sangmandu.gitbook.io/til/2021/jan/5)■■ \[29\]  
-  실습 [■■■■■](https://sangmandu.gitbook.io/til/2021/may/22) [■](https://sangmandu.gitbook.io/til/2021/may/22)[■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/24)[■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/29)[■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/30)[■■■■](2021/may/31.md)
-
-  [■](https://sangmandu.gitbook.io/til/2021/may/31) \[26\]  
-  부록 [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/24) \[7\]
-
-* [ ] 파이썬 헤드 투 퍼스트 \[Chapter\]
-
-  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)[■](https://sangmandu.gitbook.io/til/2021/mar/20)[■](https://sangmandu.gitbook.io/til/2021/mar/21) [■](https://sangmandu.gitbook.io/til/2021/mar/21)[■](https://sangmandu.gitbook.io/til/2021/mar/22)[■](https://sangmandu.gitbook.io/til/2021/apr/6)[■](https://sangmandu.gitbook.io/til/2021/apr/7) \[14\]
-
 * [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
   ■■■■■ ■■■■■ ■■ \[12 / 103\]
@@ -41,22 +27,6 @@ description: 'What I Learn : ■ □'
 * [ ] [CS231N\_KOR](https://youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5) \[Lecture\]
 
 * [ ] [Do It! 장고 + 부트스트랩](https://inf.run/spsi) \[Lecture\]
-
-* [ ] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
-
-  ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ ■■■ \[8\]
-
-* [ ] [파이토치로 시작하는 딥러닝 기초](https://www.boostcourse.org/ai214/home)\(모두를 위한 딥러닝 강좌 시즌2\) \[Lecture\]
-
-  BASIC ■■■■■ ■■■■■ ■ \[11\]
-
-  DNN ■■■■■ ■■■ \[8\]
-
-  CNN ■■■■■ ■■■■■ ■■ \[12\]
-
-  RNN ■■■■■ ■■■■ \[9\]
-
-  TEST ■■■ \[3\]
 
 * [ ] [딥러닝 CNN 완벽 가이드 - Fundamental 편](https://inf.run/Qf6B) \[Lecture\]
 
@@ -182,6 +152,48 @@ description: 'What I Learn : ■ □'
 > 기초 내용이지만 넓거나 깊은 내용은 아니라서, 간단한 정리 느낌으로 들었다. 유료강의인데 할인해서 수강했고, 할인된 가격으로도 누구한테 추천하고 싶지는 않지만 강의는 좋다.
 
 
+
+* [x] 밑바닥부터 시작하는 딥러닝 \[Chapter\]
+
+  ■■■[■](https://sangmandu.gitbook.io/til/2020/dec/14)■ ■■■ \[8\]
+
+> 책 내용이 완전 설명식이라 이해하기 좋았다. 코드 실습도 같이 하면 좋은데, 내가 귀찮아서 안했다. 그런 부분은 지나고나서 아쉽긴 하지만.. 어쨋든 기존 설명서들과 다르게 설명이 좋아서 이해가 잘된다
+
+
+
+* [x] [파이토치로 시작하는 딥러닝 기초](https://www.boostcourse.org/ai214/home)\(모두를 위한 딥러닝 강좌 시즌2\) \[Lecture\]
+
+  BASIC ■■■■■ ■■■■■ ■ \[11\]
+
+  DNN ■■■■■ ■■■ \[8\]
+
+  CNN ■■■■■ ■■■■■ ■■ \[12\]
+
+  TEST ■■■ \[3\]
+
+> 간단하게 파이토치를 실습하고 익히기에 좋았다. 나는 RNN은 관심이 없어서 듣지는 않았는데, CV를 공부할 수록 RNN도 필요하구나 생각이 든다. 어쨋든! 모딥1을 들었다면 모딥2를 추천한다. 개념을 다시 복습하기도, 보충하기도 해서 좋다. 실습은 좋았는데, 생각보다 내가 작성하는 코드가 적어서 딱히 익히는 느낌보다는 친해지는 느낌.
+
+
+
+* [x] [단 두 장의 문서로 데이터 분석과 시각화 뽀개기](https://inf.run/PLwe) \[Lecture\]
+
+  기본 [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/1)[ ■](https://sangmandu.gitbook.io/til/2021/jan/2)[■■■■](https://sangmandu.gitbook.io/til/2021/jan/3) [■■■■■](https://sangmandu.gitbook.io/til/2021/jan/4) [■■■■■ ■■■■■](https://sangmandu.gitbook.io/til/2021/jan/5)
+
+  [■■](https://sangmandu.gitbook.io/til/2021/jan/5)■■ \[29\]  
+  실습 [■■■■■](https://sangmandu.gitbook.io/til/2021/may/22) ■■■■■ ■■■■■ ■■■■■ ■■■■■
+
+  ■ \[26\]  
+  부록 [■■■■■ ■■](https://sangmandu.gitbook.io/til/2021/mar/24) \[7\]
+
+> 시각화에 관한 기본기를 이 강의로 처음 시작했다. 강의를 잘 하셔서 재미있었지만 진짜 Cheat Sheet를 보고 맛보기만 하는 거라서 좀 감질맛 난다. 이게 무슨 말이냐면, 생각보다 강의를 다 듣고나도 아는게 별로 없는 것 같다. 친해지기에는 좋은 강의인데 자세하게 알려주거나 하는 다른 강의를 추천한다.
+
+
+
+* [x] 파이썬 헤드 투 퍼스트 \[Chapter\]
+
+  ■■■[■](https://sangmandu.gitbook.io/til/2021/mar/1)[■](https://sangmandu.gitbook.io/til/2021/mar/5) [■](https://sangmandu.gitbook.io/til/2021/mar/6)[■](https://sangmandu.gitbook.io/til/2021/mar/17)[■](https://sangmandu.gitbook.io/til/2021/mar/19)[■](https://sangmandu.gitbook.io/til/2021/mar/20)[■](https://sangmandu.gitbook.io/til/2021/mar/21) [■](https://sangmandu.gitbook.io/til/2021/mar/21)[■](https://sangmandu.gitbook.io/til/2021/mar/22)■■ \[14\]
+
+> 처음에는 파이썬의 기본기가 다 있다고 생각해서 시작했는데, 생각보다 웹이랑 얽혀서\(작가가 의도한 거겠지만\) 나는 재미없었다.. 그리고 생각보다 개념이 얕다. 인터넷에 검색하면 나오는 일반적인 Python강의나 위키가 더 좋으니 그것을 추천한다.
 
 
 
