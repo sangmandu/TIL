@@ -120,87 +120,61 @@ description: 'https://inf.run/Qf6B'
 >
 > [컨볼루션\(Convolution\) 적용 시 출력 피처맵의 크기 계산 공식 이해](https://sangmandu.gitbook.io/til/2021/may/9)
 
-### CNN 모델 구현 및 성능 향상 기본 기법 적용하기
-
-> [CIFAR10 데이터세트를 이용하여 CNN 모델 구현 실습 - 01](https://sangmandu.gitbook.io/til/2021/may/10)
->
-> [CIFAR10 데이터세트를 이용하여 CNN 모델 구현 실습 - 02](https://sangmandu.gitbook.io/til/2021/may/10)
->
-> [CIFAR10 데이터세트를 이용하여 CNN 모델 구현 실습 - 03](https://sangmandu.gitbook.io/til/2021/may/10)
->
-> [가중치 초기화\(Weight Initialization\)의 이해와 적용 - 01](https://sangmandu.gitbook.io/til/2021/may/10)
->
-> [가중치 초기화\(Weight Initialization\)의 이해와 적용 - 02](https://sangmandu.gitbook.io/til/2021/may/10)
->
-> [배치 정규화\(Batch Normalization\) 이해와 적용 - 01](https://sangmandu.gitbook.io/til/2021/may/10)
->
-> [배치 정규화\(Batch Normalization\) 이해와 적용 - 02](https://sangmandu.gitbook.io/til/2021/may/10)
-
-> [학습 데이터 Shuffle 적용 유무에 따른 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/may/25)
->
-> [배치크기 변경에 따른 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/may/25)
->
-> [학습율\(Learning Rate\) 동적 변경에 따른 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/may/25)
->
-> [필터수와 층\(Layer\) 깊이 변경에 따른 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/may/25)
->
-> [Global Average Pooling의 이해와 적용](https://sangmandu.gitbook.io/til/2021/may/25)
->
-> [가중치 규제\(Weight Regularization\)의 이해와 적용](https://sangmandu.gitbook.io/til/2021/may/25)
+### 
 
 ### 데이터 증강의 이해 - Keras ImageDataGenerator 활용
 
-> [데이터 증강\(Data Augmentation\)의 이해](https://sangmandu.gitbook.io/til/2021/may/26)
+> 데이터 증강\(Data Augmentation\)의 이해
 >
-> [Keras의 ImageDataGenerator 특징](https://sangmandu.gitbook.io/til/2021/may/26)
+> Keras의 ImageDataGenerator 특징
 >
-> [ImageDataGenerator로 Augmentation 적용 - 01](https://sangmandu.gitbook.io/til/2021/may/26)
+> ImageDataGenerator로 Augmentation 적용 - 01
 >
-> [ImageDataGenerator로 Augmentation 적용 - 02](https://sangmandu.gitbook.io/til/2021/may/26)
+> ImageDataGenerator로 Augmentation 적용 - 02
 >
-> [CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 01](https://sangmandu.gitbook.io/til/2021/may/26)
+> CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 01
 >
-> [CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 02](https://sangmandu.gitbook.io/til/2021/may/26)
+> CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 02
 
 ### 사전 훈련 CNN 모델의 활용과 Keras Generator 메커니즘 이해
 
-[사전 훈련 모델\(Pretrained Model\)의 이해와 전이학습\(Transfer Learning\) 개요](https://sangmandu.gitbook.io/til/2021/jun/12)
+사전 훈련 모델\(Pretrained Model\)의 이해와 전이학습\(Transfer Learning\) 개요
 
-[사전 훈련 모델 VGG16을 이용하여 CIFAR10 학습 모델 구현 후 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/jun/12)
+사전 훈련 모델 VGG16을 이용하여 CIFAR10 학습 모델 구현 후 모델 성능 비교
 
-[사전 훈련 모델 Xception을 이용하여 CIFAR10 학습 모델 구현 후 모델 성능 비교](https://sangmandu.gitbook.io/til/2021/jun/12)
+사전 훈련 모델 Xception을 이용하여 CIFAR10 학습 모델 구현 후 모델 성능 비교
 
-[개와 고양이\(Cat and Dog\) 이미지 분류 개요 및 파이썬 기반 주요 이미지 라이브러리 소개](https://sangmandu.gitbook.io/til/2021/jun/12)
+개와 고양이\(Cat and Dog\) 이미지 분류 개요 및 파이썬 기반 주요 이미지 라이브러리 소개
 
-[개와 고양이 데이터 세트 구성 확인 및 메타 정보 생성하기](https://sangmandu.gitbook.io/til/2021/jun/12)
+개와 고양이 데이터 세트 구성 확인 및 메타 정보 생성하기
 
-[Keras Generator 기반의 Preprocessing과 Data Loading 메커니즘 이해하기 - 01](https://sangmandu.gitbook.io/til/2021/jun/12)
+Keras Generator 기반의 Preprocessing과 Data Loading 메커니즘 이해하기 - 01
 
-[Keras Generator 기반의 Preprocessing과 Data Loading 메커니즘 이해하기 - 02](https://sangmandu.gitbook.io/til/2021/jun/12)
+Keras Generator 기반의 Preprocessing과 Data Loading 메커니즘 이해하기 - 02
 
-[flow\_from\_directory\(\) 이용하여 개와 고양이 판별 모델 학습 및 평가 수행](https://sangmandu.gitbook.io/til/2021/jun/12)
+flow\_from\_directory\(\) 이용하여 개와 고양이 판별 모델 학습 및 평가 수행
 
-[flow\_from\_dataframe\(\) 이용하여 개와 고양이 판별 모델 학습 및 평가 수행](https://sangmandu.gitbook.io/til/2021/jun/12)
+flow\_from\_dataframe\(\) 이용하여 개와 고양이 판별 모델 학습 및 평가 수행
 
-[이미지 픽셀값의 Scaling 방법, tf 스타일? torch 스타일?](https://sangmandu.gitbook.io/til/2021/jun/12)
+이미지 픽셀값의 Scaling 방법, tf 스타일? torch 스타일?
 
 ### Albumentation을 이용한 Augmentation기법과 Keras Sequence 활용하기
 
-[데이터 증강\(Augmentation\) 전용 패키지인 Albumentations 소개](https://sangmandu.gitbook.io/til/2021/jun/13)
+데이터 증강\(Augmentation\) 전용 패키지인 Albumentations 소개
 
-[Albumentations 사용 해보기\(Flip, Shift, Scale, Rotation 등\)](https://sangmandu.gitbook.io/til/2021/jun/13)
+Albumentations 사용 해보기\(Flip, Shift, Scale, Rotation 등\)
 
-[Albumentations 사용 해보기\(Crop, Bright, Contrast, HSV 등\)](https://sangmandu.gitbook.io/til/2021/jun/13)
+Albumentations 사용 해보기\(Crop, Bright, Contrast, HSV 등\)
 
-[Albumentations 사용 해보기\(Noise, Cutout, CLAHE, Blur, Oneof 등\)](https://sangmandu.gitbook.io/til/2021/jun/13)
+Albumentations 사용 해보기\(Noise, Cutout, CLAHE, Blur, Oneof 등\)
 
-[Keras의 Sequence 클래스 이해와 활용 개요](https://sangmandu.gitbook.io/til/2021/jun/13)
+Keras의 Sequence 클래스 이해와 활용 개요
 
-[Keras Sequence기반의 Dataset 직접 구현하기](https://sangmandu.gitbook.io/til/2021/jun/13)
+Keras Sequence기반의 Dataset 직접 구현하기
 
-[Keras Sequence기반의 Dataset 활용하여 Albumentations 적용하고 Xception, MobileNet으로 이미지 분류 수행 - 01](https://sangmandu.gitbook.io/til/2021/jun/13)
+Keras Sequence기반의 Dataset 활용하여 Albumentations 적용하고 Xception, MobileNet으로 이미지 분류 수행 - 01
 
-[Keras Sequence기반의 Dataset 활용하여 Albumentations 적용하고 Xception, MobileNet으로 이미지 분류 수행 - 02](https://sangmandu.gitbook.io/til/2021/jun/13)
+Keras Sequence기반의 Dataset 활용하여 Albumentations 적용하고 Xception, MobileNet으로 이미지 분류 수행 - 02
 
 ### Advanced CNN 모델 파헤치기 - AlexNet, VGGNet, GoogLeNet
 
