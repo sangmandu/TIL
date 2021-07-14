@@ -65,7 +65,8 @@
 
 * [Kubernetes](til_etc/kubernetes.md)
 * [Docker](til_etc/docker.md)
-* [CoinTrading](til_etc/cointrading.md)
+* [CoinTrading](til_etc/cointrading/README.md)
+  * [\[가상 화폐 자동 매매 프로그램\] 백테스팅 : 간단한 테스팅](til_etc/cointrading/0.md)
 * [Gatsby](til_etc/gatsby/README.md)
   * [01 깃북 포기 선언](til_etc/gatsby/01.md)
 
