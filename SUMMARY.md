@@ -13,6 +13,11 @@
 ## TIL : ML <a id="til_ml"></a>
 
 * [딥러닝 CNN 완벽 가이드 - Fundamental 편](til_ml/cnn-fundamental/README.md)
+  * [Untitled](til_ml/cnn-fundamental/untitled-1.md)
+  * [Untitled](til_ml/cnn-fundamental/untitled-5.md)
+  * [Untitled](til_ml/cnn-fundamental/untitled-2.md)
+  * [Untitled](til_ml/cnn-fundamental/untitled-3.md)
+  * [Untitled](til_ml/cnn-fundamental/untitled-4.md)
   * [Untitled](til_ml/cnn-fundamental/untitled.md)
   * [데이터 증강의 이해 - Keras ImageDataGenerator 활용](til_ml/cnn-fundamental/6.md)
   * [CNN 모델 구현 및 성능 향상 기본 기법 적용하기](til_ml/cnn-fundamental/5.md)

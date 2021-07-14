@@ -122,20 +122,6 @@ description: 'https://inf.run/Qf6B'
 
 ### 
 
-### 데이터 증강의 이해 - Keras ImageDataGenerator 활용
-
-> 데이터 증강\(Data Augmentation\)의 이해
->
-> Keras의 ImageDataGenerator 특징
->
-> ImageDataGenerator로 Augmentation 적용 - 01
->
-> ImageDataGenerator로 Augmentation 적용 - 02
->
-> CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 01
->
-> CIFAR10 데이터 셋에 Augmentation 적용 후 모델 성능 비교 - 02
-
 ### 사전 훈련 CNN 모델의 활용과 Keras Generator 메커니즘 이해
 
 사전 훈련 모델\(Pretrained Model\)의 이해와 전이학습\(Transfer Learning\) 개요
