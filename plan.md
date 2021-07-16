@@ -18,16 +18,12 @@ description: 'P : Week Table'
 
 ```text
 둘째 주 11-17
-- hfp 11, 11_3/4, 12
-- 밑시딥 7, 8
 - 1일 1A
 - LA 13-42
 - CNN 8-11
 - Django 0-7
 - 도커 0-8
-- RNN 4, 프로젝트
-- CS231N_KOR 2-6
-- 시각화 6-30
+- 장고 3-13
 ```
 
 
@@ -51,4 +47,10 @@ description: 'P : Week Table'
 ```
 
 
+
+> 8월
+
+```text
+첫쨰 주 1-7
+```
 
