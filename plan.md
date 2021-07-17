@@ -32,7 +32,7 @@ description: 'P : Week Table'
 
 ```text
 셋째 주 18-24
-- LA 
+- LA 19-24 / 25-30 / 31-36 / 37-42 / 43-48 /
 - CV
 - CNN 
 - CS213N_KOR 7-11 + 13
