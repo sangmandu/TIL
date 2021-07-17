@@ -2,7 +2,7 @@
 
 > [두 개 뽑아서 더하기](https://sangmandu.gitbook.io/til/2020/mar/10)
 >
-> [3진법 구하기](https://sangmandu.gitbook.io/til/2020/apr/6)
+> [3진법 뒤집기](https://sangmandu.gitbook.io/til/2020/apr/6)
 >
 > [2016년](https://sangmandu.gitbook.io/til/2020/mar/7)
 >
@@ -10,7 +10,7 @@
 >
 > [x만큼 간격이 있는 n개의 숫자](https://sangmandu.gitbook.io/til/2020/mar/12)
 >
-> [가운데 글자 출력](https://sangmandu.gitbook.io/til/2020/mar/16)
+> [가운데 글자 가져오기](https://sangmandu.gitbook.io/til/2020/mar/16)
 >
 > [연속된 수 제거하기](https://sangmandu.gitbook.io/til/2020/mar/19)
 >
