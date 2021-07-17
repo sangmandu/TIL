@@ -1,5 +1,5 @@
 ---
-description: 'Today I Learn : Version 2.5'
+description: 'Today I Learn : Version 2.6'
 ---
 
 # MAIN
@@ -28,7 +28,9 @@ description: 'Today I Learn : Version 2.5'
 
 👟 `다음 행선지를 향해 달리는 중(~now)` 
 
-👟 [`SSAFY 6st`](https://www.ssafy.com/) `(21.07.02~)`
+👟 [`AI BoostCamp 2st`](https://boostcamp.connect.or.kr/program_ai.html) `(21.07.16~)`
+
+👟 [`SSAFY 6st`](https://www.ssafy.com/) `(21.07.02~21.07.15)`
 
 👟 [`Programmers AI School 1st`](https://programmers.co.kr/learn/courses/10821)`(20.11.30~21.04.04)`
 
@@ -133,7 +135,11 @@ description: 'Today I Learn : Version 2.5'
 
 ## Update Log
 
-> Version 2.5 \(~now\)
+> Version 2.6 \(~now\)
+>
+> > TIL Group이 ML, Python & Math, etc 그리고 프로젝트 그룹으로 분리되어 정리됩니다.
+>
+> Version 2.5 \(~2021. 07. 12\)
 >
 > > Portfolio 페이지가 삭제되고 내용이 MAIN 페이지로 옮겨졌습니다.
 > >
