@@ -88,6 +88,7 @@
 
 * [\[따배런\] Kubernetes](til_etc/kubernetes.md)
 * [\[따배런\] Docker](til_etc/docker/README.md)
+  * [2. 도커 설치 실습 1 - 학습편\(준비물/실습 유형 소개\)](til_etc/docker/2.md)
   * [1. 컨테이너와 도커의 이해 - 컨테이너를 쓰는이유 / 일반프로그램과 컨테이너프로그램의 차이점](til_etc/docker/1.md)
   * [0. 드디어 찾아온 Docker 강의! 왕초보에서 도커 마스터로 - OT](til_etc/docker/0.md)
 * [CoinTrading](til_etc/cointrading/README.md)
