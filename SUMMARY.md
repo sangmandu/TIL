@@ -51,6 +51,7 @@
       * [핸드폰 번호 가리기](til_python_and_math/algorithm/programmers/level1/12948.md)
       * [행렬의 덧셈](til_python_and_math/algorithm/programmers/level1/12950.md)
     * [Level2](til_python_and_math/algorithm/programmers/level2/README.md)
+      * [방금그곡](til_python_and_math/algorithm/programmers/level2/17683.md)
       * [거리두기 확인하기](til_python_and_math/algorithm/programmers/level2/81302.md)
     * [Level3](til_python_and_math/algorithm/programmers/level3/README.md)
       * [숫자 게임](til_python_and_math/algorithm/programmers/level3/12987.md)
