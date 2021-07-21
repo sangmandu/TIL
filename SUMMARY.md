@@ -10,7 +10,6 @@
     * [6W5](retrospective/21/6w5.md)
     * [1H](retrospective/21/1h.md)
 * [: Plan](plan.md)
-* [google91bcd3cf7a964be4](google91bcd3cf7a964be4.md)
 
 ## TIL : ML <a id="til_ml"></a>
 
