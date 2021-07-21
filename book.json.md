@@ -1,0 +1,11 @@
+# book.json
+
+```text
+"pluginsConfig": {
+       "meta-single": {
+           "name": "google-site-verification",
+           "content": "THGK-X6GKsqPzwp0-jEhmpwcHu48nzGH4zW6Tou7y4c"
+       }
+   }
+```
+
