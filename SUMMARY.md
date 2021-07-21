@@ -10,7 +10,7 @@
     * [6W5](retrospective/21/6w5.md)
     * [1H](retrospective/21/1h.md)
 * [: Plan](plan.md)
-* [book.json](book.json.md)
+* [book](book.md)
 
 ## TIL : ML <a id="til_ml"></a>
 
