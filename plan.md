@@ -6,7 +6,7 @@ description: 'P : Week Table'
 
 ## 😂 Weekly
 
-> 미루지 말자. 매주 계획이 똑같지 않고, 매달 목표가 같지 않기를!!!
+> 미루지 말자. 매주 계획이 똑같지 않고, 매달 목표가 같지 않기를!!!!
 
 {% embed url="https://docs.google.com/spreadsheets/d/16m9m121z9Vw-EZQYLgb8yfHZD9wtm3AcW-xB6huO70E/edit?usp=sharing" %}
 
