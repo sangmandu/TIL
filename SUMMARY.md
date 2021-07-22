@@ -55,6 +55,7 @@
       * [방금그곡](til_python_and_math/algorithm/programmers/level2/17683.md)
       * [거리두기 확인하기](til_python_and_math/algorithm/programmers/level2/81302.md)
     * [Level3](til_python_and_math/algorithm/programmers/level3/README.md)
+      * [기지국 설치](til_python_and_math/algorithm/programmers/level3/12979.md)
       * [숫자 게임](til_python_and_math/algorithm/programmers/level3/12987.md)
       * [110 옮기기](til_python_and_math/algorithm/programmers/level3/77886.md)
       * [광고 제거](til_python_and_math/algorithm/programmers/level3/72414.md)
