@@ -11,6 +11,8 @@
     * [6M5W](retrospective/21y/6m5w.md)
     * [1H](retrospective/21y/1h.md)
 * [: Plan](plan.md)
+* [새사람 되기 프로젝트](undefined/README.md)
+  * [Untitled](undefined/untitled.md)
 
 ## TIL : ML <a id="til_ml"></a>
 
