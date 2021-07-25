@@ -26,7 +26,7 @@ description: 'What I Learn : ■ □'
 
 * [ ] [\[따배쿠\] 도커](https://www.youtube.com/playlist?list=PLApuRlvrZKogb78kKq1wRvrjg1VMwYrvi) \[Lecture\]
 
-  ■■■■■ \[0 / ?\]
+  ■■■■ \[4 / 22~\]
 
 * [ ] [CS231N\_KOR](https://youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5) \[Lecture\]
 
