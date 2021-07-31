@@ -18,7 +18,7 @@ description: 'What I Learn : ■ □'
 
 * [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
-  ■■■■■ ■■■■■ ■■ \[12 / 103\]
+  ■■■■■ ■■■■■ ■■■■■ ■■■ \[18 / 103\]
 
 * [ ] [\[따배쿠\] 쿠버네티스](https://www.youtube.com/playlist?list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c) \[Lecture\]
 
@@ -26,11 +26,13 @@ description: 'What I Learn : ■ □'
 
 * [ ] [\[따배쿠\] 도커](https://www.youtube.com/playlist?list=PLApuRlvrZKogb78kKq1wRvrjg1VMwYrvi) \[Lecture\]
 
-  \[0 / ?\]
+  ■■■■ \[4 / 22~\]
 
 * [ ] [CS231N\_KOR](https://youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5) \[Lecture\]
 
 * [ ] [Do It! 장고 + 부트스트랩](https://inf.run/spsi) \[Lecture\]
+
+  ■■■■■ ■■■■■ ■■■■■
 
 * [ ] [딥러닝 CNN 완벽 가이드 - Fundamental 편](https://inf.run/Qf6B) \[Lecture\]
 
