@@ -5,9 +5,6 @@
 * [: WIL](wil.md)
 * [: Plan](plan.md)
 * [: Retrospective](retrospective/README.md)
-  * [새사람 되기 프로젝트](retrospective/undefined/README.md)
-    * [2회차](retrospective/undefined/2.md)
-    * [1회차](retrospective/undefined/1.md)
   * [21Y](retrospective/21y/README.md)
     * [7M4W](retrospective/21y/7m4w.md)
     * [7M3W](retrospective/21y/7m3w.md)
@@ -15,6 +12,9 @@
     * [7M1W](retrospective/21y/7m1w.md)
     * [6M5W](retrospective/21y/6m5w.md)
     * [1H](retrospective/21y/1h.md)
+  * [새사람 되기 프로젝트](retrospective/undefined/README.md)
+    * [2회차](retrospective/undefined/2.md)
+    * [1회차](retrospective/undefined/1.md)
 
 ## TIL : ML <a id="til_ml"></a>
 
