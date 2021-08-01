@@ -28,9 +28,9 @@ description: 'Today I Learn : Version 2.6'
 
 👟 `다음 행선지를 향해 달리는 중(~now)` 
 
-👟 [`AI BoostCamp 2st`](https://boostcamp.connect.or.kr/program_ai.html) `(21.07.16~)`
+👟 [`AI BoostCamp 2st`](https://boostcamp.connect.or.kr/program_ai.html) `(21.08.02~)`
 
-👟 [`SSAFY 6st`](https://www.ssafy.com/) `(21.07.02~21.07.15)`
+👟 [`SSAFY 6st`](https://www.ssafy.com/) `(21.07.02~21.07.30)`
 
 👟 [`Programmers AI School 1st`](https://programmers.co.kr/learn/courses/10821)`(20.11.30~21.04.04)`
 
