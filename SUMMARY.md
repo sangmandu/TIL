@@ -19,7 +19,9 @@
 ## TIL : ML <a id="til_ml"></a>
 
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
-  * [Untitled](til_ml/boostcamp-2st/untitled.md)
+  * [Python Basics for AI](til_ml/boostcamp-2st/untitled/README.md)
+    * [\(Python 1-2강\) 파이썬 개요](til_ml/boostcamp-2st/untitled/python-1-2.md)
+    * [\(Python 1-1강\) Basic computer class for newbies](til_ml/boostcamp-2st/untitled/python-1-1-basic-computer-class-for-newbies.md)
 * [딥러닝 CNN 완벽 가이드 - Fundamental 편](til_ml/cnn-fundamental/README.md)
   * [종합 실습 2 - 캐글 Plant Pathology\(나무잎 병 진단\) 경연 대회](til_ml/cnn-fundamental/13.md)
   * [종합 실습 1 - 120종의 Dog Breed Identification 모델 최적화](til_ml/cnn-fundamental/12.md)
