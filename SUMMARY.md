@@ -20,6 +20,7 @@
 
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [Python Basics for AI](til_ml/boostcamp-2st/untitled/README.md)
+    * [\(Python 3-2강\) Pythonic code](til_ml/boostcamp-2st/untitled/python-3-2.md)
     * [\(Python 3-1강\) Python Data Structure](til_ml/boostcamp-2st/untitled/python-3-1.md)
     * [\(Python 2-4강\) String and advanced function concept](til_ml/boostcamp-2st/untitled/python-2-4.md)
     * [\(Python 2-3강\) Conditionals and Loops](til_ml/boostcamp-2st/untitled/python-2-3.md)
