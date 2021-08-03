@@ -8,7 +8,7 @@ description: 'Today I Learned? : ■ □ ▩'
 
 > 2021. 08.
 
-[■](til_python_and_math/do_it_django+bootstrap/10.md)□□□□ □□□□□ □□□□□
+[■](til_python_and_math/do_it_django+bootstrap/10.md)[■](til_ml/boostcamp-2st/untitled/python-1-1.md)■□□ □□□□□ □□□□□
 
 □□□□□ □□□□□ □□□□□ □
 
