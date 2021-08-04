@@ -16,9 +16,9 @@ description: 'What I Learn : ■ □'
 
 > > **Learning**
 
-* [ ] Boostcamp 2st \[Weeks\]
+* [ ] Boostcamp 2st \[Days\]
 
-  ■
+  ■■■
 
 * [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
@@ -40,7 +40,7 @@ description: 'What I Learn : ■ □'
 
   [■■■■■](til_python_and_math/do_it_django+bootstrap/5.md) [■■■■](til_python_and_math/do_it_django+bootstrap/6.md)[■ ■■](til_python_and_math/do_it_django+bootstrap/7.md)[■■■](til_python_and_math/do_it_django+bootstrap/8.md) [■■](til_python_and_math/do_it_django+bootstrap/9.md)[■■■ ■■■■■](til_python_and_math/do_it_django+bootstrap/10.md)
 
-  [■](til_python_and_math/do_it_django+bootstrap/10.md)■■■ \[54 / 92\]
+  [■](til_python_and_math/do_it_django+bootstrap/10.md) \[51 / 92\]
 
 * [ ] [딥러닝 CNN 완벽 가이드 - Fundamental 편](https://inf.run/Qf6B) \[Lecture\]
 
@@ -48,7 +48,7 @@ description: 'What I Learn : ■ □'
 
   [■](https://sangmandu.gitbook.io/til/2021/apr/23)[■■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/24)[■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/7)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/may/8)[■■■](https://sangmandu.gitbook.io/til/2021/may/9)
 
-  [■■■](https://sangmandu.gitbook.io/til/2021/may/9) \[53 / 130\]
+  [■■■](https://sangmandu.gitbook.io/til/2021/may/9)[■■ ■■■■■ ■■■■](til_ml/cnn-fundamental/5.md)[■ ■■■■■](til_ml/cnn-fundamental/6.md) \[70 / 130\]
 
 
 
