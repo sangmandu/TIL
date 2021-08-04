@@ -19,7 +19,12 @@
 ## TIL : ML <a id="til_ml"></a>
 
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
+  * [AI Math](til_ml/boostcamp-2st/ai-math/README.md)
+    * [Untitled](til_ml/boostcamp-2st/ai-math/untitled-1.md)
   * [Python Basics for AI](til_ml/boostcamp-2st/untitled/README.md)
+    * [\[필수 과제 3\] Text Processing 2](til_ml/boostcamp-2st/untitled/3-text-processing-2.md)
+    * [\[필수 과제 2\] Text Processing 1](til_ml/boostcamp-2st/untitled/2-text-processing-1.md)
+    * [\[필수 과제 1\] Basic Math](til_ml/boostcamp-2st/untitled/1-basic-math.md)
     * [\(Python 6강\) numpy](til_ml/boostcamp-2st/untitled/python-6.md)
     * [\(Python 5-2강\) Python data handling](til_ml/boostcamp-2st/untitled/python-5-2.md)
     * [\(Python 5-1강\) File / Exception / Log Handling](til_ml/boostcamp-2st/untitled/python-5-1.md)
