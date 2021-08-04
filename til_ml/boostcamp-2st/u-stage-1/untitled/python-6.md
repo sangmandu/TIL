@@ -356,7 +356,122 @@ dot product
 * 내적 함수
 * `np.array.dot(np.array)` 꼴로 사용
 
+transpose
 
+* 전치 함수
+* `np.array.T` 의 꼴로 사용
+
+broadcasting
+
+* shape이 다른 배열 간 연산을 지원하는 기능
+* scalar - vector 와 vector - matrix 간에 지원한다
+
+timeit
+
+* jupyter 환경에서 코드의 퍼포먼스를 체크하는 함수
+* 일반적으로 속도는 다음과 같다
+  * numpy &gt; list comprehension &gt; for loop
+
+
+
+## Comparisons
+
+### All & Any
+
+Array의 데이터 전부 또는 일부가 조건에 만족하는지에 대한 여부를 반환한다
+
+```python
+a = np.arange(10)
+a
+>>> array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+np.any(a>5), np.any(a<0)
+>>> (True, False)
+
+np.all(a>5), np.all(a<10)
+>>> (False, True)
+```
+
+
+
+numpy는 배열의 크기가 동일한 element간 비교의 결과를 Boolean type으로 반환한다.
+
+```python
+test_a = np.array([1, 3, 0], float)
+test_b = np.array([5, 2, 1], float)
+test_a > test_b
+>>> array([False, True, False], dtype=bool)
+```
+
+
+
+### where
+
+```python
+a = np.arange(10)
+np.where(a>5)
+>>> (array([6, 7, 8, 9], dtype=int64),)
+
+a = np.array([1, np.NaN, np.Inf], float)
+np.isnan(a)
+>>> array([False,  True, False])
+
+np.isfinite(a)
+>>> array([ True, False, False])
+```
+
+
+
+### argmax & argmin
+
+array내 최대값 또는 최소값의 index를 반환
+
+또한, axis 기반의 반환을 할 수 있다
+
+```python
+a = np.arange(0, 20, 3)
+a
+>>> array([ 0,  3,  6,  9, 12, 15, 18])
+
+np.argmax(a), np.argmin(a)
+>>> (6, 0)
+
+ a = np.array([[1,2,4,7],[9,88,6,45],[9,76,3,4]])
+np.argmax(a, axis=1), np.argmax(a, axis=0)
+>>> (array([3, 1, 1], dtype=int64), array([1, 1, 1, 1], dtype=int64))
+np.argmin(a, axis=1), np.argmin(a, axis=0)
+>>> (array([0, 2, 2], dtype=int64), array([0, 0, 2, 2], dtype=int64))
+```
+
+
+
+### boolean index
+
+특정 조건에 따른 값을 배열 형태로 추출한다.
+
+```python
+arr > 3
+>>> array([False,  True, False, False, False,  True,  True,  True])
+
+arr[arr > 3]
+>>> array([4., 8., 9., 7.])
+```
+
+
+
+### fancy index
+
+numpy array를 index value로 사용해서 값을 추출한다. 이 때 인덱스로 사용되는 배열은 반드시 정수로 선언되어야 한다.
+
+```python
+a = np.array([2, 4, 6, 8], float)
+b = np.array([0, 0, 1, 3, 2, 1], int)
+a[b]
+>>> array([2., 2., 4., 8., 6., 4.])
+```
+
+* matrix형태도 가능하다
+  * a\[b\]\[c\]
 
 
 
