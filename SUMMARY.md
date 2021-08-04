@@ -40,6 +40,8 @@
     * [\[필수 과제 1\] Basic Math](til_ml/boostcamp-2st/u-stage-1/1-basic-math.md)
     * [\[필수 과제 2\] Text Processing 1](til_ml/boostcamp-2st/u-stage-1/2-text-processing-1.md)
     * [\[필수 과제 3\] Text Processing 2](til_ml/boostcamp-2st/u-stage-1/3-text-processing-2.md)
+    * [\[필수 과제 4\] Baseball](til_ml/boostcamp-2st/u-stage-1/4-baseball.md)
+    * [\[필수 과제 5\] Morsecode](til_ml/boostcamp-2st/u-stage-1/5-morsecode.md)
     * [\[선택 과제 1\] Gradient Descent](til_ml/boostcamp-2st/u-stage-1/1-gradient-descent.md)
 * [딥러닝 CNN 완벽 가이드 - Fundamental 편](til_ml/cnn-fundamental/README.md)
   * [종합 실습 2 - 캐글 Plant Pathology\(나무잎 병 진단\) 경연 대회](til_ml/cnn-fundamental/13.md)
