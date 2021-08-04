@@ -21,7 +21,7 @@
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [\[U\]Stage-1](til_ml/boostcamp-2st/u-stage-1/README.md)
     * [AI Math](til_ml/boostcamp-2st/u-stage-1/ai-math/README.md)
-      * [Untitled](til_ml/boostcamp-2st/u-stage-1/ai-math/untitled-1.md)
+      * [\(AI Math 1강\) 벡터가 뭐예요?](til_ml/boostcamp-2st/u-stage-1/ai-math/untitled-1.md)
     * [Python Basics for AI](til_ml/boostcamp-2st/u-stage-1/untitled/README.md)
       * [\(Python 6강\) numpy](til_ml/boostcamp-2st/u-stage-1/untitled/python-6.md)
       * [\(Python 5-2강\) Python data handling](til_ml/boostcamp-2st/u-stage-1/untitled/python-5-2.md)
