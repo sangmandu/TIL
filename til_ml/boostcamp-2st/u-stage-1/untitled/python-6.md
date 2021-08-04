@@ -307,7 +307,54 @@ element간의 합
 
 모든 operation function을 실행할 때 기준이 되는 dimension 축이다.
 
+![](../../../../.gitbook/assets/image%20%28735%29.png)
 
+### mathematical functions
+
+다양한 수학 연산자
+
+* np.exp
+* np.sqrt
+* np.mean
+* np.std
+
+### Concatenate
+
+vstack
+
+* numpy array를 세로로 붙임
+
+hstack
+
+* numpy array를 가로로 붙임
+
+concatenate
+
+* axis = 0 : vstack과 동일
+* axis = 1: hstack과 동일
+
+newaxis
+
+* 축을 하나 늘린다
+
+```python
+b = np.array([5, 6])
+b = b[np.newaxis, :]
+b
+>>> array([[5, 6]])
+```
+
+
+
+### Opertaions b/t arrays
+
+* 기본적으로 numpy array간의 기본적인 사칙 연산을 지원한다
+  * 이 때 element-wise operation으로 연산된다
+
+dot product
+
+* 내적 함수
+* `np.array.dot(np.array)` 꼴로 사용
 
 
 
