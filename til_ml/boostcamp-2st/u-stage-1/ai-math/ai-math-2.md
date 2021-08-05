@@ -62,7 +62,7 @@ description: '210805'
 * `np.linalg.inv(A)` 로 역행렬을 구할 수 있다.
 * 역행렬을 구할 수 없을 때는 유사역행렬 또는 무어-펜로즈 역행렬을 이용한다.
 
-![](../../../../.gitbook/assets/image%20%28765%29.png)
+![](../../../../.gitbook/assets/image%20%28766%29.png)
 
 * `np.linalg.pinv(A)` 로 유사역행렬을 구할 수 있다.
 
