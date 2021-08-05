@@ -39,7 +39,7 @@ description: '210805'
 
 ### 데이터로 모수 추정하기
 
-![](../../../../.gitbook/assets/image%20%28747%29.png)
+![](../../../../.gitbook/assets/image%20%28752%29.png)
 
 * 통계량의 확률분포를 표집분포라 부르며, 특히 표본평균의 표집분포는 N이 커질수록 정규분포를 따른다
   * sampling distribution과 sample distribution은 다른 개념
@@ -52,7 +52,7 @@ description: '210805'
 * 표본평균이나 표본분산은 중요한 통계량이지만 확률분포마다 사용하는 모수가 다르므로 적절한 통계량이 달라지게 된다
 * 이론적으로 가장 가능성이 높은 모수를 추정하는 방법 중 하나는 최대가능도 추정법\(maximumlikelihoodestimation,MLE\) 이다.
 
-![](../../../../.gitbook/assets/image%20%28754%29.png)
+![](../../../../.gitbook/assets/image%20%28771%29.png)
 
 * 여기서 L은 확률밀도함수나 확률질량함수 같은 것이다. 다만 관점의 차이가 있다.
   * 확률밀도함수나 확률질량함수는 theta가 주어졌을 때 x에 대한 함수로 해석
