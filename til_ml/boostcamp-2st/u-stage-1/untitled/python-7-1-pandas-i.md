@@ -116,7 +116,7 @@ Name: number, dtype: float32
 
 
 
-이후의 pandas 내용은 이전에 작성한 를 참고.
+이후의 pandas 내용은 이전에 작성한 [시각화 파트](../../../../til_python_and_math/undefined-3.md)와 동일한 내용이 많아 이로 대체합니다.
 
 
 
