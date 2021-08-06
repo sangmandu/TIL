@@ -32,6 +32,8 @@
       * [\(AI Math 2강\) 행렬이 뭐예요?](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md)
       * [\(AI Math 1강\) 벡터가 뭐예요?](til_ml/boostcamp-2st/u-stage-1/ai-math/untitled-1.md)
     * [Python Basics for AI](til_ml/boostcamp-2st/u-stage-1/untitled/README.md)
+      * [\(Python 7-1강\) pandas I](til_ml/boostcamp-2st/u-stage-1/untitled/python-7-1-pandas-i.md)
+      * [Untitled](til_ml/boostcamp-2st/u-stage-1/untitled/untitled.md)
       * [\(Python 6강\) numpy](til_ml/boostcamp-2st/u-stage-1/untitled/python-6.md)
       * [\(Python 5-2강\) Python data handling](til_ml/boostcamp-2st/u-stage-1/untitled/python-5-2.md)
       * [\(Python 5-1강\) File / Exception / Log Handling](til_ml/boostcamp-2st/u-stage-1/untitled/python-5-1.md)
