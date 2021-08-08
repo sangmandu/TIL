@@ -4,11 +4,11 @@ description: 'Today I Learned? : ■ □ ▩'
 
 # : TIL?
 
-* 당일 작성 포스트가 2개 이상일 경우, 임의로 선택합니다.
+*  당일 작성 포스트가 2개 이상일 경우, 임의로 선택합니다.
 
 > 2021. 08.
 
-□□□□□ □□□□□ □□□□□
+[■](til_python_and_math/do_it_django+bootstrap/10.md)[■](til_ml/boostcamp-2st/u-stage-1/untitled/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/untitled/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/untitled/python-4-2.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md) □□□□□ □□□□□
 
 □□□□□ □□□□□ □□□□□ □
 
@@ -16,7 +16,7 @@ description: 'Today I Learned? : ■ □ ▩'
 
 [■](til_python_and_math/algorithm/programmers/level3/12914.md)[■](til_python_and_math/algorithm/programmers/level3/12946.md)[■](til_python_and_math/algorithm/programmers/level3/12907.md)[■](til_python_and_math/algorithm/programmers/level3/72413.md)[■](til_python_and_math/algorithm/programmers/level3/12938.md) [■](til_python_and_math/do_it_django+bootstrap/2.md)[■](til_python_and_math/algorithm/programmers/level3/12952.md)[■](til_python_and_math/algorithm/programmers/level3/81303.md)[■](til_python_and_math/algorithm/programmers/level1/81301.md)[■](til_python_and_math/algorithm/programmers/level2/81302.md) [■](til_python_and_math/algorithm/programmers/level3/42884.md)[■](til_python_and_math/do_it_django+bootstrap/3.md)[■](til_python_and_math/algorithm/programmers/level3/17678.md)[■](til_python_and_math/algorithm/programmers/level3/42892.md)[■](til_python_and_math/algorithm/programmers/level3/72414.md)
 
-[■](til_python_and_math/algorithm/programmers/level3/77886.md)[■](til_python_and_math/algorithm/programmers/level1/64061.md)[■](til_python_and_math/algorithm/programmers/level3/12987.md)[■](til_python_and_math/algorithm/programmers/level2/17683.md)[■](til_python_and_math/algorithm/programmers/level2/12936.md) [■](til_python_and_math/algorithm/programmers/level2/17684.md)[■](til_python_and_math/algorithm/programmers/level3/12979.md)[■](til_python_and_math/algorithm/programmers/level2/72412.md)[■](til_python_and_math/do_it_django+bootstrap/5.md)[■](til_python_and_math/do_it_django+bootstrap/6.md) [■](til_python_and_math/do_it_django+bootstrap/6.md)[■](til_python_and_math/algorithm/programmers/level3/60062.md)[■](til_ml/cnn-fundamental/5.md)[■](til_python_and_math/do_it_django+bootstrap/8.md)[■](til_python_and_math/do_it_django+bootstrap/9.md) □
+[■](til_python_and_math/algorithm/programmers/level3/77886.md)[■](til_python_and_math/algorithm/programmers/level1/64061.md)[■](til_python_and_math/algorithm/programmers/level3/12987.md)[■](til_python_and_math/algorithm/programmers/level2/17683.md)[■](til_python_and_math/algorithm/programmers/level2/12936.md) [■](til_python_and_math/algorithm/programmers/level2/17684.md)[■](til_python_and_math/algorithm/programmers/level3/12979.md)[■](til_python_and_math/algorithm/programmers/level2/72412.md)[■](til_python_and_math/do_it_django+bootstrap/5.md)[■](til_python_and_math/do_it_django+bootstrap/6.md) [■](til_python_and_math/do_it_django+bootstrap/6.md)[■](til_python_and_math/algorithm/programmers/level3/60062.md)[■](til_ml/cnn-fundamental/5.md)[■](til_python_and_math/do_it_django+bootstrap/8.md)[■](til_python_and_math/do_it_django+bootstrap/8.md) [■](til_python_and_math/do_it_django+bootstrap/9.md)
 
 > 2021. 06.
 

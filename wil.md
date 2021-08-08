@@ -16,6 +16,10 @@ description: 'What I Learn : ■ □'
 
 > > **Learning**
 
+* [ ] Boostcamp 2st \[Days\]
+
+  [■](til_ml/boostcamp-2st/u-stage-1/untitled/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/untitled/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/untitled-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md)
+
 * [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
   ■■■■■ ■■■■■ ■■■■■ ■■■ \[18 / 103\]
@@ -32,7 +36,11 @@ description: 'What I Learn : ■ □'
 
 * [ ] [Do It! 장고 + 부트스트랩](https://inf.run/spsi) \[Lecture\]
 
-  ■■■■■ ■■■■■ ■■■■■
+  [■■■■■](til_python_and_math/do_it_django+bootstrap/0-1.md) [■■■■■](til_python_and_math/do_it_django+bootstrap/2.md) [■■■■■ ■■■](til_python_and_math/do_it_django+bootstrap/3.md)[■■ ■■■■■](til_python_and_math/do_it_django+bootstrap/4.md)
+
+  [■■■■■](til_python_and_math/do_it_django+bootstrap/5.md) [■■■■](til_python_and_math/do_it_django+bootstrap/6.md)[■ ■■](til_python_and_math/do_it_django+bootstrap/7.md)[■■■](til_python_and_math/do_it_django+bootstrap/8.md) [■■](til_python_and_math/do_it_django+bootstrap/9.md)[■■■ ■■■■■](til_python_and_math/do_it_django+bootstrap/10.md)
+
+  [■](til_python_and_math/do_it_django+bootstrap/10.md) \[51 / 92\]
 
 * [ ] [딥러닝 CNN 완벽 가이드 - Fundamental 편](https://inf.run/Qf6B) \[Lecture\]
 
@@ -40,7 +48,7 @@ description: 'What I Learn : ■ □'
 
   [■](https://sangmandu.gitbook.io/til/2021/apr/23)[■■■■ ■■■](https://sangmandu.gitbook.io/til/2021/apr/24)[■■ ■■■■■ ■](https://sangmandu.gitbook.io/til/2021/may/7)[■■■■ ■■](https://sangmandu.gitbook.io/til/2021/may/8)[■■■](https://sangmandu.gitbook.io/til/2021/may/9)
 
-  [■■■](https://sangmandu.gitbook.io/til/2021/may/9) \[53 / 130\]
+  [■■■](https://sangmandu.gitbook.io/til/2021/may/9)[■■ ■■■■■ ■■■■](til_ml/cnn-fundamental/5.md)[■ ■■■■■](til_ml/cnn-fundamental/6.md) \[70 / 130\]
 
 
 
@@ -80,7 +88,7 @@ description: 'What I Learn : ■ □'
 
 
 
-* [x] [프로그래머스 AI school](https://programmers.co.kr/learn/courses/10821)  \[Lecture\] \[60\]
+* [x] [프로그래머스 AI school](https://programmers.co.kr/learn/courses/10821)  \[Weeks\] \[60\]
 
   [■](https://sangmandu.gitbook.io/til/2020/dec/1)[■■](https://sangmandu.gitbook.io/til/2020/dec/2)[■](https://sangmandu.gitbook.io/til/2020/dec/3)[■](https://sangmandu.gitbook.io/til/2020/dec/4) [■](https://sangmandu.gitbook.io/til/2020/dec/7)[■](https://sangmandu.gitbook.io/til/2020/dec/8)[■](https://sangmandu.gitbook.io/til/2020/dec/9)[■](https://sangmandu.gitbook.io/til/2020/dec/10)[■](https://sangmandu.gitbook.io/til/2020/dec/11) [■](https://sangmandu.gitbook.io/til/2020/dec/14)[■](https://sangmandu.gitbook.io/til/2020/dec/15)[■](https://sangmandu.gitbook.io/til/2020/dec/16)[■](https://sangmandu.gitbook.io/til/2020/dec/17)[■](https://sangmandu.gitbook.io/til/2020/dec/18) [■](https://sangmandu.gitbook.io/til/2020/dec/21)[■](https://sangmandu.gitbook.io/til/2020/dec/26)[■](https://sangmandu.gitbook.io/til/2020/dec/25)[■](https://sangmandu.gitbook.io/til/2020/dec/29)■ [■](https://sangmandu.gitbook.io/til/2021/jan/4)[■■](https://sangmandu.gitbook.io/til/2021/jan/7)[■■](https://sangmandu.gitbook.io/til/2021/jan/8)
 
