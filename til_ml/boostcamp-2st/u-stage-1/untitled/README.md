@@ -1,4 +1,0 @@
-# Python Basics for AI
-
-## 
-

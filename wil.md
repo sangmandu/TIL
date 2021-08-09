@@ -18,7 +18,7 @@ description: 'What I Learn : ■ □'
 
 * [ ] Boostcamp 2st \[Days\]
 
-  [■](til_ml/boostcamp-2st/u-stage-1/untitled/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/untitled/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/untitled-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md)
+  [■](til_ml/boostcamp-2st/u-stage-1/python/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/untitled-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md)
 
 * [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
