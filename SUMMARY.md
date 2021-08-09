@@ -29,6 +29,7 @@
       * [\(02강\) 뉴럴 네트워크 - MLP \(Multi-Layer Perceptron\)](til_ml/boostcamp-2st/u-stage-2/dl-basic/02-mlp-multi-layer-perceptron.md)
       * [\(01강\) 딥러닝 기본 용어 설명 - Historical Review](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)
   * [\[U\]Stage-1](til_ml/boostcamp-2st/u-stage-1/README.md)
+    * [1W Retrospective](til_ml/boostcamp-2st/u-stage-1/1w-retrospective.md)
     * [AI Math](til_ml/boostcamp-2st/u-stage-1/ai-math/README.md)
       * [\(AI Math 10강\) RNN 첫걸음](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-10-rnn.md)
       * [\(AI Math 9강\) CNN 첫걸음](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-9-cnn.md)
