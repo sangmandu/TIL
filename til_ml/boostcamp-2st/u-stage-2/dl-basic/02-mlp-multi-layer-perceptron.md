@@ -122,7 +122,7 @@ test_iter = torch.utils.data.DataLoader(mnist_test,batch_size=BATCH_SIZE,shuffle
 print ("Done.")
 ```
 
-* 불러온 데이터셋 객체로 data\_loader 객체를 만든다. 인자에 대한 설명은 다음과 같다\(참고링크 위와 동일\)
+* 불러온 데이터셋 객체로 data\_loader 객체를 만든다. 인자에 대한 설명은 다음과 같다\([참고링크](https://m.blog.naver.com/hongjg3229/221560700128)\)
   * **dataset :** 어떤 데이터를 로드할 것인지
   * **batch\_size :** 배치 사이즈를 뭘로 할지
   * **shuffle :** 순서를 무작위로 할 것인지, 있는 순서대로 할 것인지
