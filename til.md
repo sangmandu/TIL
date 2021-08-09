@@ -8,7 +8,7 @@ description: 'Today I Learned? : ■ □ ▩'
 
 > 2021. 08.
 
-[■](til_python_and_math/do_it_django+bootstrap/10.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-4-2.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md) □□□□□ □□□□□
+[■](til_python_and_math/do_it_django+bootstrap/10.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-4-2.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md) [■](til_ml/boostcamp-2st/u-stage-1/python/python-7-1-pandas-i.md)[■](til_ml/boostcamp-2st/u-stage-1/5-morsecode.md)■■□ □□□□□
 
 □□□□□ □□□□□ □□□□□ □
 
