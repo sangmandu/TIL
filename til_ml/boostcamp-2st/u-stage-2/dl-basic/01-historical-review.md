@@ -16,7 +16,7 @@ description: '210809'
 
 
 
-![](../../../../.gitbook/assets/image%20%28787%29.png)
+![](../../../../.gitbook/assets/image%20%28792%29.png)
 
 인공지능
 
@@ -68,7 +68,7 @@ description: '210809'
 
 기준이 되는 비용함수를 정해야 한다
 
-![](../../../../.gitbook/assets/image%20%28786%29.png)
+![](../../../../.gitbook/assets/image%20%28787%29.png)
 
 그러나, 각 문제별로 비용함수가 정해져 있는 것은 아니다. 회귀문제를 풀 때 노이즈가 많은 경우에는 에러가 높아지기 때문에 L1 Norm을 사용하는 등의 여러 방법이 있다.
 
@@ -78,7 +78,7 @@ description: '210809'
 
 #### Optimization Algorithm
 
-![](../../../../.gitbook/assets/image%20%28788%29.png)
+![](../../../../.gitbook/assets/image%20%28793%29.png)
 
 신경망의 파라미터를 1차 미분한 정보를 활용한다.
 
