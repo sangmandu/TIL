@@ -20,7 +20,8 @@
 
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [\[U\]Stage-2](til_ml/boostcamp-2st/u-stage-2/README.md)
-    * [DL Basic](til_ml/boostcamp-2st/u-stage-2/dl-basic.md)
+    * [DL Basic](til_ml/boostcamp-2st/u-stage-2/dl-basic/README.md)
+      * [\(01강\) 딥러닝 기본 용어 설명 - Historical Review](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)
     * [Data Viz](til_ml/boostcamp-2st/u-stage-2/data-viz.md)
   * [\[U\]Stage-1](til_ml/boostcamp-2st/u-stage-1/README.md)
     * [AI Math](til_ml/boostcamp-2st/u-stage-1/ai-math/README.md)
