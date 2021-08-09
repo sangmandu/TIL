@@ -16,8 +16,6 @@ description: '210809'
 
 
 
-### 개념
-
 ![](../../../../.gitbook/assets/image%20%28787%29.png)
 
 인공지능
@@ -37,7 +35,7 @@ description: '210809'
 
 
 
-### 딥러닝의 중요요소
+#### 딥러닝의 중요요소
 
 * 학습할 데이터
 * 데이터를 학습할 모델
@@ -48,7 +46,7 @@ description: '210809'
 
 
 
-### Data
+#### Data
 
 데이터는 해결해야할 문제의 유형에 따라 결정된다
 
@@ -60,13 +58,13 @@ description: '210809'
 
 
 
-### Model
+#### Model
 
 같은 데이터가 주어지고 같은 문제가 주어졌더라도 모델의 종류에 따라 성능이 달라진다.
 
 
 
-### Loss
+#### Loss
 
 기준이 되는 비용함수를 정해야 한다
 
@@ -78,7 +76,7 @@ description: '210809'
 
 
 
-### Optimization Algorithm
+#### Optimization Algorithm
 
 ![](../../../../.gitbook/assets/image%20%28788%29.png)
 
@@ -93,13 +91,13 @@ description: '210809'
 
 ## Historical Review
 
-### 2012 - AlexNet
+#### 2012 - AlexNet
 
 * 딥러닝을 이용해서 처음으로 수상한 모델
 
 
 
-### 2013 - DQN
+#### 2013 - DQN
 
 * 강화학습방법을 딥러닝에 적용한 것
 * 알파고의 시작
@@ -107,7 +105,66 @@ description: '210809'
 
 
 
+#### 2014 - Encoder / Decoder
+
+* 단어의 연속이 주어졌을 때 다른 언어의 연속으로 바꿔주는 모델
+
+
+
+#### 2014 - Adam Optimizer
+
+* 여러 옵티마이저가 있지만 Adam 이 성능이 잘나온다.
+
+
+
+#### 2015 - Generative Adversarial Network
+
+* 이미지 생성기와 판별기로 구성되어있따
+* 술이 너무 맛없어서 연구를 생각하다가 연구실로 가서 작성한 아이디어
+
  
+
+#### 2015 - Residual Networks
+
+* 딥러닝의 딥러닝이 있게해준 논문
+* 이전에는 신경망의 층이 깊을수록 성능이 안좋다고 했었음
+* ResNet이 등장하면서 층을 깊게 쌓아도 성능이 나올 수 있게 되었음
+  * 물론 너무 깊으면 다시 성능이 감소한다
+
+
+
+#### 2016 - Nothing
+
+
+
+#### 2017 - Transformer
+
+* Attention Is All You Need
+* 기존의 방법론들을 대체한 모델
+
+
+
+#### 2018 - Bert
+
+* Bidirectional Encoder Representations from Transformers
+* 딥러닝의 흐름을 바꾼 모델
+* 위키피디아 같은 큰 말뭉치를 학습하고 해결하고자 하는 소수의 문제에 접근한다
+
+
+
+#### 2019 - BIG Language Models
+
+* GPT-3 같은 Language 모델 등장
+  * 다양한 단어와 문장을 만들 수 있음
+  * 굉장히 많은 파라미터가 있음
+    * 1750억개의 파라미터
+
+
+
+#### 2020 - Self Supervised Learning
+
+* 학습 데이터외의 라벨이 없는 Unsupervised 이미지를 학습에 같이 사용하겠다는 아이디어
+* 지도학습과 비지도학습의 융합물
 
 
 
