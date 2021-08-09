@@ -19,11 +19,15 @@
 ## TIL : ML <a id="til_ml"></a>
 
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
+  * [\[U\]Stage-3](til_ml/boostcamp-2st/u-stage-3.md)
+  * [\[S\]Data Viz](til_ml/boostcamp-2st/s-data-viz/README.md)
+    * [\(1-3\) Python과 Matplotlib](til_ml/boostcamp-2st/s-data-viz/1-3-python-matplotlib.md)
+    * [\(1-2\) 시각화의 요소](til_ml/boostcamp-2st/s-data-viz/1-2.md)
+    * [\(1-1\) Welcome to Visualization \(OT\)](til_ml/boostcamp-2st/s-data-viz/1-1-welcome-to-visualization-ot.md)
   * [\[U\]Stage-2](til_ml/boostcamp-2st/u-stage-2/README.md)
     * [DL Basic](til_ml/boostcamp-2st/u-stage-2/dl-basic/README.md)
       * [\(02강\) 뉴럴 네트워크 - MLP \(Multi-Layer Perceptron\)](til_ml/boostcamp-2st/u-stage-2/dl-basic/02-mlp-multi-layer-perceptron.md)
       * [\(01강\) 딥러닝 기본 용어 설명 - Historical Review](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)
-    * [Data Viz](til_ml/boostcamp-2st/u-stage-2/data-viz.md)
   * [\[U\]Stage-1](til_ml/boostcamp-2st/u-stage-1/README.md)
     * [AI Math](til_ml/boostcamp-2st/u-stage-1/ai-math/README.md)
       * [\(AI Math 10강\) RNN 첫걸음](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-10-rnn.md)
