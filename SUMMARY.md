@@ -27,6 +27,7 @@
     * [\(1-1\) Welcome to Visualization \(OT\)](til_ml/boostcamp-2st/s-data-viz/1-1-welcome-to-visualization-ot.md)
   * [\[U\]Stage-2](til_ml/boostcamp-2st/u-stage-2/README.md)
     * [DL Basic](til_ml/boostcamp-2st/u-stage-2/dl-basic/README.md)
+      * [\(03강\) Optimization](til_ml/boostcamp-2st/u-stage-2/dl-basic/03-optimization.md)
       * [\(02강\) 뉴럴 네트워크 - MLP \(Multi-Layer Perceptron\)](til_ml/boostcamp-2st/u-stage-2/dl-basic/02-mlp-multi-layer-perceptron.md)
       * [\(01강\) 딥러닝 기본 용어 설명 - Historical Review](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)
     * [\[필수 과제\] MLP Assignment](til_ml/boostcamp-2st/u-stage-2/mlp-assignment.md)
