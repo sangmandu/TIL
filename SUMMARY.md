@@ -30,6 +30,7 @@
       * [\(03강\) Optimization](til_ml/boostcamp-2st/u-stage-2/dl-basic/03-optimization.md)
       * [\(02강\) 뉴럴 네트워크 - MLP \(Multi-Layer Perceptron\)](til_ml/boostcamp-2st/u-stage-2/dl-basic/02-mlp-multi-layer-perceptron.md)
       * [\(01강\) 딥러닝 기본 용어 설명 - Historical Review](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)
+    * [\[필수 과제\] Optimization Assignment](til_ml/boostcamp-2st/u-stage-2/optimization-assignment.md)
     * [\[필수 과제\] MLP Assignment](til_ml/boostcamp-2st/u-stage-2/mlp-assignment.md)
   * [\[U\]Stage-1](til_ml/boostcamp-2st/u-stage-1/README.md)
     * [1W Retrospective](til_ml/boostcamp-2st/u-stage-1/1w-retrospective.md)
