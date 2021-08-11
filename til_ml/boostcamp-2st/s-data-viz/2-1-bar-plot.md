@@ -16,7 +16,7 @@ description: '210811'
 
 막대의 방향에 따른 분류
 
-![](../../../.gitbook/assets/image%20%28823%29.png)
+![](../../../.gitbook/assets/image%20%28830%29.png)
 
 * 수직 : `.bar()`
   * 기본적으로 사용한다
@@ -48,7 +48,7 @@ Pink = [4, 3, 2, 5, 1]
 
 ### Stacked Bar Plot
 
-![](../../../.gitbook/assets/image%20%28824%29.png)
+![](../../../.gitbook/assets/image%20%28831%29.png)
 
 2개 이상의 그룹을 쌓아서 표현하는 bar plot
 
@@ -64,7 +64,7 @@ Pink = [4, 3, 2, 5, 1]
 
 좀 더 데이터 분포 비교가 원활한 `Percentage Stacked Bar Chart` 도 있다.
 
-![](../../../.gitbook/assets/image%20%28822%29.png)
+![](../../../.gitbook/assets/image%20%28829%29.png)
 
 * 각 bar 마다 퍼센트 수치를 알려주는 annotation이 표기되어 있는 모습
 
@@ -72,7 +72,7 @@ Pink = [4, 3, 2, 5, 1]
 
 ### Overlapped Bar Plot
 
-![](../../../.gitbook/assets/image%20%28826%29.png)
+![](../../../.gitbook/assets/image%20%28837%29.png)
 
 2개 그룹만 비교한다면 겹쳐서 만들 수도 있다.
 
@@ -102,7 +102,7 @@ Pink = [4, 3, 2, 5, 1]
 
 반드시 x축의 시작은 0에서 부터 시작해야 하며, 이 법칙은 대부분의 그래프에서 모두 적용된다.
 
-![](../../../.gitbook/assets/image%20%28825%29.png)
+![](../../../.gitbook/assets/image%20%28832%29.png)
 
 왼쪽 그래프는 가독성이 좋고 차이를 확연히 느낄 수 있지만 좋은 그래프가 아니다. 보는 이에게 "첫번째 막대가 마지막 막대의 2배 이상인가?" 라는 혼동을 줄 수 있기 때문.
 
