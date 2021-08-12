@@ -20,7 +20,7 @@ description: '210812'
 
 Fully convolutional network는 dense layer가 없다.
 
-![](../../../../.gitbook/assets/image%20%28862%29.png)
+![](../../../../.gitbook/assets/image%20%28864%29.png)
 
 dense layer를 없애는 과정을 convolutionalization 이라고 한다. dense layer가 없어진 자체가 장점.
 
@@ -47,7 +47,7 @@ convolution의 역연산을 해준다. 그러면 30x30이 15x15가 된 것을 �
 
 따라서 엄밀히 말하면 역연산은 아니다. 그렇지만 파라미터의 숫자와 네트워크의 구조를 봤을 때는 역연산이라고 볼 수 있다. 아래와 같이 패딩을 많이줘서 원래 크기로 돌리는 모습
 
-![](../../../../.gitbook/assets/image%20%28855%29.png)
+![](../../../../.gitbook/assets/image%20%28856%29.png)
 
 ![](../../../../.gitbook/assets/image%20%28843%29.png)
 
@@ -97,7 +97,7 @@ Bounding box가 쓸모가 있는지 없는지에 대한 Yes or No의 2가지 파
 
 이전에는 Region Proposal Network가 있었고 거기서 나오는 Bounding Box를 따로 분류했다. YOLO는 한번에 분류한다.
 
-![](../../../../.gitbook/assets/image%20%28856%29.png)
+![](../../../../.gitbook/assets/image%20%28857%29.png)
 
 YOLO는 이미지가 들어오면 SxS의 격자로 이미지를 나누게 된다. 찾고자 하는 물체의 중앙이 그리드 안에 들어가면 그 그리드셀이 해당 물체의 Bounding box와 Class까지 같이 예측해주게된다.
 

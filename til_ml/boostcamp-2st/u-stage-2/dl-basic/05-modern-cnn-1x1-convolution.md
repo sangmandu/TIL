@@ -14,13 +14,13 @@ description: '210811'
 * 1000개의 다른 범주
 * 100만장이 넘는 이미지
 
-![](../../../../.gitbook/assets/image%20%28858%29.png)
+![](../../../../.gitbook/assets/image%20%28859%29.png)
 
 해마다 발전하는 딥러닝의 인지 능력
 
 ## AlexNet
 
-![](../../../../.gitbook/assets/image%20%28854%29.png)
+![](../../../../.gitbook/assets/image%20%28855%29.png)
 
 당시에 GPU가 부족해서 두 개로 분할해서 학습했다.
 
@@ -66,7 +66,7 @@ ReLU가 왜 좋을까?
 
 3x3을 여러번 쓰는것이 큰 필터를 쓰는것보다 낫다는 것을 알게되었다. 그래서 이후로는 이런 방식을 채택했다.
 
-![](../../../../.gitbook/assets/image%20%28864%29.png)
+![](../../../../.gitbook/assets/image%20%28866%29.png)
 
 구글넷은 동일한 구조가 반복되는 구조이다. 그래서 이런 것을 Network In Network, NIN 구조라고 한다.
 
@@ -90,7 +90,7 @@ Kaiming He가 만든 모델.
   * 여기서 다룬 문제는 이것이 아님
 * 네트워크가 커질수록 비교적 작은 네트워크보다 학습이 어렵다.
 
-![](../../../../.gitbook/assets/image%20%28853%29.png)
+![](../../../../.gitbook/assets/image%20%28854%29.png)
 
 ResNet은 두번째 문제를 해결하기 위해 Identity map이라는 것을 추가했다. 모델의 출력값에 입력값을 더하는 것
 
@@ -108,7 +108,7 @@ ResNet은 두번째 문제를 해결하기 위해 Identity map이라는 것을 �
 
 Identity map에 대해서 입력과 출력을 더하는 것이 아니라 concatenate\(잇다\)하는 방법. 이렇게 되면 점점 채널이 커지게 되고 이에 따라 필터의 채널도 커지게 된다. 결국 파라미터수의 증가
 
-![](../../../../.gitbook/assets/image%20%28852%29.png)
+![](../../../../.gitbook/assets/image%20%28853%29.png)
 
 그래서 Densenet에서는 중간중간마다 채널의 수를 1x1 Conv로 줄이게 된다. Densenet은 Dense Block Transition Block으로 이루어져있는데, Dense Block에서는 계속적으로 채널을 늘리고 Transition Block에서는 BN, 1x1 Conv, 2x2 AvgPooling을 거치면서 채널수를 줄이게 된다.
 

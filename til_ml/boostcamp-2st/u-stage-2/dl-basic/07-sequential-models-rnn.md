@@ -18,7 +18,7 @@ description: '210812'
 
 그에 반해 Auto. 모델은 이전 n개 데이터를 가지고 다음 데이터를 예측한다. n개로 이전 데이터의 개수가 고정되므로 계산이 쉬워진다.
 
-![](../../../../.gitbook/assets/image%20%28861%29.png)
+![](../../../../.gitbook/assets/image%20%28863%29.png)
 
 * 미래는 과거 n개에만 independent하다라는 가정
 
@@ -40,7 +40,7 @@ Markov Assumption을 가지기 때문에 다음과 같은 이름이 붙음.
 
 앞에서 보았던 모델들과 다 동일하지만 한 가지의 차이점은 RNN은 자기 자신으로 돌아오는 구조가 있다는 것
 
-![](../../../../.gitbook/assets/image%20%28860%29.png)
+![](../../../../.gitbook/assets/image%20%28861%29.png)
 
 RNN을 시간순으로 데이터를 풀게되면 사실 입력이 굉장히 많은 FC로 볼 수 있다.
 
@@ -48,7 +48,7 @@ RNN의 큰 문제는 `Short-term dependencies` 과거의 정보들이 계속 추
 
 * 예를 들어, 음성인식의 경우 5초 까지는 잘 기억하는데, 5초 이전에 말했던 음성들은 제대로 반영이 안되는 문제
 
-![](../../../../.gitbook/assets/image%20%28859%29.png)
+![](../../../../.gitbook/assets/image%20%28860%29.png)
 
 h0가 h4까지 가기 위해 여러 연산을 거쳐야 하게 된다. 만약 activation 함수가 sigmoid라면 이 h0값이 squshing되게 되고 이를 반복하다 보니 남은 값의 의미가 없어지게 된다
 
@@ -65,11 +65,11 @@ h0가 h4까지 가기 위해 여러 연산을 거쳐야 하게 된다. 만약 ac
 
 기본적인 RNN\(Vanilla\)의 구조는 다음과 같다
 
-![](../../../../.gitbook/assets/image%20%28851%29.png)
+![](../../../../.gitbook/assets/image%20%28852%29.png)
 
 LSTM의 구조는 다음과 같다
 
-![](../../../../.gitbook/assets/image%20%28865%29.png)
+![](../../../../.gitbook/assets/image%20%28867%29.png)
 
 ![](../../../../.gitbook/assets/image%20%28844%29.png)
 
@@ -83,21 +83,47 @@ LSTM을 이해할 때는 gate 위주로 이해하면 좋다. LSTM은 3개의 gat
 
 LSTM의 가장 큰 아이디어는 중간에 흘러가는 Cell state이다
 
-#### Forget Gate
+### Forget Gate
 
 ![](../../../../.gitbook/assets/image%20%28845%29.png)
 
 어떤 정보를 버릴지\(잊어버릴지\) 결정한다. 이전의 셀 정보와 현재 셀의 입력이 들어가서 $$ f_t$$ 라는 숫자를 얻는다. 이 f는 sigmoid의 값이므로 항상 0에서 1사이의 값을 갖는다
 
-#### Input Gate
+### Input Gate
 
-![](../../../../.gitbook/assets/image%20%28863%29.png)
+![](../../../../.gitbook/assets/image%20%28865%29.png)
 
 현재 입력을 무작정 cell state에 올리는 것이 아니라 올릴 정보를 결정한다. 입력과 이전 셀 정보를 이용해서 $$ i_t $$ 라는 정보를 만들게된다. 이제 이 i에서 올릴 정보를 결정해야 하는데, 이는 $$ C_t $$ 로 결정하게 된다. \(읽는 법은 C TILDE\) 이 C 역시 이전의 셀 정보와 현재 입력값을 가지고 다른 학습된 NN을 통해서 얻는 값이다. 이 값은 hyperbolic tangent를 통과하기 때문에 -1에서 1사이의 값을 가진다.
 
 ### Update Cell
 
-![](../../../../.gitbook/assets/image%20%28857%29.png)
+![](../../../../.gitbook/assets/image%20%28858%29.png)
+
+Forget gate에서 구한 f와 Input gate에서 구한 i를 가지고 현재셀의 cell state를 갱신한다.
+
+### Output Gate
+
+그대로 Cell State를 Output으로 뽑을 수도 있다. 이것을 GRU에서 한다
+
+* _Gated Recurrent Units, GRU_는 RNN 프레임워크의 일종으로 LSTM보다 더 간랸한 구조이다
+
+LSTM에서는 이것을 한번더 변환한다. 얼마나 바깥으로 빼낼지를 결정하는 부분
+
+## Gated Recurrent Unit
+
+일반적으로 RNN을 쓰면 Vanilla RNN, LSTM 그리고 GRU를 쓴다.
+
+![](../../../../.gitbook/assets/image%20%28862%29.png)
+
+GRU는 게이트가 2개이다.
+
+* Reset Gate, Update Gate
+
+히든 스테이트가 곧 아웃풋이고 바로 다음 스테이트로 들어가게 된다.
+
+* RNN은 아웃풋을 변환했다.
+
+
 
 
 
