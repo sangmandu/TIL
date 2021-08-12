@@ -28,6 +28,8 @@
     * [\(1-1\) Welcome to Visualization \(OT\)](til_ml/boostcamp-2st/s-data-viz/1-1-welcome-to-visualization-ot.md)
   * [\[U\]Stage-2](til_ml/boostcamp-2st/u-stage-2/README.md)
     * [DL Basic](til_ml/boostcamp-2st/u-stage-2/dl-basic/README.md)
+      * [Untitled](til_ml/boostcamp-2st/u-stage-2/dl-basic/untitled-1.md)
+      * [\(07강\) Sequential Models - RNN](til_ml/boostcamp-2st/u-stage-2/dl-basic/07-sequential-models-rnn.md)
       * [\(06강\) Computer Vision Applications](til_ml/boostcamp-2st/u-stage-2/dl-basic/06-computer-vision-applications.md)
       * [\(05강\) Modern CNN - 1x1 convolution의 중요성](til_ml/boostcamp-2st/u-stage-2/dl-basic/05-modern-cnn-1x1-convolution.md)
       * [\(04강\) Convolution은 무엇인가?](til_ml/boostcamp-2st/u-stage-2/dl-basic/04-convolution.md)
