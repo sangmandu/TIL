@@ -126,19 +126,101 @@ Competition도 존재한다.
   * RNN은 천개의 시퀀스가 있으면 천번 돌리면 된다.\(시간적 여유가 있다면 돌리는데 문제가 없다는 뜻\) 그러나 트랜스포머는 N개의 단어를 한번에 처리해야 하기 때문에 메모리를 많이 잡아 먹는다
   * 그대신 이런것을 극복하면 더 Flexble 하고 더 성능이 좋은 모델이 된다
 
-![](../../../../.gitbook/assets/image%20%28884%29.png)
+![](../../../../.gitbook/assets/image%20%28893%29.png)
 
 한 개의 단어에 대해서 여러개의 벡터를 만들 수 있으면 Multi-headed attention, MHA 라고 한다.
 
 만약에 8개의 벡터를 만든다고 하자. 
 
-![](../../../../.gitbook/assets/image%20%28883%29.png)
+![](../../../../.gitbook/assets/image%20%28888%29.png)
 
 그런데 여기서, 입력 크기와 출력 크기가 동일해야 하는데, 출력이 8개이므로 출력 크기가 8배가 된다.
 
 ![](../../../../.gitbook/assets/image%20%28882%29.png)
 
 그래서 출력 크기를 맞춰주기 위해 추가로 행렬을 곱해주게 된다.
+
+* 예를 들어 총 \(10, 80\) 행렬이 완성된다면 \(80, 10\) 행렬을 곱해서 \(10, 10\) 행렬로 만든다.
+
+그러나, 실제로 이렇게 구현되지는 않다. 자세한 건 코드실습에서.
+
+
+
+우리가 N개의 단어를 sequential 하게 넣었지만 실제로 Transformer에는 순서정보가 반영되지 않는다. 그래서 positional encoding이 필요하게 된다. 만들어지는 방법은 사전에 pre-defined 된 방법을 가지고 만든다고 한다\(그래서 그 방법이 뭘까...ㅎ\)
+
+![](../../../../.gitbook/assets/image%20%28883%29.png)
+
+왼쪽은 예전에 쓰이던 positional encoding 방법이고 최근에는 오른쪽처럼 사용한다고 한다.
+
+![](../../../../.gitbook/assets/image%20%28890%29.png)
+
+어쨋든, attention이 되면 Z 벡터를 생성하게 되고 이 때 LayerNorm 과정을 거친다. 이게 무엇인지 설명하지 않으므로 내가 찾아봐야겠지...
+
+[여기](https://yonghyuc.wordpress.com/2020/03/04/batch-norm-vs-layer-norm/)를 참고한 결과 LN은 다음과 같다 \(BN과의 차이를 통해 설명\)
+
+> 먼저 BN은 “각 feature의 평균과 분산”을 구해서 batch에 있는 “각 feature 를 정규화” 한다.
+>
+> 반면 LN은 “각 input의 feature들에 대한 평균과 분산”을 구해서 batch에 있는 “각 input을 정규화” 한다.
+
+![](../../../../.gitbook/assets/image%20%28887%29.png)
+
+그림만 봐도 이해가 잘된다!
+
+
+
+![](../../../../.gitbook/assets/image%20%28884%29.png)
+
+인코더는 결국 디코더에게 키와 밸류를 보내게 된다.
+
+* 출력하고자 하는 단어들에 대해 attention map을 만드려면 인풋에 해당하는 단어들의 키벡터와 밸류벡터가 필요하기 때문이다.
+
+![](../../../../.gitbook/assets/image%20%28891%29.png)
+
+인풋은 한번에 입력받지만 출력은 한 단어씩 디코더에 넣어서 출력하게 된다.
+
+
+
+![](../../../../.gitbook/assets/image%20%28895%29.png)
+
+디코더에서는 인코더와 달리 순차적으로 결과를 만들어내야 해서 self-attention을 변형하게된다. 바로 masking을 해주는 것. 인코더는 입력순서가 이미 정해져있기 때문에 decoder입장에서는 i번째 단어가 무엇인지 예측하기가 쉬워지기 때문에 이러한 마스킹을 해준다.
+
+![](../../../../.gitbook/assets/image%20%28896%29.png)
+
+`Encoder-Decoder Attention` 은 디코더가 쿼리 벡터를 제외하고는 키 벡터와 밸류 벡터는 인코더에서 생성된 것을 사용하겠다라는 인코더와 디코더의 상호연결성을 의미한다
+
+
+
+추가적으로 동료와 이런 이야기를 나누었다.
+
+> 근데 positional encoding이 과연 필수일까?
+
+[Language Modeling with Deep Transformers](https://arxiv.org/pdf/1905.04226v2.pdf) 논문에서는 이렇게 말한다
+
+![](../../../../.gitbook/assets/image%20%28885%29.png)
+
+보통 언어모델에서는 positional encoding이 거의 필수이다. 사용하지 않아도 작동은 그럭저럭 한다. 근데 깊은 autoregressive model\(트랜스포머 모델의 한 종류\)에서는 데이터셋이 많고 모델이 깊다보니까 순서정보가 없는데도 데이터 자체에서 가중치에게 순서에 대한 정보를 제공해준다. 그래서 마지막에는 오히려 순서정보를 제공하지 않았더니 성능이 늘어났다.
+
+
+
+## Vision Transformer
+
+self-attention을 단어들의 sequence에만 사용하는 것이 아니라 이미지에도 사용하게 되었다.
+
+![](../../../../.gitbook/assets/image%20%28886%29.png)
+
+인코더만 사용하고, 인코더에서 나오는 벡터를 바로 분류모델에 사용하게된다.
+
+차이점이라고 하면 언어는 문장들을 sequence하게 넣어준 것에 비해 이미지는 몇 개의 부분조각으로 나눈뒤 Linear Layer를 통과해가지고 하나의 입력인 것 처럼해서 넣는다.
+
+* 물론 positional encoding이 들어간다.
+
+
+
+### DALL-E
+
+문장을 주면 이미지를 제공하는 것. 트랜스포머에 있는 디코더만 활용을 했다.
+
+![](../../../../.gitbook/assets/image%20%28892%29.png)
 
 
 

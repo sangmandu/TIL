@@ -37,6 +37,7 @@
       * [\(02강\) 뉴럴 네트워크 - MLP \(Multi-Layer Perceptron\)](til_ml/boostcamp-2st/u-stage-2/dl-basic/02-mlp-multi-layer-perceptron.md)
       * [\(01강\) 딥러닝 기본 용어 설명 - Historical Review](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)
     * [Assignment](til_ml/boostcamp-2st/u-stage-2/assignment/README.md)
+      * [\[필수 과제\] Multi-headed Attention Assignment](til_ml/boostcamp-2st/u-stage-2/assignment/multi-headed-attention-assignment.md)
       * [\[필수 과제\] LSTM Assignment](til_ml/boostcamp-2st/u-stage-2/assignment/lstm-assignment.md)
       * [\[필수 과제\] CNN Assignment](til_ml/boostcamp-2st/u-stage-2/assignment/cnn-assignment.md)
       * [\[필수 과제\] Optimization Assignment](til_ml/boostcamp-2st/u-stage-2/assignment/optimization-assignment.md)
