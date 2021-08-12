@@ -50,9 +50,9 @@ def backward_gradient(X, S, grad_out, wRec):
   * np.dot를 이용해서 곱해준다. 해설에서는 그냥 곱한값을 sum해줬다.
     * 그리고 mean도 해줬는데, 나는 제일 마지막에 return 시에 할 것이다.
 
-![](../../../.gitbook/assets/image%20%28798%29.png)
+![](../../../../.gitbook/assets/image%20%28798%29.png)
 
 * 20 : 이전 셀 Sn-1에서의 에러에 대한 미분값은 Sn에서의 에러에 대한 미분값 \* Wrec 이다.
 
-![](../../../.gitbook/assets/image%20%28799%29.png)
+![](../../../../.gitbook/assets/image%20%28799%29.png)
 

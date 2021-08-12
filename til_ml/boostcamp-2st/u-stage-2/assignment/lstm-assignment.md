@@ -270,7 +270,7 @@ plt.show()
 print ("Done")
 ```
 
-![](../../../.gitbook/assets/image%20%28851%29.png)
+![](../../../../.gitbook/assets/image%20%28859%29.png)
 
 
 

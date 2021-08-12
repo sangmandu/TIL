@@ -181,7 +181,7 @@ for i in range(100):
 print("w : {} / b : {} / error : {}".format(w, b, error))
 ```
 
-![](../../../.gitbook/assets/image%20%28785%29.png)
+![](../../../../.gitbook/assets/image%20%28785%29.png)
 
 * `gradient_w`
   * 예측값과 실제값의 차 그리고 x의 곱을 전체 개수로 나눠준 것이 w의 그레디언트 값이다.

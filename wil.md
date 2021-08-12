@@ -18,7 +18,7 @@ description: 'What I Learn : ■ □'
 
 * [ ] Boostcamp 2st \[Days\]
 
-  [■](til_ml/boostcamp-2st/u-stage-1/python/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/untitled-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md)[■](til_ml/boostcamp-2st/u-stage-1/untitled-1.md)[ ■](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/03-optimization.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/04-convolution.md)
+  [■](til_ml/boostcamp-2st/u-stage-1/python/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/untitled-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md)[■](til_ml/boostcamp-2st/u-stage-1/assignment/untitled-1.md)[ ■](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/03-optimization.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/04-convolution.md)
 
 * [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 

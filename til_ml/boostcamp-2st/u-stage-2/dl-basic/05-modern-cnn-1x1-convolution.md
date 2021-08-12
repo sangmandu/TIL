@@ -14,13 +14,13 @@ description: '210811'
 * 1000개의 다른 범주
 * 100만장이 넘는 이미지
 
-![](../../../../.gitbook/assets/image%20%28859%29.png)
+![](../../../../.gitbook/assets/image%20%28871%29.png)
 
 해마다 발전하는 딥러닝의 인지 능력
 
 ## AlexNet
 
-![](../../../../.gitbook/assets/image%20%28855%29.png)
+![](../../../../.gitbook/assets/image%20%28866%29.png)
 
 당시에 GPU가 부족해서 두 개로 분할해서 학습했다.
 
@@ -66,17 +66,17 @@ ReLU가 왜 좋을까?
 
 3x3을 여러번 쓰는것이 큰 필터를 쓰는것보다 낫다는 것을 알게되었다. 그래서 이후로는 이런 방식을 채택했다.
 
-![](../../../../.gitbook/assets/image%20%28866%29.png)
+![](../../../../.gitbook/assets/image%20%28878%29.png)
 
 구글넷은 동일한 구조가 반복되는 구조이다. 그래서 이런 것을 Network In Network, NIN 구조라고 한다.
 
-![](../../../../.gitbook/assets/image%20%28849%29.png)
+![](../../../../.gitbook/assets/image%20%28857%29.png)
 
 Inception blocks를 활용했는데 이는 입력이 들어오면 모두 펼치고 다시 종합하는 구조이다. 장점은 여러가지 Receptive Field를 종합한다는 점도 있지만 1x1 Conv이 중간중간에 끼게 되면서 네트워크의 전체적인 파라미터 수가 감소하게 된다.
 
 * 1x1 필터는 채널의 수를 감소시키는 효과가 있다.
 
-![](../../../../.gitbook/assets/image%20%28850%29.png)
+![](../../../../.gitbook/assets/image%20%28858%29.png)
 
 Inception Block을 사용했을 때 파라미터 수가 1/3로 줄어드는 모습
 
@@ -90,13 +90,13 @@ Kaiming He가 만든 모델.
   * 여기서 다룬 문제는 이것이 아님
 * 네트워크가 커질수록 비교적 작은 네트워크보다 학습이 어렵다.
 
-![](../../../../.gitbook/assets/image%20%28854%29.png)
+![](../../../../.gitbook/assets/image%20%28864%29.png)
 
 ResNet은 두번째 문제를 해결하기 위해 Identity map이라는 것을 추가했다. 모델의 출력값에 입력값을 더하는 것
 
 * 이로 인해 네트워크를 깊게 쌓을 수 있게 되었다.
 
-![](../../../../.gitbook/assets/image%20%28846%29.png)
+![](../../../../.gitbook/assets/image%20%28854%29.png)
 
 기본적으로 Simple 방법을 사용한다. 근데 이 때 입력과 출력을 더해주려면 차원이 같아야 하는데 차원이 다를 수도 있으니 1x1 Conv를 이용해 차원을 동일하게 한뒤 더하는 것이 Projected
 
@@ -108,7 +108,7 @@ ResNet은 두번째 문제를 해결하기 위해 Identity map이라는 것을 �
 
 Identity map에 대해서 입력과 출력을 더하는 것이 아니라 concatenate\(잇다\)하는 방법. 이렇게 되면 점점 채널이 커지게 되고 이에 따라 필터의 채널도 커지게 된다. 결국 파라미터수의 증가
 
-![](../../../../.gitbook/assets/image%20%28853%29.png)
+![](../../../../.gitbook/assets/image%20%28861%29.png)
 
 그래서 Densenet에서는 중간중간마다 채널의 수를 1x1 Conv로 줄이게 된다. Densenet은 Dense Block Transition Block으로 이루어져있는데, Dense Block에서는 계속적으로 채널을 늘리고 Transition Block에서는 BN, 1x1 Conv, 2x2 AvgPooling을 거치면서 채널수를 줄이게 된다.
 
