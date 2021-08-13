@@ -28,6 +28,8 @@
     * [\(1-1\) Welcome to Visualization \(OT\)](til_ml/boostcamp-2st/s-data-viz/1-1-welcome-to-visualization-ot.md)
   * [\[U\]Stage-2](til_ml/boostcamp-2st/u-stage-2/README.md)
     * [DL Basic](til_ml/boostcamp-2st/u-stage-2/dl-basic/README.md)
+      * [\(10강\) Generative Models 2](til_ml/boostcamp-2st/u-stage-2/dl-basic/10-generative-models-2.md)
+      * [\(09강\) Generative Models 1](til_ml/boostcamp-2st/u-stage-2/dl-basic/09-generative-models-1.md)
       * [\(08강\) Sequential Models - Transformer](til_ml/boostcamp-2st/u-stage-2/dl-basic/08-sequential-models-transformer.md)
       * [\(07강\) Sequential Models - RNN](til_ml/boostcamp-2st/u-stage-2/dl-basic/07-sequential-models-rnn.md)
       * [\(06강\) Computer Vision Applications](til_ml/boostcamp-2st/u-stage-2/dl-basic/06-computer-vision-applications.md)
