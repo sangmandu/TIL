@@ -27,6 +27,7 @@
     * [\(1-2\) 시각화의 요소](til_ml/boostcamp-2st/s-data-viz/1-2.md)
     * [\(1-1\) Welcome to Visualization \(OT\)](til_ml/boostcamp-2st/s-data-viz/1-1-welcome-to-visualization-ot.md)
   * [\[U\]Stage-2](til_ml/boostcamp-2st/u-stage-2/README.md)
+    * [2W Retrospective](til_ml/boostcamp-2st/u-stage-2/2w-retrospective.md)
     * [DL Basic](til_ml/boostcamp-2st/u-stage-2/dl-basic/README.md)
       * [\(10강\) Generative Models 2](til_ml/boostcamp-2st/u-stage-2/dl-basic/10-generative-models-2.md)
       * [\(09강\) Generative Models 1](til_ml/boostcamp-2st/u-stage-2/dl-basic/09-generative-models-1.md)
