@@ -23,6 +23,8 @@
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [\[U\]Stage-3](til_ml/boostcamp-2st/u-stage-3.md)
   * [\[S\]Data Viz](til_ml/boostcamp-2st/s-data-viz/README.md)
+    * [Untitled](til_ml/boostcamp-2st/s-data-viz/untitled-1.md)
+    * [\(2-2\) Line Plot 사용하기](til_ml/boostcamp-2st/s-data-viz/2-2-line-plot.md)
     * [\(2-1\) Bar Plot 사용하기](til_ml/boostcamp-2st/s-data-viz/2-1-bar-plot.md)
     * [\(1-3\) Python과 Matplotlib](til_ml/boostcamp-2st/s-data-viz/1-3-python-matplotlib.md)
     * [\(1-2\) 시각화의 요소](til_ml/boostcamp-2st/s-data-viz/1-2.md)
