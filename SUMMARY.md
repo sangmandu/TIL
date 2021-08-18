@@ -23,6 +23,8 @@
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [\[U\]Stage-3](til_ml/boostcamp-2st/u-stage-3/README.md)
     * [PyTorch](til_ml/boostcamp-2st/u-stage-3/pytorch/README.md)
+      * [\(05강\) Dataset & Dataloader](til_ml/boostcamp-2st/u-stage-3/pytorch/05-dataset-and-dataloader.md)
+      * [\(04강\) AutoGrad & Optimizer](til_ml/boostcamp-2st/u-stage-3/pytorch/04-autograd-and-optimizer.md)
       * [\(03강\) PyTorch 프로젝트 구조 이해하기](til_ml/boostcamp-2st/u-stage-3/pytorch/03-pytorch.md)
       * [\(02강\) PyTorch Basics](til_ml/boostcamp-2st/u-stage-3/pytorch/02-pytorch-basics.md)
       * [\(01강\) Introduction to PyTorch](til_ml/boostcamp-2st/u-stage-3/pytorch/01-introduction-to-pytorch.md)
