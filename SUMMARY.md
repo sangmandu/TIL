@@ -23,6 +23,8 @@
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [\[U\]Stage-3](til_ml/boostcamp-2st/u-stage-3/README.md)
     * [PyTorch](til_ml/boostcamp-2st/u-stage-3/pytorch/README.md)
+      * [\(07강\) Monitoring tools for PyTorch](til_ml/boostcamp-2st/u-stage-3/pytorch/07-monitoring-tools-for-pytorch.md)
+      * [\(06강\) 모델 불러오기](til_ml/boostcamp-2st/u-stage-3/pytorch/06.md)
       * [\(05강\) Dataset & Dataloader](til_ml/boostcamp-2st/u-stage-3/pytorch/05-dataset-and-dataloader.md)
       * [\(04강\) AutoGrad & Optimizer](til_ml/boostcamp-2st/u-stage-3/pytorch/04-autograd-and-optimizer.md)
       * [\(03강\) PyTorch 프로젝트 구조 이해하기](til_ml/boostcamp-2st/u-stage-3/pytorch/03-pytorch.md)
