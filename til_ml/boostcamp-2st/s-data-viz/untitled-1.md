@@ -8,7 +8,7 @@ description: '210815'
 
 점을 사양하여 두 feature간의 관계를 알기 위해 사용하는 그래프이다. 산점도 등의 이름으로 사용되며 `.scatter()` 를 사용한다.
 
-![](../../../.gitbook/assets/image%20%28955%29.png)
+![](../../../.gitbook/assets/image%20%28965%29.png)
 
 ### 요소
 
@@ -18,7 +18,7 @@ description: '210815'
 * 모양
 * 크기
 
-![](../../../.gitbook/assets/image%20%28949%29.png)
+![](../../../.gitbook/assets/image%20%28951%29.png)
 
 ### 목적
 
@@ -28,7 +28,7 @@ Scatter Plot의 목적은 상관 관계 확인에 있다.
 * 반비례 : Negative Correlation
 * 관계 없음 : No Correlation
 
-![](../../../.gitbook/assets/image%20%28954%29.png)
+![](../../../.gitbook/assets/image%20%28960%29.png)
 
 또, 다음과 같은 특징을 확인할 수 있다.
 
@@ -40,7 +40,7 @@ Scatter Plot의 목적은 상관 관계 확인에 있다.
 
 데이터 하나당 점 하나로 표현하게 되는데, 데이터가 많을 수록 분포를 파악히가기 어렵게 된다. 점이 겹치고, 그러면서 점의 테두리같은 것이 오해의 여지를 줄 수 있기 때문이다.
 
-![](../../../.gitbook/assets/image%20%28953%29.png)
+![](../../../.gitbook/assets/image%20%28956%29.png)
 
 그래서 다음과 같은 테크닉을 사용할 수 있다
 
