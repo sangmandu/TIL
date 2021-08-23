@@ -22,6 +22,7 @@
 
 ## TIL : ML <a id="til_ml"></a>
 
+* [Paper Analysis](til_ml/paper-analysis.md)
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [\[P\]Stage-1](til_ml/boostcamp-2st/u-stage-4/README.md)
     * [\(2강\) Image Classification & EDA](til_ml/boostcamp-2st/u-stage-4/untitled-1.md)

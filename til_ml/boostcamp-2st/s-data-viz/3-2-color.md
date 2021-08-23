@@ -386,7 +386,7 @@ for ax in [ax_s1, ax_s2, ax_s3]:
 plt.show()
 ```
 
-![](../../../.gitbook/assets/image%20%28970%29.png)
+![](../../../.gitbook/assets/image%20%28971%29.png)
 
 
 
