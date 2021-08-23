@@ -24,7 +24,7 @@
 
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [\[P\]Stage-1](til_ml/boostcamp-2st/u-stage-4/README.md)
-    * [Untitled](til_ml/boostcamp-2st/u-stage-4/untitled-1.md)
+    * [\(2강\) Image Classification & EDA](til_ml/boostcamp-2st/u-stage-4/untitled-1.md)
     * [\(1강\) Competition with AI Stages!](til_ml/boostcamp-2st/u-stage-4/untitled.md)
   * [\[U\]Stage-3](til_ml/boostcamp-2st/u-stage-3/README.md)
     * [3W Retrospective](til_ml/boostcamp-2st/u-stage-3/3w-retrospective.md)
