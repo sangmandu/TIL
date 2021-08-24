@@ -41,7 +41,7 @@ Facet이란 분할을 의미한다. 화면상에 View를 분할 및 추가하여
 
 ### 2.3 Grid Spec
 
-![](../../../.gitbook/assets/image%20%28989%29.png)
+![](../../../.gitbook/assets/image%20%28990%29.png)
 
 위 서브플롯을 표현하기 위한 2가지 방법이 있다
 
@@ -58,7 +58,7 @@ Facet이란 분할을 의미한다. 화면상에 View를 분할 및 추가하여
 
 ### 2.4 내부에 그리기
 
-![](../../../.gitbook/assets/image%20%28990%29.png)
+![](../../../.gitbook/assets/image%20%28991%29.png)
 
 * ax.inset\_axes\(\)
   * Ax내부에 서브플롯을 추가하여 외부 정보를 적은 비중으로 위치시킬 수 있다.
