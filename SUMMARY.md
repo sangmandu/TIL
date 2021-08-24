@@ -24,7 +24,10 @@
 
 * [Paper Analysis](til_ml/paper-analysis.md)
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
+  * [Mask Wear Image Classification](til_ml/boostcamp-2st/mask-wear-image-classification.md)
   * [\[P\]Stage-1](til_ml/boostcamp-2st/u-stage-4/README.md)
+    * [\(4강\) Data Generation](til_ml/boostcamp-2st/u-stage-4/4-data-generation.md)
+    * [\(3강\) Dataset](til_ml/boostcamp-2st/u-stage-4/3-dataset.md)
     * [\(2강\) Image Classification & EDA](til_ml/boostcamp-2st/u-stage-4/untitled-1.md)
     * [\(1강\) Competition with AI Stages!](til_ml/boostcamp-2st/u-stage-4/untitled.md)
   * [\[U\]Stage-3](til_ml/boostcamp-2st/u-stage-3/README.md)
