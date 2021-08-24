@@ -25,6 +25,7 @@
 * [Paper Analysis](til_ml/paper-analysis.md)
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [Mask Wear Image Classification](til_ml/boostcamp-2st/mask-wear-image-classification/README.md)
+    * [2\_EDA Analysis](til_ml/boostcamp-2st/mask-wear-image-classification/2_eda-analysis.md)
     * [Day 2](til_ml/boostcamp-2st/mask-wear-image-classification/day-2.md)
     * [Day 1](til_ml/boostcamp-2st/mask-wear-image-classification/day-1.md)
   * [\[P\]Stage-1](til_ml/boostcamp-2st/u-stage-4/README.md)
