@@ -32,7 +32,7 @@ Resize
 
 ### Generalization
 
-![](../../../.gitbook/assets/image%20%28974%29.png)
+![](../../../.gitbook/assets/image%20%28976%29.png)
 
 오버피팅을 피할 수 있는 방법 중 데이터를 만지는 방법을 알아볼 것
 
@@ -46,7 +46,7 @@ Train / Validation
 
 Data Augmentation
 
-![](../../../.gitbook/assets/image%20%28975%29.png)
+![](../../../.gitbook/assets/image%20%28978%29.png)
 
 `torchvision.transforms` 을 사용해서 변환할 수 있다.
 
@@ -54,7 +54,7 @@ Data Augmentation
 
 Albumentations
 
-![](../../../.gitbook/assets/image%20%28973%29.png)
+![](../../../.gitbook/assets/image%20%28974%29.png)
 
 transforms 보다 더 다양하고 빠르다.
 
