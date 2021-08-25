@@ -29,6 +29,8 @@
     * [Day 2](til_ml/boostcamp-2st/mask-wear-image-classification/day-2.md)
     * [Day 1](til_ml/boostcamp-2st/mask-wear-image-classification/day-1.md)
   * [\[P\]Stage-1](til_ml/boostcamp-2st/u-stage-4/README.md)
+    * [Untitled](til_ml/boostcamp-2st/u-stage-4/untitled-2.md)
+    * [\(5강\) Model 1](til_ml/boostcamp-2st/u-stage-4/5-model-1.md)
     * [\(4강\) Data Generation](til_ml/boostcamp-2st/u-stage-4/4-data-generation.md)
     * [\(3강\) Dataset](til_ml/boostcamp-2st/u-stage-4/3-dataset.md)
     * [\(2강\) Image Classification & EDA](til_ml/boostcamp-2st/u-stage-4/untitled-1.md)
