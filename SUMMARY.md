@@ -246,6 +246,7 @@
 
 ## TIL : Project <a id="til_project"></a>
 
+* [Mask Wear Image Classification](til_project/mask-wear-image-classification.md)
 * [Project. GARIGO](til_project/project.-garigo.md)
 
 ## 2021 TIL <a id="2021"></a>
