@@ -410,7 +410,7 @@ ext = get_ext(cfg.img_dir, img_id)
 
 
 
-```text
+```python
 plt.figure()
 plt.subplot(111)
 
@@ -434,7 +434,7 @@ plt.show()
 
 `np.histogram` 은 array를 인자로 받는다. `bins` 는 히스토그램의 구간을 몇개로 설정할것인지, `range`는 범위를 의미한다. 반환값으로는 적용된 `histogram`과 len\(hist\)+1의 값인 `bin_edges`가 반환된다.
 
-```text
+```python
 plt.figure()
 plt.subplot(111)
 
@@ -468,7 +468,7 @@ plt.show()
 
 * 마스크를 쓰지않은 사진의 RGB 분포도 살펴볼까요?
 
-```text
+```python
 plt.figure()
 plt.subplot(111)
 
@@ -492,11 +492,11 @@ plt.show()
 * 이미지 별로 통계값을 뽑아내는 것은 캠퍼님들이 직접 해보시면 좋을 것 같습니다.
 * 아래 코드는 어떤 label이 얼굴을 잘찾지 못하는지 확인해봅시다.
 
-```text
+```python
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 ```
 
-```text
+```python
 imgs = []
 bboxes = []
 not_found_idx = []
@@ -527,7 +527,7 @@ mask5 not found face
 
 
 
-```text
+```python
 fig, axes = plt.subplots(1, len(not_found_idx), sharex=True, sharey=True, figsize=(12, 6))
 for i, j in enumerate(range(len(not_found_idx))):
     axes[i].imshow(imgs[j])
@@ -546,7 +546,7 @@ plt.show()
 
 한 사람의 데이터를 시각화해봅시다.
 
-```text
+```python
 def plot_raw_images(img_dir, img_id):
     """
     마스크 미착용 이미지를 시각화하는 함수입니다.
@@ -562,7 +562,7 @@ def plot_raw_images(img_dir, img_id):
     plt.imshow(img)
 ```
 
-```text
+```python
 def show_from_id(idx):
     img_id = df.iloc[idx].path
     gen = df.iloc[idx].gender
@@ -598,7 +598,7 @@ show_from_id(764)
 
 * id 별로 마스크 착용 상태를 확인해봅시다.
 
-```text
+```python
 def plot_mask_images(img_dir, img_id):
     """
     마스크 정상착용 5장과 이상하게 착용한 1장을 2x3의 격자에 시각화하는 함수입니다.
@@ -619,7 +619,7 @@ def plot_mask_images(img_dir, img_id):
     plt.show()
 ```
 
-```text
+```python
 idx = 500
 img_id = df.iloc[idx].path
 plot_mask_images(cfg.img_dir, img_id)
