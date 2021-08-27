@@ -2,7 +2,7 @@
 description: '210824'
 ---
 
-# Day 2 : Labeling
+# DAY 2 : Labeling
 
 기존 데이터는 다음과 같다
 
