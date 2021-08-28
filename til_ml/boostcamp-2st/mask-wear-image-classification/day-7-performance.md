@@ -2,5 +2,5 @@
 description: '210829'
 ---
 
-# DAY 7 : Performance
+# DAY 7 : Class Imbalance \| Stratification
 

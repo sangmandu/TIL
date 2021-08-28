@@ -26,7 +26,7 @@
 * [Paper Analysis](til_ml/paper-analysis.md)
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [Mask Wear Image Classification](til_ml/boostcamp-2st/mask-wear-image-classification/README.md)
-    * [DAY 7 : Performance](til_ml/boostcamp-2st/mask-wear-image-classification/day-7-performance.md)
+    * [DAY 7 : Class Imbalance \| Stratification](til_ml/boostcamp-2st/mask-wear-image-classification/day-7-performance.md)
     * [DAY 6 : Error Fix](til_ml/boostcamp-2st/mask-wear-image-classification/day-6-error-fix.md)
     * [DAY 5 :  Facenet \| Save](til_ml/boostcamp-2st/mask-wear-image-classification/day-5-lrscheduler-or-facenet-or-save.md)
     * [DAY 4 : VIT \| F1\_Loss \| LRscheduler](til_ml/boostcamp-2st/mask-wear-image-classification/day-4-vit-or-f1_loss.md)
