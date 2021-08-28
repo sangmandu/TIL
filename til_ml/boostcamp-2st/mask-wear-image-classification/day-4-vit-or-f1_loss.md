@@ -6,7 +6,7 @@ description: '210826'
 
 ## VIT
 
-![](../../../.gitbook/assets/image%20%281024%29.png)
+![](../../../.gitbook/assets/image%20%281025%29.png)
 
 나름 이미지넷에서 Rank 1, 2의 스펙을 가지고 있는 VIT를 써보기로 했다. 이전에 쓴 efficientnet 같은 경우는 직접 다운받아서 불러왔는데, `timm` 이라는 라이브러리를 사용하면 원하는 모델을 쉽게 import 할 수 있었다. 단순히 `torchvision.models` 와는 종류도 더 다양하고 최신이며 개별 모델의 종류도 굉장히 다양하다.
 

@@ -159,5 +159,5 @@ if valid_batch_f1/len(valid_loader) >= 0.9:
 
 계속 저장되는 파라미터들...
 
-![](../../../.gitbook/assets/image%20%281025%29.png)
+![](../../../.gitbook/assets/image%20%281026%29.png)
 
