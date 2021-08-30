@@ -441,7 +441,7 @@ plt.show()
 * `ecdfplot` : 누적 밀도 함수
 * `rugplot` : 선을 사용한 밀도함수
 
-```text
+```python
 fig, axes = plt.subplots(2,2, figsize=(12, 10))
 axes = axes.flatten()
 
@@ -466,7 +466,7 @@ plt.show()
 * `binwidth`
 * `bins`
 
-```text
+```python
 fig, ax = plt.subplots(figsize=(12, 7))
 
 sns.histplot(x='math score', data=student, ax=ax,
@@ -481,7 +481,7 @@ plt.show()
 
 히스토그램은 기본적으로 막대지만, seaborn에서는 다른 표현들도 제공하고 있습니다.
 
-```text
+```python
 fig, ax = plt.subplots(figsize=(12, 7))
 
 sns.histplot(x='math score', data=student, ax=ax,
@@ -495,7 +495,7 @@ plt.show()
 
 histogram은 다음과 같이 N개의 분포를 표현할 수 있습니다.
 
-```text
+```python
 fig, ax = plt.subplots(figsize=(12, 7))
 
 sns.histplot(x='math score', data=student, ax=ax,
@@ -512,7 +512,7 @@ plt.show()
 
 연속확률밀도를 보여주는 함수로 seaborn의 다양한 smoothing 및 분포 시각화에 보조 정보로도 많이 사용합니다.
 
-```text
+```python
 fig, ax = plt.subplots(figsize=(12, 7))
 sns.kdeplot(x='math score', data=student, ax=ax)
 plt.show()
@@ -524,7 +524,7 @@ plt.show()
 
 `fill='True'`를 전달하여 내부를 채워 표현하는 것을 추천합니다.
 
-```text
+```python
 fig, ax = plt.subplots(figsize=(12, 7))
 sns.kdeplot(x='math score', data=student, ax=ax,
            fill=True)
@@ -546,7 +546,7 @@ plt.show()
 
 이번에도 다양한 분포를 살펴보겠습니다. histogram의 연속적 표현이라고 생각하면 편합니다.
 
-```text
+```python
 fig, ax = plt.subplots(figsize=(12, 7))
 sns.kdeplot(x='math score', data=student, ax=ax,
             fill=True, 
@@ -562,8 +562,9 @@ plt.show()
 * `stack`
 * `layer`
 * `fill`
+  * fill은 최대한 지양하는 것이 좋다. 인식에 있어서 오해를 줄 수 있는 여지가 있음
 
-```text
+```python
 fig, ax = plt.subplots(figsize=(12, 7))
 sns.kdeplot(x='math score', data=student, ax=ax,
             fill=True, 
@@ -580,7 +581,9 @@ plt.show()
 
 ecdfplot은 누적되는 양을 표현합니다. 이미 위에서 cumulative로 살펴봤겠지만 가볍게 살펴봅시다.
 
-```text
+* complementary는 0에서 시작할지 1에서 시작할지 결정한다.
+
+```python
 fig, ax = plt.subplots(figsize=(12, 7))
 sns.ecdfplot(x='math score', data=student, ax=ax,
              hue='gender',
@@ -596,7 +599,7 @@ rugplot은 조밀한 정도를 통해 밀도를 나타냅니다.
 
 개인적으로는 추천하지 않지만 한정된 공간 내에서 분포를 표현하기에 좋은 것 같습니다.
 
-```text
+```python
 fig, ax = plt.subplots(figsize=(12, 7))
 sns.rugplot(x='math score', data=student, ax=ax)
 plt.show()
@@ -612,7 +615,7 @@ plt.show()
 
 함수는 histplot과 kdeplot을 사용하고, 입력에 1개의 축만 넣는 게 아닌 2개의 축 모두 입력을 넣어주는 것이 특징입니다.
 
-```text
+```python
 fig, axes = plt.subplots(1,2, figsize=(12, 7))
 ax.set_aspect(1)
 
