@@ -1,4 +1,4 @@
-# 9M 1W
+# 9M1W
 
 ## 2021년 9월 첫째주 회고
 
@@ -23,7 +23,7 @@
     <tr>
       <td style="text-align:center">&#xAE30;&#xC0C1;&#xC2DC;&#xAC04;</td>
       <td style="text-align:center">09:00</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">12:30</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
@@ -32,8 +32,8 @@
     </tr>
     <tr>
       <td style="text-align:center">&#xACF5;&#xBD80;&#xC2DC;&#xAC04;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">12:00</td>
+      <td style="text-align:center">13:00</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
@@ -45,8 +45,8 @@
         <p>&#xC26C;&#xB294;&#xC2DC;&#xAC04;</p>
         <p>&#xC9C0;&#xD0A4;&#xAE30;</p>
       </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">O</td>
+      <td style="text-align:center">O</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
@@ -58,8 +58,8 @@
         <p>&#xACF5;&#xBD80;&#xC2DC;&#xAC04;</p>
         <p>&#xB534;&#xC9D3;&#xC548;&#xD558;&#xAE30;</p>
       </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">O</td>
+      <td style="text-align:center">O</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
@@ -68,7 +68,7 @@
     </tr>
     <tr>
       <td style="text-align:center">&#xCDE8;&#xCE68;&#xC2DC;&#xAC04;</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">06:30</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
