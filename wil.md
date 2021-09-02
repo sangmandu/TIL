@@ -16,9 +16,9 @@ description: 'What I Learn : ■ □'
 
 > > **Learning**
 
-* [ ] Boostcamp 2st \[Days\]
+* [ ] Boostcamp 2st \[Weeks\]
 
-  [■](til_ml/boostcamp-2st/u-stage-1/python/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/untitled-1.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md)[■](til_ml/boostcamp-2st/u-stage-1/assignment/untitled-1.md)[ ■](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/03-optimization.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/04-convolution.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/07-sequential-models-rnn.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/10-generative-models-2.md)[ ■](til_ml/boostcamp-2st/s-data-viz/2-2-line-plot.md)[■](til_ml/boostcamp-2st/s-data-viz/untitled-1.md)[■](til_ml/boostcamp-2st/s-data-viz/3-1-text.md)[■](til_ml/boostcamp-2st/u-stage-3/pytorch/01-introduction-to-pytorch.md)[■](til_ml/boostcamp-2st/u-stage-3/pytorch/04-autograd-and-optimizer.md) [■](til_ml/boostcamp-2st/u-stage-3/pytorch/06.md)[■](til_ml/boostcamp-2st/s-data-viz/3-1-text.md)[■](til_ml/boostcamp-2st/s-data-viz/3-3-facet.md)[■](til_ml/boostcamp-2st/s-data-viz/3-4-more-tips.md)
+  [■](til_ml/boostcamp-2st/u-stage-1/)[■](til_ml/boostcamp-2st/u-stage-2/)[■](til_ml/boostcamp-2st/u-stage-3/)[■](til_ml/boostcamp-2st/u-stage-4/) \[4\]
 
 * [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
