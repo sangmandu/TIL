@@ -1,2 +1,2 @@
-# DAY 9 :
+# DAY 9 : Loss Function
 

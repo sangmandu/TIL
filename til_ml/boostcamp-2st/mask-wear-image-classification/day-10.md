@@ -1,2 +1,2 @@
-# DAY 10 :
+# DAY 10 : Cutmix
 
