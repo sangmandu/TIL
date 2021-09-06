@@ -44,6 +44,7 @@
     * [6W Retrospective](til_ml/boostcamp-2st/u-stage-nlp/6w-retrospective.md)
     * [\(02강\) Word Embedding](til_ml/boostcamp-2st/u-stage-nlp/02-word-embedding.md)
     * [\(01강\) Intro to NLP, Bag-of-Words](til_ml/boostcamp-2st/u-stage-nlp/01-intro-to-nlp-bag-of-words.md)
+    * [\[선택 과제\] BERT Fine-tuning with transformers](til_ml/boostcamp-2st/u-stage-nlp/bert-fine-tuning-with-transformers.md)
     * [\[필수 과제\] Data Preprocessing](til_ml/boostcamp-2st/u-stage-nlp/data-preprocessing.md)
   * [Mask Wear Image Classification](til_ml/boostcamp-2st/mask-wear-image-classification/README.md)
     * [Performance \| Review](til_ml/boostcamp-2st/mask-wear-image-classification/performance-or-review.md)
