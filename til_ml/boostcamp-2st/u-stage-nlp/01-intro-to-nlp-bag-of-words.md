@@ -98,27 +98,27 @@ Step 2. Encoding unique words to one-hot vectors
   * 주어진 문서를 정치, 경제, 문화, 스포츠의 4개의 주제로 표현할 수 있다면 C = 4 이다.
 * 어떠한 문서 d가 주어졌을 때 이 문서 d의 클래스 c는 다음과 같은 조건부 확률로 표현될 수 있고 이 중 가장 큰 값이 해당된다. MAP는 Maximum A Posteriori의 줄임말이다.
 
-![](../../../.gitbook/assets/image%20%281041%29.png)
+![](../../../.gitbook/assets/image%20%281049%29.png)
 
 이 때 베이지안 룰을 통해 두번째 식으로 나타내질 수 있다. P\(d\)는 특정 문서 d가 뽑힐 확률인데, d라는 문서는 고정된 하나의 문서로 볼 수 있기 때문에 상수로 표현될 수 있고 그래서 무시할 수 있는 값이된다.
 
 이 때 P\(d\|c\)는 d안에 있는 words로 표현할 수 있으며 각 words가 독립적이라면 각각의 곱으로 표현할 수 있다.
 
-![](../../../.gitbook/assets/image%20%281042%29.png)
+![](../../../.gitbook/assets/image%20%281050%29.png)
 
 그래서 우리는 문서가 주어지기 이전의 각 클래스가 나타날 확률 P\(c\)와 특정 클래스가 고정되어 있을 때 각 워드가 나타날 확률 P\(d\|c\)를 추정함으로써 NaiveBayes Classifier가 필요한 파라미터를 모두 추정할 수 있게된다.
 
 만약 다음과 같은 예시가 있다고 하자.
 
-![](../../../.gitbook/assets/image%20%281040%29.png)
+![](../../../.gitbook/assets/image%20%281047%29.png)
 
 그러면 각각의 클래스가 나타날 확률은 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281038%29.png)
+![](../../../.gitbook/assets/image%20%281042%29.png)
 
 이후, 클래스가 고정될 때 각 단어가 나타날 확률을 추정하면 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281036%29.png)
+![](../../../.gitbook/assets/image%20%281037%29.png)
 
 확률을 추정할 때는 각 클래스에 존재하는 전체 단어의 수와 해당 클래스에서 단어의 빈도 수의 대한 비율로 나타낼 수 있다.
 
@@ -128,7 +128,7 @@ Step 2. Encoding unique words to one-hot vectors
 
 * 이 때 각각의 단어는 독립이라는 가정이 꼭 있어야 한다.
 
-![](../../../.gitbook/assets/image%20%281037%29.png)
+![](../../../.gitbook/assets/image%20%281038%29.png)
 
 NaiveBayes Classifier는 클래스의 개수가 3개 이상이어도 적용할 수 있다.
 
@@ -433,7 +433,7 @@ class NaiveBayesClassifier():
 * 클래스는 처음에 k라는 스무딩을 위한 상수와 사전에 구한 vocab, 그리고 각 class의 prior 확률과 각 token의 특정 class 조건 내에서의 likelihood를 구할것이다.
 * 위에서 설명한 다음 식을 기억하는가!?
 
-![](../../../.gitbook/assets/image%20%281042%29.png)
+![](../../../.gitbook/assets/image%20%281050%29.png)
 
 * 여기서 P\(c\) 를 구하는 작업이 `set_priors` 이고 P\(d\|c\)를 구하는 과정이 `set_likelihoods` 이다.
 
@@ -519,7 +519,7 @@ class NaiveBayesClassifier():
 * 테스트 데이터에 대한 긍정 또는 부정 클래스를 반환하기 위한 코드이다.
 * 초기에 긍정과 부정에 대한 확률을 0으로 초기화한다.
 * 각 token에 대한 긍정 혹은 부정에대한 가능성을 추가한다. if문이 있는 이유는 위에서 설명한 관습적 명시와 동일한데, 우리가 학습하지 않은 데이터로는 테스트 데이터에서 처음 본 토큰을 판단할 수 없기 때문에 학습한 토큰에 대해서만 판단할 수 있도록 하기 위함이다.
-* 로그함수를 취하더라도 대소관계는 달라지지 않으나
+* 로그함수를 취하더라도 대소관계는 달라지지 않으나 log형태는 각 항의 곱을 덧셈으로 바꿔주므로 computational cost를 줄여주는 효과가 있어 log likelihood로 변경해주게된다.
 * 이후 긍정 혹은 부정값 중 큰 값의 클래스를 반환한다.
 
 ### 모델 학습 및 테스트
