@@ -40,6 +40,7 @@
     * [\(1-2\) 시각화의 요소](til_ml/boostcamp-2st/s-data-viz/1-2.md)
     * [\(1-1\) Welcome to Visualization \(OT\)](til_ml/boostcamp-2st/s-data-viz/1-1-welcome-to-visualization-ot.md)
   * [\[U\]Stage-NLP](til_ml/boostcamp-2st/u-stage-nlp/README.md)
+    * [6W Retrospective](til_ml/boostcamp-2st/u-stage-nlp/6w-retrospective.md)
     * [\(02강\) Word Embedding](til_ml/boostcamp-2st/u-stage-nlp/02-word-embedding.md)
     * [\(01강\) Intro to NLP, Bag-of-Words](til_ml/boostcamp-2st/u-stage-nlp/01-intro-to-nlp-bag-of-words.md)
   * [Mask Wear Image Classification](til_ml/boostcamp-2st/mask-wear-image-classification/README.md)
