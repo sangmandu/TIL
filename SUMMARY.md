@@ -42,6 +42,8 @@
   * [\[U\]Stage-CV](til_ml/boostcamp-2st/u-stage-cv.md)
   * [\[U\]Stage-NLP](til_ml/boostcamp-2st/u-stage-nlp/README.md)
     * [6W Retrospective](til_ml/boostcamp-2st/u-stage-nlp/6w-retrospective.md)
+    * [\(04강\) LSTM and GRU](til_ml/boostcamp-2st/u-stage-nlp/04-lstm-and-gru.md)
+    * [\(03강\) Recurrent Neural Network and Language Modeling](til_ml/boostcamp-2st/u-stage-nlp/03-recurrent-neural-network-and-language-modeling.md)
     * [\(02강\) Word Embedding](til_ml/boostcamp-2st/u-stage-nlp/02-word-embedding.md)
     * [\(01강\) Intro to NLP, Bag-of-Words](til_ml/boostcamp-2st/u-stage-nlp/01-intro-to-nlp-bag-of-words.md)
     * [\[선택 과제\] BERT Fine-tuning with transformers](til_ml/boostcamp-2st/u-stage-nlp/bert-fine-tuning-with-transformers.md)

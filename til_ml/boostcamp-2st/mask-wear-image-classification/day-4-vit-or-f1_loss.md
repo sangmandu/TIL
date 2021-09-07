@@ -48,7 +48,7 @@ description: '210826'
 
 triangular2의 학습률 변화 그래프는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281066%29.png)
+![](../../../.gitbook/assets/image%20%281090%29.png)
 
 이 그래프를 원했던 이유가 있다.
 

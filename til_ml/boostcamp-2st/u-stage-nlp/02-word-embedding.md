@@ -4,7 +4,7 @@ description: '210906'
 
 # \(02강\) Word Embedding
 
-## 1. Word Embedding : Word2Vec, GloVe
+## 3. Word Embedding : Word2Vec, GloVe
 
 워드 임베딩은 자연어가 단어들을 정보의 기본 단위로 해서 각 단어들을 특정 공간에 한점으로 나타내는 벡터로 변환해주는 기법이다.
 
