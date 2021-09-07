@@ -166,6 +166,24 @@ torch.Size([1, 10, 512])
 ```
 
 * hidden state와 cell state의 크기가 같은것을 볼 수 있다. 
+* packed\_outputs 의 사이즈가 123인 이유를 아는가? 사실은 200이어야 한다. 여기서 0의 개수를 빼면 123이된다!
+
+```python
+outputs, output_lens = pad_packed_sequence(packed_outputs)
+print(outputs.shape)
+print(output_lens)
+```
+
+```text
+torch.Size([20, 10, 512])
+tensor([20, 18, 18, 17, 15, 10,  8,  6,  6,  5])
+```
+
+
+
+### GPU 사용
+
+GPU는 Cell state가 없다.
 
 
 
