@@ -67,7 +67,7 @@ transform = transforms.Compose([
   * 사람의 얼굴 정보만 필요하다고 생각했다. 그 외에는 벽이나 옷등의 배경 이미지가 학습에 오히려 방해가 된다고 생각했다.
   * 다음 이미지를 참고 하면 알 수 있듯이 b4가 학습한 이미지의 크기는 380이다.
 
-![https://github.com/lukemelas/EfficientNet-PyTorch/issues/42](../../../.gitbook/assets/image%20%281073%29.png)
+![https://github.com/lukemelas/EfficientNet-PyTorch/issues/42](../../../.gitbook/assets/image%20%281075%29.png)
 
 * 그 외에 많은 Transform을 해주지는 않았다. RandomChoice를 사용해서 4개의 trsf 를 임의로 적용되도록 해주었고 이 안에 있는 변환은 밝기, 채도 등의 픽셀값 변환이다.
 * 1/2 확률로 좌우반전이 일어나도록 했다.

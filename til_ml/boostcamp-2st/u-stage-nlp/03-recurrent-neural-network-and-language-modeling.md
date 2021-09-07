@@ -6,13 +6,13 @@ description: '210907'
 
 ## 1. Basics of Recurrent Neural Networks \(RNNs\)
 
-![](../../../.gitbook/assets/image%20%281083%29.png)
+![](../../../.gitbook/assets/image%20%281088%29.png)
 
 이전 time step 에서 계산한 $$ H_{t-1} $$을 입력으로 받아서 현재 time step의 $$ H_t $$를 출력으로 내어주는 구조이다. 이 때 매 time step에서 동일한 파라미터를 사용하기 때문에 동일한 모듈을 사용한다는 뜻에서 Recurrent 가 되었다.
 
 RNN의 기호들이 의미하는 바는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281086%29.png)
+![](../../../.gitbook/assets/image%20%281092%29.png)
 
 특히 y는 h에서 생성되는 값으로 매 time step마다 생성될 수도 있고 마지막에만 생성될 수도 있다.
 
@@ -24,7 +24,7 @@ RNN의 기호들이 의미하는 바는 다음과 같다.
 
 여기서 실제로는 W가 x와 h\(t-1\)에 대해서 두 개 있다고 가정할 수도 있지만, 결국엔 내적해서 더하므로 실제로는 한 개의 W가 있다고 생각하고 x와 h\(t-1\)을 세로로 결합한 상태에서 곱할 수도 있다.
 
-![](../../../.gitbook/assets/image%20%281078%29.png)
+![](../../../.gitbook/assets/image%20%281082%29.png)
 
 
 
@@ -32,14 +32,14 @@ RNN의 기호들이 의미하는 바는 다음과 같다.
 
 ### One-to-One
 
-![](../../../.gitbook/assets/image%20%281082%29.png)
+![](../../../.gitbook/assets/image%20%281087%29.png)
 
 * 사람의 키를 입력 받아 몸무게를 예측하는 모델
 * time step이나 sequence가 없는 일반적인 형태를 도식화한 모습
 
 ### One-to-Many
 
-![](../../../.gitbook/assets/image%20%281087%29.png)
+![](../../../.gitbook/assets/image%20%281093%29.png)
 
 * Image Captioning 같은 Task에 많이 사용된다.
 * time step으로 이루어지지 않은 입력을 제공하며 이미지에 필요한 단어들을 순차적으로 생성한다.
@@ -47,14 +47,14 @@ RNN의 기호들이 의미하는 바는 다음과 같다.
 
 ### Many-to-One
 
-![](../../../.gitbook/assets/image%20%281077%29.png)
+![](../../../.gitbook/assets/image%20%281081%29.png)
 
 * Sentiment Classification Task에 이용
 * 각 입력마다 Sequence Words를 받고, 각 단어를 통해 전체 문장의 감정을 분석하게 된다.
 
 ### Many-to-Many
 
-![](../../../.gitbook/assets/image%20%281071%29.png)
+![](../../../.gitbook/assets/image%20%281073%29.png)
 
 * Machine Translation에 이용
 * 마지막 sequence까지 입력을 받고 이 때 까지는 출력을 내놓지 않다가 마지막 step 에서 입력을 받은 뒤 출력을 준다.
@@ -75,11 +75,11 @@ RNN의 기호들이 의미하는 바는 다음과 같다.
 * 처음에는 중복을 제거해서 사전을 구축한다.
 * 전체 길이만큼의 차원을 가지는 원핫벡터로 알파벳을 나타낸다.
 
-![](../../../.gitbook/assets/image%20%281069%29.png)
+![](../../../.gitbook/assets/image%20%281071%29.png)
 
 이 때, bias도 사용하며 h0 는 영벡터로 초기화한다.
 
-![](../../../.gitbook/assets/image%20%281085%29.png)
+![](../../../.gitbook/assets/image%20%281091%29.png)
 
 Output 벡터는 다음과 같이 구할 수 있다.
 
@@ -93,11 +93,11 @@ Output 벡터는 다음과 같이 구할 수 있다.
 
 * 첫번째 글자를 주고 얻은 output을 두번째 입력으로 설정한다. 이를 반복해서 모든 단어를 얻는다.
 
-![](../../../.gitbook/assets/image%20%281084%29.png)
+![](../../../.gitbook/assets/image%20%281090%29.png)
 
 위 글은 셰익스피어의 희곡 중 하나이다. 자세히 보면 단순히 알파벳 뿐만 아니라 공백과 문장부호까지도 이어지는 것을 알 수 있다. 실제로 이러한 것까지 고려해야한다.
 
-![](../../../.gitbook/assets/image%20%281074%29.png)
+![](../../../.gitbook/assets/image%20%281076%29.png)
 
 처음에는 잘 학습하지 못해 말도 되지 않는 엉터리 단어들을 내놓다가 학습을 거듭할 수록 말이 되는 문장이 되는 것을 알 수 있다.
 
@@ -107,11 +107,11 @@ RNN으로 논문을 생성하거나, 연극 대본 또는 프로그래밍 코드
 
 ### BackPropagation through time, BPTT
 
-![](../../../.gitbook/assets/image%20%281075%29.png)
+![](../../../.gitbook/assets/image%20%281077%29.png)
 
 수 천, 수 만 이상의 데이터를 학습하다보면 입력으로 제공되는 Sequence가 매우 길 수 있고 이에 따라 모든 output을 종합해서 Loss 값을 얻고 BackPropagtaion을 진행해야 한다. 현실적으로 이 길이가 길어지면 한꺼번에 처리할 수 있는 정보나 데이터의 양이 한정된 리소스 안에 담기지 못하기 때문에 제한된 길이의 Sequence 만을 학습하는 방법을 채택한다.
 
-![](../../../.gitbook/assets/image%20%281089%29.png)
+![](../../../.gitbook/assets/image%20%281095%29.png)
 
 다음 이미지는 Hidden state의 특정한 dimension을 관찰해서 크기가 커지면 푸른색으로 크기가 음수로 작아지면 붉은색으로 표현했다.
 
@@ -119,19 +119,19 @@ RNN으로 논문을 생성하거나, 연극 대본 또는 프로그래밍 코드
 
 이렇게 한 개의 dimension을 여러개 관찰하다가 특정 위치에서 흥미로운 패턴을 보게된다 큰 따옴표부터 다음 큰 따옴표까지 푸른색을 유지하다가 따옴표가 닫힌 이후부터는 붉은색을 유지하고 다시 따옴표를 만나면 푸른색으로 바뀌는 모습을 볼 수 있다.
 
-![](../../../.gitbook/assets/image%20%281088%29.png)
+![](../../../.gitbook/assets/image%20%281094%29.png)
 
 * 즉, 이 차원에서는 큰 따옴표의 시작과 끝을 기억하는 용도로 사용되었음을 알 수 있다.
 
 또, 다음 이미지는 프로그램 코드를 나타낸다.
 
-![](../../../.gitbook/assets/image%20%281076%29.png)
+![](../../../.gitbook/assets/image%20%281080%29.png)
 
 * 이 셀은 해당 구문이 if문이라는 것을 기억한다는 것을 알 수 있다.
 
 사실 이러한 특징은 바닐라 RNN이 아닌 LSTM이나 GRU를 사용했을 때의 결과이다. 간단한 구조의 RNN은 정작 많이 사용하지 않는데, 다음과 같은 문제가 발생하기 때문이다.
 
-![](../../../.gitbook/assets/image%20%281080%29.png)
+![](../../../.gitbook/assets/image%20%281085%29.png)
 
 매 타임스텝마다 히든스테이트에 동일한 W가 곱해지다보니 등비수열의 꼴로 나타나지게 되고 여기서 공비가 1보다 작으면 Vanishing Gradient 문제가, 1보다 크면 Exploding Gradient 문제가 발생하게 된다.
 
@@ -326,7 +326,7 @@ torch.Size([20, 10, 5])
 
 ![](../../../.gitbook/assets/image%20%281065%29.png)
 
-![https://simonjisu.github.io/nlp/2018/07/05/packedsequence.html](../../../.gitbook/assets/image%20%281072%29.png)
+![https://simonjisu.github.io/nlp/2018/07/05/packedsequence.html](../../../.gitbook/assets/image%20%281074%29.png)
 
 ```python
 sorted_lens, sorted_idx = batch_lens.sort(descending=True)
