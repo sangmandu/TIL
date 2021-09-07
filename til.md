@@ -6,11 +6,15 @@ description: 'Today I Learned? : ■ □ ▩'
 
 *  당일 작성 포스트가 2개 이상일 경우, 임의로 선택합니다.
 
+> 2021. 09.
+
+[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-10.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-11-hardvoting-or-multilabelclassification.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/performance-or-review.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/report_level1_6.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/5w-retrospective.md) [■](til_ml/boostcamp-2st/u-stage-nlp/01-intro-to-nlp-bag-of-words.md)[■](til_ml/boostcamp-2st/u-stage-nlp/03-recurrent-neural-network-and-language-modeling.md)
+
 > 2021. 08.
 
 [■](til_python_and_math/do_it_django+bootstrap/10.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-1-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-3-1.md)[■](til_ml/boostcamp-2st/u-stage-1/python/python-4-2.md)[■](til_ml/boostcamp-2st/u-stage-1/ai-math/ai-math-2.md) [■](til_ml/boostcamp-2st/u-stage-1/python/python-7-1-pandas-i.md)[■](til_ml/boostcamp-2st/u-stage-1/assignment/5-morsecode.md)[■](til_ml/boostcamp-2st/u-stage-1/assignment/untitled-1.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/01-historical-review.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/03-optimization.md) [■](til_ml/boostcamp-2st/u-stage-2/dl-basic/04-convolution.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/07-sequential-models-rnn.md)[■](til_ml/boostcamp-2st/u-stage-2/dl-basic/10-generative-models-2.md)[■](til_ml/boostcamp-2st/s-data-viz/2-2-line-plot.md)[■](til_ml/boostcamp-2st/s-data-viz/untitled-1.md)
 
-[■](til_ml/boostcamp-2st/s-data-viz/3-1-text.md)[■](til_ml/boostcamp-2st/u-stage-3/pytorch/01-introduction-to-pytorch.md)[■](til_ml/boostcamp-2st/u-stage-3/pytorch/04-autograd-and-optimizer.md)[■](til_ml/boostcamp-2st/u-stage-3/pytorch/06.md)[■](til_ml/boostcamp-2st/s-data-viz/3-1-text.md) [■](til_ml/boostcamp-2st/s-data-viz/3-3-facet.md)[■](til_ml/boostcamp-2st/s-data-viz/3-4-more-tips.md)[■](til_ml/boostcamp-2st/u-stage-4/untitled.md)[■](til_ml/boostcamp-2st/u-stage-4/3-dataset.md)[■](til_ml/boostcamp-2st/u-stage-4/5-model-1.md) [■](til_ml/boostcamp-2st/u-stage-4/untitled-2.md)■[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-6-error-fix.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-7-performance.md)□ □
+[■](til_ml/boostcamp-2st/s-data-viz/3-1-text.md)[■](til_ml/boostcamp-2st/u-stage-3/pytorch/01-introduction-to-pytorch.md)[■](til_ml/boostcamp-2st/u-stage-3/pytorch/04-autograd-and-optimizer.md)[■](til_ml/boostcamp-2st/u-stage-3/pytorch/06.md)[■](til_ml/boostcamp-2st/s-data-viz/3-1-text.md) [■](til_ml/boostcamp-2st/s-data-viz/3-3-facet.md)[■](til_ml/boostcamp-2st/s-data-viz/3-4-more-tips.md)[■](til_ml/boostcamp-2st/u-stage-4/untitled.md)[■](til_ml/boostcamp-2st/u-stage-4/3-dataset.md)[■](til_ml/boostcamp-2st/u-stage-4/5-model-1.md) [■](til_ml/boostcamp-2st/u-stage-4/untitled-2.md)[■](til_ml/boostcamp-2st/u-stage-4/9-ensemble.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-6-error-fix.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-7-performance.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-8-baseline.md) [■](til_ml/boostcamp-2st/mask-wear-image-classification/day-9.md)
 
 > 2021. 07.
 
