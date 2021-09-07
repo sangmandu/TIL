@@ -55,7 +55,7 @@
     * [DAY 7 : Class Imbalance \| Stratification](til_ml/boostcamp-2st/mask-wear-image-classification/day-7-performance.md)
     * [DAY 6 : Error Fix](til_ml/boostcamp-2st/mask-wear-image-classification/day-6-error-fix.md)
     * [DAY 5 :  Facenet \| Save](til_ml/boostcamp-2st/mask-wear-image-classification/day-5-lrscheduler-or-facenet-or-save.md)
-    * [DAY 4 : VIT \| F1\_Loss \| LRscheduler](til_ml/boostcamp-2st/mask-wear-image-classification/day-4-vit-or-f1_loss.md)
+    * [DAY 4 : VIT \| F1\_Loss \| LrScheduler](til_ml/boostcamp-2st/mask-wear-image-classification/day-4-vit-or-f1_loss.md)
     * [DAY 3 : DataSet/Lodaer \| EfficientNet](til_ml/boostcamp-2st/mask-wear-image-classification/day-3.md)
     * [DAY 2 : Labeling](til_ml/boostcamp-2st/mask-wear-image-classification/day-2.md)
     * [DAY 1 : EDA](til_ml/boostcamp-2st/mask-wear-image-classification/day-1.md)

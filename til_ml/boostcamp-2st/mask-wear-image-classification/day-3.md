@@ -44,6 +44,56 @@ train_df.shape, valid_df.shape
 
 * 인자로 data 하나만 주어지면 train\_data 와 valid\_data로 나누어 주며 인자로 data와 label이 주어지면 trainX, trainY, validX, validY로 나누어졌다. 나는 전자가 필요해서 data 인자 하나만 주었다.
 
+### 
+
+### Transform
+
+```python
+transform = transforms.Compose([
+    transforms.CenterCrop((380, 380)),
+    transforms.RandomHorizontalFlip(p=0.5),
+    transforms.RandomChoice([transforms.ColorJitter(brightness=(0.2, 3)),
+                             transforms.ColorJitter(contrast=(0.2, 3)),
+                             transforms.ColorJitter(saturation=(0.2, 3)),
+                             transforms.ColorJitter(hue=(-0.3, 0.3))
+                            ]),
+    transforms.ToTensor(),
+    transforms.Normalize(mean, std)
+])
+```
+
+* 이미지의 크기가 384 \* 512이다. 얼굴이 대부분 중앙에 위치하므로 CenterCrop을 사용하면 된다고 생각이 들었다. CenterCrop을 사용하는 이유는 다음과 같다.
+  * 이미지 사이즈가 작을수록 GPU사용이 줄어든다. 실제로 원본 이미지를 입력했을 때는 batch size를 매우 작게 해야만 돌아갔다.
+  * 사람의 얼굴 정보만 필요하다고 생각했다. 그 외에는 벽이나 옷등의 배경 이미지가 학습에 오히려 방해가 된다고 생각했다.
+  * 다음 이미지를 참고 하면 알 수 있듯이 b4가 학습한 이미지의 크기는 380이다.
+
+![https://github.com/lukemelas/EfficientNet-PyTorch/issues/42](../../../.gitbook/assets/image%20%281064%29.png)
+
+* 그 외에 많은 Transform을 해주지는 않았다. RandomChoice를 사용해서 4개의 trsf 를 임의로 적용되도록 해주었고 이 안에 있는 변환은 밝기, 채도 등의 픽셀값 변환이다.
+* 1/2 확률로 좌우반전이 일어나도록 했다.
+* `ToTensor` 를 이용해 텐서로 변환되게 했고 정규화를 했다. 이 때 평균과 표준편차값은 train image의 평균과 표준편차 값을 아래와 같이 구했고 이를 상수로 계속 쓰도록 했다.
+  * seed가 고정되어 있어서 계속 똑같은 train image로 고정된다.
+
+```python
+def get_img_stats(img_paths):
+    img_info = dict(means=[], stds=[])
+    for img_path in tqdm(img_paths):
+        img = np.array(Image.open(glob(img_path)[0]))
+        img_info['means'].append(img.mean(axis=(0,1)))
+        img_info['stds'].append(img.std(axis=(0,1)))
+    return img_info
+
+img_stats = get_img_stats(train_df.path.values)
+mean = np.mean(img_stats["means"], axis=0) / 255.
+std = np.mean(img_stats["stds"], axis=0) / 255.
+print(f'RGB Mean: {mean}')
+print(f'RGB Standard Deviation: {std}')
+```
+
+* 단순히 이미지를 불러와서 모든 픽셀값을 합하고 이에대한 평균과 표준편차를 구하는 과정이다.
+
+
+
 ### Dataset
 
 ```python
@@ -85,32 +135,33 @@ class TestMaskDataset(Dataset):
   * dataframe에서 index로 접근하려면 `iloc` 를 사용해야한다.
   * image는 transform에서 `ToTensor` 를 거치면서 tensor 형태가 되니까 그대로 반환해주고, label은 tensor로 캐스팅해준다.
 
-### Transform
-
 ```python
-transform = transforms.Compose([
-    transforms.CenterCrop((380, 380)),
-    transforms.RandomHorizontalFlip(p=0.5),
-    transforms.RandomChoice([transforms.ColorJitter(brightness=(0.2, 3)),
-                             transforms.ColorJitter(contrast=(0.2, 3)),
-                             transforms.ColorJitter(saturation=(0.2, 3)),
-                             transforms.ColorJitter(hue=(-0.3, 0.3))
-                            ]),
-    transforms.ToTensor(),
-    transforms.Normalize(mean, std)
-])
+train_dataset = MaskDataset(df=train_df, transform=transform)
+valid_dataset = MaskDataset(df=valid_df, transform=transform)
 ```
 
-* 이미지의 크기가 380 \* 512이다. 얼굴이 대부분 중앙에 위치하므로 CenterCrop을 사용하면 된다고 생각이 들었다. CenterCrop을 사용하는 이유는 다음과 같다.
-  * 이미지 사이즈가 작을수록 GPU사용이 줄어든다. 실제로 원본 이미지를 입력했을 때는 batch size를 매우 작게 해야만 돌아갔다.
-  * 사람의 얼굴 정보만 필요하다고 생각했다. 그 외에는 벽이나 옷등의 배경 이미지가 학습에 오히려 방해가 된다고 생각했다.
-  * 다음 이미지를 참고 하면 알 수 있듯이 b4가 학습한 이미지의 크기는 380이다.
-
-![https://github.com/lukemelas/EfficientNet-PyTorch/issues/42](../../../.gitbook/assets/image%20%281064%29.png)
-
-* a
+* 데이터셋을 생성한다.
 
 
+
+### DataLoader
+
+```python
+train_loader = DataLoader(dataset = train_dataset,
+                          batch_size=CFG['train_bs'],
+                          shuffle=True,
+                          num_workers=CFG['num_workers'],
+                         )
+
+valid_loader = DataLoader(dataset = valid_dataset,
+                          batch_size=CFG['valid_bs'],
+                          shuffle=False,
+                          num_workers=CFG['num_workers'],
+                         )
+```
+
+* 훈련 데이터의 배치 사이즈는 작게 했고 검증 데이터의 배치 사이즈는 2배로 설정했다,
+  * 훈련 데이터의 배치 사이즈는 30 또는 60으로 결정했다.
 
 
 
@@ -247,7 +298,82 @@ timm.list_models('*eff*')
 
 사실, 한번 50~100 epoch 씩 돌리면서 학습 해보고 싶었지만, 제출에 대한 압박도 있었고, 여러 실험도 해보고 싶었다. 또, 성능을 높일 수 있는 다양한 테크닉을 해볼게 많다고 생각했다. 결과적으로는 아쉽지만 그래도 pretrained 된 모델을 사용해서 또 다양한 실험과 테크닉을 적용했기에 후회는 없다.
 
+```python
+from efficientnet_pytorch import EfficientNet
+model = EfficientNet.from_pretrained('efficientnet-b4', num_classes=18)
+model = model.to(CFG['device'])
 
+criterion = nn.CrossEntropyLoss()
+
+optimizer = optim.Adam(model.parameters(), lr=CFG['lr'])
+
+torch.cuda.empty_cache()
+lrs = []
+
+# for epoch in range(7):
+for epoch in range(CFG['epochs']):
+    model.train()
+    train_batch_f1 = 0
+    train_batch_accuracy = []
+    train_batch_loss = []
+    train_pbar = tqdm(train_loader)
+    
+    for n, (X, y) in enumerate(train_pbar):
+        X, y = X.to(CFG['device']), y.to(CFG['device'])
+        y_hat = model(X)
+        loss = criterion(y_hat, y)
+        pred = torch.argmax(y_hat, axis=1)
+                            
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        lrs.append(optimizer.param_groups[0]["lr"])
+        
+        train_batch_accuracy.append(
+            torch.sum(pred == y).cpu().numpy() / CFG['train_bs']
+        )
+        train_batch_loss.append(
+            loss.item()
+        )
+        f1 = f1_score(y.cpu().numpy(), pred.cpu().numpy(), average='macro')
+        train_batch_f1 += f1
+        
+        train_pbar.set_description(f'train : {n} / {len(train_loader)} | f1 : {f1:.5f} | accuracy : {train_batch_accuracy[-1]:.5f} | loss : {train_batch_loss[-1]:.5f}')
+        
+    model.eval()
+    valid_batch_f1 = 0
+    valid_batch_accuracy = []
+    valid_batch_loss = []
+    valid_pbar = tqdm(valid_loader)
+    
+    with torch.no_grad():
+        for n, (X, y) in enumerate(valid_pbar):
+            X, y = X.to(CFG['device']), y.to(CFG['device'])
+            y_hat = model(X)
+            loss = criterion(y_hat, y)
+            pred = torch.argmax(y_hat, axis=1)
+            
+            valid_batch_accuracy.append(
+                torch.sum(pred == y).cpu().numpy() / CFG['valid_bs']
+            )
+            valid_batch_loss.append(
+                loss.item()
+            )
+            f1 = f1_score(y.cpu().numpy(), pred.cpu().numpy(), average='macro')
+            valid_batch_f1 += f1
+            
+            valid_pbar.set_description(f'valid : {n} / {len(valid_loader)} | f1 : {f1:.5f} | accuracy : {valid_batch_accuracy[-1]:.5f} | loss : {valid_batch_loss[-1]:.5f}')
+
+
+    print(f"""
+epoch : {epoch+1:02d}
+[train] f1 : {train_batch_f1/len(train_loader):.5f} | accuracy : {np.sum(train_batch_accuracy) / len(train_loader):.5f} | loss : {np.sum(train_batch_loss) / len(train_loader):.5f}
+[valid] f1 : {valid_batch_f1/len(valid_loader):.5f} | accuracy : {np.sum(valid_batch_accuracy) / len(valid_loader):.5f} | loss : {np.sum(valid_batch_loss) / len(valid_loader):.5f}
+""")
+    
+    if valid_batch_f1/len(valid_loader) >= 0.9:
+        torch.save(model.state_dict(), f'v:f1_{valid_batch_f1/len(valid_loader):.3f}_t:f1_{train_batch_f1/len(train_loader):.5f}_efficientnet_b4_state_dict.pt')  # 모델 객체의 state_dict 저장
+```
 
 아무런 테크닉을 적용하지 않고 돌렸을 때의 f1 점수는 60점 중반 정도가 나왔다. 생각보다 점수가 낮네 싶었지만, 여러 테크닉을 고민해보고 있다.
 
