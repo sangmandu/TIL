@@ -1,6 +1,6 @@
 # 3W Retrospective
 
-![](../../../.gitbook/assets/image%20%281101%29.png)
+![](../../../.gitbook/assets/image%20%281104%29.png)
 
 ## 1. 시각화
 
