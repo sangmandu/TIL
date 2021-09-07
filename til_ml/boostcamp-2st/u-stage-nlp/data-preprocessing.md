@@ -126,7 +126,7 @@ for token in text[21:31]:
   print(token,"\t", token.is_punct, "\t\t",token.is_space,"\t\t", token.shape_, "\t\t",token.is_stop)
 ```
 
-![](../../../.gitbook/assets/image%20%281063%29.png)
+![](../../../.gitbook/assets/image%20%281065%29.png)
 
 * `is_punct` : 문장부호에 해당하는 지
 * `is_space` : 공백에 해당하는지
