@@ -49,6 +49,8 @@
     * [\[선택 과제\] BERT Fine-tuning with transformers](til_ml/boostcamp-2st/u-stage-nlp/bert-fine-tuning-with-transformers.md)
     * [\[필수 과제\] Data Preprocessing](til_ml/boostcamp-2st/u-stage-nlp/data-preprocessing.md)
   * [Mask Wear Image Classification](til_ml/boostcamp-2st/mask-wear-image-classification/README.md)
+    * [5W Retrospective](til_ml/boostcamp-2st/mask-wear-image-classification/5w-retrospective.md)
+    * [Report\_Level1\_6](til_ml/boostcamp-2st/mask-wear-image-classification/report_level1_6.md)
     * [Performance \| Review](til_ml/boostcamp-2st/mask-wear-image-classification/performance-or-review.md)
     * [DAY 11 : HardVoting \| MultiLabelClassification](til_ml/boostcamp-2st/mask-wear-image-classification/day-11-hardvoting-or-multilabelclassification.md)
     * [DAY 10 : Cutmix](til_ml/boostcamp-2st/mask-wear-image-classification/day-10.md)
