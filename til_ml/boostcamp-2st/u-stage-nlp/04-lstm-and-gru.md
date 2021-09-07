@@ -137,7 +137,35 @@ c_0 = torch.zeros((num_layers * num_dirs, batch.shape[0], hidden_size))  # (num_
 
 * hidden state와 cell state는 0으로 초기화한다.
 
+```python
+# d_w: word embedding size
+batch_emb = embedding(batch)  # (B, L, d_w)
 
+packed_batch = pack_padded_sequence(batch_emb.transpose(0, 1), batch_lens)
+
+packed_outputs, (h_n, c_n) = lstm(packed_batch, (h_0, c_0))
+print(packed_outputs)
+print(packed_outputs[0].shape)
+print(h_n.shape)
+print(c_n.shape)
+```
+
+```text
+PackedSequence(data=tensor([[-0.0690,  0.1176, -0.0184,  ..., -0.0339, -0.0347,  0.1103],
+        [-0.1626,  0.0038,  0.0090,  ..., -0.1385, -0.0806,  0.0635],
+        [-0.0977,  0.1470, -0.0678,  ...,  0.0203,  0.0201,  0.0175],
+        ...,
+        [-0.1911, -0.1925, -0.0827,  ...,  0.0491,  0.0302, -0.0149],
+        [ 0.0803, -0.0229, -0.0772,  ..., -0.0706, -0.1711, -0.2128],
+        [ 0.1861, -0.1572, -0.1024,  ..., -0.0090, -0.2621, -0.2803]],
+       grad_fn=<CatBackward>), batch_sizes=tensor([10, 10, 10, 10, 10,  9,  7,  7,  6,  6,  5,  5,  5,  5,  5,  4,  4,  3,
+         1,  1]), sorted_indices=None, unsorted_indices=None)
+torch.Size([123, 512])
+torch.Size([1, 10, 512])
+torch.Size([1, 10, 512])
+```
+
+* hidden state와 cell state의 크기가 같은것을 볼 수 있다. 
 
 
 
