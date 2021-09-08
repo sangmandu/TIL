@@ -39,7 +39,7 @@ hidden state가 4개의 차원으로 구성되었고 프랑스어를 영어로 �
 * 이후, 각 유사도를 sofrmax한 값을 가중치로 얻게된다.
 * 이 때 attention output 벡터는 가중평균된 벡터이며 context 벡터라고도 부른다.
 
-![](../../../.gitbook/assets/image%20%281110%29.png)
+![](../../../.gitbook/assets/image%20%281112%29.png)
 
 * 이후 디코더는 디코더의 h state와 attention output 을 concat 하며 예측값을 반환하게된다.
 
@@ -59,7 +59,36 @@ hidden state가 4개의 차원으로 구성되었고 프랑스어를 영어로 �
 
 이전에는 유사도를 구하기 위해 내적을 사용했는데, 내적 이외에도 다양한 방법으로 attention을 구성하는 방법을 알아보도록 한다.
 
+![](../../../.gitbook/assets/image%20%281111%29.png)
 
+* h\_t : 디코더에서 주어지는 히든 벡터
+* h\_s : 인코더에서 각 워드별로의 히든 벡터
+
+그냥 내적을 할 수도 있지만 `generalized dot product` 라는 attention 방법도 있다.
+
+* W는 대각행렬의 모양이다. 각 dimension 별로 적용하는 가중치의 역할을 한다.
+
+또, `concat` 하는 방법이 있는데, 이전의 내적들과는 다른 방법이다. 유사도를 내적이 아니라 신경망을 통해서 구하는 방법이다.
+
+![&#xB0B4;&#xAC00; &#xADF8;&#xB9B0; &#xAE30;&#xB9B0; &#xADF8;&#xB9BC;](../../../.gitbook/assets/image%20%281110%29.png)
+
+![](../../../.gitbook/assets/image%20%281113%29.png)
+
+여기서 W2에 해당하는 부분이 $$ v_a^T $$가 된다.
+
+* 2-layer의 신경망으로 구성할 수 있다.
+
+이전의 attention은 파라미터가 필요없는 내적 연산의 모듈이었는데, 파라미터가 필요한 학습이 되면서 좀 더 최적화 할 수 있게된다.
+
+
+
+### Attention is Great
+
+* 디코더의 매 스텝마다 특정 정보를 제공하면서 성능이 매우 향상되었다.
+* attention을 하면서 긴 문장의 번역이 어려운 점, bottleneck problem을 해결했다.
+* 역전파 과정에서 디코더 스텝과 인코더 스텝을 거쳐가면서 매우 긴 타임스텝을 지나게되고 이 때 gradient 소실 또는 증폭 문제가 발생할 수 있게되는데 attention을 사용하면서 gradient가 직접적으로 전달할 수 있는 방법이 추가되면서 gradient가 변질없이 전달될 수 있게되었다.
+* 흥미로운 해석가능성을 제공해준다.
+  * attention을 조사해서 h state가 각 단어의 어떤 부분에 집중했는지 관찰할 수 있게되었다.
 
 
 
