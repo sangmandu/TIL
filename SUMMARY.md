@@ -42,6 +42,7 @@
   * [\[U\]Stage-CV](til_ml/boostcamp-2st/u-stage-cv.md)
   * [\[U\]Stage-NLP](til_ml/boostcamp-2st/u-stage-nlp/README.md)
     * [6W Retrospective](til_ml/boostcamp-2st/u-stage-nlp/6w-retrospective.md)
+    * [\(06강\) Beam Search and BLEU score](til_ml/boostcamp-2st/u-stage-nlp/06-beam-search-and-bleu-score.md)
     * [\(05강\) Sequence to Sequence with Attention](til_ml/boostcamp-2st/u-stage-nlp/05-sequence-to-sequence-with-attention.md)
     * [\(04강\) LSTM and GRU](til_ml/boostcamp-2st/u-stage-nlp/04-lstm-and-gru.md)
     * [\(03강\) Recurrent Neural Network and Language Modeling](til_ml/boostcamp-2st/u-stage-nlp/03-recurrent-neural-network-and-language-modeling.md)

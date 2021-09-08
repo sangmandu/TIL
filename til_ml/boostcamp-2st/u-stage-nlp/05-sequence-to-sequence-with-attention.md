@@ -10,7 +10,7 @@ description: '210908'
 
 앞서 배운 RNN의 구조 중 Many to Many에 해당하는 모델이다. 보통 입력은 word 단위의 문장이고 출력도 동일하다.
 
-![](../../../.gitbook/assets/image%20%281109%29.png)
+![](../../../.gitbook/assets/image%20%281111%29.png)
 
 이 때, 입력 문장을 받는 모델을 인코더라고 하고 하나하나 답을 내놓는 부분을 디코더라고 한다. 인코더와 디코더는 서로 다른 RNN 모델이다. 그래서 파라미터를 공유하거나 하지 않는다. \(인코더와 디코더 각각은 내부적으로 공유한다\)
 
@@ -39,7 +39,7 @@ hidden state가 4개의 차원으로 구성되었고 프랑스어를 영어로 �
 * 이후, 각 유사도를 sofrmax한 값을 가중치로 얻게된다.
 * 이 때 attention output 벡터는 가중평균된 벡터이며 context 벡터라고도 부른다.
 
-![](../../../.gitbook/assets/image%20%281112%29.png)
+![](../../../.gitbook/assets/image%20%281118%29.png)
 
 * 이후 디코더는 디코더의 h state와 attention output 을 concat 하며 예측값을 반환하게된다.
 
@@ -59,7 +59,7 @@ hidden state가 4개의 차원으로 구성되었고 프랑스어를 영어로 �
 
 이전에는 유사도를 구하기 위해 내적을 사용했는데, 내적 이외에도 다양한 방법으로 attention을 구성하는 방법을 알아보도록 한다.
 
-![](../../../.gitbook/assets/image%20%281111%29.png)
+![](../../../.gitbook/assets/image%20%281116%29.png)
 
 * h\_t : 디코더에서 주어지는 히든 벡터
 * h\_s : 인코더에서 각 워드별로의 히든 벡터
@@ -70,9 +70,9 @@ hidden state가 4개의 차원으로 구성되었고 프랑스어를 영어로 �
 
 또, `concat` 하는 방법이 있는데, 이전의 내적들과는 다른 방법이다. 유사도를 내적이 아니라 신경망을 통해서 구하는 방법이다.
 
-![&#xB0B4;&#xAC00; &#xADF8;&#xB9B0; &#xAE30;&#xB9B0; &#xADF8;&#xB9BC;](../../../.gitbook/assets/image%20%281110%29.png)
+![&#xB0B4;&#xAC00; &#xADF8;&#xB9B0; &#xAE30;&#xB9B0; &#xADF8;&#xB9BC;](../../../.gitbook/assets/image%20%281115%29.png)
 
-![](../../../.gitbook/assets/image%20%281113%29.png)
+![](../../../.gitbook/assets/image%20%281119%29.png)
 
 여기서 W2에 해당하는 부분이 $$ v_a^T $$가 된다.
 
