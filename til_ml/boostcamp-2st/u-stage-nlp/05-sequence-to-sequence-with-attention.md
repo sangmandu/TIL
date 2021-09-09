@@ -92,7 +92,52 @@ hidden state가 4개의 차원으로 구성되었고 프랑스어를 영어로 �
 
 
 
+## 실습
 
+매 실습마다 동일한 부분이 핵심 클래스만 다룹니다.
+
+### Encoder
+
+```python
+embedding_size = 256
+hidden_size = 512
+num_layers = 2
+num_dirs = 2
+dropout = 0.1
+```
+
+```python
+class Encoder(nn.Module):
+  def __init__(self):
+    super(Encoder, self).__init__()
+
+    self.embedding = nn.Embedding(vocab_size, embedding_size)
+    self.gru = nn.GRU(
+        input_size=embedding_size, 
+        hidden_size=hidden_size,
+        num_layers=num_layers,
+        bidirectional=True if num_dirs > 1 else False,
+        dropout=dropout
+    )
+    self.linear = nn.Linear(num_dirs * hidden_size, hidden_size)
+
+  def forward(self, batch, batch_lens):  # batch: (B, S_L), batch_lens: (B)
+    # d_w: word embedding size
+    batch_emb = self.embedding(batch)  # (B, S_L, d_w)
+    batch_emb = batch_emb.transpose(0, 1)  # (S_L, B, d_w)
+
+    packed_input = pack_padded_sequence(batch_emb, batch_lens)
+
+    h_0 = torch.zeros((num_layers * num_dirs, batch.shape[0], hidden_size))  # (num_layers*num_dirs, B, d_h) = (4, B, d_h)
+    packed_outputs, h_n = self.gru(packed_input, h_0)  # h_n: (4, B, d_h)
+    outputs = pad_packed_sequence(packed_outputs)[0]  # outputs: (S_L, B, 2d_h)
+
+    forward_hidden = h_n[-2, :, :]
+    backward_hidden = h_n[-1, :, :]
+    hidden = self.linear(torch.cat((forward_hidden, backward_hidden), dim=-1)).unsqueeze(0)  # (1, B, d_h)
+
+    return outputs, hidden
+```
 
 
 
