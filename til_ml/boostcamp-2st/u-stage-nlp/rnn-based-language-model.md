@@ -318,9 +318,127 @@ test_data = batchify(corpus.test, eval_batch_size)
 
 *  `torch.narrow` 는 input, dim, start, length 를 인자로 받으며, input의 dim차원에 대해 start부터 length까지만 슬라이싱한다.
   * 여기서는 가장 바깥쪽 차원에 대해서 처음부터 nbatch \* bsz 만큼까지 슬라이싱하는데, 이는 bsz로 데이터를 나누면 마지막에 남는 데이터가 생겨서 이를 제거해주기 위함이다.
-* `view` 를 통해 transpose 해준다. 근데 그 뒤에 또 `.t()` 로 transpose 해준다...? 뭘까?
+* `view` 를 통해 transpose 해준다. 근데 그 뒤에 또 `.t()` 로 transpose 해준다...? 뭘까? 언뜻 보면 transpose의 transpose를 해준다고 보이지만 첫 data가 1차원이어서 이를 2차원으로 만들어주고 transpose를 해준다.
+  * 아니, 그러면 애초에 `data.view(-1, bsz)` 를 해주면 되는거 아니야? 라고 또 할 수 있지만 둘의 원소 배열이 좀 다르다. 일단 배치 사이즈만큼으로 행을 구성하고 transpose를 해줘야 하며, 처음부터 배치 사이즈만큼으로 열을 구성하게 되면 시퀀스의 배치가 섞이게 된다.
 * `contiguous()`는 텐서의 모양을 변형할 때 메모리에 텐서가 뒤죽박죽 쌓이게 된다고 한다. 변형해서 생성된 텐서를 마치 처음 생성한 것처럼 메모리에 쌓이게 해준다고 한다.
   * 변형될 때 메모리에 흩어진다는 뜻은 아니며, 메모리의 원소들의 순서가 뒤죽박죽이라는 이야기. 아무래도 메모리의 지역성을 고려해주는 것 같다. 순서가 뒤죽박죽이면 그로인해 생기는 delay가 있을테니!
+
+
+
+```python
+###############################################################################
+# Build the model
+###############################################################################
+
+ntokens = len(corpus.dictionary)
+
+model = RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout).to(device)
+
+criterion = nn.NLLLoss()
+```
+
+```python
+###############################################################################
+# Training code1 - define functions
+###############################################################################
+
+def repackage_hidden(h):
+    """Wraps hidden states in new Tensors, to detach them from their history."""
+
+    if isinstance(h, torch.Tensor):
+        return h.detach()
+    else:
+        return tuple(repackage_hidden(v) for v in h)
+
+
+# get_batch subdivides the source data into chunks of length args.bptt.
+# If source is equal to the example output of the batchify function, with
+# a bptt-limit of 2, we'd get the following two Variables for i = 0:
+# ┌ a g m s ┐ ┌ b h n t ┐
+# └ b h n t ┘ └ c i o u ┘
+# Note that despite the name of the function, the subdivison of data is not
+# done along the batch dimension (i.e. dimension 1), since that was handled
+# by the batchify function. The chunks are along dimension 0, corresponding
+# to the seq_len dimension in the LSTM.
+
+def get_batch(source, i):
+    seq_len = min(args.bptt, len(source) - 1 - i)
+    data = source[i:i+seq_len]
+    target = source[i+1:i+1+seq_len].view(-1)
+    return data, target
+
+
+def evaluate(data_source):
+    # Turn on evaluation mode which disables dropout.
+    model.eval()
+    total_loss = 0.
+    ntokens = len(corpus.dictionary)
+    hidden = model.init_hidden(eval_batch_size)
+    with torch.no_grad():
+        for i in range(0, data_source.size(0) - 1, args.bptt):
+            data, targets = get_batch(data_source, i)
+            output, hidden = model(data, hidden)
+            hidden = repackage_hidden(hidden)
+            total_loss += len(data) * criterion(output, targets).item()
+    return total_loss / (len(data_source) - 1)
+
+
+def train():
+    # Turn on training mode which enables dropout.
+    model.train()
+    total_loss = 0.
+    start_time = time.time()
+    ntokens = len(corpus.dictionary)
+    hidden = model.init_hidden(args.batch_size)
+    for batch, i in enumerate(range(0, train_data.size(0) - 1, args.bptt)):
+        data, targets = get_batch(train_data, i)
+        # Starting each batch, we detach the hidden state from how it was previously produced.
+        # If we didn't, the model would try backpropagating all the way to start of the dataset.
+        model.zero_grad()
+
+        hidden = repackage_hidden(hidden)
+        output, hidden = model(data, hidden)
+
+        ############################ ANSWER HERE ################################
+        # TODO: train 함수를 (이곳에) 완성해주세요.
+        #
+        # Hint1: output 을 받았으니, loss를 계산할 차례입니다.
+        #        loss 를 계산한 후 해야 하는 일은 무엇일까요?
+        #########################################################################
+        loss = criterion(output, targets)
+        loss.backward()
+
+        # `clip_grad_norm` helps prevent the exploding gradient problem in RNNs / LSTMs.
+        torch.nn.utils.clip_grad_norm_(model.parameters(), args.clip)
+        for p in model.parameters():
+            p.data.add_(p.grad, alpha=-lr)
+
+        total_loss += loss.item()
+
+        if batch % args.log_interval == 0 and batch > 0:
+            cur_loss = total_loss / args.log_interval
+            elapsed = time.time() - start_time
+            print('| epoch {:3d} | {:5d}/{:5d} batches | lr {:02.2f} | ms/batch {:5.2f} | '
+                    'loss {:5.2f} | ppl {:8.2f}'.format(
+                epoch, batch, len(train_data) // args.bptt, lr,
+                elapsed * 1000 / args.log_interval, cur_loss, math.exp(cur_loss)))
+            total_loss = 0
+            start_time = time.time()
+        if args.dry_run:
+            break
+```
+
+* `repackage_hidden`
+  * 히든 스테이트를 다시 재구성 하는 작업이다. 재구성을 왜 해야될까? 한번 forward를 하고 backward를 하면 이 때 grad값이 hidden state에 남아있게된다. 그러면 두번째 학습에서 grad를 전파할 때 이전 grad값이 영향을 주게 된다. 그래서 `detach` 라는 함수를 써서 이를 초기화하는 것이다.
+* `get_batch`
+  * 현재는 train\_data 안에 X와 y값이 모두 들어있으므로 이를 data와 target으로 분리해주는 역할을 한다. 각 시퀀스는 바로 뒷 단어를 예측하면 되므로 인덱스를 +1 해서 슬라이싱 해준다.
+* `evaluate`
+  * `train` 과정과 동일하다. 아래에서 부가 설명
+* `train`
+  * 기존과는 다르게 `optimizer.zero_grad` 를 해주지 않고 `model.zero_grad` 를 해준다. 왜일까? 왜냐하면 optimizer가 없기 때문이다.
+  * 그럼 optimizer는 없는거야? 아니다! 단순히 optimizer라는 모듈을 쓰지 않을 뿐이고
+  * line 57 그리고 73-74에서 그 역할을 하게된다.
+  * grad를 0으로 초기화해주는 repackage 작업을 거친뒤 모델에서 output과 hidden을 얻고 loss를 계산하고, 파라미터를 갱신해주는 작업을 거친다.
 
 
 
