@@ -21,11 +21,11 @@ tokenization의 방법은 세 가지 정도로 말할 수 있다. 예를 들어 
 
 word 기반 tokenization의 파라미터 개수는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281129%29.png)
+![](../../../.gitbook/assets/image%20%281130%29.png)
 
 subword 기반 tokenization의 파라미터 개수는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281125%29.png)
+![](../../../.gitbook/assets/image%20%281126%29.png)
 
 * 이 때의 tokenizer는 `BertTokenizer.from_pretrained("bert-base-cased")` 를 사용했다.
 

@@ -139,7 +139,46 @@ class Encoder(nn.Module):
     return outputs, hidden
 ```
 
+* 3, 4강에 등장한 인코더와 동일하다. 다만, 내부 인자가 살짝 달라서 추가된 코드가 있다. 여기서는, layer의 수가 2개이고 방향도 양방향이다.
+  * 그래서 hidden state의 3차원 개수가 1에서 4로 증가했다.
+  * 또한, layer가 2개이므로 `forward_hidden` 을 첫번째 layer로, `backward_hidden` 을 두번째 layer로 정했고 실제 hidden state를 반환할 때는 이 둘은 `cat` 해서 반환했다.
 
 
 
+디코더는 이전과 동일하므로 생략한다.
+
+
+
+### Seq2Seq 모델 구축
+
+```python
+class Seq2seq(nn.Module):
+  def __init__(self, encoder, decoder):
+    super(Seq2seq, self).__init__()
+
+    self.encoder = encoder
+    self.decoder = decoder
+
+  def forward(self, src_batch, src_batch_lens, trg_batch, teacher_forcing_prob=0.5):
+    # src_batch: (B, S_L), src_batch_lens: (B), trg_batch: (B, T_L)
+
+    _, hidden = self.encoder(src_batch, src_batch_lens)  # hidden: (1, B, d_h)
+
+    input_ids = trg_batch[:, 0]  # (B)
+    batch_size = src_batch.shape[0]
+    outputs = torch.zeros(trg_max_len, batch_size, vocab_size)  # (T_L, B, V)
+
+    for t in range(1, trg_max_len):
+      decoder_outputs, hidden = self.decoder(input_ids, hidden)  # decoder_outputs: (B, V), hidden: (1, B, d_h)
+
+      outputs[t] = decoder_outputs
+      _, top_ids = torch.max(decoder_outputs, dim=-1)  # top_ids: (B)
+
+      input_ids = trg_batch[:, t] if random.random() > teacher_forcing_prob else top_ids
+
+    return outputs
+```
+
+* encoder의 output은 사용하지 않는 모습.
+* 또한, decoder의 output은 encoder처럼 한번에 나오지 않으므로 for문으로 작동시킨다. 그래서 이를 담아주기 위한 outputs를 선언해준다. 
 
