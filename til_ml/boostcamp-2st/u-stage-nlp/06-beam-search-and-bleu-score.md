@@ -1,5 +1,5 @@
 ---
-description: '210908'
+description: '210909'
 ---
 
 # \(06강\) Beam Search and BLEU score
@@ -115,6 +115,8 @@ description: '210908'
 
 
 ## 실습
+
+5강의 실습과 동일하고, 여기서는 추가적으로 attention 부분이 추가되었다.
 
 
 
