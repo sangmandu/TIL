@@ -1,5 +1,5 @@
 ---
-description: '210909'
+description: '210909, 210911'
 ---
 
 # \(06강\) Beam Search and BLEU score
