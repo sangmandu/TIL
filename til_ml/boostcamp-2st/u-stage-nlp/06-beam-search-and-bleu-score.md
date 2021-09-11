@@ -118,6 +118,31 @@ description: '210909, 210911'
 
 5강의 실습과 동일하고, 여기서는 추가적으로 attention 부분이 추가되었다.
 
+### **Dot-product Attention 구현**
+
+```python
+class DotAttention(nn.Module):
+  def __init__(self):
+    super().__init__()
+
+  def forward(self, decoder_hidden, encoder_outputs):  # (1, B, d_h), (S_L, B, d_h)
+    query = decoder_hidden.squeeze(0)  # (B, d_h)
+    key = encoder_outputs.transpose(0, 1)  # (B, S_L, d_h)
+
+    energy = torch.sum(torch.mul(key, query.unsqueeze(1)), dim=-1)  # (B, S_L)
+
+    attn_scores = F.softmax(energy, dim=-1)  # (B, S_L)
+    attn_values = torch.sum(torch.mul(encoder_outputs.transpose(0, 1), attn_scores.unsqueeze(2)), dim=1)  # (B, d_h)
+
+    return attn_values, attn_scores
+```
+
+* 인코더의 output과 디코더의 hidden state를 가지고 내적을 하는 모습. 이렇게 구한 내적을 softmax를 거쳐서 최종값을 구한뒤 각 임베딩 벡터의 가중치로 생각하고 마지막으로 attention output을 구하는 모습이다.
+
+
+
+
+
 
 
 
