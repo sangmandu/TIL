@@ -21,7 +21,7 @@ RNN, LSTM, GRU는 기계 번역이나 언어 모델링과 같은 transduction �
 
 Attention mecahnisms은 input과 output의 거리에 대한 의존도를 고려하지 않는다라는 점에서 sequence modeling과 transduction models에 다양한 task들에 있어 설득력있는 모델이되었다.
 
-논문에서 제시하는 Transformer는 의도적으로 recurrence를 회피한다. 그대신 전체적으로 attention mechanism에 의존해서 input과 output 사이에 있는 전반적인 의존성을 해소한다. Transformer는 
+논문에서 제시하는 Transformer는 의도적으로 recurrence를 회피한다. 그대신 전체적으로 attention mechanism에 의존해서 input과 output 사이에 있는 전반적인 의존성을 해소한다. 그래서 Transformer는 병렬화에 더 적합하고 번역 기술에 있어서 조금의 학습으로도 더 좋은 품질의 결과물을 줄 수 있다.
 
 
 
