@@ -23,7 +23,8 @@
 
 ## TIL : ML <a id="til_ml"></a>
 
-* [Paper Analysis](til_ml/paper-analysis.md)
+* [Paper Analysis](til_ml/paper-analysis/README.md)
+  * [Attention Is All You Need](til_ml/paper-analysis/attention-is-all-you-need.md)
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [\[S\]Data Viz](til_ml/boostcamp-2st/s-data-viz/README.md)
     * [\(4-3\) Seaborn 심화](til_ml/boostcamp-2st/s-data-viz/4-3-seaborn.md)
@@ -50,7 +51,7 @@
     * [\(01강\) Intro to NLP, Bag-of-Words](til_ml/boostcamp-2st/u-stage-nlp/01-intro-to-nlp-bag-of-words.md)
     * [\[필수 과제 4\] Preprocessing for NMT Model](til_ml/boostcamp-2st/u-stage-nlp/4-preprocessing-for-nmt-model.md)
     * [\[필수 과제 3\] Subword-level Language Model](til_ml/boostcamp-2st/u-stage-nlp/3-subword-level-language-model.md)
-    * [\[필수 과제\] RNN-based Language Model](til_ml/boostcamp-2st/u-stage-nlp/rnn-based-language-model.md)
+    * [\[필수 과제2\] RNN-based Language Model](til_ml/boostcamp-2st/u-stage-nlp/rnn-based-language-model.md)
     * [\[선택 과제\] BERT Fine-tuning with transformers](til_ml/boostcamp-2st/u-stage-nlp/bert-fine-tuning-with-transformers.md)
     * [\[필수 과제\] Data Preprocessing](til_ml/boostcamp-2st/u-stage-nlp/data-preprocessing.md)
   * [Mask Wear Image Classification](til_ml/boostcamp-2st/mask-wear-image-classification/README.md)

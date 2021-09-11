@@ -2,7 +2,7 @@
 description: '210908'
 ---
 
-# \[필수 과제\] RNN-based Language Model
+# \[필수 과제2\] RNN-based Language Model
 
 ### 데이터 업로드
 
