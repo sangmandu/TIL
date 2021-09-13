@@ -18,7 +18,7 @@ description: 'What I Learn : ■ □'
 
 * [ ] Boostcamp 2st \[Weeks\]
 
-  [■](til_ml/boostcamp-2st/u-stage-1/)[■](til_ml/boostcamp-2st/u-stage-2/)[■](til_ml/boostcamp-2st/u-stage-3/)[■](til_ml/boostcamp-2st/u-stage-4/) \[4\]
+  [■](til_ml/boostcamp-2st/u-stage-1/)[■](til_ml/boostcamp-2st/u-stage-2/)[■](til_ml/boostcamp-2st/u-stage-3/)[■](til_ml/boostcamp-2st/u-stage-4/)[■](til_ml/boostcamp-2st/mask-wear-image-classification/) [■](til_ml/boostcamp-2st/u-stage-nlp/) \[6\]
 
 * [ ] [\[쑤튜브\] 10분 선형대수 강의](https://youtube.com/playlist?list=PLdEdazAwz5Q_n47tqf0QY94ASCmWqeGX1) \[Lecture\]
 
