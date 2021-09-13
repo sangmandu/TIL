@@ -8,20 +8,20 @@ description: '210913'
 
 기존에 Add-on 으로만 사용되는 Attention을 전반적으로 사용하고 RNN과 CNN 모듈을 사용하지 않는 모델이다.
 
-![](../../../.gitbook/assets/image%20%281134%29.png)
+![](../../../.gitbook/assets/image%20%281138%29.png)
 
 * 이전 정보들을 hidden state에 담아 넘기는 모습이다. hidden state와 각 임베딩 벡터와의 관계는 오른쪽과 같다.
 * 그러나, 어쩔 수 없이 각 time step을 거치면서 정보가 손실될 수 밖에 없는 구조이다.
 
 양방향 RNN에 대한 구조는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281140%29.png)
+![](../../../.gitbook/assets/image%20%281153%29.png)
 
 * 예를 들어 `GO` 를 기준으로 본다면, go의 왼쪽 단어들에 대한 정보가 담겨있는 Forward RNN의 hf 와 go의 오른쪽 단어들에 대한 정보가 담겨있는 Backwrad RNN의 hb를 concat해서 기존 hidden state의 2배 크기로 만들 수 있는데, 이것을 go의 인코딩 벡터로 생각할 수 있다.
 
 Transformer의 구조는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281133%29.png)
+![](../../../.gitbook/assets/image%20%281135%29.png)
 
 * 입력과 출력의 크기는 유지되며 입력 벡터의 정보를 잘 반영할 수 있도록 한다. 구체적으로 알아보자
 * 초기에는 주어진 임베딩 벡터들을 가지고만 연산을 했다.
@@ -52,17 +52,17 @@ Transformer의 구조는 다음과 같다.
 
 이를 식으로 나타내면 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281141%29.png)
+![](../../../.gitbook/assets/image%20%281155%29.png)
 
 * A : Attention 모듈에서는
 * q, K, V : 쿼리 벡터 한개, 키 벡터 전체, 밸류 벡터 전체가 필요하며,
   * 쿼리 벡터가 한개라 소문자로 쓴 디테일!!
 
-![](../../../.gitbook/assets/image%20%281138%29.png)
+![](../../../.gitbook/assets/image%20%281149%29.png)
 
 * 쿼리벡터 하나와 키 벡터 모두를 내적하여 이에 대한 softmax값을 구하고,
 
-![](../../../.gitbook/assets/image%20%281135%29.png)
+![](../../../.gitbook/assets/image%20%281142%29.png)
 
 * 이를 밸류벡터와 가중합해서 최종 결과물을 얻는다!
 
@@ -77,7 +77,7 @@ Transformer의 구조는 다음과 같다.
 
 트랜스포머의 과정을 그림으로 나타내면 다음과 같이 나타낼 수 있다.
 
-![](../../../.gitbook/assets/image%20%281136%29.png)
+![](../../../.gitbook/assets/image%20%281143%29.png)
 
 * 근데 저기서 $$ \sqrt d_k $$라는 값으로 나누어주는 부분이 있는데 이건 뭘까?
 
@@ -85,7 +85,7 @@ Transformer의 구조는 다음과 같다.
 
 다음의 예시가 있다고 하자.
 
-![](../../../.gitbook/assets/image%20%281132%29.png)
+![](../../../.gitbook/assets/image%20%281134%29.png)
 
 그리고, a와 b, x와 y는 각각 독립이면서 평균이 0이고 분산이 1인 분포의 확률변수라고 가정하자.
 
@@ -93,35 +93,15 @@ Transformer의 구조는 다음과 같다.
 
 그리고 ax+by는 평균이 0이고, 분산이 2가 된다.
 
-왜 그럴까? 확률변수의 합과 차에대한 평균과 분산에 대한 설명을 아래에서 설명한다.
-
-## 확률변수의 합과 차의 평균과 분산
+![https://ko.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-random-variables-article](../../../.gitbook/assets/image%20%281152%29.png)
 
 
 
-![https://ko.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-random-variables-article](../../../.gitbook/assets/image%20%281139%29.png)
 
-확률변수의 합과 차에대한 평균의 설명은 [여기](https://youtu.be/RYSN1CARHtE)와 동일하다.
 
-* 하루동안 내가 본 강아지의 수를 X, 내가 본 고양이의 수를 Y 라고 하자. 그리고 이 둘은 독립이라고 하자.
-  * 실생활에서 완벽한 독립이라고 하기에는 어려운 부분일 수도 있겠지만, 보통은 내가 강아지를 봤다고 해서 고양이를 볼 확률이 커지거나 작아지지는 않으니까 이렇게 생각하자!
-* 이 때 이 X와 Y의 기댓값을 E\(X\) = 3, E\(Y\) = 4로 알고있다고 해보자.
-* E\(X+Y\)는 하루동안 본 강아지와 고양이의 수이므로 E\(X+Y\)=7 이 된다.
-* E\(Y-X\)는 하루동안 강아지보다 고양이를 한 마리는 더 보게 된다는 E\(Y-X\)=1 이 된다.
+그래서 의도치않게 차원을 크게하고 Scaling이 따로 없다면, 소프트맥스가 특정 값에 몰리게 되고 이로 인해 Gradient Vanishing 문제가 발생할 수 있다.
 
-확률변수의 합과 차에대한 분산의 설명은 [여기](https://youtu.be/3VXhi_0Mclg)와 동일하다.
 
-* 내가 구매한 씨리얼의 무게를 X라고 하자.
-  * 우리는 E\(X\) = 600g 이라는 것을 알고있다고 하자. 알게 된 이유는 씨리얼 포장박스에 써있으니까! 그렇지만 잘 생각해보면 모든 씨리얼의 무게가 600g은 아닐것이다! 내부에 있는 씨리얼의 밀도와 크기는 모두 다르기 때문에 조금의 편차가 있을 수 있다.
-  * 이 편차를 30g이라고 하자.
-  * 그리고 이 씨리얼의 무게는 어떠한 범위안에 있다고하자. 무슨 뜻이냐면 예를 들어 씨리얼이 700g보다 많게 포장된 경우, 또는 500g보다 적게 포장된 경우에는 폐기한다.
-* 내가 가지고 있는 그릇에 담길 씨리얼의 무게를 Y라고 하자. 평균적으로 100g정도 따르면 적절한 양처럼 보이는 그릇이다.
-  * 그래서 E\(Y\) = 100g 이라고 해보자.
-  * 사람 마다 따르는 그 양이 다르니까 그 편차를 20g이라고 하자.
-  * 그리고 엄청 가득 따르거나 엄청 적게 따르지는 않는다고 해보자 : 50g &lt;= E\(Y\) &lt;= 150g 
-* 기존에 설명한 것 처럼 E\(X+Y\)=700g이 된다.
-  * 아마 X는 새로 구매한 씨리얼 박스이고 Y는 기존에 가지고 있던 씨리얼 박스에서 부었나보다.
-* 이 때 표준편차는 어떻게 될까? 아쉽게도 더해서 구할수는 없다.
 
 
 

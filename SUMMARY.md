@@ -43,6 +43,7 @@
     * [\(1-1\) Welcome to Visualization \(OT\)](til_ml/boostcamp-2st/s-data-viz/1-1-welcome-to-visualization-ot.md)
   * [\[U\]Stage-CV](til_ml/boostcamp-2st/u-stage-cv.md)
   * [\[U\]Stage-NLP](til_ml/boostcamp-2st/u-stage-nlp/README.md)
+    * [\(08강\) Transformer \(2\)](til_ml/boostcamp-2st/u-stage-nlp/08-transformer-2.md)
     * [\(07강\) Transformer \(1\)](til_ml/boostcamp-2st/u-stage-nlp/07-transformer-1.md)
     * [6W Retrospective](til_ml/boostcamp-2st/u-stage-nlp/6w-retrospective.md)
     * [\(06강\) Beam Search and BLEU score](til_ml/boostcamp-2st/u-stage-nlp/06-beam-search-and-bleu-score.md)
