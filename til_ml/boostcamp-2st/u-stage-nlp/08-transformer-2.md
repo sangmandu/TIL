@@ -8,7 +8,7 @@ description: '210913'
 
 cont'd 는 continued의 약자이다. 이전과 이어진다는 의미
 
-### Transformer : Multi-Head Attention
+### Multi-Head Attention
 
 ![](../../../.gitbook/assets/image%20%281148%29.png)
 
@@ -52,7 +52,7 @@ RNN에서는 마지막 step에서 첫번째 단어의 정보를 얻기위해 n�
 
 
 
-### Transformer : Block-Based Model
+### Block-Based Model
 
 ![](../../../.gitbook/assets/image%20%281156%29.png)
 
@@ -87,7 +87,7 @@ RNN에서는 마지막 step에서 첫번째 단어의 정보를 얻기위해 n�
 
 
 
-### Transformer : Positional Encoding
+### Positional Encoding
 
 만약에 우리가 지금까지 본 모델에서 "I love you" 와 "love I you"를 입력했을 때의 결과는 항상 똑같을 것이다. 왜냐하면 Transformer는 time step을 고려하지 않고 입력에 대해 한번에 처리하기 때문에 순서를 고려하지 않고 처리하기 때문이다.
 
@@ -112,7 +112,7 @@ dimension 개수만큼 서로 다른 그래프가 존재하며 각 sequence의 �
 
 
 
-### Transformer : Warm-up Learning Rate Scheduler
+### Warm-up Learning Rate Scheduler
 
 우리는 loss가 가장 작은 지점을 목표로 학습을 할 것이고 이 때의 파라미터들은 임의로 초기화하게 되는데 아무래도 Goal과는 대부분 멀리 존재할 가능성이 크다. 또한, 이 때는 Loss 함수 특성상 멀리있을 수록 Gradient가 매우 클 가능성이 높다.
 
@@ -129,7 +129,7 @@ dimension 개수만큼 서로 다른 그래프가 존재하며 각 sequence의 �
 
 
 
-### Transformer : Encoder Self-Attention Visualization
+### Encoder Self-Attention Visualization
 
 Attention 벡터를 분석해 시각화해보자.
 
@@ -144,6 +144,8 @@ Attention 벡터를 분석해 시각화해보자.
 * its는 어떤 단어를 가리키는 지에 대해 알 수 있고, 이러한 its에 대해 application이라는 단어가 어느정도 관련이 되어있음을 알 수 있다.
 
 
+
+### Decoder
 
 
 
