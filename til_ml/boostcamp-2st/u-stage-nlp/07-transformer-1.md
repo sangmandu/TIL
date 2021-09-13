@@ -8,20 +8,20 @@ description: '210913'
 
 기존에 Add-on 으로만 사용되는 Attention을 전반적으로 사용하고 RNN과 CNN 모듈을 사용하지 않는 모델이다.
 
-![](../../../.gitbook/assets/image%20%281138%29.png)
+![](../../../.gitbook/assets/image%20%281140%29.png)
 
 * 이전 정보들을 hidden state에 담아 넘기는 모습이다. hidden state와 각 임베딩 벡터와의 관계는 오른쪽과 같다.
 * 그러나, 어쩔 수 없이 각 time step을 거치면서 정보가 손실될 수 밖에 없는 구조이다.
 
 양방향 RNN에 대한 구조는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281153%29.png)
+![](../../../.gitbook/assets/image%20%281156%29.png)
 
 * 예를 들어 `GO` 를 기준으로 본다면, go의 왼쪽 단어들에 대한 정보가 담겨있는 Forward RNN의 hf 와 go의 오른쪽 단어들에 대한 정보가 담겨있는 Backwrad RNN의 hb를 concat해서 기존 hidden state의 2배 크기로 만들 수 있는데, 이것을 go의 인코딩 벡터로 생각할 수 있다.
 
 Transformer의 구조는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281135%29.png)
+![](../../../.gitbook/assets/image%20%281136%29.png)
 
 * 입력과 출력의 크기는 유지되며 입력 벡터의 정보를 잘 반영할 수 있도록 한다. 구체적으로 알아보자
 * 초기에는 주어진 임베딩 벡터들을 가지고만 연산을 했다.
@@ -52,17 +52,17 @@ Transformer의 구조는 다음과 같다.
 
 이를 식으로 나타내면 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281155%29.png)
+![](../../../.gitbook/assets/image%20%281158%29.png)
 
 * A : Attention 모듈에서는
 * q, K, V : 쿼리 벡터 한개, 키 벡터 전체, 밸류 벡터 전체가 필요하며,
   * 쿼리 벡터가 한개라 소문자로 쓴 디테일!!
 
-![](../../../.gitbook/assets/image%20%281149%29.png)
+![](../../../.gitbook/assets/image%20%281152%29.png)
 
 * 쿼리벡터 하나와 키 벡터 모두를 내적하여 이에 대한 softmax값을 구하고,
 
-![](../../../.gitbook/assets/image%20%281142%29.png)
+![](../../../.gitbook/assets/image%20%281144%29.png)
 
 * 이를 밸류벡터와 가중합해서 최종 결과물을 얻는다!
 
@@ -77,7 +77,7 @@ Transformer의 구조는 다음과 같다.
 
 트랜스포머의 과정을 그림으로 나타내면 다음과 같이 나타낼 수 있다.
 
-![](../../../.gitbook/assets/image%20%281143%29.png)
+![](../../../.gitbook/assets/image%20%281145%29.png)
 
 * 근데 저기서 $$ \sqrt d_k $$라는 값으로 나누어주는 부분이 있는데 이건 뭘까?
 
@@ -85,7 +85,7 @@ Transformer의 구조는 다음과 같다.
 
 다음의 예시가 있다고 하자.
 
-![](../../../.gitbook/assets/image%20%281134%29.png)
+![](../../../.gitbook/assets/image%20%281135%29.png)
 
 그리고, a와 b, x와 y는 각각 독립이면서 평균이 0이고 분산이 1인 분포의 확률변수라고 가정하자.
 
@@ -93,7 +93,7 @@ Transformer의 구조는 다음과 같다.
 
 그리고 ax+by는 평균이 0이고, 분산이 2가 된다.
 
-![https://ko.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-random-variables-article](../../../.gitbook/assets/image%20%281152%29.png)
+![https://ko.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-random-variables-article](../../../.gitbook/assets/image%20%281155%29.png)
 
 
 
