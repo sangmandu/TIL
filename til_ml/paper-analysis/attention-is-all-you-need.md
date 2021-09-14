@@ -100,7 +100,11 @@ Multi-head attention은 각각의 \(single attention 공간에서 얻을 수 있
 
 #### 3.2.3 Applications of Attention in our Model
 
+트랜스포머는 3가지의 다른 방식으로 multi-head attention을 사용한다.
 
+* encoder-decoder attention layer에서는 이전의 디코더 레이어로부터 쿼리를 얻고 키와 밸류 벡터는 인코더의 최종 output에서 부터 받는다. 이는 디코더의 모든 위치에서 input sequence의 모든 position에 접근할 수 있도록한다. 이는 seq2seq의 attention mechanism과 동일하다.
+* encoder는 self attention layer를 가지고 있는데, 여기서 사용하는 queries, keys, values vector는 모두 같은 위치에서 생성된다. 특히 이는 이전의 encoder에서 전달받으며, 각각의 position에서 모든 position으로 접근 가능하다.
+* 이와 비슷하게 decoder의 self attention layer도 각각의 position에서 해당 position을 포함한 position까지 접근할 수 있게된다.  auto-regressive한 특성을 유지하기 위해 디코더에서는 왼쪽으로 전달되는 정보의 흐름을 막을 필요가 있다. 이를 위해 -inf 값을 가지고 attention에 scaled dot product를 계산한다.이 값들은 후에 softmax를 거치게 되면 \(-inf 값을 가지다보니 0에 가까운 값이 되므로\) 마스킹이 된다.
 
 
 
