@@ -15,7 +15,7 @@ description: '210913'
 
 양방향 RNN에 대한 구조는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281156%29.png)
+![](../../../.gitbook/assets/image%20%281157%29.png)
 
 * 예를 들어 `GO` 를 기준으로 본다면, go의 왼쪽 단어들에 대한 정보가 담겨있는 Forward RNN의 hf 와 go의 오른쪽 단어들에 대한 정보가 담겨있는 Backwrad RNN의 hb를 concat해서 기존 hidden state의 2배 크기로 만들 수 있는데, 이것을 go의 인코딩 벡터로 생각할 수 있다.
 
@@ -52,13 +52,13 @@ Transformer의 구조는 다음과 같다.
 
 이를 식으로 나타내면 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281158%29.png)
+![](../../../.gitbook/assets/image%20%281159%29.png)
 
 * A : Attention 모듈에서는
 * q, K, V : 쿼리 벡터 한개, 키 벡터 전체, 밸류 벡터 전체가 필요하며,
   * 쿼리 벡터가 한개라 소문자로 쓴 디테일!!
 
-![](../../../.gitbook/assets/image%20%281152%29.png)
+![](../../../.gitbook/assets/image%20%281153%29.png)
 
 * 쿼리벡터 하나와 키 벡터 모두를 내적하여 이에 대한 softmax값을 구하고,
 
@@ -93,7 +93,7 @@ Transformer의 구조는 다음과 같다.
 
 그리고 ax+by는 평균이 0이고, 분산이 2가 된다.
 
-![https://ko.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-random-variables-article](../../../.gitbook/assets/image%20%281155%29.png)
+![https://ko.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-random-variables-article](../../../.gitbook/assets/image%20%281156%29.png)
 
 
 

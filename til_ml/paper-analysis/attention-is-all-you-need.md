@@ -74,19 +74,37 @@ attention이란 결과를 예측하기 위해 사용되는 query 벡터와 key-v
 
 \(이전에 하나의 쿼리 벡터와 모든 키벡터를 내적한다고 했지만\) 실제로는 모든 쿼리벡터에 대한 모든 키벡터의 내적을 한번에 계산하게 된다. 이 때 쿼리 벡터를 행렬 Q, 키 벡터와 밸류 벡터를 행렬 K와 V로 표현한다. 이러한 행렬 계산에 대한 식은 다음과 같다.
 
-![](../../.gitbook/assets/image%20%281149%29.png)
+![](../../.gitbook/assets/image%20%281150%29.png)
 
 여기서는 주로 두 개의 attention 함수를 사용하는데,  additive attention과 dot-product attention이다. 여기서 사용하는 dot-product attention은 $$ \sqrt d_k $$로 나눠주는 과정을 제외하면 기존 dot-product attention 방법과 완전히 동일하다. additive attention은 한 개의 은닉층을 가진 신경망을 사용할 때 연관성을 구하는 함수를 사용한다. 이 두 attention 방법은 이론적으로 복잡도는 비슷하지만 실제로는 dot-product attention이 훨씬 빠르고 메모리 공간도 더 효율적으로 사용한다. 왜냐하면 이 dot-product 연산에 최적화 된 행렬 계산 코드로 모델을 구현하기 때문이다.
 
 차원 dk가 작을 때는 dot-product와 additive는 비슷한 성능을 보이지만 dk 값이 커지면 scaling이 없다는 조건하에 additive attention이 훨씬 좋은 성능을 낸다. dk가 커질수록 dot product의 결과값도 커지는 경향이 있었다. 이로인해 softmax 함수를 거치면서 \(값들이 너무크다보니, softmax를 거치면 특정 값에 비율이 몰리게되고 그러면서 다른 값들이\) 극도로 작은 gradient값을 가지게 되었다. 이러한 부작용을 해소하기 위해 $$ \sqrt d_k $$로 dot product의 결과값을 나눠주게 되었다.
 
+
+
 #### 3.2.2 Multi-Head Attention
 
-![](../../.gitbook/assets/image%20%281160%29.png)
+![](../../.gitbook/assets/image%20%281161%29.png)
 
 임베딩 벡터의 차원이 $$ d_{model} $$인 키와 밸류 그리고 쿼리벡터를 single attenion을 수행하는 것보다 선형적으로 이들을 사영해서 얻어진 여러개의 서로 다른값들을 가지고 여러번의 attention을 각각 수행하는 것이 더 좋다는 사실을 알아냈다. 각각의 사영된 벡터들을 가지고 병렬적으로 attention을 수행하면 차원 dv의 결과들을 얻게된다. 이들을 다시 concat 하고 한번 더 사영해서 최종적으로 얻는 값을 결과벡터로 한다.
 
-Multi-head attention은 
+Multi-head attention은 각각의 \(single attention 공간에서 얻을 수 있는 \)서로 다른 특징을 가진 정보들을 결합할 수 있도록 한다. single attention에서는 여러 특징의 정보들을 평균내버리게 되면서 여러 정보를 얻는 것을 방지한다.
+
+![](../../.gitbook/assets/image%20%281147%29.png)
+
+각각의 가중치는 실수 공간이며 Q, K, V 벡터는 모두 $$ d_{model}  \times d_k$$의 크기를 가진다.
+
+여기서는 8개의 병렬 attention layer를 적용했다. 각각의 layer는 기존 $$ d_{model} $$에서 8등분 된 64개의 차원을 사용한다. 각각의 head에서는 감소한 차원으로 진행되지만 총 연산량은 비슷하다.
+
+
+
+#### 3.2.3 Applications of Attention in our Model
+
+
+
+
+
+### 3.3 Position-wise Feed-Forward Networks
 
 
 
