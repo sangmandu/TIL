@@ -6,12 +6,18 @@ description: 21.09.11~16
 
 ## Abstract
 
-유망한 transduction 모델들은 인코더와 디코더를 포함하는 복잡한 반복구조나 합성곱 네트워크에 기반을 두고있다. 그 중 가장 좋은 성능을 내는 모델은 attention 메커니즘을 가지고 있는 인코더와 디코더로 이루어져있다. Transformer는 기존의 기반을 두지 않고 오로지 attention 메커니즘에만 기반을 두는 간단한 네트워크 모델이다. Transformer는 기존 모델보다 질적으로 더 우월하고 병렬작업이 훨씬 좋으며 학습하는데 적은 시간이 소요된다.
+유망한 transduction 모델들은 인코더와 디코더를 포함하는 복잡한 반복구조나 합성곱 네트워크에 기반을 두고있다. 그 중 가장 좋은 성능을 내는 모델은 attention 메커니즘을 가지고 있는 인코더와 디코더로 이루어져있다. Transformer는 기존의 기반을 두지 않고 오로지 attention 메커니즘에만 기반을 두는 간단한 네트워크 모델이다. Transformer는 기존 모델보다 질적으로 더 우월하고 병렬작업이 훨씬 좋으며 학습하는데 적은 시간이 소요된다. 우리 모델은 WMT 2014 영어-독일어 번역 태스크에서 28.4 BLEU 점수를 기록했다. 이 점수는 기존의 앙상블을 적용한 모델의 최고 점수를 2점이나 차이나게 뛰어 넘은 점수이다. WMT 2014 영어-프랑스 번역 태스크에서도 역대 최고 수준인 41.0의 BLEU score를 달성했다. 이는 3.5일동안 8개의 GPU만을 사용해서 얻은 결과로 우리 논문에 소개한 모델의 아주 일부분에 해당한다. 
 
+* 마지막 문장에서 literature는 문헌으로 쓰였으며 "a small ~" 의 명사구가 "for 3.5 days on eight GPUs" 라는 전치사구를 꾸며준다. 
 * transduction
   * 한국어로 변역하기에는 변환, 전환, 전이, 전도 등의 의미로 사용되어 번역하기 쉬운 단어는 아니다. transduce란 무언가를 다른 형태로 변환하는 것을 의미한다. 여기서는 주어진 특정 예제\(학습 데이터\)를 이용해 다른 특정 예제\(평가 데이터\)를 예측하는 것으로 이해할 수 있다.
 * attention 메커니즘
   * RNN과 LSTM에 대한 이해가 있으면 더 쉽게 이해할 수 있다. RNN에서 Sequence를 계속 입력받다보면 과거 정보가 점점 희미해지게 되는데, 이 때 LSTM이 고안되었다. 기존의 RNN보다는 개선되었지만 완벽히 Long Term Dependency를 해결하지 못했고 이를 개선하기 위한 메커니즘이 attention 이다. 특정 time step에서 인코더의 전체 입력 문장을 다시 한번 참고하기 위한 방법이다.
+*  WMT 2014는 통계학적 기계 번역에 대한 90개의 워크샵의 업무에서 사용된 데이터셋이다. 워크샵은 4개의 task로 이루어져있다.
+  * news translation task
+  * quality estimation task
+  * metrics task
+  * medical text translation task
 
 
 
@@ -47,7 +53,7 @@ Self-attention은 때때로 intra-attention으로도 불리며, 어떤 시퀀스
 
 ### 3.1 Encoder and Decoder Stacks
 
-![](../../.gitbook/assets/image%20%281138%29.png)
+![](../../.gitbook/assets/image%20%281139%29.png)
 
 #### Enocder
 
@@ -68,7 +74,7 @@ attention이란 결과를 예측하기 위해 사용되는 query 벡터와 key-v
 
 #### 3.2.1 Scaled Dot-Product Attention
 
-![](../../.gitbook/assets/image%20%281136%29.png)
+![](../../.gitbook/assets/image%20%281137%29.png)
 
 이러한 attention을 `Scaled Dot-Product Attention` 으로도 부를 수 있다. 각각의 입력은 dk의 차원을 가진 쿼리벡터와 키벡터 그리고 dv의 차원을 가진 밸류벡터로 이루어진다. 하나의 쿼리 벡터는 모든 키벡터를 내적하며 이 값을 $$ \sqrt d_k $$로 나눠준 뒤 softmax 함수를 거쳐서 가중치를 구하게 된다.
 
@@ -84,13 +90,13 @@ attention이란 결과를 예측하기 위해 사용되는 query 벡터와 key-v
 
 #### 3.2.2 Multi-Head Attention
 
-![](../../.gitbook/assets/image%20%281167%29.png)
+![](../../.gitbook/assets/image%20%281169%29.png)
 
 임베딩 벡터의 차원이 $$ d_{model} $$인 키와 밸류 그리고 쿼리벡터를 single attenion을 수행하는 것보다 선형적으로 이들을 사영해서 얻어진 여러개의 서로 다른값들을 가지고 여러번의 attention을 각각 수행하는 것이 더 좋다는 사실을 알아냈다. 각각의 사영된 벡터들을 가지고 병렬적으로 attention을 수행하면 차원 dv의 결과들을 얻게된다. 이들을 다시 concat 하고 한번 더 사영해서 최종적으로 얻는 값을 결과벡터로 한다.
 
 Multi-head attention은 각각의 \(single attention 공간에서 얻을 수 있는 \)서로 다른 특징을 가진 정보들을 결합할 수 있도록 한다. single attention에서는 여러 특징의 정보들을 평균내버리게 되면서 여러 정보를 얻는 것을 방지한다.
 
-![](../../.gitbook/assets/image%20%281151%29.png)
+![](../../.gitbook/assets/image%20%281152%29.png)
 
 각각의 가중치는 실수 공간이며 Q, K, V 벡터는 모두 $$ d_{model}  \times d_k$$의 크기를 가진다.
 
@@ -110,13 +116,52 @@ Multi-head attention은 각각의 \(single attention 공간에서 얻을 수 있
 
 ### 3.3 Position-wise Feed-Forward Networks
 
+attention layer의 feed forward network는 각각의 position에서 독립적이고 개별적으로 이루어진다. 그리고 이 레이어는 두 개의 선형변환으로 이루어져있으며 ReLU 활성화 함수를 그 사이에 사용한다.
+
+![](../../.gitbook/assets/image%20%281174%29.png)
+
+선형변환은 각각의 서로다른 position에서 같은 변환으로 적용되는 반면에 층간에서는 서로 다른 파라미터를 사용한다.. 이것을 또 다르게 이야기하면 input과 output이 차원은 512이고 hidden layer의 차원은 2048인 커널 사이즈가 1인 두개의 cnn 레이어가 있다고 할 때 두 번의 convolution을 거치는 것이다.
 
 
 
+### 3.4 Embeddings and Softmax
+
+다른 시퀀스 모델과 비슷한 점은 인풋과 아웃풋 토큰들을 벡터로 바꾸기 위한 임베딩을 학습한다는 것이다. 또, 디코더의 아웃풋을 가지고 다음 토큰에 대한 확률을 구하는데 선형 변환과 소프트맥스를 사용한다.  두 개의 임베딩 레이어와 소프트맥스 전에 사용하는 선형 변환 사이에는 동일한 파라미터를 사용한다. 다만, 임베딩 레이어에서는 이 가중치를 $$ \sqrt {d_{model} }$$ 로 나누어 주는 차이가 있다.
+
+![](../../.gitbook/assets/image%20%281134%29.png)
+
+### 
+
+### 3.5 Positional Encoding
+
+트랜스포머는 반복 구조도, 합성곱 구조도 없기 때문에 시퀀스의 순서를 고려하기 위해서는 각 토큰들의 위치에 대한 정보를 상대적으로든 절대적으로든 제공해줘야만 했다. 이를 위해 positional encodings를 각각의 인코더와 디코더의 첫 input embedding에 추가해주었다. positional encoding의 차원도 모델의 임베딩 차원과 동일해서 둘은 합연산이 가능하다. positional encoding 학습하거나 고정하는 많은 방법이 있는데 여기서는 주기가 다른 sine과 cosine 함수를 사용했다.
+
+![](../../.gitbook/assets/image%20%281159%29.png)
+
+pos는 \(시퀀스에서 토큰의\) 위치이고 i는 차원이다. p.e의 각각의 차원은 정현파와 매핑된다. \(이 정현파의\) 주기는 기하학적으로 2pi 부터 10000pi 까지 진행한다. 어떤 변수 k에 대해서 $$ PE_{pos+k} $$는 $$ PE_{pos} $$에서 선형적으로 나타낼 수 있기 때문에 상대적인 위치에서의 학습이 잘 될것이라고 가정해서 정현파를 사용했다. 
+
+* 정현파는 일정한 주기를 가진 주기함수이다.
+
+sine과 cosine 대신에 positional embedding을 학습하는 방법을 실험해봤는데, 둘 다 비슷한 결과를 냈다. 그래서 둘 중 정현파를 사용하는 것으로 결정했는데, 이유는 정현파로 position을 결정했을 때, 학습 단계에서는 보지못한 시퀀스의 길이보다 더 긴 길이에 대해서도 더 잘 외삽\(=작은 범위에서 그 밖의 범위를 추측하는 것\)할 수 있었기 때문이다.
 
 
 
+## 4 Why Self-Attention
 
+ \(recurrent와 convolutional\) 에서는 하나의 변수 x로 표현되는 시퀀스가 우리가 많이 쓰는 시퀀스 변환 인코더나 디코더의 hidden layer를 거치면서 동일한 길이를 가진 다른 변수 z로 매핑된다. 이번 장에서는 self-attention layer의 다양한 측면을 recurrent and convolutional layer와 비교할 것이다. self-attention을 사용해야 하는 3가지 이유를 알아보자.
 
+첫번째는 레이어간 전체 연산량이고 두번째는 적은 연산으로도 계산될 수 있는, 병렬화를 연산에 적용하는 것이다.
 
+세번째는 network에서 길이가 길었을 때 생기는 의존성\(=관계\)에 대한 길이이다. 긴 범위의 의존성을 학습하는 것은 많은 문장을 번역하는 일에서 매우 어렵다. 이러한 의존성을 학습하는 것은 네트워크를 순방향 또는 역방향으로  이동할 때 지나가는 경로의 길이에 영향을 받게된다. input과 output간의 거리가 짧을수록 이러한 의존성을 학습하기가 쉬워진다. 그래서 여러 유형의 layer에 대해서 input과 output 사이의 거리가 최대일때를 비교해보려고 한다.
+
+이전에 표1 에서 언급했듯이 self-attention layer는 모든 시퀀스의 위치와 연결되어있는데,  순차적으로 연산이 실행될 때 상수번의 횟수만 연산이 이루어지는 반면에 RNN은 O\(n\) 만큼의 연산이 이루어진다. 이러한 시간복잡도의 관점에서 self-attention layer는 recurrent layer보다 훨씬 빠르다. 보통 문장의 길이 n은 임베딩 차원 d보다 작기 마련이다. 이러한 임베딩 차원은 word 기반으로 또는 byte-pair 기반으로 특징을 나타날 때 사용하며 최신 모델에서는 문장을 기반으로 사용한다. 문장이 아주 길때는 연산 성능을 높이기 위해서 self attention은 `r` 의 크기를 가지는 \(그래서 양쪽으로 r만큼의 position에 대해서만\) attention만을 고려하는 restricted self attention으로 사용하게 된다. 이러한 방법은 maximum path length를 \( O\(1\) 에서 \) O\(n/r\)로 증가시킨다. 이러한 접근법에 대해서는 좀 더 연구할 계획이다.
+
+* Byte Pair Encoding에 대한 설명은 [여기](https://wikidocs.net/22592)를 참고하자.
+
+seq 길이 n보다 커널 width k가 작은 convolutional layer는 모든 input과 output이 연결되어있지 않다. 일반적인 convolutional layer는 O\(n/k\), dilated convolution layer는 O\(logk\(n\)\) 만큼이 소요되는데 이 때 length of path도 점점 증가하게 된다. Convolution layer는 일반적으로 kernel때문에 recurrent layer보다 훨씬 비용이 많이든다. Separable convolution 같은 경우는 상당히 시간복잡도를 감소시킬 수 있긴하나 k와 n이 동일하다면 이는 T.F 모델에서 취한 복잡도와 동일하다.
+
+그렇지만 T.F는 여기서 더 좋은점이 있다. self-attention이 훨씬 해석적인 결과를 줄 수 있다는 것. T.F의 attention 분포를 분석해봤는데 이는 부록\(=appendix\)에서 소개하고 다룬다. 각각의 attention은 여러가지 태스크를 수행하면서 분명하게 학습할뿐만 아니라, 문장에서 의미론적 구조나 문법적인 구조와 관련해서 학습했음이 나타난다.
+
+* dilated convolution은 reverse 연산을 해서 기존 이미지를 scale up할 때 사용한다.
+* Separable convolution은 CNN에서의 연산량을 줄이기 위해 Depthwise / Pointwise 방식을 이용한 Convolution 기법이다. 이에 대한 내용은 [여기](https://m.blog.naver.com/chacagea/221582912200)에 있다.
 

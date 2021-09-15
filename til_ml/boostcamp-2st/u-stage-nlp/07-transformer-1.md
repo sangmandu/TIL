@@ -8,20 +8,20 @@ description: '210913'
 
 기존에 Add-on 으로만 사용되는 Attention을 전반적으로 사용하고 RNN과 CNN 모듈을 사용하지 않는 모델이다.
 
-![](../../../.gitbook/assets/image%20%281141%29.png)
+![](../../../.gitbook/assets/image%20%281143%29.png)
 
 * 이전 정보들을 hidden state에 담아 넘기는 모습이다. hidden state와 각 임베딩 벡터와의 관계는 오른쪽과 같다.
 * 그러나, 어쩔 수 없이 각 time step을 거치면서 정보가 손실될 수 밖에 없는 구조이다.
 
 양방향 RNN에 대한 구조는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281162%29.png)
+![](../../../.gitbook/assets/image%20%281164%29.png)
 
 * 예를 들어 `GO` 를 기준으로 본다면, go의 왼쪽 단어들에 대한 정보가 담겨있는 Forward RNN의 hf 와 go의 오른쪽 단어들에 대한 정보가 담겨있는 Backwrad RNN의 hb를 concat해서 기존 hidden state의 2배 크기로 만들 수 있는데, 이것을 go의 인코딩 벡터로 생각할 수 있다.
 
 Transformer의 구조는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281137%29.png)
+![](../../../.gitbook/assets/image%20%281138%29.png)
 
 * 입력과 출력의 크기는 유지되며 입력 벡터의 정보를 잘 반영할 수 있도록 한다. 구체적으로 알아보자
 * 초기에는 주어진 임베딩 벡터들을 가지고만 연산을 했다.
@@ -52,17 +52,17 @@ Transformer의 구조는 다음과 같다.
 
 이를 식으로 나타내면 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281164%29.png)
+![](../../../.gitbook/assets/image%20%281166%29.png)
 
 * A : Attention 모듈에서는
 * q, K, V : 쿼리 벡터 한개, 키 벡터 전체, 밸류 벡터 전체가 필요하며,
   * 쿼리 벡터가 한개라 소문자로 쓴 디테일!!
 
-![](../../../.gitbook/assets/image%20%281158%29.png)
+![](../../../.gitbook/assets/image%20%281160%29.png)
 
 * 쿼리벡터 하나와 키 벡터 모두를 내적하여 이에 대한 softmax값을 구하고,
 
-![](../../../.gitbook/assets/image%20%281145%29.png)
+![](../../../.gitbook/assets/image%20%281146%29.png)
 
 * 이를 밸류벡터와 가중합해서 최종 결과물을 얻는다!
 
@@ -77,7 +77,7 @@ Transformer의 구조는 다음과 같다.
 
 트랜스포머의 과정을 그림으로 나타내면 다음과 같이 나타낼 수 있다.
 
-![](../../../.gitbook/assets/image%20%281146%29.png)
+![](../../../.gitbook/assets/image%20%281147%29.png)
 
 * 근데 저기서 $$ \sqrt d_k $$라는 값으로 나누어주는 부분이 있는데 이건 뭘까?
 
@@ -91,11 +91,21 @@ Transformer의 구조는 다음과 같다.
 
 이 때, ax는 마찬가지로 평균이 0이고, 분산이 1이되며 by도 마찬가지로 평균이 0이되고, 분산이 1이된다.
 
-그리고 ax+by는 평균이 0이고, 분산이 2가 된다.
+그리고 ax+by는 평균이 0이고, 분산이 2가 된다고 한다!
 
-![https://ko.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-random-variables-article](../../../.gitbook/assets/image%20%281161%29.png)
+![https://ko.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-random-variables-article](../../../.gitbook/assets/image%20%281163%29.png)
 
+내 스타일은 `수식적 증명` 보다는 `해석적 증명` 이기에 이에 대해 질문게시판에 올린 질문과 받은 답변은 다음과 같다.
 
+> 질문
+>
+> 강의에서는 dk가 증가함에 따라 분산이 증가해서 이를 스케일링 해줘야 된다고 설명하는데요. "각 임베딩 벡터의 수들이 특정 확률분포를 따른다고 가정했을 때, 임베딩 벡터의 차원이 늘어난다는 말은, 임베딩 벡터를 표현하는 데 필요한 수들이 많아진다는 이야기이고,표현하는데 필요한 수들은 특정 확률분포를 따르므로, 결국 해당 확률분포를 따르는 표본집단의 수가 증가하게 된다. 따라서, 표본집단의 분산이 증가하는 꼴을 보이게된다. " 로 이해할 수 있을까요?
+>
+> 답변
+>
+> 네 맞습니다.
+
+ㅋㅋㅋㅋㅋ 그래서, 결론! 임베딩 차원이 늘어날수록, 임베딩 벡터를 표현하기 위한 수들이 많아진다. 그래서 분산이 많아진다. 쉽게 이야기하면 학교에서 학급 당 5명일 때는 애들이 대체로 선생님 말을 잘 들었는데 이게 50명 100명 되니까 말 안듣는 애들이 점점 생기기 시작한다는 이야기.
 
 
 

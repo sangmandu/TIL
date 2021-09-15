@@ -22,7 +22,7 @@ description: 21.09.15
 
 기본적으로 GPT-1의 모델구조와 학습방식에 대해 알아보자.
 
-![](../../../.gitbook/assets/image%20%281148%29.png)
+![](../../../.gitbook/assets/image%20%281149%29.png)
 
 * 트랜스포머와 모양은 달라도, Text에 Position Embedding을 더한 값이 입력으로 들어가며, self-attention을 쌓은 층이 12개이다.
 * 결과는 Text Prediction과 Text Classifier로 반환된다.
@@ -33,7 +33,7 @@ description: 21.09.15
 
 단순한 Task 뿐만 아니라, 문장 레벨 또는 다수의 문장이 존재하는 경우에도 모델이 손쉽게 변형 없이 활용될 수 있도록 학습의 framework를 제시했다.
 
-![](../../../.gitbook/assets/image%20%281149%29.png)
+![](../../../.gitbook/assets/image%20%281151%29.png)
 
 * 우리가 알고 있는 토큰 이외에도 Delim이나 Extract라는 토큰을 사용하면서 여러가지 Task를 진행할 수 있다.
 
@@ -46,7 +46,7 @@ description: 21.09.15
 
 이렇게 pre trained 된 GPT-1 을 다양한 task에 fine tuning했을 때의 성능은 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281166%29.png)
+![](../../../.gitbook/assets/image%20%281168%29.png)
 
 * 거의 대부분의 task에서 성능이 훨씬 좋은 모습을 보인다.
 
