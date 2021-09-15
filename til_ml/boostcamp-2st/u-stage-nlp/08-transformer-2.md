@@ -10,17 +10,17 @@ cont'd 는 continued의 약자이다. 이전과 이어진다는 의미
 
 ### Multi-Head Attention
 
-![](../../../.gitbook/assets/image%20%281152%29.png)
+![](../../../.gitbook/assets/image%20%281155%29.png)
 
-![](../../../.gitbook/assets/image%20%281158%29.png)
+![](../../../.gitbook/assets/image%20%281161%29.png)
 
 single attention 방식을 병렬적으로 하는 방법이다. 방법은 똑같으며 내부 파라미터만 다르기 때문에 여러 가지 output이 나온다. 방법론적으로는 앙상블의 느낌으로도 볼 수 있다. 최종 output은 concat하게된다.
 
 왜 하는걸까? 단순히 모델을 여러가지 방법으로 조작하면서 일반화 성능을 높이기 위해서? 도 맞는 말이지만 이를 좀 더 자세하게 이야기 할 수 있다. 각 시퀀스마다 병렬적으로 서로 다른 정보를 얻어서 해당 시퀀스에 대해 풍부한 정보를 가지고 output을 내기위함으로 볼 수 있다.
 
-![](../../../.gitbook/assets/image%20%281155%29.png)
+![](../../../.gitbook/assets/image%20%281158%29.png)
 
-![](../../../.gitbook/assets/image%20%281163%29.png)
+![](../../../.gitbook/assets/image%20%281166%29.png)
 
 만약 8번의 attention을 실행했다면 각각의 결과를 concat하므로 가로로 매우 길어진 최종 output을 얻게된다.
 
@@ -28,7 +28,7 @@ single attention 방식을 병렬적으로 하는 방법이다. 방법은 똑같
 
 Multi head Attention에서의 계산량을 알아보자.
 
-![](../../../.gitbook/assets/image%20%281148%29.png)
+![](../../../.gitbook/assets/image%20%281149%29.png)
 
 #### Complexity per Layer
 
@@ -54,7 +54,7 @@ RNN에서는 마지막 step에서 첫번째 단어의 정보를 얻기위해 n�
 
 ### Block-Based Model
 
-![](../../../.gitbook/assets/image%20%281160%29.png)
+![](../../../.gitbook/assets/image%20%281163%29.png)
 
 * 아래에서 부터 세 갈래로 나누어지는데 모두 K, Q, V 를 의미한다. 이들은 개별적인 head attention에서 각각의 Wk, Wq, Wv를 얻게되며 이를 모두 concat해서 output을 반환한다.
 
@@ -68,20 +68,20 @@ RNN에서는 마지막 step에서 첫번째 단어의 정보를 얻기위해 n�
 * 깊은 레이어에서 Gradient Vanishing 문제를 해결하고 학습을 안정화하여 더 높은 성능을 내게하는 기술이다.
 * 만약 "I study math" 라는 문장에서 "I" 에 해당하는 임베딩 벡터가 \[1, -4\] 이고 head attention을 통과한 인코딩 벡터가 \[2, 3\] 이라고 하자. 이 때 add를 적용하면 두 벡터를 더해서 \[3, -1\] 을 얻게되고 이를 "I"의 최종 인코딩 벡터로 결정한다.
 
-![](../../../.gitbook/assets/image%20%281151%29.png)
+![](../../../.gitbook/assets/image%20%281152%29.png)
 
 몇 가지 Normalization이 존재하는데 이중에서 Batch Norm과 Layer Norm 알아보자.
 
 #### Batch Normalization
 
-![](../../../.gitbook/assets/image%20%281139%29.png)
+![](../../../.gitbook/assets/image%20%281140%29.png)
 
 * 각 배치의 값의 평균과 표준편차를 구하고 이를 이용해 각 배치를 평균이 0이고 표준편차가 1인 정규분포를 따르도록 정규화해준다.
 * 이후 Affine Transformation을 적용해서 원하는 평균과 분산으로 맞춰준다.
 
 #### Layer Normalization
 
-![](../../../.gitbook/assets/image%20%281138%29.png)
+![](../../../.gitbook/assets/image%20%281139%29.png)
 
 * Batch Norm. 은 한 batch에 대해서\(=가로로\) 정규화했다면 Layer Norm.은 한 Feature에 대해서\(=세로로\) 정규화한다.
 
@@ -100,13 +100,13 @@ RNN에서는 마지막 step에서 첫번째 단어의 정보를 얻기위해 n�
 
 위치에 따라 구별할 수 있는 벡터를 sin과 cos함수로 이루어진 주기함수를 사용해서 결정한다.
 
-![](../../../.gitbook/assets/image%20%281146%29.png)
+![](../../../.gitbook/assets/image%20%281147%29.png)
 
-![](../../../.gitbook/assets/image%20%281141%29.png)
+![](../../../.gitbook/assets/image%20%281143%29.png)
 
 dimension 개수만큼 서로 다른 그래프가 존재하며 각 sequence의 인덱스를 x값이라고 할 수 있다.
 
-![](../../../.gitbook/assets/image%20%281133%29.png)
+![](../../../.gitbook/assets/image%20%281134%29.png)
 
 위 그래프에서는 가로축은 임베딩 차원, 세로축은 인덱스\(=위치\)이다. 그래서 해당 인덱스에 해당하는 임베딩 차원만큼의 벡터를 positional encoding 벡터로 사용해서 기존 벡터에 더해주게 된다.
 
@@ -116,7 +116,7 @@ dimension 개수만큼 서로 다른 그래프가 존재하며 각 sequence의 �
 
 우리는 loss가 가장 작은 지점을 목표로 학습을 할 것이고 이 때의 파라미터들은 임의로 초기화하게 되는데 아무래도 Goal과는 대부분 멀리 존재할 가능성이 크다. 또한, 이 때는 Loss 함수 특성상 멀리있을 수록 Gradient가 매우 클 가능성이 높다.
 
-![](../../../.gitbook/assets/image%20%281154%29.png)
+![](../../../.gitbook/assets/image%20%281157%29.png)
 
 * "gradient 매우 큼" 이라고 작성된 것임
 
@@ -133,7 +133,7 @@ dimension 개수만큼 서로 다른 그래프가 존재하며 각 sequence의 �
 
 Attention 벡터를 분석해 시각화해보자.
 
-![](../../../.gitbook/assets/image%20%281162%29.png)
+![](../../../.gitbook/assets/image%20%281165%29.png)
 
 * 주어진 문장에서 making 이라는 단어는, 자기 자신도 참조 하지만 more와 difficult라는 단어를 가장 많이 참조하는 것으로 알 수 있다. 더욱 어렵게 만들었다라는 목적 보어의 단어들을 참조한다. 또, 2009와 since라는 시기적인 의미의 단어도 조금 참조한다.
 
@@ -147,5 +147,29 @@ Attention 벡터를 분석해 시각화해보자.
 
 ### Decoder
 
+![](../../../.gitbook/assets/image%20%281133%29.png)
 
+* 인코더에서 "I", "go", "home" 을 학습시켰다면 디코더에서는 "&lt;sos&gt;", "나는", "집에" 를 입력해준다. 그러면 Positional Encoding을 거친 후 Multi-Head Attention을 거친다. 이 과정은 seq2seq에서 decoder의 hidden state를 뽑는 과정이다.
+
+
+
+### Masked Self-Attention
+
+디코더에서 output을 디코딩 할 때 정보의 접근 범위에 제한을 두는 방법이다.
+
+![](../../../.gitbook/assets/image%20%281153%29.png)
+
+예측을 할 때에는 다음과 같이 이루어져야 한다.
+
+* "나는"을 예측 : "&lt;SOS&gt;" 만을 가지고 해야함
+* "집에"를 예측 : "&lt;SOS&gt;"와 "나는"만을 가지고 해야함
+* ...
+
+소프트 맥스를 거치면 각 단어에 대한 확률을 가지게 되는데 이 값을 모두 0으로 만들어줘야 한다.
+
+![](../../../.gitbook/assets/image%20%281154%29.png)
+
+* softmax 값이 0이 되게 하기 위해서 각 값에 -inf를 곱해주게된다.
+
+이후, 정규화를 통해 row의 총합이 1이 되도록 한다.
 
