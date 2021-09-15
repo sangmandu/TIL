@@ -1,5 +1,5 @@
 ---
-description: '210911'
+description: 21.09.11~16
 ---
 
 # Attention Is All You Need
@@ -84,13 +84,13 @@ attention이란 결과를 예측하기 위해 사용되는 query 벡터와 key-v
 
 #### 3.2.2 Multi-Head Attention
 
-![](../../.gitbook/assets/image%20%281164%29.png)
+![](../../.gitbook/assets/image%20%281167%29.png)
 
 임베딩 벡터의 차원이 $$ d_{model} $$인 키와 밸류 그리고 쿼리벡터를 single attenion을 수행하는 것보다 선형적으로 이들을 사영해서 얻어진 여러개의 서로 다른값들을 가지고 여러번의 attention을 각각 수행하는 것이 더 좋다는 사실을 알아냈다. 각각의 사영된 벡터들을 가지고 병렬적으로 attention을 수행하면 차원 dv의 결과들을 얻게된다. 이들을 다시 concat 하고 한번 더 사영해서 최종적으로 얻는 값을 결과벡터로 한다.
 
 Multi-head attention은 각각의 \(single attention 공간에서 얻을 수 있는 \)서로 다른 특징을 가진 정보들을 결합할 수 있도록 한다. single attention에서는 여러 특징의 정보들을 평균내버리게 되면서 여러 정보를 얻는 것을 방지한다.
 
-![](../../.gitbook/assets/image%20%281148%29.png)
+![](../../.gitbook/assets/image%20%281151%29.png)
 
 각각의 가중치는 실수 공간이며 Q, K, V 벡터는 모두 $$ d_{model}  \times d_k$$의 크기를 가진다.
 
