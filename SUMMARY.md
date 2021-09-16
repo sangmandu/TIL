@@ -45,6 +45,7 @@
   * [\[U\]Stage-CV](til_ml/boostcamp-2st/u-stage-cv.md)
   * [\[U\]Stage-NLP](til_ml/boostcamp-2st/u-stage-nlp/README.md)
     * [7W Retrospective](til_ml/boostcamp-2st/u-stage-nlp/7w-retrospective.md)
+    * [\(10강\) Advanced Self-supervised Pre-training Models](til_ml/boostcamp-2st/u-stage-nlp/10-advanced-self-supervised-pre-training-models.md)
     * [\(09강\) Self-supervised Pre-training Models](til_ml/boostcamp-2st/u-stage-nlp/09-self-supervised-pre-training-models.md)
     * [\(08강\) Transformer \(2\)](til_ml/boostcamp-2st/u-stage-nlp/08-transformer-2.md)
     * [\(07강\) Transformer \(1\)](til_ml/boostcamp-2st/u-stage-nlp/07-transformer-1.md)
