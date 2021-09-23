@@ -32,7 +32,7 @@ if np.random.random() <= args.cutmix:
 * 1 : 인자로 `args.cutmix` 를 받는다. 0에서 1의 값을 가지며 이 값이 클수록 cutmix를 적용할 가능성이 증가한다.
 * 3 : 베타분포에서 특정 수를 뽑는다, 두 인자의 수가 같으면 균등분포로 표현할 수 있다.
 
-![](../../../.gitbook/assets/image%20%281204%29.png)
+![](../../../.gitbook/assets/image%20%281205%29.png)
 
 * 4 : cutmix를 적용할 비율을 결정했다면 이를 가지고 가로에 대해 자를 부분을 결정한다.
   * 실제로 cutmix는 임의의 w와 h의 이미지를 합치는 것

@@ -6,19 +6,21 @@ description: '210903'
 
 ## Performance
 
+> Public TestSet \| f1 : 0.777 \| accuracy : 81.984
+
 첫쨰 주 개인은 11등으로 마무리했다. \(스크린샷이 없는 것은 아쉽다.\)
 
 이어서, 둘째 주는 최고 등수는 3등, 최종 등수는 5등으로 마무리 되었다.
 
 ![](../../../.gitbook/assets/image%20%281034%29.png)
 
-> Public TestSet \| f1 : 0.777 \| accuracy : 81.984
 
 
+> Private TestSet \| f1 : 0.769 \| accuracy : 81.492
 
-> Private TestSet \| f1 \| accuracy
+와우! 4등이다! 우리 조 골드라인에 마지막 문을 닫고 입성했다!
 
-
+![](../../../.gitbook/assets/image%20%281204%29.png)
 
 ## Review
 
