@@ -8,7 +8,7 @@ description: 'Today I Learned? : ■ □ ▩'
 
 > 2021. 09.
 
-[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-10.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-11-hardvoting-or-multilabelclassification.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/performance-or-review.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/report_level1_6.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/5w-retrospective.md) [■](til_ml/boostcamp-2st/u-stage-nlp/01-intro-to-nlp-bag-of-words.md)[■](til_ml/boostcamp-2st/u-stage-nlp/03-recurrent-neural-network-and-language-modeling.md)[■](til_ml/boostcamp-2st/u-stage-nlp/05-sequence-to-sequence-with-attention.md)[■](til_ml/boostcamp-2st/u-stage-nlp/06-beam-search-and-bleu-score.md)[■](til_ml/boostcamp-2st/u-stage-nlp/4-preprocessing-for-nmt-model.md) ■
+[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-10.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/day-11-hardvoting-or-multilabelclassification.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/performance-or-review.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/report_level1_6.md)[■](til_ml/boostcamp-2st/mask-wear-image-classification/5w-retrospective.md) [■](til_ml/boostcamp-2st/u-stage-nlp/01-intro-to-nlp-bag-of-words.md)[■](til_ml/boostcamp-2st/u-stage-nlp/03-recurrent-neural-network-and-language-modeling.md)[■](til_ml/boostcamp-2st/u-stage-nlp/05-sequence-to-sequence-with-attention.md)[■](til_ml/boostcamp-2st/u-stage-nlp/06-beam-search-and-bleu-score.md)[■](til_ml/boostcamp-2st/u-stage-nlp/4-preprocessing-for-nmt-model.md) 힘들어서 폐쇄합니다.
 
 > 2021. 08.
 
