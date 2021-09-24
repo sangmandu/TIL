@@ -20,7 +20,7 @@ description: '210903'
 
 와우! 4등이다! 우리 조 골드라인에 마지막 문을 닫고 입성했다!
 
-![](../../../.gitbook/assets/image%20%281204%29.png)
+![](../../../.gitbook/assets/image%20%281206%29.png)
 
 ## Review
 
