@@ -26,6 +26,7 @@
 ## TIL : ML <a id="til_ml"></a>
 
 * [Paper Analysis](til_ml/paper-analysis/README.md)
+  * [BERT](til_ml/paper-analysis/bert.md)
   * [Attention Is All You Need](til_ml/paper-analysis/attention-is-all-you-need.md)
 * [Boostcamp 2st](til_ml/boostcamp-2st/README.md)
   * [\[S\]Data Viz](til_ml/boostcamp-2st/s-data-viz/README.md)

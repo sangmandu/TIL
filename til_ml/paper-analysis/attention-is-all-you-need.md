@@ -1,5 +1,5 @@
 ---
-description: 21.09.11~24
+description: 210911~210924
 ---
 
 # Attention Is All You Need
