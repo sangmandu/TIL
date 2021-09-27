@@ -86,7 +86,69 @@ Figure 1 : 버트의 전체적인 사전학습과 미세조정 과정이다. out
 
 #### Model Architecture
 
-버트의 모델 구조는 
+버트의 모델 구조는 다중 레이어의 양방향 트랜스포머 인코더를 사용한다. 이 인코더는 Vaswani et al. \(2017\) 에서 구현된 모델을 기반으로 했고 이는 tensor2tensor library에 공개되어있다. 트랜스포머의 사용이 대세가 되었고 우리가 사용한 트랜스포머도 원래의 것과 거의 동일하기 때문에 이러한 모델의 전반적인 배경과 구조를 대부분 생략할 것이며 독자들에게는 잘 정리된 Vaswani et al. \(2017\)를 읽기를 권한다. 
+
+이번 논문에서 사용할 용어를 설명하려고 한다. 레이어의 수는 L로, 히든 사이즈는 H로, self attention head의 수는 A로 나타낸다. 우리는 두가지 모델 사이즈에 대해 다룰 것인데, 하나는 BERT-BASE \(L=12, H=768, A=12, Param=100M\) 이고 하나는 BERT-LARGE \(L=24, H=1024, A=16, Param=340M\) 이다.
+
+BERT-BASE는 GPT와 비교하고자 하는 목적으로 동일한 크기의 모델로 생성했다. 그렇지만 버트는 양방향 self attention을 사용하고 GPT는 왼쪽에서만 접근이 가능한 제한적인 self attention을 사용하는 차이가 있다.
+
+#### Input/Output Representations
+
+버트가 다양한 task를 해결하도록 input으로 하나의 문장 또는 한 쌍의 문장을 입력받는다. 연구 내내 문장이라는 개념이 등장하는데 이는 단순히 실제 언어적인 문장을 의미한다기 보다는 연속적인 텍스트의 임의의 부분으로 이해하면 된다\(=연속된 시퀀스라는 형태적인 부분으로 이해하라는 뜻 같음\) 이러한 한 개의 또는 한 쌍의 시퀀스에서 얻은 token을 버트에 입력하게 된다. 
+
+우리는 3만개의 토큰을 가진 WordPiece 임베딩을 사용했다. 이 때 각 문장의 첫번째 토큰은 CLS라는 특별한 토큰이 위치한다. 마지막 히든 스테이트에서 이 토큰은 분류 태스크를 위한 문장 집계 특징으로 사용된다. 한 쌍의 문장은 한개의 문장으로 묶여 있는데 이를 구별하는 방법은 두가지이다. 첫번째는 두 문장 사이에 SEP 토큰을 추가하는 것. 두번째는 토큰에다가 A 문장의 토큰인지 B 문장의 토큰인지에 대한 정보를 추가하는 것이다. Figure 1 에서 E는 input embedding, CLS 토큰의 final hidden vector 를 C로 나타냈으며 i번째 input token의 final hidden vector는 Ti 로 나타냈다.
+
+* WordPiece는 underbar를 이용해서 word를 subword로 만들어 tokenize하는 분류기이다.
+
+주어진 토큰과 segment, position embeddings를 합산해서 입력 representation을 구성할 수 있다. 이 구성에 대한 시각적인 자료는 Figure 2에서 볼 수 있다.
+
+
+
+### 3.1 Pre-training BERT
+
+ELMO와 GPT-1과 달리 우리는 좌우 또는 우좌방향의 모델로 버트를 학습시키지 않았다. 대신에 두 개의 비지도학습 task를 통해 학습했다.
+
+#### Task \#1: Masked LM
+
+직관적으로 깊은 양방향 모델은 단향방 모델이나 이러한 모델들을 얕게 연결한 것보다 더 성능이 좋다는 것은 합리적이다. 불행하게도 조건부 표준 언어 모델은 단방향으로만 학습이되었다. 반면에 양방향은 각각의 단어들이 자기자신을 간접적으로만 참조할 수 있게했고 모델은 타겟 단어를 다층 구조의 context를 이용하여 좀 더 구체적으로 예측할 수 있게된다. 
+
+깊은 양방향 표현을 학습하기 위해서 우리는 간단하게 몇몇 입력 토큰들을 무작위로 마스킹하고 이 마스킹된 토큰을 예측한다. 이러한 과정을 masked LM, MLM이라고한다. 이 개념은 \(Taylor, 1953\)에 언급된 Cloze task를 참고했다. 여기서 mask token에 해당하는 final hidden 벡터는 output sofrmax에 입력된다. 실험결과 15%의 토큰 마스킹 비율을를 적용하는 것이 가장 좋았다. denosing auto-encoder와는 달리 전체적으로 input을 재구성하는 것보다는 masking된 단어들을 예측했다.
+
+이와 같이 양방향 모델을 구성했지만 \[MASK\] 토큰이 fine tuning 시에는 존재하지 않기 때문에 pre training과 fine tuning 사이에 불합이 발생한다. 이러한 차이를 줄이기 위해 masked word를 늘 \[MASK\] 토큰으로 대체하지는 않는다. 학습 데이터에서 15%의 비율로 무작위로 예측에 사용될 토큰으로 지정된다. 이 때 i번째 토큰이 정해지면 이 토큰중 80%는 \[MASK\] 토큰으로, 10%는  random token으로, 10%는 변경하지 않는다. 그 이후 cross entropy loss를 가지고 원래 토큰을 예측하기 위해 i번째 토큰의 마지막 히든 벡터 T가 사용된다. 우리는 이 과정의 변화를 C.2 에서 비교할 것이다.
+
+
+
+#### Task \#2: Next Sentece Prediction \(NSP\)
+
+질의 응답이나 자연어 추론과 같은 중요한 task들은 두 개의 문장 사이의 관계를 파악하는 것에 기반을 둔다. 이러한 문장은 언어 모델링에 의해 직접적으로 얻어지지 않는다. 문장 관계를 파악하기 위한 모델을 학습하기 위해 우리는 단일 언어\(아마 여러 나라의 언어가 섞이지 않은 이라는 뜻인 듯\)로 이루어진 말뭉치에서 대충\(=trivially\) 만들어낸 문장을 구분하는 다음 문장 예측 데이터를 학습했다. 특히 A와 B문장이 선택될 때 50%의 확률로 B는 정말로 A의 뒷문장이거나 또는 아무렇게나 생성된 문장이다. Figure 1에서 볼 수 있듯이 C\(=CLS 토큰\)는 다음 문장을 예측하는 NSP에 사용된다. 이렇게 간단한 구조에도 불과하고 QA와 NLI에서 엄청난 효율을 보였다. 이는 5.1에서 확인할 수 있다. NSP task는 Jernite et al.\(2017\)과, Logeswaran and Lee \(2018\)에서 사용된 특징 학습과 \(=representation-learning objectives\) 매우 관련이 있다. 그러나 이전의 연구에서 버트는 end-task 모델 파라미터를 초기화하기위해 많은 임베딩 중 문장 임베딩만 down-stream task의 파라미터로 사용되었다.
+
+![](../../.gitbook/assets/image%20%281217%29.png)
+
+#### Pre-training data
+
+사전학습 과정의 대부분은 기존의 언어 모델 사전학습 절차를 따른다. 800M 크기의 BooksCorpus와 2500M 크기의 English Wikipedia의 말뭉치를 사전학습했다. 위키피디아에서는 텍스트 구절만 뽑아왔고 그 외의 리스트나 표, 헤더는 무시했다. 문서단위의 말뭉치를 사용하는 것은 Billion Word Benchmark에 있는 문장 단위의 말뭉치를 뽑는 것보다 시퀀스가 더 연속적\(더 길기\)이기 때문에 더 중요하다.
+
+
+
+### 3.2 Fine-tuning BERT 
+
+트랜스포머의 self attention 메커니즘은 버트가  input과 output을 적절히 바꾸게 하면서 여러 down-stream task를 다룰 수 있도록 했기 때문에 fine tuniing은 어렵지 않았다\(=straightforward\). 이 task들이 single text의 task인지 text paris의 task인지는 상관없다. text pairs로 해결해야 하는 task들에서는 일반적으로 Parikh et al. \(2016\)나 Seo et al. \(2017\)처럼 양방향 cross attention을 적용하기 직전에 text pair를 독립적으로 인코딩한다는 것이다. 그래서 버트는 두 단계\(text pair를 독립적으로 인코딩 하는 것과 양방항 cross attention을 적용하는 것\)를 통합해서 self attention 메커니즘을 사용하려고 했다. 두 문장간에 얻어지는 양방향 cross attention으로 연결된 두 문장을 효율적으로 인코딩하려고 했다.
+
+각 task 마다 우리는 간단하게 특정 input과 output을 버트로 입력해주기만 하면 되었고 알아서 처음부터 끝까지 모든 파라미터가 fine tuning 되었다. 사전 학습할 때 입력되는 문장 A와 B는 다음 중 하나의 특징을 가질 수 있다.\(=유사하다와는 의미를 의역\) 1\) 문단에서의 두 문장 쌍 2\) 함의에서 가설과 전제 3\) 질의응답에서 질문 쌍 4\) 텍스트 분류나 문장 태깅에서의 degenerate text-0 pair 출력에서 token의 특징은 문장 태깅이나 질의응답 같은 token level의 task를 처리하는 output layer로 입력된다. 그리고 CLS 토큰은 함의나 감정 분석같은 분류를 위한 output layer로 입력된다.
+
+* 4번 같은 경우는 기존 text-text에서 single text 체제로 변환하면서 text-공집합 꼴이 되었고 이러한 모양을 퇴화했다\(=degenerate\)는 의미로 언급한 것 같다.
+
+사전학습과 비교하면 fine tuning은 비교적 비용이 든다. 이 논문에있는 모든 결과는 TPU로는 많으면 1시간, GPU로는 몇시간이 걸려서 동일한 사전 학습 모델을 재구성할 수 있다. 4장에서는 구체적인 task들에 대한 세부사항을 설명한다. 자세한 내용은 A.5 를 참조하자.
+
+
+
+## 4 Experiment
+
+
+
+
+
+
 
 
 
