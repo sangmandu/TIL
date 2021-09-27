@@ -80,13 +80,13 @@ feature-based 방법을 적용한 첫번째 연구는 워드 임베딩만을 사
 
 버트 특유의 특징은 서로 다른 task들에 대해 하나의 모델 구조를 사용한다는 것이다. 물론 pre-trained 구조와 fine-tuning을 거친 구조와는 최소의 차이는 있다.
 
-![](../../.gitbook/assets/image%20%281209%29.png)
+![](../../.gitbook/assets/image%20%281211%29.png)
 
 Figure 1 : 버트의 전체적인 사전학습과 미세조정 과정이다. output layer를 제외하고는 사전학습과 미세조정에서 동일한 구조를 사용한다. 서로 다른 task에 똑같은 사전학습 모델의 파라미터로 초기화한다. fine-tuning 시에는 모든 파라미터가 fine tuned 된다. CLS 토큰은 특별한 의미를 지니는데, 모든 input 문장 앞에 추가된다. 그리고 SEP 토큰은 예를 들면 질문과 답변을 구분해주는 것처럼 특별한 구분자로 사용된다.
 
 #### Model Architecture
 
-
+버트의 모델 구조는 
 
 
 
