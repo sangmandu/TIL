@@ -144,6 +144,148 @@ ELMO와 GPT-1과 달리 우리는 좌우 또는 우좌방향의 모델로 버트
 
 ## 4 Experiment
 
+11가지 NLP task에 대한 버트의 fine tuning 결과들을 소개한다.
+
+### 4.1 GLUE
+
+The General Language Understanding Evaluation, GLUE benchmark는 다양한 자연어 인지 task 모음집이다. GLUE dataset의 세부사항은 부록 B.1에 있다.
+
+GLUE를 fine tune 하기 위해서 3장에서 말한것처럼 input sequence\(single이든 pair든\) 를 사용할 것이고 마지막 첫번째 input token CLS에 해당하는 hidden vector C를 집합 표현체로 를 사용합니다. fine tuning을 할 때 분류 레이어에 사용되는 K \* H 크기의 W 파라미터가 등장한다. 이 때 K는 라벨의 수를 의미한다. 우리는 C와 W의 곱을 log-softmax를 해서 loss를 계산한다.
+
+* 집합 표현체라는 의미는 문장에 대한 전체적인 정보를 담고있기 때문에 이런 비유\(?\)를 사용했다. 
+
+모든 GLUE tasks에 대해서 전체 데이터를 가지고 3epoch의 fine tune을 거쳤고 이 때의 배치는 32이다. 각각의 task에서 최적의 학습률을 선택했다. \(5e-5, 4e-5, 3e-5, 2e-5 중에서 사용했다.\) 그리고 BERT-LARGE 모델을 실험하다보니 때때로 적은 데이터셋으로 fine tune 하는건 안좋을 수 있다는 것을 알았고 그래서 무작위로 여러번 fine tune하고 이 중에 제일 성능이 좋은 모델을 골랐다. 여러번 fine tuning 할 때는 사전 학습된 check point는 동일하게 사용했지만 데이터를 섞거나 분류기 파라미터는 다르게 사용했다.
+
+Table 1에 결과가 있다. BERT 베이스나 라지는 모든 task에서 기존 sota 모델들보다 충분히 여유있게 4.5%와 7.0%라는 각각의 평균 정확도를 향상시켰다. 버트 베이스는 모델 구조적인 관점에서 attention mask를 제외하고는 GPT와 거의 동일하다. 가장 크기가 크고 넓은 GLUE task인 MNLI에 대해서도 4.6%의 정확도를 향상시켰다. 공식적으로 GLUE 리더보드에 버트 LARGE는 80.5점을 받았다. 그에 비해 GPT는 우리가 마지막으로 확인한 바 72.8점을 기록했다.
+
+버트 LARGE는 두드러지게 버트 BASE보다 모든 태스크에서 아주 작은 학습 데이터만으로도 훨씬 좋은 성능을 냈다. 모델의 사이즈에 대한 이야기는 5.2에서 많이 해보자.
+
+![](../../.gitbook/assets/image%20%281242%29.png)
+
+#### TABLE 1
+
+서버에 기록된 GLUE 테스트 결과이다. 각각의 태스크 밑에 있는 수는 학습 데이터의 수이다. 평균 점수는 공식적인 GLUE 점수랑은 좀 다른데 우리가 WNLI set에 대한 점수는 제외했기 때문이다. 버트와 GPT는 하나의 모델로 하나의 task를 처리할 수 있다\(?\) F1점수는 QQP와 MRPC에서, Spearman Correlation은 STS-B에서, 정확도는 다른 태스크에서의 표준 척도로 정해진 점수이다. 버트를 하나의 요소로 사용하는 모델들의 성능은 제외했다.
+
+* WNLI set 점수를 제외한 8번 각주를 보면 train, valid, test set에 분포가 너무나도 달라서 성능을 측정하기가 애매한 부분이 있어서 poor score를 얻게되는 현상이 있다고 나는 이해했음. 그치만 19년에 이미 90점 이상의 점수를 달성하긴 했음
+* Spearman Correlation은 서열상관분석이라 하는, 두 변수간의 상관관계를 분석하는 기법이다. 나도 잘 몰라!!!
+
+
+
+> 이 부분은 논문의 해석과는 크게 관련이 없을 수 있으나 GLUE의 Task들을 설명하는 좋은 링크가 있어 추가한다. [참고링크](https://thejb.ai/bert/)
+
+
+
+### 4.2 SQuAD v1.1
+
+스탠포드 대학에서 만든 질의응답 데이터셋, SQuAD 1.1 버전은 10만개의 크라우드소싱 질의응답쌍이다. 위키피디아에서 지문\(=passage\)과 질문과 답이 주어지면 지문속에서 답에 해당하는 범위를 예상하는 것이 task이다.
+
+Figure 1의 질의응답 태스크에서는 질문과 지문이 하나의 시퀀스로 이루어져있으며 질문은 A 임베딩으로, 지문은 B 임베딩으로 이루어져있다. 여기서는 파인튜닝시에 사용되는 문장의 시작과 끝을 의미하는 S와 E벡터에 대해 이야기 할것이다. 어떤 단어가 정답에 해당하는 부분의 시작 단어일 가능성은 T와 S를 내적하고 softmax를 거친 값으로 계산된다. \(여기서 T는 i번째 token의 마지막 hideen vector에서 얻어지는 output 값이다\)
+
+![](../../.gitbook/assets/image%20%281251%29.png)
+
+정답에 해당하는 부분의 마지막 단어를 구할 때도 유사한 공식이 사용된다. 정답으로 예상되는 후보들의 점수는 S·Ti + E·Tj 로 구해진다. 그리고 가장 큰 점수가 예측으로 사용된다.  이 때 j &gt;= i 여야한다. 학습할 때의 목적함수는 올바른 start와 end 자리의 로그 우도의 합이다. 32의 배치사이즈, 5e-5의 학습률로 3 epochs의 fine tune을 거쳤다.
+
+표 2에서는 기존에 높은 성적을 지니던 모델들이 있는 리더보드 성적을 보여주지만, SQuAD 리더보드에 올라있는 높은 성적들을 지닌 모델들에 대해서 우리가 이용할 수 있을만한 최근 설명이  없었고 해당 모델들은 아무 데이터나 가지고 학습을 할 수 있었다. 그래서 우리는 SQuAD로 fine tuning하기 전에 TriviaQA로 먼저 finetuing을 했고 그러면서 적당히 data augmentation을 사용했다.
+
+우리 모델은 기존 최고 성적의 모델보다 앙상블에서는 F1 점수가 1.5점이 높았고 단일 모델에서는 1.3점이 높았다. 사실 우리 버트모델은 현존하는 최고의 모델을 앙상블한것보다 뛰어나다. 그리고 사실 TriviaQA 가지고 fine tuning하지 않아도 F1 점수는 0.1에서 0.4점밖에 차이나지 않기 때문에 꽤 큰 격차로 높은 성능을 보인다고 말할 수 있다.
+
+* TriviaQA는 워싱턴 학교에서 만든 QA 데이터셋이다.
+
+![](../../.gitbook/assets/image%20%281230%29.png)
+
+#### Table 2
+
+SQuAD 1.1 버전의 결과이다. 버트의 앙상블 버전은 서로 다른 fine tuning 파라미터\(=seeds\)와 체크포인트를 사용하는 7개의 모델로 앙상블했다.
+
+![](../../.gitbook/assets/image%20%281237%29.png)
+
+#### Table 3
+
+SQuAD 2.0 결과이다. 버트가 장착되어 있는 모델들의 비교는 하지 않았다.
+
+
+
+### 4.3 SQuAD v2.0
+
+SQuAD 2.0은 1.1버전에서 더 나아가 정답이 없을 수도 있는 가능성을 추가하면서 좀 더 현실적인 문제를 해결하도록 확장했다.
+
+스쿼드 1.1를 사용하던 버트 모델을 확장하기 위해서 간단한 방법을 썼는데, 정답이 없을 경우에는 start token과 end token의 위치가 모두 CLS 토큰 위로 있도록 하는 방법이다. 확률을 표현할 수 있는 범위가 CLS 토큰까지 start token과 end token이 있을 수 있도록 확장되었이다. 예측할 때는 일단 no-answer 점수인지를 확인한다. 이는 no answer 점수인 S\_null = S·C + E·C과  절대 no answer\(=best non-null\) 이 아닌 점수 $$ s_{\hat{i},j}$$과 비교한다. 이 때 이 non null 점수는 j&gt;=i 면서 S·Ti + E·Tj 가 최대가 되는 점수이다. 그래서 이 answer가 있는지 없는지 확인할 때는 sˆi,j &gt; snull + τ인지를 확인한다. 이 때 타우\(=τ\)는 F1 점수가 가장 높도록 하는, 실험적인 방법으로 결정된다. 스쿼드 2 버전을 쓸 때는 TriviaQA data를 사용하지 않았다. 48의 배치사이즈, 5e-5의 학습률 2 epochs로 fine tune 했다.
+
+이전에 높은 성적을 거둔 리더보드와 논문들과 비교한 결과는 표3에 있다. 이전 모델들과 F1 스코어를 5.1점 벌렸다.
+
+![](../../.gitbook/assets/image%20%281228%29.png)
+
+#### Table 4
+
+SWAG 학습 및 평가 정확도이다. SWAG 논문에는 100개의 샘플에 대한 인간의 예측력도 측정했다.
+
+
+
+### 4.4 SWAG
+
+The Situations With Adversarial Generations, SWAG 데이터셋은 11.3만개의 상식 추론에 기반을 둔 데이터를 평가하는 문장쌍으로 이루어져 있다. 문장이 주어지면 4개의 보기중에 그럴 듯한\(=plausible\) 답을 고르는게 TASK이다.
+
+SWAG 데이터셋으로 fine tuning 할 때 4개의 input sequence를 입력해줘야 한다. 이 sequence는 주어진 문장과 주어진 문장 뒤로 이어질 수 있는 선택지의 연결로 구성된다. \(선택지가 4개이므로 총 4개의 input sequence가 나옴\) \(이후 이 4개의 input이 BERT로 입력되어 output을 얻고 이 output의\) CLS 토큰을 가지고 각각의 시퀀스의 점수를 구할 수 있다. 이 점수는 task-specific한 파라미터 V와의 내적해서 구해지며 각각의 점수들은 softmax layer를 거치게 된다.
+
+* 여기서 task-specific하다는 것은 nlp task가 여러개이고 각각의 task마다 CLS토큰과 곱해지는 벡터가 다르다는 것을 의미
+* 여기 문장 구조가 독해하기가 어려워서 한번 다루고 넘어가겠음
+
+> 원문
+>
+> The only task-specific parameters / introduced /  is a vector / whose dot product with the \[CLS\] token representation C / denotes a score / for each choice / which is normalized with a softmax layer
+
+* the only task-specific : SWAG에서 말한 task는 4지선다형 task이고 이 하나밖에 없기 때문에 이러한 표현 사용
+* introduced : 지금 계속 언급하고 있는
+* is a vector ~ : a vector is 구문이 도치된 문장, 이는 vector를 수식하는 whose절이 길기 때문에 도치한 것임. 또한, a vector과 parameters는 단복수가 맞지 않은 것처럼 보일 수는 있지만 잘 생각해보면 벡터 자체가 이미 복수 집합체임.
+* whose dot product ~ : task-specific한 파라미터는 CLS 토큰과 내적을 함 그리고 이는 점수를 의미함
+* for each choice : 4지선다에 대해 각각의 sequence를 choice로 표현. 
+* which : choice를 꾸미는 것 같긴 하고 또, 의미적으로도 크게 어색하지는 않지만 score를 꾸미는 구로 보임. 각각의 sequence보다는 각각의 sequence의 점수가 softmax layer를 통해 정규화되기 때문. 
+
+모델은 3 epochs, 2e-5 lr, 16 bs로 fine tune 했다. 결과는 Table 4에 있다. 버트 라지모델은 ESIM+ELMO 모델보다 27.1%, GPT 모델보다 8.3% 성능을 압도했다.
+
+
+
+## 5 Ablation Studies
+
+이번 장에서는 버트의 관계적 중요성을 잘 이해하기 위해 버트의 여러 분할버전에 대해 ablation 실험을 한다. 추가적인 연구는 부록 C를 참고해라!
+
+* ablation 이란 모델이나 알고리즘을 구성하는 다양한 구성요소\(component\) 중 어떠한 “feature”를 제거할 때, 성능\(performance\)에 어떠한 영향을 미치는지 파악하는 방법을 말한다.
+* 실제로 사전적 의미는 일정부분을 제거한다는 뜻이다.
+
+
+
+![](../../.gitbook/assets/image%20%281244%29.png)
+
+#### Table 5
+
+pretraining task의 Ablation은 BERT-BASE 구조에서 실험했다. "No NSP"는 next sentence prediction task가 없이 학습된다. "LTR & No NSP"는 "No NSP" 항목에다가 bidirectional이 아닌 GPT처럼 left to right LM으로 attention 방식이 바뀐 항목이다. "+BiLSTM"은 "LTR & No NSP"의 모델에 output 구조에 무작위로 초기화된 BiLSTM을 추가한 항목이다.
+
+
+
+### 5.1 Effect of Pre-training Tasks
+
+여기서는 BERT에서 deep bidirectionality의 중요성을 두 개의 training 목적 함수를 사용하면서 설명한다. 이 때 동일한 데이터, 동일한 fine tuning, 동일한 파라미터를 사용한다.
+
+#### No NSP
+
+NSP task가 없고 masked LM만 사용하는 bidirectional model이다.
+
+#### LTR & No NSP
+
+MLM 방식이 아닌, Left-to-Right, LTR 방식의 Language Model, LM을 이용해 학습하는 left-context-only model이다. 이 left-only는 \(pre-trained 뿐만 아니라\) fine tuning에서도 한계점으로 작용한다. MLM 방식을 포기하면서 pre-train과 fine-tune에서downstream task들의 성능이 하락되는 문제\(=mismatch, LTR방식의 LM이 downstream과 잘 맞지 않는다는 것을 mismatch로 표현했다\)가 발생한다. 게다가, NSP task가 없이 사전 학습되었기 때문에 이는 GPT와 직접적으로 비교가 가능하지만 BERT가 좀 더 큰 데이터셋과, 큰 임베딩 차원 그리고 버트만의 fine tuning 방식을 사용했다는 차이점이 있다.
+
+우리는 NSP가 가져다 주는 영향에 대해 실험했다. 표 5에서 NSP를 제거하면 QNLI나 MNLI 그리고 SQuAD 1.1에서 성능이 두드러지게 하락하는 것을 볼 수 있다. 또, 양방향 attention 모델의 영향을 확인하기 위해 "No NSP"와 "LTR & No NSP"를 비교해봤더니 LTR모델이 MLM보다 모든 태스크에서 더 낮은 성능을 냈다. 특히 MRPC와 SQuAD에서 대폭 하향됐다.
+
+* 왜 대폭 하향했을까? MRPC는 온라인 뉴스에서 자동으로 추출된 두 문장간의 유사도를 확인하는 Task이고 SQuAD는 질문/답변 쌍이다. 특히 두개의 문장쌍을 이용한 Task에서 LTR 방식을 사용했더니 성능이 하락한 것. LTR보다 MLM이 문장 레벨의 attention을 잘 표현하고 비교할 수 있음을 보여준다.
+
+SQuAD 데이터셋에서 LTR 모델의 token 예측이 형편 없음을 분명히 보여준다. 이는 token-level에서의 hidden states는 오른쪽 sequence의 문맥정보가 없기 때문이다. LTR 모델을 개선할 수 있지 않을까라는 선의\(이미, BERT에서 bidirectionality의 중요성을 말해줬기 때문에 constraint한 LTR은 이제 degenerate한 모델이 되었지만 한번 회생할 수 있는 기회를 준다라는 의미로 받아들여진다\)가 생겨서 모델의 가장 위쪽에 무작위로 초기화된 BiLSTM을 추가했다. 이것은 SQuAD 데이터셋에 대해서는 두드러진 개선을 보였다. 하지만 아직도 양방향 모델의 성적보다는 꽤 많이 못미쳤다. BiLSTM은 \(오히려\) GLUE task의 성적을 더 해쳤다.
+
+물론, ELMO가 그랬던 것처럼 LTR과 RTL 모델을 각각 학습하고 두 모델의 representation을 concatenation해서 사용할 수도 있다. 그러나 \(a\) 이는 하나의 양방향 모델보다 두 배 더 비싼 방법이다. \(b\) 이러한 방법은 QA task에 관해서는 비직관적이다. 왜냐하면 RTL 모델은 질문에 대한 답변을 조절할 수 없기 때문이다. \(c\) 깊은 양방향 모델은 모든 레이어에서 동시에 왼쪽과 오른쪽의 문맥을 사용하기 때문에 이보다는 분명히 성능이 낮을 수 밖에 없다.
+
+
+
+### 5.2 Effect of Model Size
+
 
 
 

@@ -148,7 +148,7 @@ Vocab size가 500이고, attention layer에서 사용되어야 하는 차원이 
 * shared-ffn : 모든 layer들의 output layer가 같은 파라미터를 사용하자
 * all-shared : 모두 같은걸로 사용하자
 
-![](../../../.gitbook/assets/image%20%281234%29.png)
+![](../../../.gitbook/assets/image%20%281236%29.png)
 
 * 위를 보면  당연히 성능은 떨어졌지만 하락폭이 그렇게 크지 않은 모습이다. 
 
@@ -160,11 +160,11 @@ Vocab size가 500이고, attention layer에서 사용되어야 하는 차원이 
 
 여기서 핵심은, Negative Sampling을 동일문서의 인접문장에서 뽑았다는 것이다. 기존의 bert에서의 NSP는 False의 문장쌍의 경우 두 문장에서 등장하는 단어들이 매우 상이할 가능성이 높았다. 반면 True의 문장쌍의 경우에는 두 문장에서 등장하는 단어들이 겹칠 가능성이 높았다. 그렇다보니 NSP를 할 때 모델은 고차원적인 특징에 대해 분석하기 보다는 동일한 단어들의 등장 횟수 정도의 저차원적인 특징을 사용할 가능성이 높았고 그렇기 때문에 NSP task를 제거하더라도 모델의 성능의 큰 차이가 없었던 것. 그러나 SOP는 공통 단어의 등장 횟수만으로는 이 task를 해결할 수 없으므로 좀 더 고차원적인 문제로 변경되었다고 볼 수 있다.
 
-![](../../../.gitbook/assets/image%20%281237%29.png)
+![](../../../.gitbook/assets/image%20%281240%29.png)
 
 * 기존의 None과 NSP는 성능차이가 별로 없거나 오히려 None이 더 높은 상황이 발생했는데, SOP는 모든 경우에서 성능이 높은 것을 알 수 있다.
 
-![](../../../.gitbook/assets/image%20%281231%29.png)
+![](../../../.gitbook/assets/image%20%281233%29.png)
 
 * 변종 모델보다 알버트의 성능이 높은 것을 알 수 있다.
 * 또, 모델의 크기가 커지면 성능이 더 높아진다.
@@ -179,7 +179,7 @@ Vocab size가 500이고, attention layer에서 사용되어야 하는 차원이 
 
 여기서 특징은 generator가 아닌, replaced와 original을 판별하는 Discriminator를 pretrained 모델로 사용하게 된다
 
-![](../../../.gitbook/assets/image%20%281245%29.png)
+![](../../../.gitbook/assets/image%20%281250%29.png)
 
 * 기존 버트모델보다 동일한 학습량에 대해 더 좋은 성능을 보인다.
 
@@ -197,7 +197,7 @@ Vocab size가 500이고, attention layer에서 사용되어야 하는 차원이 
 
 Transformer의 구현체를 쉽게 사용할 수 있도록 한 `huggingface` 라는 회사에서 발표한 모델이다. 여기에는 Teacher모델과 Student 모델이 있다. Student모델은 Teacher모델보다 레이어의 수나 파라미터 수가 적은 모델이다. 이 Student 모델이 경량화 모델에 초점을 맞춘 모델이다.
 
-![](../../../.gitbook/assets/image%20%281236%29.png)
+![](../../../.gitbook/assets/image%20%281239%29.png)
 
 Teacher 모델이 각 시퀀스에 대해 다음에 올 단어로 예측한 확률분포가 존재할 것인데 Student 모델은 이 확률분포를 최대한 모사하는것이 목표이다. 그래서 Student 모델의 Ground Truth는 Teacher 모델의 확률분포이다. knowledge distillation 이라는 테크닉을 사용한 모델
 

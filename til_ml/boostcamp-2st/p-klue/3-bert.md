@@ -10,7 +10,7 @@ description: '210928'
 
 버트 모델이 등장하기 전에는 다음의 모델들이 있었다.
 
-![](../../../.gitbook/assets/image%20%281229%29.png)
+![](../../../.gitbook/assets/image%20%281231%29.png)
 
 * 컨텍스트 벡터의 정보를 넘겨주는, 인코더와 디코더가 분리된 구조
 * 컨텍스트 벡터만으로 얻는 정보의 한계가 있어 개선된, 어텐션을 사용한 인코더 디코더 구조
@@ -20,7 +20,7 @@ description: '210928'
 
 이미지에도 인코더와 디코더의 구조를 가지고 있는 `오토인코더` 가 존재한다.
 
-![](../../../.gitbook/assets/image%20%281233%29.png)
+![](../../../.gitbook/assets/image%20%281235%29.png)
 
 * 인코더의 목표는 어떠한 DATA를 압축된 형태로 표현하는 것
 * 디코더의 목표는 압축된 DATA를 가지고 원본 DATA로 복원하는 것
@@ -35,7 +35,7 @@ description: '210928'
 
 버트 모델의 구조는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281238%29.png)
+![](../../../.gitbook/assets/image%20%281241%29.png)
 
 * 인풋은 문장 2개를 입력받는다.
 * 12개의 레이어가 ALL TO ALL로 연결되어있다.
@@ -43,11 +43,11 @@ description: '210928'
 
 버트의 CLS 토큰은 문장1과 문장2의 벡터들이 녹아들어있다고 가정하고있다. 그래서 CLS 토큰을 얻고 이를 Classification layer를 부착해 pre training을 진행하게 된다.
 
-![](../../../.gitbook/assets/image%20%281241%29.png)
+![](../../../.gitbook/assets/image%20%281246%29.png)
 
 Tokenizing이 끝나면 masking을 하게된다.
 
-![](../../../.gitbook/assets/image%20%281239%29.png)
+![](../../../.gitbook/assets/image%20%281243%29.png)
 
 * cls와 sep 토큰을 제외한 토큰에서 15%를 고른다.
 * 이 중 80%는 masking, 10%는 vocab에 있는 또 다른 단어로 replacing, 10%는 unchanging 한다
@@ -60,7 +60,7 @@ GLUE 데이터셋을 사용하며, 여기서 최고기록을 내는 모델이 So
 
 이러한 12가지의 Task를 4가지 모델로 다 표현할 수 있다.
 
-![](../../../.gitbook/assets/image%20%281240%29.png)
+![](../../../.gitbook/assets/image%20%281245%29.png)
 
 * 단일 문장 분류
   * 버트 모델의 한 개의 문장이 입력됐을 때 이 문장이 어떤 class에 속하는지에 대해 분류
@@ -85,7 +85,7 @@ GLUE 데이터셋을 사용하며, 여기서 최고기록을 내는 모델이 So
 
 입력된 문장의 긍부정을 파악한다.
 
-![](../../../.gitbook/assets/image%20%281228%29.png)
+![](../../../.gitbook/assets/image%20%281229%29.png)
 
 
 
@@ -103,7 +103,7 @@ GLUE 데이터셋을 사용하며, 여기서 최고기록을 내는 모델이 So
 
 두 문장이 의미적으로 같은가?
 
-![](../../../.gitbook/assets/image%20%281235%29.png)
+![](../../../.gitbook/assets/image%20%281238%29.png)
 
 * task에 살짝 문제가 있는데, s1과 s2가 너무 상관없는 문장으로 매칭되었다. 실제로 적용하기에는 어려운 부분이 있다.
 * 그래서, 98.3점의 점수는 높지만 데이터 설계부터 잘못된 task이다.
@@ -128,7 +128,7 @@ GLUE 데이터셋을 사용하며, 여기서 최고기록을 내는 모델이 So
 
 바로 WordPiece 단위로 tokenizing 한것이 아니라 형태소 단위로 분리를 먼저 한뒤 tokenizing했다. 한국어에 특화되게 토크나이징 했다는 점에서 많은 성능향상을 가져왔다.
 
-![](../../../.gitbook/assets/image%20%281243%29.png)
+![](../../../.gitbook/assets/image%20%281248%29.png)
 
 * CV : 자모
 * Syllable : 음절
@@ -143,11 +143,11 @@ GLUE 데이터셋을 사용하며, 여기서 최고기록을 내는 모델이 So
 
 버트 내에는 entity를 명시할 수 있는 구조가 존재하지 않는다. 그래서 전처리로 각 entity앞뒤로 ENT 태그를 붙여주었다. 그랬더니 성능이 향상되었다.
 
-![](../../../.gitbook/assets/image%20%281232%29.png)
+![](../../../.gitbook/assets/image%20%281234%29.png)
 
-![](../../../.gitbook/assets/image%20%281242%29.png)
+![](../../../.gitbook/assets/image%20%281247%29.png)
 
-![](../../../.gitbook/assets/image%20%281244%29.png)
+![](../../../.gitbook/assets/image%20%281249%29.png)
 
 이렇게 entity 태그를 달아주면 성능이 향상되는데, 영어권 분야에서도 이렇게 태그를 달아준 모델이 sota를 찍고있다.
 
@@ -372,7 +372,7 @@ print(decoded_ids)
 
 내가 원하는 token을 추가하고싶다면 어떻게 해야할까? 일단 vocab에 없는 단어를 추가할 상황이 있을까? 다음은 어떨까?
 
-![](../../../.gitbook/assets/image%20%281230%29.png)
+![](../../../.gitbook/assets/image%20%281232%29.png)
 
 ```python
 text = "깟뻬뜨랑 리뿔이 뜨럽거 므리커럭이 케쇽 냐왜쇼 우뤼갸 쳥쇼섀료다혀뚜여"
@@ -499,7 +499,35 @@ Multi segment type       : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1
 
 
 
+배열로 입력하면 출력 결과도 배열로 저장된다.
 
+```python
+# Padding highlight
+tokens = tokenizer(
+    ["이순신은 조선 중기의 무신이다.", "그는 임진왜란을 승리로 이끌었다."], 
+    padding=True  # First sentence will have some PADDED tokens to match second sequence length
+)
+
+for i in range(2):
+    print("Tokens (int)      : {}".format(tokens['input_ids'][i]))
+    print("Tokens (str)      : {}".format([tokenizer.convert_ids_to_tokens(s) for s in tokens['input_ids'][i]]))
+    print("Tokens (attn_mask): {}".format(tokens['attention_mask'][i]))
+    print()
+```
+
+```text
+Tokens (int)      : [101, 9638, 119064, 25387, 10892, 59906, 9694, 46874, 9294, 25387, 11925, 119, 102, 0]
+Tokens (str)      : ['[CLS]', '이', '##순', '##신', '##은', '조선', '중', '##기의', '무', '##신', '##이다', '.', '[SEP]', '[PAD]']
+Tokens (attn_mask): [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+
+Tokens (int)      : [101, 17889, 9644, 18623, 119164, 49919, 10622, 9484, 100434, 9638, 118705, 17706, 119, 102]
+Tokens (str)      : ['[CLS]', '그는', '임', '##진', '##왜', '##란', '##을', '승', '##리로', '이', '##끌', '##었다', '.', '[SEP]']
+Tokens (attn_mask): [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+```
+
+
+
+### BERT 모델 테스트
 
 
 
