@@ -35,7 +35,7 @@ description: '210928'
 
 버트 모델의 구조는 다음과 같다.
 
-![](../../../.gitbook/assets/image%20%281241%29.png)
+![](../../../.gitbook/assets/image%20%281242%29.png)
 
 * 인풋은 문장 2개를 입력받는다.
 * 12개의 레이어가 ALL TO ALL로 연결되어있다.
@@ -43,11 +43,11 @@ description: '210928'
 
 버트의 CLS 토큰은 문장1과 문장2의 벡터들이 녹아들어있다고 가정하고있다. 그래서 CLS 토큰을 얻고 이를 Classification layer를 부착해 pre training을 진행하게 된다.
 
-![](../../../.gitbook/assets/image%20%281246%29.png)
+![](../../../.gitbook/assets/image%20%281247%29.png)
 
 Tokenizing이 끝나면 masking을 하게된다.
 
-![](../../../.gitbook/assets/image%20%281243%29.png)
+![](../../../.gitbook/assets/image%20%281244%29.png)
 
 * cls와 sep 토큰을 제외한 토큰에서 15%를 고른다.
 * 이 중 80%는 masking, 10%는 vocab에 있는 또 다른 단어로 replacing, 10%는 unchanging 한다
@@ -60,7 +60,7 @@ GLUE 데이터셋을 사용하며, 여기서 최고기록을 내는 모델이 So
 
 이러한 12가지의 Task를 4가지 모델로 다 표현할 수 있다.
 
-![](../../../.gitbook/assets/image%20%281245%29.png)
+![](../../../.gitbook/assets/image%20%281246%29.png)
 
 * 단일 문장 분류
   * 버트 모델의 한 개의 문장이 입력됐을 때 이 문장이 어떤 class에 속하는지에 대해 분류
@@ -103,7 +103,7 @@ GLUE 데이터셋을 사용하며, 여기서 최고기록을 내는 모델이 So
 
 두 문장이 의미적으로 같은가?
 
-![](../../../.gitbook/assets/image%20%281238%29.png)
+![](../../../.gitbook/assets/image%20%281239%29.png)
 
 * task에 살짝 문제가 있는데, s1과 s2가 너무 상관없는 문장으로 매칭되었다. 실제로 적용하기에는 어려운 부분이 있다.
 * 그래서, 98.3점의 점수는 높지만 데이터 설계부터 잘못된 task이다.
@@ -128,7 +128,7 @@ GLUE 데이터셋을 사용하며, 여기서 최고기록을 내는 모델이 So
 
 바로 WordPiece 단위로 tokenizing 한것이 아니라 형태소 단위로 분리를 먼저 한뒤 tokenizing했다. 한국어에 특화되게 토크나이징 했다는 점에서 많은 성능향상을 가져왔다.
 
-![](../../../.gitbook/assets/image%20%281248%29.png)
+![](../../../.gitbook/assets/image%20%281249%29.png)
 
 * CV : 자모
 * Syllable : 음절
@@ -145,9 +145,9 @@ GLUE 데이터셋을 사용하며, 여기서 최고기록을 내는 모델이 So
 
 ![](../../../.gitbook/assets/image%20%281234%29.png)
 
-![](../../../.gitbook/assets/image%20%281247%29.png)
+![](../../../.gitbook/assets/image%20%281248%29.png)
 
-![](../../../.gitbook/assets/image%20%281249%29.png)
+![](../../../.gitbook/assets/image%20%281250%29.png)
 
 이렇게 entity 태그를 달아주면 성능이 향상되는데, 영어권 분야에서도 이렇게 태그를 달아준 모델이 sota를 찍고있다.
 
