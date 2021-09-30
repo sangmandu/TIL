@@ -6,7 +6,7 @@ description: 210926~
 
 ## BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
-
+버트의 직역 및 의역을 작성한다. 직역과 의역이 마구마구 섞여있지만, 어느 다른 직역과 다르게 최대한 한국어만의 뜻으로 녹이려고 했다. 그래서 representation 같은 단어가 "표현", "특징" 등으로 해석되어 영어단어에 익숙한 사람들은 어색할 수 있지만 익숙한 사람들은 직역 및 의역으로 작성된 이 글을 볼 일이 없을 듯 하다. 사소한 문장까지도 완벽히 해석하려고 했고, 개념이 필요하거나 해석이 부자연스럽게 되는 부분에는 부가 설명을 추가했다.
 
 ## Abstract
 
@@ -64,7 +64,8 @@ feature-based 방법을 적용한 첫번째 연구는 워드 임베딩만을 사
 
 매우 최근에는 문장 또는 문서를 인코딩할 때 문맥적인 특징을 가진 토큰들을 생성하는데 이것들을 라벨링되지 않은 텍스트에서 학습하고 downstream task에서 지도학습으로 fine tuned 한다 \(Dai and Le, 2015; Howard and Ruder, 2018; Radford et al., 2018\). 이런 접근법의 장점은 pre train할 때 적은 파라미터 수로도 가능하다는 것. 이런 장점때문에 GPT는 적은 파라미터를 가지고도 GLUE 데이터셋의 많은 task에서 최고 성적을 낼 수 있었다. 좌우 방향 언어모델이나 오토 인코더는 다음과 같은 모델들을 pre training 하기위해 사용되었다 \(Howard and Ruder, 2018; Radford et al., 2018; Dai and Le, 2015\).
 
-* objective를 어떻게 해석하면 좋을까가 고민이다. 사실 직역하면 목적 정도이겠지만 어떠한 -로 할 수 있는 것 또는 -의 기능 정도로 자연스럽게 생각하려고 해도 어려운 부분 ㅠ\_ㅠ
+* objective를 어떻게 해석하면 좋을까가 고민이다. 사실 직역하면 목적 정도이겠지.
+* 멘토님과 이야기해본 결과. 모델의 큰 특징이나 조건 정도로 생각하면 된다고 한다. LTR이나 RTL 또는 Bidirection 등의 방향적인 조건이나, 모델 레이어 내부에서 사용하는 목적 함수 정도로 생각할 수 있다고 한다 
 
 
 
@@ -295,9 +296,17 @@ GLUE tasks로 진행된 결과는 표 6에서 볼 수 있다. 여기서는 무�
 * dev set은 검증 데이터 valid set을 의미한다.
 * pre-training task와 MRPC가 차이가 있다는 부분은 기존의 task들은 pre-train 모델에 대해 미세조정할 때 큰 데이터셋으로 조정한다. 왜냐하면 데이터가 작을수록 오버피팅될 가능성이 많기 떄문이다. 반면에 MRPC는 작은 데이터셋으로 학습했기 때문에 작게 학습될 가능성이 있기에 이런 상황이 다르다고 이야기
 
+모델 사이즈를 키우면 기계번역이나 언어 모델링같은 매우 큰 task들에 대해 계속 성능이 늘어난다는 것은 이전부터 알고있었다. 이러한 사실은 표 6에서 held-out training data를 가지고 평가된 LM perplexity 점수로도 증명된다. 그러나 여기서 우리가 최초로 증명한 것은 \(단순히 큰 task들 뿐만 아니라\) pre training만 충분히 잘 되었다면 매우 작은 task에 대해서도 엄청난 성능 개선이 확실하게 이루어진다는 것이다. \(그래서 위에서 3600개의 데이터밖에 없는 MRPC를 언급한 것\) Peters et al. \(2018b\) 에서는 pre-trained된 bi-LM의 사이즈를 2개의 레이어에서 4개로 늘렸을 때 downstream task에 미치는 영향에 대한 서로 다른\(=mixed\) 결과를 내놓았다. 또, Melamud et al. \(2016\) 에서는 in passing\(=차원을 키우는 과정에서\) hidden 차원을 200에서 600으로 늘렸을 때는 도움이 됐지만 1000으로 늘렸을 때는 더이상의 개선이 없었다. 이전 연구들은 feature-based 방법을 사용했다. \(그래서\) 우리는 fine tuned 방으로 downstream task를 직접적으로 해결할 때 매우 작은 수의 파라미터만 추가적으로 사용할 수 있고. 특정 task를 처리하는 모델은 pretrained 모델이 커지고, downstream task data가 작을 때 성능이 나올 것이라 가정했다.
 
 
-모델 사이즈를 키우면 기계번역이나 언어 모델링같은 매우 큰 task들에 대해 계속 성능이 늘어난다는 것은 이전부터 알고있었다. 이러한 사실은 표 6에서 held-out training data를 가지고 평가된 LM perplexity 점수로도 증명된다. 그러나 여기서 우리가 최초로 증명한 것은 \(단순히 큰 task들 뿐만 아니라\) pre training만 충분히 잘 되었다면 매우 작은 task에 대해서도 엄청난 성능 개선이 확실하게 이루어진다는 것이다. \(그래서 위에서 3600개의 데이터밖에 없는 MRPC를 언급한 것\) Peters et al. \(2018b\) 에서는 pre-trained된 bi-LM의 사이즈를 2개의 레이어에서 4개로 늘렸을 때 downstream task에 미치는 영향에 대한 서로 다른\(=mixed\) 결과를 내놓았다. 또, Melamud et al. \(2016\) 에서는 \(차원을 키우는 과정에서\) hidden 차원을 200에서 600으로 늘렸을 때는 도움이 됐지만 1000으로 늘렸을 때는 더이상의 개선이 없었다.
+
+### 5.3 Feature-based Approach with BERT
+
+지금까지 버트가 보여준 결과는 fine tuning 접근법이 사용되었고 fine tune 할 때는 간단한 분류기만 pre trained 모델에 추가하면 된다. 모든 파라미터는 down stream task에 대해 미세 조정된다. 그러나 feature based 방법은 feature가 고정되어있기 때문에 다음과 같은 장점을 가진다. 첫번째, 모든 task가 트랜스포머의 인코더 구조로 나타내지는 특징을 사용하기가 어렵기 때문에 추가적인 모델 구조가 필요해진다. 두번째, 훈련 데이터를 한번 매우 비싸게 훈련해서 특징을 얻고 나면 그 뒤에 모델에 비용이 값싼 모델을 붙여서 많은 실험을 할 수 있다.
+
+이번 장에서는 BERT에 두 개의 방법을 적용해 NER task를 적용해봤다. 버트로 입력을 줄 때 case-preserving\(=대소문자를 구분하는\) WordPiece mdoel을 사용했고 데이터가 제공하는 context 정보를 최대로 사용했다.\(=constraint attention을 사용하지 않았다는 뜻 같다. global attention으로 사용했다는 뜻 같음\) 
+
+
 
 ![](../../.gitbook/assets/image%20%281238%29.png)
 
