@@ -44,6 +44,7 @@
     * [\(1-2\) 시각화의 요소](til_ml/boostcamp-2st/s-data-viz/1-2.md)
     * [\(1-1\) Welcome to Visualization \(OT\)](til_ml/boostcamp-2st/s-data-viz/1-1-welcome-to-visualization-ot.md)
   * [\[P\]KLUE](til_ml/boostcamp-2st/p-klue/README.md)
+    * [\[NLP\] 문장 내 개체간 관계 추출](til_ml/boostcamp-2st/p-klue/nlp.md)
     * [\(3강\) BERT 언어모델 소개](til_ml/boostcamp-2st/p-klue/3-bert.md)
     * [\(2강\) 자연어의 전처리](til_ml/boostcamp-2st/p-klue/2.md)
     * [\(1강\) 인공지능과 자연어 처리](til_ml/boostcamp-2st/p-klue/1.md)
