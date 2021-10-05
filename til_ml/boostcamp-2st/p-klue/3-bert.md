@@ -529,7 +529,80 @@ Tokens (attn_mask): [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 ### BERT 모델 테스트
 
+inference 코드는 어쩔 수 없이 길어지기 마련이다. token id를 알려주고 제일 높은 성능의 모델을 불러오고 등등의 여러 작업이 있기 때문.
 
+transformers 에서는 `pipeline` 을 이용해서 쉽게 inferenece 할 수 있다.
+
+```python
+text = "이순신은 [MASK] 중기의 무신이다."
+tokenized_text = tokenizer.tokenize(text)
+
+print(tokenized_text)
+
+from transformers import pipeline
+
+nlp_fill = pipeline('fill-mask', model=MODEL_NAME)
+nlp_fill("이순신은 [MASK] 중기의 무신이다.")
+```
+
+```text
+['이', '##순', '##신', '##은', '[MASK]', '중', '##기의', '무', '##신', '##이다', '.']
+
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing BertForMaskedLM: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[{'score': 0.8747126460075378,
+  'sequence': '[CLS] 이순신은 조선 중기의 무신이다. [SEP]',
+  'token': 59906,
+  'token_str': '조선'},
+ {'score': 0.06436426192522049,
+  'sequence': '[CLS] 이순신은 청 중기의 무신이다. [SEP]',
+  'token': 9751,
+  'token_str': '청'},
+ {'score': 0.010954886674880981,
+  'sequence': '[CLS] 이순신은 전 중기의 무신이다. [SEP]',
+  'token': 9665,
+  'token_str': '전'},
+ {'score': 0.0046471720561385155,
+  'sequence': '[CLS] 이순신은종 중기의 무신이다. [SEP]',
+  'token': 22200,
+  'token_str': '##종'},
+ {'score': 0.0036106714978814125,
+  'sequence': '[CLS] 이순신은기 중기의 무신이다. [SEP]',
+  'token': 12310,
+  'token_str': '##기'}]
+```
+
+
+
+또한, 토크나이저의 출력과 모델의 입력 키워드를 동일하게 맞춰놓았기 때문에 어떠한 처리없이 바로 모델에 입력해서 결과를 얻을 수 있다.
+
+```python
+tokens_pt = tokenizer("이순신은 조선 중기의 무신이다.", return_tensors="pt")
+for key, value in tokens_pt.items():
+    print("{}:\n\t{}".format(key, value))
+
+outputs = model(**tokens_pt)
+last_hidden_state = outputs.last_hidden_state
+pooler_output = outputs.pooler_output
+
+print("\nToken wise output: {}, Pooled output: {}".format(last_hidden_state.shape, pooler_output.shape))
+```
+
+```text
+input_ids:
+	tensor([[   101,   9638, 119064,  25387,  10892,  59906,   9694,  46874,   9294,
+          25387,  11925,    119,    102]])
+token_type_ids:
+	tensor([[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])
+attention_mask:
+	tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])
+
+Token wise output: torch.Size([1, 13, 768]), Pooled output: torch.Size([1, 768])
+```
+
+* `outputs.last_hidden_state` 는 전체 토큰의 출력 벡터이다.
+* `outputs.pooler_output` 은 CLS 토큰을 의미한다.
 
 
 
